@@ -240,6 +240,3 @@ elif page == "Join the World":
             st.write("**Favourite Modes:**", favourite_modes)
             st.write("**Experience:**", experience)
             st.write("**Favourite Activity:**", favourite_activity)
-
-            # Display celebration animation
-            st.balloons()
