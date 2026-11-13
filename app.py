@@ -199,7 +199,7 @@ elif page == "Join the World":
 
         favourite_modes = st.multiselect(
             "Select your favourite game modes:",
-            ["Survival", "Creative", "Adventure", "Spectator"]
+            ["Survival", "Creative", "Adventure", "Spectator", "Hardcore"]
         )
 
         experience = st.select_slider(
