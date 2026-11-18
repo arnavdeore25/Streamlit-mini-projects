@@ -1,0 +1,981 @@
+﻿item_id,outlet_id,outlet_name,block_id,block_name,item_name,category,subcategory,food_type,is_chicken_item,price_inr,availability_status,average_rating,estimated_prep_time_min,estimated_calories_kcal,spice_level,serving_size,dietary_tags,allergen_info,base_cost_inr,synthetic_record
+MI00001,B01-O01,Central Café,B01,Central Block,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,75,Available,4.4,12,477,Spicy,Regular,"Vegetarian, Egg-free","Contains dairy, gluten",36.41,True
+MI00002,B01-O01,Central Café,B01,Central Block,Grilled Cheese Sandwich,Sandwiches,Sandwiches,Vegetarian,False,95,Available,4.8,13,582,Spicy,Large,"Vegetarian, High-protein",May contain nuts,54.16,True
+MI00003,B01-O01,Central Café,B01,Central Block,Paneer Tikka Sandwich,Sandwiches,Sandwiches,Vegetarian,False,110,Limited,3.9,4,470,Spicy,Small,"Vegetarian, High-protein",Contains gluten,49.73,True
+MI00004,B01-O01,Central Café,B01,Central Block,Veg Burger,Burgers,Burgers,Vegetarian,False,95,Available,4.9,4,280,Medium,Regular,Vegetarian,Contains gluten,46.18,True
+MI00005,B01-O01,Central Café,B01,Central Block,Cheese Burger,Burgers,Burgers,Vegetarian,False,115,Limited,4.8,5,644,Medium,Large,"Vegetarian, High-protein","Contains dairy, gluten",57.26,True
+MI00006,B01-O01,Central Café,B01,Central Block,Paneer Burger,Burgers,Burgers,Vegetarian,False,120,Limited,4.1,7,350,Medium,Large,"Vegetarian, Egg-free",May contain dairy,48.14,True
+MI00007,B01-O01,Central Café,B01,Central Block,French Fries,Snacks,Snacks,Vegetarian,False,65,Limited,4.1,6,470,Mild,Large,"Vegetarian, Budget-friendly",Dairy-free,33.04,True
+MI00008,B01-O01,Central Café,B01,Central Block,Peri Peri Fries,Snacks,Snacks,Vegetarian,False,90,Available,4.1,6,616,Spicy,Regular,"Vegetarian, Budget-friendly","Contains dairy, gluten",45.29,True
+MI00009,B01-O01,Central Café,B01,Central Block,Veg Puff,Bakery,Bakery,Vegetarian,False,35,Available,3.5,13,458,Medium,Small,"Vegetarian, Budget-friendly",May contain nuts,15.93,True
+MI00010,B01-O01,Central Café,B01,Central Block,Paneer Puff,Bakery,Bakery,Vegetarian,False,60,Available,4.3,11,261,Medium,Large,"Vegetarian, Egg-free",May contain nuts,24.73,True
+MI00011,B01-O01,Central Café,B01,Central Block,Samosa,Snacks,Snacks,Vegetarian,False,25,Available,4.0,7,502,Medium,Regular,"Vegetarian, Egg-free","Contains dairy, gluten",12.95,True
+MI00012,B01-O01,Central Café,B01,Central Block,Veg Momos,Snacks,Snacks,Vegetarian,False,85,Limited,3.9,10,665,Medium,Regular,"Vegetarian, Egg-free",Dairy-free,35.15,True
+MI00013,B01-O01,Central Café,B01,Central Block,Spring Rolls,Snacks,Snacks,Vegetarian,False,75,Available,4.1,18,456,Mild,Small,"Vegetarian, Budget-friendly","Contains dairy, gluten",40.61,True
+MI00014,B01-O01,Central Café,B01,Central Block,Masala Maggi,Quick Meals,Quick Meals,Vegetarian,False,60,Available,3.7,14,419,Medium,Regular,"Vegetarian, Egg-free",May contain nuts,25.52,True
+MI00015,B01-O01,Central Café,B01,Central Block,Veg Fried Rice,Rice & Noodles,Rice & Noodles,Vegetarian,False,105,Limited,4.1,8,357,Medium,Small,"Vegetarian, High-protein","Contains dairy, gluten",49.48,True
+MI00016,B01-O01,Central Café,B01,Central Block,Veg Hakka Noodles,Rice & Noodles,Rice & Noodles,Vegetarian,False,95,Available,4.8,15,512,Medium,Small,"Vegetarian, Budget-friendly",Dairy-free,55.63,True
+MI00017,B01-O01,Central Café,B01,Central Block,Paneer Roll,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,105,Available,3.6,15,174,Spicy,Small,"Vegetarian, Budget-friendly",Dairy-free,51.54,True
+MI00018,B01-O01,Central Café,B01,Central Block,Veg Frankie,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,80,Limited,4.5,16,637,Medium,Large,"Vegetarian, High-protein",May contain nuts,42.48,True
+MI00019,B01-O01,Central Café,B01,Central Block,Margherita Pizza Slice,Pizza,Pizza,Vegetarian,False,100,Available,3.7,13,414,Mild,Large,"Vegetarian, High-protein",May contain nuts,44.32,True
+MI00020,B01-O01,Central Café,B01,Central Block,White Sauce Pasta,Pasta,Pasta,Vegetarian,False,140,Available,4.2,13,641,Medium,Large,"Vegetarian, Budget-friendly",Contains gluten,61.17,True
+MI00021,B01-O01,Central Café,B01,Central Block,Garlic Bread,Snacks,Snacks,Vegetarian,False,80,Limited,4.6,5,284,Medium,Small,Vegetarian,Contains gluten,36.58,True
+MI00022,B01-O01,Central Café,B01,Central Block,Masala Tea,Beverages,Beverages,Vegetarian,False,20,Limited,4.8,9,598,Spicy,Large,Vegetarian,May contain nuts,10.48,True
+MI00023,B01-O01,Central Café,B01,Central Block,Filter Coffee,Beverages,Beverages,Vegetarian,False,30,Limited,3.8,18,440,Spicy,Regular,"Vegetarian, High-protein",May contain nuts,18.1,True
+MI00024,B01-O01,Central Café,B01,Central Block,Cold Coffee,Beverages,Beverages,Vegetarian,False,100,Available,4.1,12,603,Spicy,Large,"Vegetarian, Budget-friendly","Contains dairy, gluten",41.25,True
+MI00025,B01-O01,Central Café,B01,Central Block,Fresh Lime Soda,Beverages,Beverages,Vegetarian,False,55,Available,4.5,5,637,Spicy,Large,"Vegetarian, Egg-free",May contain dairy,29.43,True
+MI00026,B01-O01,Central Café,B01,Central Block,Chocolate Brownie,Desserts,Desserts,Vegetarian,False,65,Limited,4.6,12,422,Spicy,Small,"Vegetarian, Egg-free",May contain nuts,26.87,True
+MI00027,B01-O01,Central Café,B01,Central Block,Chocolate Muffin,Bakery,Bakery,Vegetarian,False,50,Limited,4.7,15,694,Mild,Small,Vegetarian,May contain nuts,28.24,True
+MI00028,B01-O01,Central Café,B01,Central Block,Vanilla Milkshake,Beverages,Beverages,Vegetarian,False,95,Available,4.7,4,312,Spicy,Regular,"Vegetarian, Egg-free",Dairy-free,44.68,True
+MI00029,B01-O01,Central Café,B01,Central Block,Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,120,Available,4.8,13,328,Mild,Regular,"Chicken, High-protein",May contain dairy,71.47,True
+MI00030,B01-O01,Central Café,B01,Central Block,Chicken Burger,Burgers,Burgers,Non-Vegetarian (Chicken),True,145,Available,4.8,8,222,Medium,Regular,"Chicken, High-protein","May contain dairy, gluten",85.07,True
+MI00031,B01-O01,Central Café,B01,Central Block,Chicken Cheese Burger,Burgers,Burgers,Non-Vegetarian (Chicken),True,165,Available,4.9,8,676,Spicy,Large,"Chicken, High-protein",May contain dairy,99.19,True
+MI00032,B01-O01,Central Café,B01,Central Block,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,125,Limited,4.0,23,598,Medium,Regular,"Chicken, High-protein",May contain dairy,62.14,True
+MI00033,B01-O01,Central Café,B01,Central Block,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,105,Available,3.8,19,546,Mild,Large,"Chicken, High-protein","May contain dairy, gluten",59.68,True
+MI00034,B01-O01,Central Café,B01,Central Block,Chicken Momos,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,115,Limited,4.0,18,505,Mild,Regular,"Chicken, High-protein",Contains gluten,75.28,True
+MI00035,B01-O01,Central Café,B01,Central Block,Chicken Fried Rice,Rice & Noodles,Rice & Noodles,Non-Vegetarian (Chicken),True,140,Available,4.7,16,835,Mild,Regular,"Chicken, High-protein",May contain dairy,93.37,True
+MI00036,B01-O02,Campus Bites,B01,Central Block,Veg Thali,Meals,Meals,Vegetarian,False,125,Available,3.6,10,275,Spicy,Large,Vegetarian,May contain nuts,70.32,True
+MI00037,B01-O02,Campus Bites,B01,Central Block,Mini Meals,Meals,Meals,Vegetarian,False,100,Available,3.7,10,442,Mild,Regular,"Vegetarian, High-protein",Contains gluten,60.55,True
+MI00038,B01-O02,Campus Bites,B01,Central Block,Paneer Thali,Meals,Meals,Vegetarian,False,155,Limited,4.0,6,245,Mild,Large,Vegetarian,Dairy-free,75.19,True
+MI00039,B01-O02,Campus Bites,B01,Central Block,Veg Biryani,Rice & Meals,Rice & Meals,Vegetarian,False,135,Available,4.8,17,432,Mild,Large,"Vegetarian, High-protein",Dairy-free,72.46,True
+MI00040,B01-O02,Campus Bites,B01,Central Block,Paneer Biryani,Rice & Meals,Rice & Meals,Vegetarian,False,145,Available,4.9,13,296,Medium,Small,"Vegetarian, Budget-friendly",May contain nuts,73.02,True
+MI00041,B01-O02,Campus Bites,B01,Central Block,Veg Pulao,Rice & Meals,Rice & Meals,Vegetarian,False,105,Available,4.5,5,512,Mild,Regular,Vegetarian,May contain nuts,63.59,True
+MI00042,B01-O02,Campus Bites,B01,Central Block,Rajma Rice,Meals,Meals,Vegetarian,False,100,Available,3.6,13,278,Medium,Large,"Vegetarian, High-protein",Contains gluten,57.23,True
+MI00043,B01-O02,Campus Bites,B01,Central Block,Chole Rice,Meals,Meals,Vegetarian,False,100,Available,4.6,8,467,Medium,Small,"Vegetarian, Egg-free","Contains dairy, gluten",47.23,True
+MI00044,B01-O02,Campus Bites,B01,Central Block,Dal Khichdi,Meals,Meals,Vegetarian,False,85,Available,4.3,5,379,Medium,Large,"Vegetarian, Egg-free",May contain dairy,50.33,True
+MI00045,B01-O02,Campus Bites,B01,Central Block,Paneer Butter Masala,Curries,Curries,Vegetarian,False,140,Available,3.8,9,660,Spicy,Small,"Vegetarian, High-protein",May contain nuts,64.22,True
+MI00046,B01-O02,Campus Bites,B01,Central Block,Dal Makhani,Curries,Curries,Vegetarian,False,125,Available,4.5,14,473,Spicy,Large,Vegetarian,Dairy-free,63.79,True
+MI00047,B01-O02,Campus Bites,B01,Central Block,Chole Bhature,Meals,Meals,Vegetarian,False,120,Available,4.8,17,692,Mild,Large,"Vegetarian, High-protein",Contains gluten,55.53,True
+MI00048,B01-O02,Campus Bites,B01,Central Block,Masala Dosa,South Indian,South Indian,Vegetarian,False,70,Available,4.3,5,351,Spicy,Small,"Vegetarian, Egg-free",Dairy-free,33.22,True
+MI00049,B01-O02,Campus Bites,B01,Central Block,Idli Sambar,South Indian,South Indian,Vegetarian,False,50,Available,4.3,17,697,Spicy,Small,"Vegetarian, Budget-friendly",May contain nuts,28.14,True
+MI00050,B01-O02,Campus Bites,B01,Central Block,Medu Vada,South Indian,South Indian,Vegetarian,False,60,Available,4.2,6,331,Medium,Regular,Vegetarian,May contain nuts,30.53,True
+MI00051,B01-O02,Campus Bites,B01,Central Block,Veg Fried Rice,Rice & Noodles,Rice & Noodles,Vegetarian,False,110,Available,4.8,5,353,Spicy,Large,"Vegetarian, High-protein",Contains gluten,59.34,True
+MI00052,B01-O02,Campus Bites,B01,Central Block,Schezwan Noodles,Rice & Noodles,Rice & Noodles,Vegetarian,False,120,Available,3.6,12,507,Medium,Small,"Vegetarian, High-protein",May contain nuts,48.4,True
+MI00053,B01-O02,Campus Bites,B01,Central Block,Veg Manchurian,Starters,Starters,Vegetarian,False,115,Available,4.6,5,298,Medium,Large,Vegetarian,Contains gluten,60.7,True
+MI00054,B01-O02,Campus Bites,B01,Central Block,Paneer Roll,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,110,Available,3.8,11,237,Mild,Regular,"Vegetarian, Egg-free","Contains dairy, gluten",63.44,True
+MI00055,B01-O02,Campus Bites,B01,Central Block,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,75,Available,4.6,4,658,Mild,Large,Vegetarian,Dairy-free,41.21,True
+MI00056,B01-O02,Campus Bites,B01,Central Block,Veg Burger,Burgers,Burgers,Vegetarian,False,90,Limited,3.7,10,634,Spicy,Regular,"Vegetarian, Budget-friendly",Dairy-free,34.56,True
+MI00057,B01-O02,Campus Bites,B01,Central Block,French Fries,Snacks,Snacks,Vegetarian,False,70,Available,4.8,6,225,Mild,Regular,"Vegetarian, High-protein","Contains dairy, gluten",26.97,True
+MI00058,B01-O02,Campus Bites,B01,Central Block,Curd Rice,Meals,Meals,Vegetarian,False,75,Available,4.8,12,627,Mild,Large,"Vegetarian, High-protein",May contain nuts,34.09,True
+MI00059,B01-O02,Campus Bites,B01,Central Block,Lemon Rice,Meals,Meals,Vegetarian,False,80,Available,3.5,12,392,Spicy,Regular,"Vegetarian, High-protein","Contains dairy, gluten",48.41,True
+MI00060,B01-O02,Campus Bites,B01,Central Block,Buttermilk,Beverages,Beverages,Vegetarian,False,30,Available,4.8,17,383,Spicy,Large,"Vegetarian, Budget-friendly",May contain dairy,13.23,True
+MI00061,B01-O02,Campus Bites,B01,Central Block,Sweet Lassi,Beverages,Beverages,Vegetarian,False,60,Available,3.5,6,668,Mild,Large,"Vegetarian, Egg-free",Dairy-free,34.25,True
+MI00062,B01-O02,Campus Bites,B01,Central Block,Gulab Jamun,Desserts,Desserts,Vegetarian,False,45,Available,3.6,9,552,Medium,Large,"Vegetarian, Egg-free",Dairy-free,19.5,True
+MI00063,B01-O02,Campus Bites,B01,Central Block,Fruit Custard,Desserts,Desserts,Vegetarian,False,60,Available,3.7,12,370,Medium,Small,"Vegetarian, Budget-friendly",May contain nuts,24.64,True
+MI00064,B01-O02,Campus Bites,B01,Central Block,Chicken Biryani,Rice & Meals,Rice & Meals,Non-Vegetarian (Chicken),True,160,Available,4.9,11,667,Mild,Regular,"Chicken, High-protein",May contain dairy,81.26,True
+MI00065,B01-O02,Campus Bites,B01,Central Block,Chicken Fried Rice,Rice & Noodles,Rice & Noodles,Non-Vegetarian (Chicken),True,165,Limited,4.6,13,623,Spicy,Large,"Chicken, High-protein","May contain dairy, gluten",103.19,True
+MI00066,B01-O02,Campus Bites,B01,Central Block,Butter Chicken with Rice,Meals,Meals,Non-Vegetarian (Chicken),True,200,Available,3.7,15,323,Mild,Regular,"Chicken, High-protein","May contain dairy, gluten",127.66,True
+MI00067,B01-O02,Campus Bites,B01,Central Block,Chicken Noodles,Rice & Noodles,Rice & Noodles,Non-Vegetarian (Chicken),True,150,Available,3.7,18,759,Mild,Large,"Chicken, High-protein","May contain dairy, gluten",91.7,True
+MI00068,B01-O02,Campus Bites,B01,Central Block,Chicken Kebab Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,170,Available,4.0,8,350,Spicy,Large,"Chicken, High-protein","May contain dairy, gluten",101.74,True
+MI00069,B01-O02,Campus Bites,B01,Central Block,Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,125,Available,4.4,14,372,Medium,Large,"Chicken, High-protein","May contain dairy, gluten",64.21,True
+MI00070,B01-O02,Campus Bites,B01,Central Block,Chicken Manchurian,Starters,Starters,Non-Vegetarian (Chicken),True,160,Available,4.8,14,250,Spicy,Regular,"Chicken, High-protein",May contain dairy,86.57,True
+MI00071,B01-O03,Snack Station,B01,Central Block,Samosa,Snacks,Snacks,Vegetarian,False,25,Limited,3.9,16,363,Medium,Large,"Vegetarian, Egg-free",Dairy-free,15.39,True
+MI00072,B01-O03,Snack Station,B01,Central Block,Veg Puff,Bakery,Bakery,Vegetarian,False,35,Available,4.3,14,123,Medium,Small,"Vegetarian, Budget-friendly","Contains dairy, gluten",17.53,True
+MI00073,B01-O03,Snack Station,B01,Central Block,Paneer Puff,Bakery,Bakery,Vegetarian,False,60,Available,3.8,12,398,Medium,Regular,"Vegetarian, Budget-friendly",Dairy-free,33.55,True
+MI00074,B01-O03,Snack Station,B01,Central Block,Vegetable Cutlet,Snacks,Snacks,Vegetarian,False,40,Limited,3.6,6,160,Mild,Small,"Vegetarian, Budget-friendly",May contain dairy,18.08,True
+MI00075,B01-O03,Snack Station,B01,Central Block,Onion Pakora,Snacks,Snacks,Vegetarian,False,45,Limited,4.7,11,518,Mild,Small,Vegetarian,Contains gluten,17.2,True
+MI00076,B01-O03,Snack Station,B01,Central Block,Aloo Tikki,Snacks,Snacks,Vegetarian,False,50,Available,3.6,14,613,Mild,Small,"Vegetarian, Egg-free",May contain dairy,27.58,True
+MI00077,B01-O03,Snack Station,B01,Central Block,French Fries,Snacks,Snacks,Vegetarian,False,65,Available,3.6,8,636,Spicy,Regular,"Vegetarian, Egg-free",Dairy-free,38.2,True
+MI00078,B01-O03,Snack Station,B01,Central Block,Peri Peri Fries,Snacks,Snacks,Vegetarian,False,80,Available,4.3,12,651,Mild,Small,"Vegetarian, Egg-free",Dairy-free,37.83,True
+MI00079,B01-O03,Snack Station,B01,Central Block,Cheese Balls,Snacks,Snacks,Vegetarian,False,75,Limited,4.9,9,390,Medium,Small,"Vegetarian, Budget-friendly",Dairy-free,44.27,True
+MI00080,B01-O03,Snack Station,B01,Central Block,Spring Rolls,Snacks,Snacks,Vegetarian,False,70,Available,3.5,6,299,Mild,Large,"Vegetarian, Budget-friendly",May contain nuts,31.83,True
+MI00081,B01-O03,Snack Station,B01,Central Block,Veg Momos,Snacks,Snacks,Vegetarian,False,80,Limited,4.7,11,652,Spicy,Large,"Vegetarian, High-protein",Contains gluten,33.89,True
+MI00082,B01-O03,Snack Station,B01,Central Block,Paneer Momos,Snacks,Snacks,Vegetarian,False,105,Available,3.6,18,585,Medium,Small,"Vegetarian, Egg-free","Contains dairy, gluten",45.01,True
+MI00083,B01-O03,Snack Station,B01,Central Block,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,80,Available,4.8,8,569,Spicy,Small,Vegetarian,"Contains dairy, gluten",36.04,True
+MI00084,B01-O03,Snack Station,B01,Central Block,Paneer Sandwich,Sandwiches,Sandwiches,Vegetarian,False,105,Available,4.8,11,217,Medium,Small,"Vegetarian, High-protein",May contain nuts,62.11,True
+MI00085,B01-O03,Snack Station,B01,Central Block,Masala Maggi,Quick Meals,Quick Meals,Vegetarian,False,55,Available,4.3,18,373,Mild,Small,"Vegetarian, Egg-free","Contains dairy, gluten",27.85,True
+MI00086,B01-O03,Snack Station,B01,Central Block,Cheese Maggi,Quick Meals,Quick Meals,Vegetarian,False,75,Limited,3.5,10,380,Spicy,Regular,"Vegetarian, Egg-free",Dairy-free,37.83,True
+MI00087,B01-O03,Snack Station,B01,Central Block,Veg Frankie,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,80,Available,4.7,6,168,Spicy,Small,Vegetarian,May contain nuts,38.06,True
+MI00088,B01-O03,Snack Station,B01,Central Block,Paneer Roll,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,105,Available,3.7,13,358,Mild,Small,Vegetarian,May contain nuts,62.03,True
+MI00089,B01-O03,Snack Station,B01,Central Block,Veg Burger,Burgers,Burgers,Vegetarian,False,95,Available,4.6,8,606,Mild,Small,"Vegetarian, High-protein",Dairy-free,52.0,True
+MI00090,B01-O03,Snack Station,B01,Central Block,Cheese Burger,Burgers,Burgers,Vegetarian,False,105,Available,4.8,17,563,Spicy,Small,"Vegetarian, Budget-friendly","Contains dairy, gluten",41.55,True
+MI00091,B01-O03,Snack Station,B01,Central Block,Sweet Corn Cup,Snacks,Snacks,Vegetarian,False,50,Available,4.2,18,551,Spicy,Regular,"Vegetarian, High-protein",May contain dairy,21.14,True
+MI00092,B01-O03,Snack Station,B01,Central Block,Masala Peanuts,Snacks,Snacks,Vegetarian,False,35,Limited,4.1,16,632,Medium,Regular,"Vegetarian, Egg-free",Dairy-free,21.64,True
+MI00093,B01-O03,Snack Station,B01,Central Block,Masala Tea,Beverages,Beverages,Vegetarian,False,20,Available,3.9,9,258,Mild,Large,"Vegetarian, Egg-free",Contains gluten,12.05,True
+MI00094,B01-O03,Snack Station,B01,Central Block,Ginger Tea,Beverages,Beverages,Vegetarian,False,25,Available,4.0,7,608,Spicy,Regular,"Vegetarian, Budget-friendly","Contains dairy, gluten",11.96,True
+MI00095,B01-O03,Snack Station,B01,Central Block,Filter Coffee,Beverages,Beverages,Vegetarian,False,30,Available,3.9,13,670,Mild,Large,Vegetarian,Contains gluten,14.07,True
+MI00096,B01-O03,Snack Station,B01,Central Block,Cold Coffee,Beverages,Beverages,Vegetarian,False,90,Limited,4.7,8,362,Medium,Regular,"Vegetarian, Egg-free",Dairy-free,52.04,True
+MI00097,B01-O03,Snack Station,B01,Central Block,Chocolate Brownie,Desserts,Desserts,Vegetarian,False,70,Available,3.6,11,437,Spicy,Small,"Vegetarian, Egg-free","Contains dairy, gluten",29.96,True
+MI00098,B01-O03,Snack Station,B01,Central Block,Chocolate Donut,Bakery,Bakery,Vegetarian,False,55,Available,4.5,16,599,Medium,Large,"Vegetarian, Egg-free",May contain dairy,22.17,True
+MI00099,B01-O03,Snack Station,B01,Central Block,Chicken Momos,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,115,Available,4.1,20,365,Mild,Regular,"Chicken, High-protein","May contain dairy, gluten",73.14,True
+MI00100,B01-O03,Snack Station,B01,Central Block,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,110,Limited,4.8,13,717,Spicy,Regular,"Chicken, High-protein","May contain dairy, gluten",64.56,True
+MI00101,B01-O03,Snack Station,B01,Central Block,Chicken Popcorn,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,120,Limited,4.4,9,696,Medium,Large,"Chicken, High-protein",May contain dairy,57.95,True
+MI00102,B01-O03,Snack Station,B01,Central Block,Chicken Fingers,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,130,Available,3.9,11,350,Medium,Regular,"Chicken, High-protein",Contains gluten,76.09,True
+MI00103,B01-O03,Snack Station,B01,Central Block,Chicken Puff,Bakery,Bakery,Non-Vegetarian (Chicken),True,60,Available,4.5,10,621,Medium,Large,"Chicken, High-protein",May contain dairy,31.19,True
+MI00104,B01-O03,Snack Station,B01,Central Block,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,140,Available,3.9,10,641,Medium,Large,"Chicken, High-protein","May contain dairy, gluten",81.1,True
+MI00105,B01-O03,Snack Station,B01,Central Block,Chicken Frankie,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,145,Available,4.3,16,490,Spicy,Large,"Chicken, High-protein",Contains gluten,90.03,True
+MI00106,B01-O04,Green Bowl Café,B01,Central Block,Seasonal Fruit Bowl,Healthy Bowls,Healthy Bowls,Vegetarian,False,95,Available,4.2,5,247,Medium,Regular,"Vegetarian, High-protein","Contains dairy, gluten",54.28,True
+MI00107,B01-O04,Green Bowl Café,B01,Central Block,Sprouts Salad,Salads,Salads,Vegetarian,False,65,Available,4.3,9,470,Mild,Large,"Vegetarian, High-protein",Contains gluten,38.94,True
+MI00108,B01-O04,Green Bowl Café,B01,Central Block,Chickpea Salad,Salads,Salads,Vegetarian,False,85,Available,4.7,6,431,Mild,Large,"Vegetarian, High-protein",May contain nuts,50.33,True
+MI00109,B01-O04,Green Bowl Café,B01,Central Block,Paneer Salad,Salads,Salads,Vegetarian,False,125,Limited,3.6,14,603,Mild,Small,"Vegetarian, Budget-friendly",Contains gluten,71.94,True
+MI00110,B01-O04,Green Bowl Café,B01,Central Block,Corn & Veg Salad,Salads,Salads,Vegetarian,False,90,Available,4.2,6,236,Spicy,Small,Vegetarian,"Contains dairy, gluten",43.12,True
+MI00111,B01-O04,Green Bowl Café,B01,Central Block,Greek Yogurt Bowl,Healthy Bowls,Healthy Bowls,Vegetarian,False,100,Available,4.5,6,680,Spicy,Small,"Vegetarian, Egg-free","Contains dairy, gluten",38.36,True
+MI00112,B01-O04,Green Bowl Café,B01,Central Block,Overnight Oats,Breakfast,Breakfast,Vegetarian,False,100,Limited,4.2,18,296,Mild,Small,Vegetarian,May contain dairy,59.34,True
+MI00113,B01-O04,Green Bowl Café,B01,Central Block,Muesli with Milk,Breakfast,Breakfast,Vegetarian,False,90,Available,3.8,11,357,Mild,Small,"Vegetarian, High-protein",Dairy-free,44.6,True
+MI00114,B01-O04,Green Bowl Café,B01,Central Block,Vegetable Poha,Breakfast,Breakfast,Vegetarian,False,50,Available,4.1,9,369,Medium,Large,"Vegetarian, High-protein","Contains dairy, gluten",29.09,True
+MI00115,B01-O04,Green Bowl Café,B01,Central Block,Upma,Breakfast,Breakfast,Vegetarian,False,55,Limited,4.2,8,539,Mild,Small,"Vegetarian, Budget-friendly",May contain nuts,32.81,True
+MI00116,B01-O04,Green Bowl Café,B01,Central Block,Idli Sambar,South Indian,South Indian,Vegetarian,False,60,Available,4.7,6,208,Medium,Small,"Vegetarian, High-protein",May contain dairy,28.68,True
+MI00117,B01-O04,Green Bowl Café,B01,Central Block,Grilled Vegetable Sandwich,Sandwiches,Sandwiches,Vegetarian,False,95,Limited,4.8,6,538,Medium,Small,Vegetarian,May contain dairy,53.55,True
+MI00118,B01-O04,Green Bowl Café,B01,Central Block,Paneer Sandwich,Sandwiches,Sandwiches,Vegetarian,False,110,Limited,4.7,13,526,Medium,Regular,Vegetarian,May contain nuts,57.24,True
+MI00119,B01-O04,Green Bowl Café,B01,Central Block,Multigrain Veg Wrap,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,110,Available,4.3,16,202,Medium,Large,"Vegetarian, Budget-friendly",Contains gluten,58.45,True
+MI00120,B01-O04,Green Bowl Café,B01,Central Block,Paneer Wrap,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,140,Available,4.4,12,241,Mild,Regular,Vegetarian,Contains gluten,56.97,True
+MI00121,B01-O04,Green Bowl Café,B01,Central Block,Vegetable Soup,Soups,Soups,Vegetarian,False,70,Available,3.9,5,456,Spicy,Small,"Vegetarian, High-protein",May contain dairy,33.2,True
+MI00122,B01-O04,Green Bowl Café,B01,Central Block,Tomato Soup,Soups,Soups,Vegetarian,False,60,Limited,3.9,10,338,Medium,Regular,Vegetarian,"Contains dairy, gluten",33.62,True
+MI00123,B01-O04,Green Bowl Café,B01,Central Block,Vegetable Khichdi,Healthy Meals,Healthy Meals,Vegetarian,False,100,Available,4.7,13,239,Spicy,Large,"Vegetarian, Budget-friendly",May contain nuts,58.6,True
+MI00124,B01-O04,Green Bowl Café,B01,Central Block,Lemon Rice,Healthy Meals,Healthy Meals,Vegetarian,False,80,Available,4.9,10,546,Mild,Regular,"Vegetarian, High-protein","Contains dairy, gluten",33.42,True
+MI00125,B01-O04,Green Bowl Café,B01,Central Block,Curd Rice,Healthy Meals,Healthy Meals,Vegetarian,False,85,Available,3.7,11,550,Spicy,Small,"Vegetarian, Budget-friendly","Contains dairy, gluten",32.99,True
+MI00126,B01-O04,Green Bowl Café,B01,Central Block,Quinoa Veg Bowl,Healthy Bowls,Healthy Bowls,Vegetarian,False,160,Available,4.3,10,357,Medium,Small,"Vegetarian, Budget-friendly",May contain nuts,80.62,True
+MI00127,B01-O04,Green Bowl Café,B01,Central Block,Brown Rice Bowl,Healthy Bowls,Healthy Bowls,Vegetarian,False,135,Available,4.6,13,347,Mild,Small,"Vegetarian, High-protein",May contain nuts,70.63,True
+MI00128,B01-O04,Green Bowl Café,B01,Central Block,Steamed Corn,Snacks,Snacks,Vegetarian,False,55,Available,4.7,7,679,Medium,Small,"Vegetarian, Egg-free","Contains dairy, gluten",27.25,True
+MI00129,B01-O04,Green Bowl Café,B01,Central Block,Boiled Peanut Chaat,Snacks,Snacks,Vegetarian,False,60,Limited,3.7,15,292,Mild,Small,"Vegetarian, Egg-free",Dairy-free,25.78,True
+MI00130,B01-O04,Green Bowl Café,B01,Central Block,Coconut Water,Beverages,Beverages,Vegetarian,False,50,Limited,4.0,17,259,Mild,Regular,Vegetarian,May contain dairy,27.5,True
+MI00131,B01-O04,Green Bowl Café,B01,Central Block,Buttermilk,Beverages,Beverages,Vegetarian,False,30,Available,4.8,15,645,Medium,Large,"Vegetarian, Egg-free",Dairy-free,12.02,True
+MI00132,B01-O04,Green Bowl Café,B01,Central Block,Fresh Orange Juice,Beverages,Beverages,Vegetarian,False,75,Available,4.3,10,184,Spicy,Regular,"Vegetarian, High-protein",May contain nuts,40.35,True
+MI00133,B01-O04,Green Bowl Café,B01,Central Block,Banana Smoothie,Beverages,Beverages,Vegetarian,False,85,Available,3.9,18,621,Medium,Large,"Vegetarian, Budget-friendly",May contain dairy,35.92,True
+MI00134,B01-O04,Green Bowl Café,B01,Central Block,Chicken Salad Bowl,Salads,Salads,Non-Vegetarian (Chicken),True,155,Available,4.7,15,365,Mild,Regular,"Chicken, High-protein",Contains gluten,93.32,True
+MI00135,B01-O04,Green Bowl Café,B01,Central Block,Grilled Chicken Salad,Salads,Salads,Non-Vegetarian (Chicken),True,160,Available,4.0,19,567,Medium,Regular,"Chicken, High-protein",May contain dairy,76.57,True
+MI00136,B01-O04,Green Bowl Café,B01,Central Block,Grilled Chicken Wrap,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,160,Limited,3.7,19,393,Spicy,Large,"Chicken, High-protein",Contains gluten,92.23,True
+MI00137,B01-O04,Green Bowl Café,B01,Central Block,Chicken Rice Bowl,Healthy Bowls,Healthy Bowls,Non-Vegetarian (Chicken),True,155,Available,4.3,15,535,Spicy,Regular,"Chicken, High-protein",May contain dairy,98.11,True
+MI00138,B01-O04,Green Bowl Café,B01,Central Block,Chicken Soup,Soups,Soups,Non-Vegetarian (Chicken),True,95,Available,3.8,12,550,Spicy,Regular,"Chicken, High-protein","May contain dairy, gluten",58.43,True
+MI00139,B01-O04,Green Bowl Café,B01,Central Block,Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,135,Available,4.8,8,633,Medium,Regular,"Chicken, High-protein","May contain dairy, gluten",72.07,True
+MI00140,B01-O04,Green Bowl Café,B01,Central Block,Multigrain Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,135,Available,4.5,8,315,Spicy,Regular,"Chicken, High-protein",May contain dairy,71.9,True
+MI00141,B01-O05,11Elevem,B01,Central Block,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,80,Available,4.4,13,718,Spicy,Large,"Vegetarian, Budget-friendly",May contain nuts,44.13,True
+MI00142,B01-O05,11Elevem,B01,Central Block,Paneer Sandwich,Sandwiches,Sandwiches,Vegetarian,False,100,Available,4.5,15,455,Medium,Regular,"Vegetarian, Egg-free",Dairy-free,45.31,True
+MI00143,B01-O05,11Elevem,B01,Central Block,Veg Burger,Burgers,Burgers,Vegetarian,False,85,Available,3.5,10,505,Mild,Regular,"Vegetarian, Egg-free",Contains gluten,45.6,True
+MI00144,B01-O05,11Elevem,B01,Central Block,Veg Puff,Bakery,Bakery,Vegetarian,False,35,Limited,4.0,5,451,Medium,Large,Vegetarian,May contain nuts,16.41,True
+MI00145,B01-O05,11Elevem,B01,Central Block,Samosa,Snacks,Snacks,Vegetarian,False,25,Available,4.8,8,453,Mild,Large,"Vegetarian, Budget-friendly",Contains gluten,9.5,True
+MI00146,B01-O05,11Elevem,B01,Central Block,Vegetable Cutlet,Snacks,Snacks,Vegetarian,False,40,Available,4.9,9,350,Mild,Large,"Vegetarian, Budget-friendly",Contains gluten,15.79,True
+MI00147,B01-O05,11Elevem,B01,Central Block,Potato Chips Pack,Packaged Snacks,Packaged Snacks,Vegetarian,False,20,Available,4.3,16,294,Mild,Small,"Vegetarian, Egg-free","Contains dairy, gluten",11.58,True
+MI00148,B01-O05,11Elevem,B01,Central Block,Nachos Pack,Packaged Snacks,Packaged Snacks,Vegetarian,False,35,Available,4.7,18,136,Spicy,Small,"Vegetarian, High-protein","Contains dairy, gluten",14.81,True
+MI00149,B01-O05,11Elevem,B01,Central Block,Chocolate Bar,Packaged Snacks,Packaged Snacks,Vegetarian,False,45,Available,4.2,16,455,Spicy,Large,"Vegetarian, Budget-friendly","Contains dairy, gluten",18.87,True
+MI00150,B01-O05,11Elevem,B01,Central Block,Oat Energy Bar,Packaged Snacks,Packaged Snacks,Vegetarian,False,45,Available,4.8,14,140,Spicy,Small,"Vegetarian, Budget-friendly",Dairy-free,17.77,True
+MI00151,B01-O05,11Elevem,B01,Central Block,Roasted Peanuts Pack,Packaged Snacks,Packaged Snacks,Vegetarian,False,30,Available,3.5,12,622,Mild,Large,"Vegetarian, Egg-free",May contain dairy,14.89,True
+MI00152,B01-O05,11Elevem,B01,Central Block,Salted Popcorn,Packaged Snacks,Packaged Snacks,Vegetarian,False,35,Available,3.6,9,395,Mild,Regular,Vegetarian,May contain nuts,20.3,True
+MI00153,B01-O05,11Elevem,B01,Central Block,Cookies Pack,Bakery,Bakery,Vegetarian,False,30,Available,3.5,5,664,Medium,Large,"Vegetarian, High-protein",May contain dairy,14.08,True
+MI00154,B01-O05,11Elevem,B01,Central Block,Chocolate Muffin,Bakery,Bakery,Vegetarian,False,55,Available,4.7,4,471,Mild,Regular,"Vegetarian, High-protein",May contain dairy,32.52,True
+MI00155,B01-O05,11Elevem,B01,Central Block,Chocolate Donut,Bakery,Bakery,Vegetarian,False,60,Available,4.1,14,235,Spicy,Large,"Vegetarian, Egg-free",May contain dairy,36.46,True
+MI00156,B01-O05,11Elevem,B01,Central Block,Brownie,Desserts,Desserts,Vegetarian,False,60,Available,4.8,4,161,Mild,Large,Vegetarian,Contains gluten,31.66,True
+MI00157,B01-O05,11Elevem,B01,Central Block,Cupcake,Bakery,Bakery,Vegetarian,False,40,Available,4.6,5,300,Spicy,Large,"Vegetarian, High-protein","Contains dairy, gluten",22.41,True
+MI00158,B01-O05,11Elevem,B01,Central Block,Ice Cream Cup,Desserts,Desserts,Vegetarian,False,45,Available,4.6,12,324,Mild,Large,"Vegetarian, Budget-friendly","Contains dairy, gluten",19.74,True
+MI00159,B01-O05,11Elevem,B01,Central Block,Instant Noodles Cup,Quick Meals,Quick Meals,Vegetarian,False,50,Limited,3.7,14,700,Mild,Small,Vegetarian,May contain dairy,27.71,True
+MI00160,B01-O05,11Elevem,B01,Central Block,Masala Maggi,Quick Meals,Quick Meals,Vegetarian,False,55,Available,4.3,10,444,Mild,Small,"Vegetarian, Budget-friendly",Dairy-free,21.81,True
+MI00161,B01-O05,11Elevem,B01,Central Block,French Fries,Snacks,Snacks,Vegetarian,False,65,Limited,4.0,8,570,Medium,Large,"Vegetarian, Budget-friendly","Contains dairy, gluten",24.83,True
+MI00162,B01-O05,11Elevem,B01,Central Block,Cheese Balls,Snacks,Snacks,Vegetarian,False,80,Available,4.8,8,241,Spicy,Regular,Vegetarian,Dairy-free,46.29,True
+MI00163,B01-O05,11Elevem,B01,Central Block,Fruit Cup,Healthy Snacks,Healthy Snacks,Vegetarian,False,55,Available,4.3,8,169,Mild,Small,"Vegetarian, Egg-free",May contain nuts,26.91,True
+MI00164,B01-O05,11Elevem,B01,Central Block,Bottled Water,Beverages,Beverages,Vegetarian,False,20,Available,4.1,4,299,Mild,Large,"Vegetarian, Budget-friendly",May contain dairy,8.13,True
+MI00165,B01-O05,11Elevem,B01,Central Block,Packaged Orange Juice,Beverages,Beverages,Vegetarian,False,35,Available,3.8,18,159,Medium,Large,Vegetarian,Dairy-free,16.45,True
+MI00166,B01-O05,11Elevem,B01,Central Block,Cold Coffee Bottle,Beverages,Beverages,Vegetarian,False,70,Available,4.9,15,425,Spicy,Regular,Vegetarian,"Contains dairy, gluten",42.79,True
+MI00167,B01-O05,11Elevem,B01,Central Block,Iced Tea Bottle,Beverages,Beverages,Vegetarian,False,50,Limited,4.9,10,671,Medium,Regular,Vegetarian,"Contains dairy, gluten",22.55,True
+MI00168,B01-O05,11Elevem,B01,Central Block,Buttermilk Pack,Beverages,Beverages,Vegetarian,False,25,Available,4.4,17,257,Medium,Regular,"Vegetarian, Budget-friendly",May contain dairy,11.23,True
+MI00169,B01-O05,11Elevem,B01,Central Block,Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,125,Available,4.6,8,510,Medium,Large,"Chicken, High-protein",May contain dairy,61.21,True
+MI00170,B01-O05,11Elevem,B01,Central Block,Chicken Burger,Burgers,Burgers,Non-Vegetarian (Chicken),True,135,Limited,4.4,10,482,Spicy,Large,"Chicken, High-protein",Contains gluten,60.87,True
+MI00171,B01-O05,11Elevem,B01,Central Block,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,125,Limited,4.6,14,620,Spicy,Regular,"Chicken, High-protein",May contain dairy,78.47,True
+MI00172,B01-O05,11Elevem,B01,Central Block,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,115,Available,4.4,15,658,Spicy,Regular,"Chicken, High-protein",May contain dairy,60.49,True
+MI00173,B01-O05,11Elevem,B01,Central Block,Chicken Popcorn,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,110,Available,4.5,11,758,Medium,Large,"Chicken, High-protein",Contains gluten,68.49,True
+MI00174,B01-O05,11Elevem,B01,Central Block,Chicken Puff,Bakery,Bakery,Non-Vegetarian (Chicken),True,60,Available,4.5,10,659,Spicy,Regular,"Chicken, High-protein","May contain dairy, gluten",37.81,True
+MI00175,B01-O05,11Elevem,B01,Central Block,Chicken Cheese Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,150,Limited,3.7,13,783,Mild,Large,"Chicken, High-protein",Contains gluten,88.63,True
+MI00176,B01-O06,Mingos,B01,Central Block,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,85,Available,3.9,6,386,Medium,Regular,"Vegetarian, Egg-free",Dairy-free,37.4,True
+MI00177,B01-O06,Mingos,B01,Central Block,Grilled Cheese Sandwich,Sandwiches,Sandwiches,Vegetarian,False,90,Available,4.0,10,267,Spicy,Large,"Vegetarian, High-protein",May contain nuts,54.55,True
+MI00178,B01-O06,Mingos,B01,Central Block,Paneer Tikka Sandwich,Sandwiches,Sandwiches,Vegetarian,False,100,Available,3.9,8,536,Medium,Large,"Vegetarian, Egg-free",May contain nuts,58.47,True
+MI00179,B01-O06,Mingos,B01,Central Block,Veg Burger,Burgers,Burgers,Vegetarian,False,85,Limited,3.7,9,421,Spicy,Small,Vegetarian,"Contains dairy, gluten",47.59,True
+MI00180,B01-O06,Mingos,B01,Central Block,Cheese Burger,Burgers,Burgers,Vegetarian,False,105,Limited,4.4,14,454,Mild,Large,"Vegetarian, Egg-free",Dairy-free,42.48,True
+MI00181,B01-O06,Mingos,B01,Central Block,Paneer Burger,Burgers,Burgers,Vegetarian,False,130,Limited,4.1,7,194,Medium,Small,"Vegetarian, High-protein",Dairy-free,49.61,True
+MI00182,B01-O06,Mingos,B01,Central Block,French Fries,Snacks,Snacks,Vegetarian,False,60,Limited,3.7,18,232,Mild,Large,"Vegetarian, Budget-friendly",Contains gluten,28.4,True
+MI00183,B01-O06,Mingos,B01,Central Block,Peri Peri Fries,Snacks,Snacks,Vegetarian,False,80,Limited,4.6,12,405,Medium,Large,"Vegetarian, Budget-friendly","Contains dairy, gluten",46.43,True
+MI00184,B01-O06,Mingos,B01,Central Block,Veg Puff,Bakery,Bakery,Vegetarian,False,35,Limited,4.7,9,130,Spicy,Large,Vegetarian,May contain dairy,13.57,True
+MI00185,B01-O06,Mingos,B01,Central Block,Paneer Puff,Bakery,Bakery,Vegetarian,False,55,Available,4.5,12,474,Mild,Large,"Vegetarian, High-protein",Contains gluten,32.75,True
+MI00186,B01-O06,Mingos,B01,Central Block,Samosa,Snacks,Snacks,Vegetarian,False,25,Limited,3.5,8,287,Mild,Small,Vegetarian,May contain nuts,13.33,True
+MI00187,B01-O06,Mingos,B01,Central Block,Veg Momos,Snacks,Snacks,Vegetarian,False,85,Available,3.8,9,448,Spicy,Large,Vegetarian,Contains gluten,44.96,True
+MI00188,B01-O06,Mingos,B01,Central Block,Spring Rolls,Snacks,Snacks,Vegetarian,False,80,Available,4.1,18,494,Mild,Regular,"Vegetarian, Egg-free",May contain nuts,44.84,True
+MI00189,B01-O06,Mingos,B01,Central Block,Masala Maggi,Quick Meals,Quick Meals,Vegetarian,False,55,Available,4.8,16,684,Medium,Regular,"Vegetarian, High-protein","Contains dairy, gluten",31.61,True
+MI00190,B01-O06,Mingos,B01,Central Block,Veg Fried Rice,Rice & Noodles,Rice & Noodles,Vegetarian,False,100,Limited,3.7,6,231,Spicy,Small,"Vegetarian, Budget-friendly",May contain dairy,54.92,True
+MI00191,B01-O06,Mingos,B01,Central Block,Veg Hakka Noodles,Rice & Noodles,Rice & Noodles,Vegetarian,False,115,Limited,4.3,12,549,Medium,Regular,Vegetarian,May contain dairy,45.68,True
+MI00192,B01-O06,Mingos,B01,Central Block,Paneer Roll,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,95,Available,4.5,6,674,Medium,Small,"Vegetarian, Budget-friendly",May contain nuts,38.11,True
+MI00193,B01-O06,Mingos,B01,Central Block,Veg Frankie,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,90,Limited,4.9,10,410,Mild,Large,Vegetarian,Dairy-free,53.81,True
+MI00194,B01-O06,Mingos,B01,Central Block,Margherita Pizza Slice,Pizza,Pizza,Vegetarian,False,100,Available,4.4,14,150,Spicy,Regular,"Vegetarian, Egg-free","Contains dairy, gluten",51.92,True
+MI00195,B01-O06,Mingos,B01,Central Block,White Sauce Pasta,Pasta,Pasta,Vegetarian,False,140,Limited,4.2,16,403,Medium,Large,"Vegetarian, Budget-friendly",May contain nuts,76.86,True
+MI00196,B01-O06,Mingos,B01,Central Block,Garlic Bread,Snacks,Snacks,Vegetarian,False,75,Available,4.8,17,478,Mild,Regular,Vegetarian,Dairy-free,39.16,True
+MI00197,B01-O06,Mingos,B01,Central Block,Masala Tea,Beverages,Beverages,Vegetarian,False,20,Available,4.0,14,344,Medium,Regular,"Vegetarian, Budget-friendly",May contain nuts,11.12,True
+MI00198,B01-O06,Mingos,B01,Central Block,Filter Coffee,Beverages,Beverages,Vegetarian,False,30,Available,4.7,18,121,Medium,Large,Vegetarian,Dairy-free,14.51,True
+MI00199,B01-O06,Mingos,B01,Central Block,Cold Coffee,Beverages,Beverages,Vegetarian,False,85,Available,3.5,12,607,Medium,Large,"Vegetarian, Egg-free","Contains dairy, gluten",41.46,True
+MI00200,B01-O06,Mingos,B01,Central Block,Fresh Lime Soda,Beverages,Beverages,Vegetarian,False,55,Limited,3.9,5,348,Mild,Regular,"Vegetarian, Budget-friendly",Contains gluten,30.08,True
+MI00201,B01-O06,Mingos,B01,Central Block,Chocolate Brownie,Desserts,Desserts,Vegetarian,False,60,Available,3.6,7,669,Medium,Large,"Vegetarian, High-protein",May contain nuts,23.99,True
+MI00202,B01-O06,Mingos,B01,Central Block,Chocolate Muffin,Bakery,Bakery,Vegetarian,False,55,Available,4.7,8,276,Spicy,Small,"Vegetarian, High-protein",May contain nuts,30.25,True
+MI00203,B01-O06,Mingos,B01,Central Block,Vanilla Milkshake,Beverages,Beverages,Vegetarian,False,90,Available,3.9,7,225,Medium,Regular,"Vegetarian, High-protein","Contains dairy, gluten",55.44,True
+MI00204,B01-O06,Mingos,B01,Central Block,Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,135,Available,4.8,11,565,Mild,Large,"Chicken, High-protein",Contains gluten,89.19,True
+MI00205,B01-O06,Mingos,B01,Central Block,Chicken Burger,Burgers,Burgers,Non-Vegetarian (Chicken),True,140,Available,4.7,19,660,Spicy,Large,"Chicken, High-protein","May contain dairy, gluten",77.13,True
+MI00206,B01-O06,Mingos,B01,Central Block,Chicken Cheese Burger,Burgers,Burgers,Non-Vegetarian (Chicken),True,155,Limited,4.3,22,288,Mild,Large,"Chicken, High-protein",Contains gluten,89.87,True
+MI00207,B01-O06,Mingos,B01,Central Block,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,135,Available,4.4,23,329,Medium,Regular,"Chicken, High-protein","May contain dairy, gluten",91.55,True
+MI00208,B01-O06,Mingos,B01,Central Block,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,115,Limited,4.3,20,831,Medium,Regular,"Chicken, High-protein",Contains gluten,69.47,True
+MI00209,B01-O06,Mingos,B01,Central Block,Chicken Momos,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,115,Available,4.0,23,278,Mild,Regular,"Chicken, High-protein",May contain dairy,68.95,True
+MI00210,B01-O06,Mingos,B01,Central Block,Chicken Fried Rice,Rice & Noodles,Rice & Noodles,Non-Vegetarian (Chicken),True,155,Available,4.3,21,776,Medium,Large,"Chicken, High-protein","May contain dairy, gluten",96.73,True
+MI00211,B02-O01,The Hungry Hub,B02,Block 1,Veg Thali,Meals,Meals,Vegetarian,False,125,Available,4.6,9,505,Medium,Large,"Vegetarian, High-protein",Contains gluten,71.56,True
+MI00212,B02-O01,The Hungry Hub,B02,Block 1,Mini Meals,Meals,Meals,Vegetarian,False,105,Limited,3.5,6,140,Medium,Regular,"Vegetarian, Budget-friendly",May contain nuts,48.48,True
+MI00213,B02-O01,The Hungry Hub,B02,Block 1,Paneer Thali,Meals,Meals,Vegetarian,False,145,Available,4.5,15,521,Medium,Small,Vegetarian,May contain dairy,79.38,True
+MI00214,B02-O01,The Hungry Hub,B02,Block 1,Veg Biryani,Rice & Meals,Rice & Meals,Vegetarian,False,120,Available,4.5,8,141,Mild,Small,"Vegetarian, High-protein",Contains gluten,56.1,True
+MI00215,B02-O01,The Hungry Hub,B02,Block 1,Paneer Biryani,Rice & Meals,Rice & Meals,Vegetarian,False,155,Available,4.6,16,570,Spicy,Regular,"Vegetarian, Budget-friendly",Contains gluten,82.09,True
+MI00216,B02-O01,The Hungry Hub,B02,Block 1,Veg Pulao,Rice & Meals,Rice & Meals,Vegetarian,False,110,Limited,4.8,9,439,Mild,Small,"Vegetarian, Budget-friendly","Contains dairy, gluten",58.95,True
+MI00217,B02-O01,The Hungry Hub,B02,Block 1,Rajma Rice,Meals,Meals,Vegetarian,False,110,Available,4.2,4,498,Mild,Regular,"Vegetarian, Budget-friendly",Contains gluten,53.67,True
+MI00218,B02-O01,The Hungry Hub,B02,Block 1,Chole Rice,Meals,Meals,Vegetarian,False,110,Available,4.3,8,323,Spicy,Regular,"Vegetarian, Budget-friendly",Dairy-free,66.1,True
+MI00219,B02-O01,The Hungry Hub,B02,Block 1,Dal Khichdi,Meals,Meals,Vegetarian,False,90,Available,4.8,16,425,Spicy,Large,"Vegetarian, Budget-friendly",May contain nuts,53.83,True
+MI00220,B02-O01,The Hungry Hub,B02,Block 1,Paneer Butter Masala,Curries,Curries,Vegetarian,False,155,Available,4.6,15,522,Medium,Small,"Vegetarian, Budget-friendly",May contain nuts,83.32,True
+MI00221,B02-O01,The Hungry Hub,B02,Block 1,Dal Makhani,Curries,Curries,Vegetarian,False,135,Limited,4.2,18,327,Mild,Large,"Vegetarian, High-protein",Contains gluten,62.88,True
+MI00222,B02-O01,The Hungry Hub,B02,Block 1,Chole Bhature,Meals,Meals,Vegetarian,False,115,Available,4.4,15,228,Spicy,Regular,"Vegetarian, Egg-free",May contain dairy,44.69,True
+MI00223,B02-O01,The Hungry Hub,B02,Block 1,Masala Dosa,South Indian,South Indian,Vegetarian,False,75,Limited,3.7,16,255,Mild,Small,"Vegetarian, High-protein","Contains dairy, gluten",40.2,True
+MI00224,B02-O01,The Hungry Hub,B02,Block 1,Idli Sambar,South Indian,South Indian,Vegetarian,False,55,Available,4.2,6,404,Medium,Small,"Vegetarian, Egg-free",Contains gluten,27.26,True
+MI00225,B02-O01,The Hungry Hub,B02,Block 1,Medu Vada,South Indian,South Indian,Vegetarian,False,60,Limited,4.8,14,284,Spicy,Small,"Vegetarian, Budget-friendly",May contain nuts,29.64,True
+MI00226,B02-O01,The Hungry Hub,B02,Block 1,Veg Fried Rice,Rice & Noodles,Rice & Noodles,Vegetarian,False,120,Available,4.2,15,691,Spicy,Large,"Vegetarian, Budget-friendly",May contain dairy,63.73,True
+MI00227,B02-O01,The Hungry Hub,B02,Block 1,Schezwan Noodles,Rice & Noodles,Rice & Noodles,Vegetarian,False,120,Available,4.5,18,225,Medium,Regular,"Vegetarian, Budget-friendly",May contain nuts,73.01,True
+MI00228,B02-O01,The Hungry Hub,B02,Block 1,Veg Manchurian,Starters,Starters,Vegetarian,False,125,Limited,4.7,8,606,Mild,Regular,"Vegetarian, Budget-friendly",May contain dairy,65.81,True
+MI00229,B02-O01,The Hungry Hub,B02,Block 1,Paneer Roll,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,95,Available,4.8,6,445,Mild,Small,Vegetarian,May contain dairy,54.55,True
+MI00230,B02-O01,The Hungry Hub,B02,Block 1,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,75,Limited,4.1,13,652,Mild,Regular,Vegetarian,Contains gluten,41.88,True
+MI00231,B02-O01,The Hungry Hub,B02,Block 1,Veg Burger,Burgers,Burgers,Vegetarian,False,90,Limited,4.0,15,180,Medium,Small,"Vegetarian, Budget-friendly",Contains gluten,51.06,True
+MI00232,B02-O01,The Hungry Hub,B02,Block 1,French Fries,Snacks,Snacks,Vegetarian,False,70,Available,4.4,9,507,Medium,Small,"Vegetarian, Budget-friendly",May contain dairy,37.62,True
+MI00233,B02-O01,The Hungry Hub,B02,Block 1,Curd Rice,Meals,Meals,Vegetarian,False,80,Available,4.5,13,283,Medium,Regular,Vegetarian,May contain dairy,49.32,True
+MI00234,B02-O01,The Hungry Hub,B02,Block 1,Lemon Rice,Meals,Meals,Vegetarian,False,80,Available,4.7,10,530,Mild,Regular,"Vegetarian, Budget-friendly",May contain dairy,33.34,True
+MI00235,B02-O01,The Hungry Hub,B02,Block 1,Buttermilk,Beverages,Beverages,Vegetarian,False,35,Available,3.8,9,397,Spicy,Small,"Vegetarian, Budget-friendly","Contains dairy, gluten",19.17,True
+MI00236,B02-O01,The Hungry Hub,B02,Block 1,Sweet Lassi,Beverages,Beverages,Vegetarian,False,55,Available,4.5,11,203,Mild,Regular,"Vegetarian, High-protein",Dairy-free,29.2,True
+MI00237,B02-O01,The Hungry Hub,B02,Block 1,Gulab Jamun,Desserts,Desserts,Vegetarian,False,45,Available,3.9,17,514,Medium,Large,"Vegetarian, Egg-free","Contains dairy, gluten",17.56,True
+MI00238,B02-O01,The Hungry Hub,B02,Block 1,Fruit Custard,Desserts,Desserts,Vegetarian,False,65,Available,3.6,8,224,Medium,Small,"Vegetarian, Egg-free",Contains gluten,38.22,True
+MI00239,B02-O01,The Hungry Hub,B02,Block 1,Chicken Biryani,Rice & Meals,Rice & Meals,Non-Vegetarian (Chicken),True,175,Limited,4.1,15,606,Spicy,Regular,"Chicken, High-protein",May contain dairy,109.32,True
+MI00240,B02-O01,The Hungry Hub,B02,Block 1,Chicken Fried Rice,Rice & Noodles,Rice & Noodles,Non-Vegetarian (Chicken),True,165,Available,4.4,22,511,Medium,Regular,"Chicken, High-protein",May contain dairy,76.36,True
+MI00241,B02-O01,The Hungry Hub,B02,Block 1,Butter Chicken with Rice,Meals,Meals,Non-Vegetarian (Chicken),True,200,Available,3.8,13,261,Medium,Regular,"Chicken, High-protein",Contains gluten,100.85,True
+MI00242,B02-O01,The Hungry Hub,B02,Block 1,Chicken Noodles,Rice & Noodles,Rice & Noodles,Non-Vegetarian (Chicken),True,160,Available,4.2,19,761,Mild,Large,"Chicken, High-protein","May contain dairy, gluten",102.04,True
+MI00243,B02-O01,The Hungry Hub,B02,Block 1,Chicken Kebab Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,165,Available,4.1,21,758,Spicy,Large,"Chicken, High-protein",Contains gluten,103.01,True
+MI00244,B02-O01,The Hungry Hub,B02,Block 1,Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,135,Available,3.7,23,412,Spicy,Large,"Chicken, High-protein","May contain dairy, gluten",68.18,True
+MI00245,B02-O01,The Hungry Hub,B02,Block 1,Chicken Manchurian,Starters,Starters,Non-Vegetarian (Chicken),True,155,Available,3.8,21,845,Mild,Regular,"Chicken, High-protein","May contain dairy, gluten",86.28,True
+MI00246,B02-O02,Brew & Bites,B02,Block 1,Espresso,Coffee,Coffee,Vegetarian,False,65,Limited,4.8,14,661,Mild,Regular,"Vegetarian, Budget-friendly",Dairy-free,26.86,True
+MI00247,B02-O02,Brew & Bites,B02,Block 1,Americano,Coffee,Coffee,Vegetarian,False,75,Limited,4.3,4,164,Spicy,Small,"Vegetarian, Egg-free",May contain nuts,33.8,True
+MI00248,B02-O02,Brew & Bites,B02,Block 1,Cappuccino,Coffee,Coffee,Vegetarian,False,90,Available,4.2,17,390,Spicy,Regular,"Vegetarian, High-protein",Contains gluten,39.15,True
+MI00249,B02-O02,Brew & Bites,B02,Block 1,Café Latte,Coffee,Coffee,Vegetarian,False,105,Available,3.7,6,623,Spicy,Regular,"Vegetarian, Egg-free",May contain dairy,50.09,True
+MI00250,B02-O02,Brew & Bites,B02,Block 1,Café Mocha,Coffee,Coffee,Vegetarian,False,125,Available,3.9,8,371,Mild,Small,"Vegetarian, Budget-friendly","Contains dairy, gluten",64.93,True
+MI00251,B02-O02,Brew & Bites,B02,Block 1,Cold Coffee,Coffee,Coffee,Vegetarian,False,100,Available,4.7,14,293,Spicy,Large,Vegetarian,May contain dairy,52.34,True
+MI00252,B02-O02,Brew & Bites,B02,Block 1,Iced Latte,Coffee,Coffee,Vegetarian,False,115,Available,4.8,8,296,Medium,Regular,"Vegetarian, Budget-friendly",May contain dairy,50.92,True
+MI00253,B02-O02,Brew & Bites,B02,Block 1,Hot Chocolate,Beverages,Beverages,Vegetarian,False,110,Available,3.6,14,713,Spicy,Small,Vegetarian,Contains gluten,48.57,True
+MI00254,B02-O02,Brew & Bites,B02,Block 1,Masala Tea,Beverages,Beverages,Vegetarian,False,25,Limited,4.2,17,232,Medium,Small,"Vegetarian, Egg-free",Dairy-free,11.91,True
+MI00255,B02-O02,Brew & Bites,B02,Block 1,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,75,Available,4.8,11,518,Medium,Small,"Vegetarian, Egg-free","Contains dairy, gluten",45.75,True
+MI00256,B02-O02,Brew & Bites,B02,Block 1,Grilled Cheese Sandwich,Sandwiches,Sandwiches,Vegetarian,False,105,Available,3.6,14,417,Medium,Regular,"Vegetarian, Budget-friendly",Contains gluten,63.99,True
+MI00257,B02-O02,Brew & Bites,B02,Block 1,Paneer Sandwich,Sandwiches,Sandwiches,Vegetarian,False,110,Limited,3.7,7,460,Medium,Small,"Vegetarian, High-protein",May contain nuts,56.02,True
+MI00258,B02-O02,Brew & Bites,B02,Block 1,Veg Burger,Burgers,Burgers,Vegetarian,False,105,Available,3.9,10,305,Spicy,Large,"Vegetarian, Egg-free",May contain nuts,51.58,True
+MI00259,B02-O02,Brew & Bites,B02,Block 1,French Fries,Snacks,Snacks,Vegetarian,False,70,Limited,3.7,16,650,Medium,Small,"Vegetarian, High-protein",Contains gluten,39.42,True
+MI00260,B02-O02,Brew & Bites,B02,Block 1,Garlic Bread,Snacks,Snacks,Vegetarian,False,90,Available,4.8,11,622,Mild,Large,"Vegetarian, Budget-friendly",Contains gluten,44.35,True
+MI00261,B02-O02,Brew & Bites,B02,Block 1,Veg Puff,Bakery,Bakery,Vegetarian,False,35,Limited,4.3,4,195,Medium,Large,"Vegetarian, High-protein","Contains dairy, gluten",15.31,True
+MI00262,B02-O02,Brew & Bites,B02,Block 1,Paneer Puff,Bakery,Bakery,Vegetarian,False,60,Available,4.6,5,181,Mild,Large,"Vegetarian, Budget-friendly",Contains gluten,29.17,True
+MI00263,B02-O02,Brew & Bites,B02,Block 1,Butter Croissant,Bakery,Bakery,Vegetarian,False,80,Available,4.0,5,429,Medium,Large,"Vegetarian, Budget-friendly","Contains dairy, gluten",30.66,True
+MI00264,B02-O02,Brew & Bites,B02,Block 1,Chocolate Muffin,Bakery,Bakery,Vegetarian,False,55,Limited,3.7,17,275,Spicy,Large,"Vegetarian, High-protein","Contains dairy, gluten",26.16,True
+MI00265,B02-O02,Brew & Bites,B02,Block 1,Blueberry Muffin,Bakery,Bakery,Vegetarian,False,70,Limited,3.5,16,277,Medium,Large,"Vegetarian, Budget-friendly",May contain nuts,32.36,True
+MI00266,B02-O02,Brew & Bites,B02,Block 1,Chocolate Brownie,Desserts,Desserts,Vegetarian,False,80,Available,3.9,8,208,Spicy,Small,"Vegetarian, Egg-free",May contain nuts,44.97,True
+MI00267,B02-O02,Brew & Bites,B02,Block 1,Chocolate Cookie,Bakery,Bakery,Vegetarian,False,35,Available,4.3,18,192,Medium,Large,"Vegetarian, Egg-free",May contain dairy,18.66,True
+MI00268,B02-O02,Brew & Bites,B02,Block 1,Chocolate Donut,Bakery,Bakery,Vegetarian,False,60,Limited,4.2,13,178,Spicy,Large,"Vegetarian, High-protein",May contain dairy,33.97,True
+MI00269,B02-O02,Brew & Bites,B02,Block 1,Cheesecake Slice,Desserts,Desserts,Vegetarian,False,120,Available,4.1,17,512,Spicy,Regular,Vegetarian,May contain nuts,62.21,True
+MI00270,B02-O02,Brew & Bites,B02,Block 1,Waffle,Desserts,Desserts,Vegetarian,False,110,Available,4.7,14,178,Spicy,Small,"Vegetarian, High-protein","Contains dairy, gluten",48.38,True
+MI00271,B02-O02,Brew & Bites,B02,Block 1,Cinnamon Roll,Bakery,Bakery,Vegetarian,False,80,Available,4.3,11,232,Medium,Large,"Vegetarian, High-protein",Dairy-free,42.32,True
+MI00272,B02-O02,Brew & Bites,B02,Block 1,Vanilla Milkshake,Beverages,Beverages,Vegetarian,False,95,Available,4.7,14,123,Mild,Large,"Vegetarian, High-protein",May contain nuts,52.83,True
+MI00273,B02-O02,Brew & Bites,B02,Block 1,Fresh Lime Soda,Beverages,Beverages,Vegetarian,False,55,Available,4.3,9,302,Medium,Small,"Vegetarian, High-protein",May contain dairy,27.97,True
+MI00274,B02-O02,Brew & Bites,B02,Block 1,Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,130,Available,4.8,18,341,Mild,Large,"Chicken, High-protein","May contain dairy, gluten",80.36,True
+MI00275,B02-O02,Brew & Bites,B02,Block 1,Chicken Cheese Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,140,Limited,3.9,20,409,Spicy,Regular,"Chicken, High-protein",Contains gluten,70.2,True
+MI00276,B02-O02,Brew & Bites,B02,Block 1,Chicken Burger,Burgers,Burgers,Non-Vegetarian (Chicken),True,135,Limited,4.3,12,649,Mild,Large,"Chicken, High-protein","May contain dairy, gluten",79.07,True
+MI00277,B02-O02,Brew & Bites,B02,Block 1,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,120,Available,4.7,9,723,Medium,Large,"Chicken, High-protein","May contain dairy, gluten",81.17,True
+MI00278,B02-O02,Brew & Bites,B02,Block 1,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,105,Limited,4.2,16,243,Medium,Regular,"Chicken, High-protein",May contain dairy,71.37,True
+MI00279,B02-O02,Brew & Bites,B02,Block 1,Chicken Puff,Bakery,Bakery,Non-Vegetarian (Chicken),True,65,Available,4.0,18,266,Medium,Large,"Chicken, High-protein",May contain dairy,35.8,True
+MI00280,B02-O02,Brew & Bites,B02,Block 1,Chicken Fingers,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,125,Available,4.9,19,812,Spicy,Regular,"Chicken, High-protein","May contain dairy, gluten",64.58,True
+MI00281,B02-O03,Quick Munch,B02,Block 1,Samosa,Snacks,Snacks,Vegetarian,False,30,Available,4.4,17,394,Mild,Small,"Vegetarian, Egg-free",Dairy-free,11.89,True
+MI00282,B02-O03,Quick Munch,B02,Block 1,Veg Puff,Bakery,Bakery,Vegetarian,False,35,Available,4.3,7,650,Mild,Regular,"Vegetarian, High-protein","Contains dairy, gluten",15.96,True
+MI00283,B02-O03,Quick Munch,B02,Block 1,Paneer Puff,Bakery,Bakery,Vegetarian,False,55,Limited,4.7,8,526,Spicy,Small,"Vegetarian, High-protein","Contains dairy, gluten",22.86,True
+MI00284,B02-O03,Quick Munch,B02,Block 1,Vegetable Cutlet,Snacks,Snacks,Vegetarian,False,45,Available,4.6,7,288,Spicy,Regular,Vegetarian,May contain dairy,18.1,True
+MI00285,B02-O03,Quick Munch,B02,Block 1,Onion Pakora,Snacks,Snacks,Vegetarian,False,50,Limited,4.5,14,263,Medium,Regular,"Vegetarian, Budget-friendly",May contain nuts,25.76,True
+MI00286,B02-O03,Quick Munch,B02,Block 1,Aloo Tikki,Snacks,Snacks,Vegetarian,False,45,Available,4.6,15,618,Spicy,Large,"Vegetarian, High-protein","Contains dairy, gluten",21.58,True
+MI00287,B02-O03,Quick Munch,B02,Block 1,French Fries,Snacks,Snacks,Vegetarian,False,70,Available,4.5,18,448,Medium,Large,"Vegetarian, Egg-free",May contain nuts,35.45,True
+MI00288,B02-O03,Quick Munch,B02,Block 1,Peri Peri Fries,Snacks,Snacks,Vegetarian,False,80,Limited,4.4,15,177,Medium,Large,"Vegetarian, High-protein","Contains dairy, gluten",48.19,True
+MI00289,B02-O03,Quick Munch,B02,Block 1,Cheese Balls,Snacks,Snacks,Vegetarian,False,70,Available,4.5,9,387,Spicy,Large,"Vegetarian, High-protein","Contains dairy, gluten",27.84,True
+MI00290,B02-O03,Quick Munch,B02,Block 1,Spring Rolls,Snacks,Snacks,Vegetarian,False,80,Available,3.8,12,121,Mild,Regular,"Vegetarian, Egg-free",Contains gluten,43.23,True
+MI00291,B02-O03,Quick Munch,B02,Block 1,Veg Momos,Snacks,Snacks,Vegetarian,False,80,Available,4.2,17,352,Mild,Large,"Vegetarian, Budget-friendly",Dairy-free,43.42,True
+MI00292,B02-O03,Quick Munch,B02,Block 1,Paneer Momos,Snacks,Snacks,Vegetarian,False,95,Available,3.5,18,352,Mild,Regular,"Vegetarian, Egg-free",May contain dairy,43.57,True
+MI00293,B02-O03,Quick Munch,B02,Block 1,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,75,Available,4.2,9,601,Mild,Small,"Vegetarian, Egg-free",Dairy-free,40.57,True
+MI00294,B02-O03,Quick Munch,B02,Block 1,Paneer Sandwich,Sandwiches,Sandwiches,Vegetarian,False,95,Available,4.0,11,248,Spicy,Small,"Vegetarian, High-protein",May contain nuts,40.16,True
+MI00295,B02-O03,Quick Munch,B02,Block 1,Masala Maggi,Quick Meals,Quick Meals,Vegetarian,False,60,Available,4.4,6,342,Mild,Small,"Vegetarian, Egg-free",May contain dairy,34.79,True
+MI00296,B02-O03,Quick Munch,B02,Block 1,Cheese Maggi,Quick Meals,Quick Meals,Vegetarian,False,70,Available,4.1,6,696,Medium,Large,"Vegetarian, Budget-friendly",May contain nuts,39.61,True
+MI00297,B02-O03,Quick Munch,B02,Block 1,Veg Frankie,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,85,Available,3.8,9,391,Spicy,Large,"Vegetarian, High-protein","Contains dairy, gluten",32.72,True
+MI00298,B02-O03,Quick Munch,B02,Block 1,Paneer Roll,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,105,Limited,4.4,6,599,Mild,Small,"Vegetarian, High-protein","Contains dairy, gluten",42.08,True
+MI00299,B02-O03,Quick Munch,B02,Block 1,Veg Burger,Burgers,Burgers,Vegetarian,False,85,Limited,3.7,8,346,Medium,Regular,"Vegetarian, High-protein",Contains gluten,34.1,True
+MI00300,B02-O03,Quick Munch,B02,Block 1,Cheese Burger,Burgers,Burgers,Vegetarian,False,125,Limited,4.1,18,430,Mild,Regular,"Vegetarian, Budget-friendly",May contain nuts,48.03,True
+MI00301,B02-O03,Quick Munch,B02,Block 1,Sweet Corn Cup,Snacks,Snacks,Vegetarian,False,45,Limited,4.8,13,121,Medium,Regular,"Vegetarian, Egg-free",Contains gluten,17.87,True
+MI00302,B02-O03,Quick Munch,B02,Block 1,Masala Peanuts,Snacks,Snacks,Vegetarian,False,35,Available,4.8,7,489,Mild,Regular,Vegetarian,"Contains dairy, gluten",18.61,True
+MI00303,B02-O03,Quick Munch,B02,Block 1,Masala Tea,Beverages,Beverages,Vegetarian,False,20,Available,3.9,4,299,Spicy,Regular,Vegetarian,"Contains dairy, gluten",9.12,True
+MI00304,B02-O03,Quick Munch,B02,Block 1,Ginger Tea,Beverages,Beverages,Vegetarian,False,25,Available,4.9,14,458,Medium,Large,"Vegetarian, High-protein",Dairy-free,9.52,True
+MI00305,B02-O03,Quick Munch,B02,Block 1,Filter Coffee,Beverages,Beverages,Vegetarian,False,35,Limited,4.5,4,532,Mild,Regular,"Vegetarian, Egg-free",Contains gluten,18.39,True
+MI00306,B02-O03,Quick Munch,B02,Block 1,Cold Coffee,Beverages,Beverages,Vegetarian,False,85,Limited,4.7,12,384,Medium,Large,Vegetarian,Dairy-free,46.68,True
+MI00307,B02-O03,Quick Munch,B02,Block 1,Chocolate Brownie,Desserts,Desserts,Vegetarian,False,60,Available,4.0,14,576,Spicy,Large,"Vegetarian, Egg-free",Dairy-free,36.99,True
+MI00308,B02-O03,Quick Munch,B02,Block 1,Chocolate Donut,Bakery,Bakery,Vegetarian,False,50,Available,4.5,16,506,Medium,Regular,Vegetarian,May contain nuts,28.84,True
+MI00309,B02-O03,Quick Munch,B02,Block 1,Chicken Momos,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,125,Available,4.1,19,430,Mild,Large,"Chicken, High-protein","May contain dairy, gluten",59.81,True
+MI00310,B02-O03,Quick Munch,B02,Block 1,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,105,Available,4.5,22,411,Spicy,Large,"Chicken, High-protein","May contain dairy, gluten",55.19,True
+MI00311,B02-O03,Quick Munch,B02,Block 1,Chicken Popcorn,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,115,Limited,4.5,14,312,Spicy,Regular,"Chicken, High-protein","May contain dairy, gluten",55.97,True
+MI00312,B02-O03,Quick Munch,B02,Block 1,Chicken Fingers,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,115,Available,4.0,17,182,Spicy,Regular,"Chicken, High-protein",May contain dairy,61.83,True
+MI00313,B02-O03,Quick Munch,B02,Block 1,Chicken Puff,Bakery,Bakery,Non-Vegetarian (Chicken),True,70,Available,4.6,12,480,Mild,Regular,"Chicken, High-protein",May contain dairy,36.02,True
+MI00314,B02-O03,Quick Munch,B02,Block 1,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,140,Limited,4.5,17,223,Spicy,Regular,"Chicken, High-protein","May contain dairy, gluten",71.9,True
+MI00315,B02-O03,Quick Munch,B02,Block 1,Chicken Frankie,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,135,Available,3.8,18,336,Mild,Large,"Chicken, High-protein",May contain dairy,86.44,True
+MI00316,B02-O04,Daily Dose Café,B02,Block 1,Seasonal Fruit Bowl,Healthy Bowls,Healthy Bowls,Vegetarian,False,80,Limited,3.9,9,153,Mild,Regular,"Vegetarian, Budget-friendly",Dairy-free,35.71,True
+MI00317,B02-O04,Daily Dose Café,B02,Block 1,Sprouts Salad,Salads,Salads,Vegetarian,False,65,Available,3.7,6,402,Spicy,Small,"Vegetarian, High-protein",May contain dairy,34.26,True
+MI00318,B02-O04,Daily Dose Café,B02,Block 1,Chickpea Salad,Salads,Salads,Vegetarian,False,90,Available,4.2,17,300,Mild,Large,Vegetarian,Contains gluten,41.81,True
+MI00319,B02-O04,Daily Dose Café,B02,Block 1,Paneer Salad,Salads,Salads,Vegetarian,False,125,Available,4.1,15,184,Medium,Large,Vegetarian,May contain nuts,67.8,True
+MI00320,B02-O04,Daily Dose Café,B02,Block 1,Corn & Veg Salad,Salads,Salads,Vegetarian,False,85,Available,3.7,11,334,Spicy,Small,"Vegetarian, Egg-free",Contains gluten,43.84,True
+MI00321,B02-O04,Daily Dose Café,B02,Block 1,Greek Yogurt Bowl,Healthy Bowls,Healthy Bowls,Vegetarian,False,90,Available,4.8,4,444,Medium,Regular,Vegetarian,"Contains dairy, gluten",47.24,True
+MI00322,B02-O04,Daily Dose Café,B02,Block 1,Overnight Oats,Breakfast,Breakfast,Vegetarian,False,90,Available,4.5,4,356,Medium,Large,Vegetarian,"Contains dairy, gluten",55.76,True
+MI00323,B02-O04,Daily Dose Café,B02,Block 1,Muesli with Milk,Breakfast,Breakfast,Vegetarian,False,100,Available,4.1,8,444,Spicy,Regular,"Vegetarian, Egg-free",May contain dairy,51.22,True
+MI00324,B02-O04,Daily Dose Café,B02,Block 1,Vegetable Poha,Breakfast,Breakfast,Vegetarian,False,50,Available,4.9,17,706,Mild,Large,"Vegetarian, Egg-free",May contain dairy,23.94,True
+MI00325,B02-O04,Daily Dose Café,B02,Block 1,Upma,Breakfast,Breakfast,Vegetarian,False,50,Available,4.5,7,287,Medium,Regular,"Vegetarian, Egg-free",May contain dairy,29.36,True
+MI00326,B02-O04,Daily Dose Café,B02,Block 1,Idli Sambar,South Indian,South Indian,Vegetarian,False,60,Available,4.1,14,600,Mild,Small,"Vegetarian, Egg-free","Contains dairy, gluten",28.26,True
+MI00327,B02-O04,Daily Dose Café,B02,Block 1,Grilled Vegetable Sandwich,Sandwiches,Sandwiches,Vegetarian,False,95,Available,4.1,10,670,Mild,Regular,"Vegetarian, Egg-free","Contains dairy, gluten",47.92,True
+MI00328,B02-O04,Daily Dose Café,B02,Block 1,Paneer Sandwich,Sandwiches,Sandwiches,Vegetarian,False,110,Limited,3.6,9,544,Medium,Regular,Vegetarian,May contain nuts,44.64,True
+MI00329,B02-O04,Daily Dose Café,B02,Block 1,Multigrain Veg Wrap,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,110,Limited,4.0,17,268,Spicy,Regular,"Vegetarian, Budget-friendly",Contains gluten,67.34,True
+MI00330,B02-O04,Daily Dose Café,B02,Block 1,Paneer Wrap,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,130,Available,4.4,8,163,Medium,Large,"Vegetarian, Egg-free","Contains dairy, gluten",77.83,True
+MI00331,B02-O04,Daily Dose Café,B02,Block 1,Vegetable Soup,Soups,Soups,Vegetarian,False,65,Available,4.0,7,309,Mild,Large,"Vegetarian, High-protein",Contains gluten,26.57,True
+MI00332,B02-O04,Daily Dose Café,B02,Block 1,Tomato Soup,Soups,Soups,Vegetarian,False,60,Available,3.5,7,518,Mild,Regular,"Vegetarian, Budget-friendly",May contain dairy,28.24,True
+MI00333,B02-O04,Daily Dose Café,B02,Block 1,Vegetable Khichdi,Healthy Meals,Healthy Meals,Vegetarian,False,85,Available,4.2,14,154,Mild,Large,"Vegetarian, Budget-friendly","Contains dairy, gluten",35.41,True
+MI00334,B02-O04,Daily Dose Café,B02,Block 1,Lemon Rice,Healthy Meals,Healthy Meals,Vegetarian,False,80,Limited,3.8,6,449,Medium,Large,"Vegetarian, Budget-friendly",May contain dairy,43.65,True
+MI00335,B02-O04,Daily Dose Café,B02,Block 1,Curd Rice,Healthy Meals,Healthy Meals,Vegetarian,False,85,Available,4.9,4,484,Spicy,Regular,"Vegetarian, Budget-friendly","Contains dairy, gluten",35.5,True
+MI00336,B02-O04,Daily Dose Café,B02,Block 1,Quinoa Veg Bowl,Healthy Bowls,Healthy Bowls,Vegetarian,False,140,Available,4.1,11,408,Mild,Regular,"Vegetarian, Budget-friendly",Contains gluten,61.19,True
+MI00337,B02-O04,Daily Dose Café,B02,Block 1,Brown Rice Bowl,Healthy Bowls,Healthy Bowls,Vegetarian,False,115,Limited,4.3,13,127,Spicy,Regular,"Vegetarian, Budget-friendly",Contains gluten,54.88,True
+MI00338,B02-O04,Daily Dose Café,B02,Block 1,Steamed Corn,Snacks,Snacks,Vegetarian,False,50,Available,4.7,5,190,Spicy,Large,"Vegetarian, Budget-friendly",Contains gluten,27.17,True
+MI00339,B02-O04,Daily Dose Café,B02,Block 1,Boiled Peanut Chaat,Snacks,Snacks,Vegetarian,False,50,Available,4.6,15,407,Medium,Small,"Vegetarian, Budget-friendly",May contain nuts,24.78,True
+MI00340,B02-O04,Daily Dose Café,B02,Block 1,Coconut Water,Beverages,Beverages,Vegetarian,False,45,Available,3.7,10,457,Spicy,Regular,"Vegetarian, Budget-friendly",Dairy-free,18.66,True
+MI00341,B02-O04,Daily Dose Café,B02,Block 1,Buttermilk,Beverages,Beverages,Vegetarian,False,30,Limited,3.7,12,510,Medium,Small,"Vegetarian, Egg-free",May contain dairy,11.44,True
+MI00342,B02-O04,Daily Dose Café,B02,Block 1,Fresh Orange Juice,Beverages,Beverages,Vegetarian,False,70,Available,4.4,5,307,Spicy,Small,Vegetarian,Contains gluten,34.7,True
+MI00343,B02-O04,Daily Dose Café,B02,Block 1,Banana Smoothie,Beverages,Beverages,Vegetarian,False,85,Available,3.9,7,707,Medium,Regular,"Vegetarian, High-protein",Contains gluten,41.7,True
+MI00344,B02-O04,Daily Dose Café,B02,Block 1,Chicken Salad Bowl,Salads,Salads,Non-Vegetarian (Chicken),True,160,Available,3.9,18,821,Mild,Large,"Chicken, High-protein",Contains gluten,95.48,True
+MI00345,B02-O04,Daily Dose Café,B02,Block 1,Grilled Chicken Salad,Salads,Salads,Non-Vegetarian (Chicken),True,175,Available,4.0,18,330,Mild,Large,"Chicken, High-protein",May contain dairy,97.62,True
+MI00346,B02-O04,Daily Dose Café,B02,Block 1,Grilled Chicken Wrap,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,140,Available,4.5,9,499,Spicy,Regular,"Chicken, High-protein",May contain dairy,68.32,True
+MI00347,B02-O04,Daily Dose Café,B02,Block 1,Chicken Rice Bowl,Healthy Bowls,Healthy Bowls,Non-Vegetarian (Chicken),True,150,Limited,3.8,12,305,Mild,Regular,"Chicken, High-protein",May contain dairy,89.07,True
+MI00348,B02-O04,Daily Dose Café,B02,Block 1,Chicken Soup,Soups,Soups,Non-Vegetarian (Chicken),True,100,Available,4.7,17,508,Mild,Large,"Chicken, High-protein","May contain dairy, gluten",53.07,True
+MI00349,B02-O04,Daily Dose Café,B02,Block 1,Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,125,Available,4.1,23,302,Mild,Large,"Chicken, High-protein",May contain dairy,57.22,True
+MI00350,B02-O04,Daily Dose Café,B02,Block 1,Multigrain Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,155,Limited,4.3,14,339,Mild,Large,"Chicken, High-protein","May contain dairy, gluten",102.19,True
+MI00351,B02-O05,The Food Court,B02,Block 1,Veg Thali,Meals,Meals,Vegetarian,False,125,Available,4.2,15,514,Mild,Large,Vegetarian,May contain nuts,61.36,True
+MI00352,B02-O05,The Food Court,B02,Block 1,Mini Meals,Meals,Meals,Vegetarian,False,90,Available,4.0,15,696,Mild,Large,Vegetarian,May contain nuts,53.76,True
+MI00353,B02-O05,The Food Court,B02,Block 1,Paneer Thali,Meals,Meals,Vegetarian,False,165,Available,4.6,11,371,Medium,Large,"Vegetarian, High-protein",Contains gluten,73.28,True
+MI00354,B02-O05,The Food Court,B02,Block 1,Veg Biryani,Rice & Meals,Rice & Meals,Vegetarian,False,130,Available,4.4,15,330,Mild,Small,"Vegetarian, Budget-friendly",May contain nuts,78.2,True
+MI00355,B02-O05,The Food Court,B02,Block 1,Paneer Biryani,Rice & Meals,Rice & Meals,Vegetarian,False,145,Available,4.0,13,273,Mild,Small,"Vegetarian, High-protein",May contain dairy,59.0,True
+MI00356,B02-O05,The Food Court,B02,Block 1,Veg Pulao,Rice & Meals,Rice & Meals,Vegetarian,False,105,Available,4.2,14,281,Medium,Small,"Vegetarian, Budget-friendly",May contain nuts,41.94,True
+MI00357,B02-O05,The Food Court,B02,Block 1,Rajma Rice,Meals,Meals,Vegetarian,False,110,Limited,4.5,16,327,Mild,Large,"Vegetarian, Egg-free",Dairy-free,42.58,True
+MI00358,B02-O05,The Food Court,B02,Block 1,Chole Rice,Meals,Meals,Vegetarian,False,110,Available,4.0,5,387,Mild,Large,Vegetarian,May contain nuts,66.25,True
+MI00359,B02-O05,The Food Court,B02,Block 1,Dal Khichdi,Meals,Meals,Vegetarian,False,95,Available,3.7,18,622,Medium,Regular,"Vegetarian, Egg-free",Dairy-free,43.65,True
+MI00360,B02-O05,The Food Court,B02,Block 1,Paneer Butter Masala,Curries,Curries,Vegetarian,False,150,Limited,4.0,17,132,Medium,Large,"Vegetarian, High-protein",May contain nuts,87.27,True
+MI00361,B02-O05,The Food Court,B02,Block 1,Dal Makhani,Curries,Curries,Vegetarian,False,120,Available,4.1,17,287,Medium,Large,Vegetarian,"Contains dairy, gluten",49.55,True
+MI00362,B02-O05,The Food Court,B02,Block 1,Chole Bhature,Meals,Meals,Vegetarian,False,115,Limited,4.3,10,480,Mild,Small,"Vegetarian, Egg-free",May contain nuts,65.69,True
+MI00363,B02-O05,The Food Court,B02,Block 1,Masala Dosa,South Indian,South Indian,Vegetarian,False,80,Available,4.4,17,214,Mild,Small,"Vegetarian, Egg-free",May contain nuts,45.56,True
+MI00364,B02-O05,The Food Court,B02,Block 1,Idli Sambar,South Indian,South Indian,Vegetarian,False,55,Available,3.7,15,416,Spicy,Small,"Vegetarian, Budget-friendly",May contain dairy,25.14,True
+MI00365,B02-O05,The Food Court,B02,Block 1,Medu Vada,South Indian,South Indian,Vegetarian,False,60,Available,3.6,15,223,Spicy,Large,Vegetarian,May contain dairy,25.72,True
+MI00366,B02-O05,The Food Court,B02,Block 1,Veg Fried Rice,Rice & Noodles,Rice & Noodles,Vegetarian,False,115,Available,3.6,18,217,Medium,Large,Vegetarian,Contains gluten,55.32,True
+MI00367,B02-O05,The Food Court,B02,Block 1,Schezwan Noodles,Rice & Noodles,Rice & Noodles,Vegetarian,False,120,Available,3.8,16,640,Mild,Small,Vegetarian,Contains gluten,52.78,True
+MI00368,B02-O05,The Food Court,B02,Block 1,Veg Manchurian,Starters,Starters,Vegetarian,False,105,Available,3.8,15,626,Medium,Large,Vegetarian,May contain nuts,58.8,True
+MI00369,B02-O05,The Food Court,B02,Block 1,Paneer Roll,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,100,Available,3.8,18,340,Mild,Regular,Vegetarian,Contains gluten,60.9,True
+MI00370,B02-O05,The Food Court,B02,Block 1,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,80,Available,4.7,13,614,Medium,Large,"Vegetarian, Egg-free",Dairy-free,38.63,True
+MI00371,B02-O05,The Food Court,B02,Block 1,Veg Burger,Burgers,Burgers,Vegetarian,False,90,Available,3.9,17,425,Spicy,Large,Vegetarian,Dairy-free,48.93,True
+MI00372,B02-O05,The Food Court,B02,Block 1,French Fries,Snacks,Snacks,Vegetarian,False,70,Available,4.6,15,357,Spicy,Large,"Vegetarian, Budget-friendly",May contain dairy,28.36,True
+MI00373,B02-O05,The Food Court,B02,Block 1,Curd Rice,Meals,Meals,Vegetarian,False,80,Available,3.6,4,653,Medium,Large,"Vegetarian, Budget-friendly",May contain nuts,47.99,True
+MI00374,B02-O05,The Food Court,B02,Block 1,Lemon Rice,Meals,Meals,Vegetarian,False,80,Available,3.7,14,130,Medium,Regular,Vegetarian,Contains gluten,43.2,True
+MI00375,B02-O05,The Food Court,B02,Block 1,Buttermilk,Beverages,Beverages,Vegetarian,False,30,Available,4.6,16,659,Mild,Regular,"Vegetarian, Budget-friendly",May contain dairy,16.1,True
+MI00376,B02-O05,The Food Court,B02,Block 1,Sweet Lassi,Beverages,Beverages,Vegetarian,False,60,Limited,4.6,5,376,Mild,Regular,Vegetarian,May contain dairy,31.88,True
+MI00377,B02-O05,The Food Court,B02,Block 1,Gulab Jamun,Desserts,Desserts,Vegetarian,False,40,Available,4.5,11,473,Spicy,Large,"Vegetarian, Budget-friendly",Dairy-free,22.41,True
+MI00378,B02-O05,The Food Court,B02,Block 1,Fruit Custard,Desserts,Desserts,Vegetarian,False,65,Available,4.5,5,392,Spicy,Regular,"Vegetarian, High-protein",Contains gluten,38.62,True
+MI00379,B02-O05,The Food Court,B02,Block 1,Chicken Biryani,Rice & Meals,Rice & Meals,Non-Vegetarian (Chicken),True,180,Limited,4.2,12,228,Medium,Large,"Chicken, High-protein","May contain dairy, gluten",81.14,True
+MI00380,B02-O05,The Food Court,B02,Block 1,Chicken Fried Rice,Rice & Noodles,Rice & Noodles,Non-Vegetarian (Chicken),True,155,Limited,3.6,15,467,Spicy,Large,"Chicken, High-protein",Contains gluten,104.84,True
+MI00381,B02-O05,The Food Court,B02,Block 1,Butter Chicken with Rice,Meals,Meals,Non-Vegetarian (Chicken),True,200,Limited,3.7,22,567,Spicy,Regular,"Chicken, High-protein",Contains gluten,96.49,True
+MI00382,B02-O05,The Food Court,B02,Block 1,Chicken Noodles,Rice & Noodles,Rice & Noodles,Non-Vegetarian (Chicken),True,155,Available,3.7,22,668,Spicy,Large,"Chicken, High-protein",May contain dairy,103.88,True
+MI00383,B02-O05,The Food Court,B02,Block 1,Chicken Kebab Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,170,Available,4.6,15,424,Mild,Large,"Chicken, High-protein","May contain dairy, gluten",103.48,True
+MI00384,B02-O05,The Food Court,B02,Block 1,Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,125,Available,3.9,10,846,Mild,Large,"Chicken, High-protein","May contain dairy, gluten",66.02,True
+MI00385,B02-O05,The Food Court,B02,Block 1,Chicken Manchurian,Starters,Starters,Non-Vegetarian (Chicken),True,150,Available,4.6,9,822,Spicy,Regular,"Chicken, High-protein",Contains gluten,72.69,True
+MI00386,B03-O01,Café Connect,B03,Block 4,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,75,Available,4.3,14,442,Spicy,Small,Vegetarian,Dairy-free,35.68,True
+MI00387,B03-O01,Café Connect,B03,Block 4,Grilled Cheese Sandwich,Sandwiches,Sandwiches,Vegetarian,False,90,Limited,3.5,16,288,Mild,Small,"Vegetarian, Egg-free",Dairy-free,37.66,True
+MI00388,B03-O01,Café Connect,B03,Block 4,Paneer Tikka Sandwich,Sandwiches,Sandwiches,Vegetarian,False,120,Available,3.8,14,302,Mild,Small,"Vegetarian, High-protein",Contains gluten,50.33,True
+MI00389,B03-O01,Café Connect,B03,Block 4,Veg Burger,Burgers,Burgers,Vegetarian,False,100,Available,3.5,14,152,Medium,Large,"Vegetarian, Egg-free",May contain nuts,40.57,True
+MI00390,B03-O01,Café Connect,B03,Block 4,Cheese Burger,Burgers,Burgers,Vegetarian,False,115,Available,4.1,18,286,Mild,Large,"Vegetarian, High-protein",May contain nuts,64.45,True
+MI00391,B03-O01,Café Connect,B03,Block 4,Paneer Burger,Burgers,Burgers,Vegetarian,False,130,Limited,4.3,6,631,Spicy,Large,"Vegetarian, Budget-friendly","Contains dairy, gluten",52.05,True
+MI00392,B03-O01,Café Connect,B03,Block 4,French Fries,Snacks,Snacks,Vegetarian,False,65,Limited,3.6,6,400,Spicy,Regular,"Vegetarian, Egg-free",Contains gluten,33.83,True
+MI00393,B03-O01,Café Connect,B03,Block 4,Peri Peri Fries,Snacks,Snacks,Vegetarian,False,80,Available,4.4,16,329,Medium,Large,"Vegetarian, High-protein","Contains dairy, gluten",33.17,True
+MI00394,B03-O01,Café Connect,B03,Block 4,Veg Puff,Bakery,Bakery,Vegetarian,False,35,Limited,4.3,11,626,Spicy,Large,"Vegetarian, High-protein",May contain nuts,17.87,True
+MI00395,B03-O01,Café Connect,B03,Block 4,Paneer Puff,Bakery,Bakery,Vegetarian,False,60,Available,4.7,17,503,Spicy,Large,"Vegetarian, Egg-free","Contains dairy, gluten",22.89,True
+MI00396,B03-O01,Café Connect,B03,Block 4,Samosa,Snacks,Snacks,Vegetarian,False,30,Limited,4.6,12,665,Medium,Small,"Vegetarian, Egg-free",May contain nuts,16.46,True
+MI00397,B03-O01,Café Connect,B03,Block 4,Veg Momos,Snacks,Snacks,Vegetarian,False,90,Available,3.7,15,435,Spicy,Small,Vegetarian,"Contains dairy, gluten",44.4,True
+MI00398,B03-O01,Café Connect,B03,Block 4,Spring Rolls,Snacks,Snacks,Vegetarian,False,75,Available,3.6,5,365,Mild,Small,"Vegetarian, Egg-free",May contain dairy,43.36,True
+MI00399,B03-O01,Café Connect,B03,Block 4,Masala Maggi,Quick Meals,Quick Meals,Vegetarian,False,60,Available,4.3,6,671,Mild,Large,"Vegetarian, Budget-friendly",Dairy-free,26.38,True
+MI00400,B03-O01,Café Connect,B03,Block 4,Veg Fried Rice,Rice & Noodles,Rice & Noodles,Vegetarian,False,105,Available,4.0,14,454,Spicy,Small,"Vegetarian, Egg-free",Contains gluten,58.57,True
+MI00401,B03-O01,Café Connect,B03,Block 4,Veg Hakka Noodles,Rice & Noodles,Rice & Noodles,Vegetarian,False,115,Available,4.7,11,377,Medium,Regular,"Vegetarian, High-protein",May contain nuts,51.21,True
+MI00402,B03-O01,Café Connect,B03,Block 4,Paneer Roll,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,100,Available,4.7,12,507,Mild,Regular,"Vegetarian, Egg-free","Contains dairy, gluten",38.62,True
+MI00403,B03-O01,Café Connect,B03,Block 4,Veg Frankie,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,95,Available,4.3,8,682,Medium,Small,"Vegetarian, Budget-friendly","Contains dairy, gluten",41.16,True
+MI00404,B03-O01,Café Connect,B03,Block 4,Margherita Pizza Slice,Pizza,Pizza,Vegetarian,False,90,Available,4.2,8,510,Medium,Regular,"Vegetarian, Egg-free",May contain dairy,41.41,True
+MI00405,B03-O01,Café Connect,B03,Block 4,White Sauce Pasta,Pasta,Pasta,Vegetarian,False,140,Available,4.8,9,397,Medium,Large,Vegetarian,May contain dairy,64.29,True
+MI00406,B03-O01,Café Connect,B03,Block 4,Garlic Bread,Snacks,Snacks,Vegetarian,False,80,Limited,4.4,16,211,Spicy,Large,Vegetarian,"Contains dairy, gluten",46.83,True
+MI00407,B03-O01,Café Connect,B03,Block 4,Masala Tea,Beverages,Beverages,Vegetarian,False,20,Available,3.5,8,248,Mild,Large,"Vegetarian, High-protein",Dairy-free,9.02,True
+MI00408,B03-O01,Café Connect,B03,Block 4,Filter Coffee,Beverages,Beverages,Vegetarian,False,30,Available,4.9,8,163,Medium,Regular,Vegetarian,"Contains dairy, gluten",12.25,True
+MI00409,B03-O01,Café Connect,B03,Block 4,Cold Coffee,Beverages,Beverages,Vegetarian,False,100,Available,4.7,11,583,Mild,Large,"Vegetarian, High-protein",May contain nuts,47.68,True
+MI00410,B03-O01,Café Connect,B03,Block 4,Fresh Lime Soda,Beverages,Beverages,Vegetarian,False,55,Available,3.5,16,187,Spicy,Large,Vegetarian,May contain nuts,28.17,True
+MI00411,B03-O01,Café Connect,B03,Block 4,Chocolate Brownie,Desserts,Desserts,Vegetarian,False,60,Available,3.9,16,490,Medium,Large,"Vegetarian, High-protein",May contain nuts,26.56,True
+MI00412,B03-O01,Café Connect,B03,Block 4,Chocolate Muffin,Bakery,Bakery,Vegetarian,False,50,Available,4.3,17,547,Medium,Regular,"Vegetarian, High-protein",Contains gluten,20.61,True
+MI00413,B03-O01,Café Connect,B03,Block 4,Vanilla Milkshake,Beverages,Beverages,Vegetarian,False,100,Available,4.5,6,245,Mild,Regular,"Vegetarian, Egg-free",Dairy-free,59.44,True
+MI00414,B03-O01,Café Connect,B03,Block 4,Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,120,Available,4.5,16,349,Medium,Large,"Chicken, High-protein","May contain dairy, gluten",62.42,True
+MI00415,B03-O01,Café Connect,B03,Block 4,Chicken Burger,Burgers,Burgers,Non-Vegetarian (Chicken),True,140,Available,4.3,18,457,Spicy,Large,"Chicken, High-protein",Contains gluten,89.22,True
+MI00416,B03-O01,Café Connect,B03,Block 4,Chicken Cheese Burger,Burgers,Burgers,Non-Vegetarian (Chicken),True,155,Available,3.9,20,370,Spicy,Large,"Chicken, High-protein",May contain dairy,88.78,True
+MI00417,B03-O01,Café Connect,B03,Block 4,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,135,Available,3.8,11,247,Medium,Regular,"Chicken, High-protein",Contains gluten,68.23,True
+MI00418,B03-O01,Café Connect,B03,Block 4,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,115,Available,4.5,19,803,Mild,Regular,"Chicken, High-protein",May contain dairy,75.31,True
+MI00419,B03-O01,Café Connect,B03,Block 4,Chicken Momos,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,125,Limited,3.8,8,499,Spicy,Regular,"Chicken, High-protein","May contain dairy, gluten",66.86,True
+MI00420,B03-O01,Café Connect,B03,Block 4,Chicken Fried Rice,Rice & Noodles,Rice & Noodles,Non-Vegetarian (Chicken),True,150,Available,3.8,21,324,Mild,Large,"Chicken, High-protein",May contain dairy,85.86,True
+MI00421,B03-O02,The Snack Bar,B03,Block 4,Samosa,Snacks,Snacks,Vegetarian,False,25,Available,4.7,5,264,Medium,Large,"Vegetarian, Egg-free",May contain dairy,12.38,True
+MI00422,B03-O02,The Snack Bar,B03,Block 4,Veg Puff,Bakery,Bakery,Vegetarian,False,40,Limited,4.8,6,657,Spicy,Small,Vegetarian,May contain nuts,18.93,True
+MI00423,B03-O02,The Snack Bar,B03,Block 4,Paneer Puff,Bakery,Bakery,Vegetarian,False,55,Available,3.8,8,515,Mild,Small,"Vegetarian, Budget-friendly",May contain dairy,25.44,True
+MI00424,B03-O02,The Snack Bar,B03,Block 4,Vegetable Cutlet,Snacks,Snacks,Vegetarian,False,35,Limited,4.3,17,482,Medium,Small,"Vegetarian, High-protein","Contains dairy, gluten",18.2,True
+MI00425,B03-O02,The Snack Bar,B03,Block 4,Onion Pakora,Snacks,Snacks,Vegetarian,False,45,Limited,4.0,16,603,Mild,Small,"Vegetarian, Egg-free",May contain dairy,25.1,True
+MI00426,B03-O02,The Snack Bar,B03,Block 4,Aloo Tikki,Snacks,Snacks,Vegetarian,False,45,Available,3.9,4,543,Medium,Small,Vegetarian,"Contains dairy, gluten",22.89,True
+MI00427,B03-O02,The Snack Bar,B03,Block 4,French Fries,Snacks,Snacks,Vegetarian,False,75,Available,4.6,13,678,Medium,Small,"Vegetarian, Budget-friendly","Contains dairy, gluten",35.24,True
+MI00428,B03-O02,The Snack Bar,B03,Block 4,Peri Peri Fries,Snacks,Snacks,Vegetarian,False,85,Available,4.8,17,601,Spicy,Small,"Vegetarian, Budget-friendly",May contain nuts,44.03,True
+MI00429,B03-O02,The Snack Bar,B03,Block 4,Cheese Balls,Snacks,Snacks,Vegetarian,False,85,Available,4.7,10,563,Mild,Small,"Vegetarian, Budget-friendly",Dairy-free,49.09,True
+MI00430,B03-O02,The Snack Bar,B03,Block 4,Spring Rolls,Snacks,Snacks,Vegetarian,False,80,Available,4.4,15,712,Spicy,Large,"Vegetarian, Egg-free",May contain dairy,33.38,True
+MI00431,B03-O02,The Snack Bar,B03,Block 4,Veg Momos,Snacks,Snacks,Vegetarian,False,90,Available,4.7,12,140,Spicy,Regular,"Vegetarian, Budget-friendly",Dairy-free,36.64,True
+MI00432,B03-O02,The Snack Bar,B03,Block 4,Paneer Momos,Snacks,Snacks,Vegetarian,False,100,Available,3.7,4,487,Medium,Large,"Vegetarian, High-protein",Dairy-free,44.04,True
+MI00433,B03-O02,The Snack Bar,B03,Block 4,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,70,Available,4.2,8,459,Spicy,Large,Vegetarian,May contain dairy,35.52,True
+MI00434,B03-O02,The Snack Bar,B03,Block 4,Paneer Sandwich,Sandwiches,Sandwiches,Vegetarian,False,95,Available,4.1,15,167,Mild,Large,"Vegetarian, Egg-free",Contains gluten,53.66,True
+MI00435,B03-O02,The Snack Bar,B03,Block 4,Masala Maggi,Quick Meals,Quick Meals,Vegetarian,False,55,Available,4.3,16,617,Spicy,Regular,"Vegetarian, Budget-friendly","Contains dairy, gluten",32.68,True
+MI00436,B03-O02,The Snack Bar,B03,Block 4,Cheese Maggi,Quick Meals,Quick Meals,Vegetarian,False,80,Available,3.8,6,209,Mild,Small,"Vegetarian, Budget-friendly",May contain nuts,45.06,True
+MI00437,B03-O02,The Snack Bar,B03,Block 4,Veg Frankie,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,80,Available,4.7,8,662,Spicy,Small,"Vegetarian, Budget-friendly",May contain nuts,46.28,True
+MI00438,B03-O02,The Snack Bar,B03,Block 4,Paneer Roll,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,105,Available,3.6,17,161,Medium,Small,"Vegetarian, High-protein",May contain dairy,61.47,True
+MI00439,B03-O02,The Snack Bar,B03,Block 4,Veg Burger,Burgers,Burgers,Vegetarian,False,90,Available,3.8,16,683,Spicy,Small,Vegetarian,May contain nuts,51.81,True
+MI00440,B03-O02,The Snack Bar,B03,Block 4,Cheese Burger,Burgers,Burgers,Vegetarian,False,105,Available,4.1,13,654,Medium,Large,"Vegetarian, High-protein",Dairy-free,47.5,True
+MI00441,B03-O02,The Snack Bar,B03,Block 4,Sweet Corn Cup,Snacks,Snacks,Vegetarian,False,45,Available,3.7,7,302,Medium,Small,"Vegetarian, Egg-free",May contain nuts,27.4,True
+MI00442,B03-O02,The Snack Bar,B03,Block 4,Masala Peanuts,Snacks,Snacks,Vegetarian,False,40,Available,3.8,4,646,Medium,Regular,"Vegetarian, High-protein",May contain nuts,22.34,True
+MI00443,B03-O02,The Snack Bar,B03,Block 4,Masala Tea,Beverages,Beverages,Vegetarian,False,20,Available,4.5,13,364,Medium,Regular,"Vegetarian, High-protein",May contain dairy,7.75,True
+MI00444,B03-O02,The Snack Bar,B03,Block 4,Ginger Tea,Beverages,Beverages,Vegetarian,False,25,Available,4.6,4,154,Medium,Small,"Vegetarian, Budget-friendly",Contains gluten,10.63,True
+MI00445,B03-O02,The Snack Bar,B03,Block 4,Filter Coffee,Beverages,Beverages,Vegetarian,False,30,Limited,3.6,7,401,Mild,Regular,Vegetarian,May contain dairy,12.75,True
+MI00446,B03-O02,The Snack Bar,B03,Block 4,Cold Coffee,Beverages,Beverages,Vegetarian,False,90,Available,4.1,14,568,Medium,Large,"Vegetarian, Egg-free",May contain nuts,51.2,True
+MI00447,B03-O02,The Snack Bar,B03,Block 4,Chocolate Brownie,Desserts,Desserts,Vegetarian,False,70,Available,3.5,17,625,Mild,Large,"Vegetarian, Budget-friendly",May contain nuts,38.67,True
+MI00448,B03-O02,The Snack Bar,B03,Block 4,Chocolate Donut,Bakery,Bakery,Vegetarian,False,60,Available,4.5,18,682,Mild,Large,"Vegetarian, Egg-free",May contain nuts,31.32,True
+MI00449,B03-O02,The Snack Bar,B03,Block 4,Chicken Momos,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,115,Available,4.8,18,272,Spicy,Large,"Chicken, High-protein",May contain dairy,56.64,True
+MI00450,B03-O02,The Snack Bar,B03,Block 4,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,105,Available,3.6,17,338,Medium,Regular,"Chicken, High-protein",May contain dairy,48.63,True
+MI00451,B03-O02,The Snack Bar,B03,Block 4,Chicken Popcorn,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,110,Available,3.9,14,759,Medium,Large,"Chicken, High-protein",May contain dairy,53.72,True
+MI00452,B03-O02,The Snack Bar,B03,Block 4,Chicken Fingers,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,130,Available,4.1,20,740,Spicy,Large,"Chicken, High-protein",Contains gluten,85.65,True
+MI00453,B03-O02,The Snack Bar,B03,Block 4,Chicken Puff,Bakery,Bakery,Non-Vegetarian (Chicken),True,65,Available,4.2,23,637,Spicy,Regular,"Chicken, High-protein","May contain dairy, gluten",42.74,True
+MI00454,B03-O02,The Snack Bar,B03,Block 4,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,135,Available,3.8,13,489,Mild,Regular,"Chicken, High-protein",May contain dairy,82.34,True
+MI00455,B03-O02,The Snack Bar,B03,Block 4,Chicken Frankie,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,140,Limited,4.3,18,347,Spicy,Large,"Chicken, High-protein",May contain dairy,86.26,True
+MI00456,B03-O03,Coffee Culture,B03,Block 4,Espresso,Coffee,Coffee,Vegetarian,False,60,Available,3.8,4,435,Spicy,Small,"Vegetarian, High-protein",Dairy-free,30.33,True
+MI00457,B03-O03,Coffee Culture,B03,Block 4,Americano,Coffee,Coffee,Vegetarian,False,80,Available,4.5,9,144,Medium,Regular,"Vegetarian, High-protein","Contains dairy, gluten",40.71,True
+MI00458,B03-O03,Coffee Culture,B03,Block 4,Cappuccino,Coffee,Coffee,Vegetarian,False,110,Limited,4.6,5,233,Medium,Large,"Vegetarian, High-protein",May contain dairy,47.91,True
+MI00459,B03-O03,Coffee Culture,B03,Block 4,Café Latte,Coffee,Coffee,Vegetarian,False,105,Available,3.6,13,282,Medium,Large,"Vegetarian, High-protein",Contains gluten,45.18,True
+MI00460,B03-O03,Coffee Culture,B03,Block 4,Café Mocha,Coffee,Coffee,Vegetarian,False,130,Available,3.8,12,688,Mild,Small,"Vegetarian, High-protein",May contain nuts,77.46,True
+MI00461,B03-O03,Coffee Culture,B03,Block 4,Cold Coffee,Coffee,Coffee,Vegetarian,False,95,Available,4.0,5,287,Mild,Regular,"Vegetarian, High-protein",Contains gluten,44.09,True
+MI00462,B03-O03,Coffee Culture,B03,Block 4,Iced Latte,Coffee,Coffee,Vegetarian,False,115,Available,4.0,15,529,Spicy,Regular,"Vegetarian, Budget-friendly","Contains dairy, gluten",60.14,True
+MI00463,B03-O03,Coffee Culture,B03,Block 4,Hot Chocolate,Beverages,Beverages,Vegetarian,False,105,Available,4.4,16,672,Spicy,Large,"Vegetarian, Budget-friendly","Contains dairy, gluten",54.27,True
+MI00464,B03-O03,Coffee Culture,B03,Block 4,Masala Tea,Beverages,Beverages,Vegetarian,False,25,Available,4.8,13,450,Mild,Small,"Vegetarian, Budget-friendly",May contain nuts,11.63,True
+MI00465,B03-O03,Coffee Culture,B03,Block 4,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,75,Available,4.2,7,307,Medium,Small,"Vegetarian, Budget-friendly",May contain dairy,43.44,True
+MI00466,B03-O03,Coffee Culture,B03,Block 4,Grilled Cheese Sandwich,Sandwiches,Sandwiches,Vegetarian,False,105,Available,3.7,8,567,Mild,Small,Vegetarian,May contain dairy,46.72,True
+MI00467,B03-O03,Coffee Culture,B03,Block 4,Paneer Sandwich,Sandwiches,Sandwiches,Vegetarian,False,110,Available,4.0,10,273,Mild,Large,"Vegetarian, Egg-free",May contain dairy,61.53,True
+MI00468,B03-O03,Coffee Culture,B03,Block 4,Veg Burger,Burgers,Burgers,Vegetarian,False,105,Available,4.4,18,392,Spicy,Large,"Vegetarian, High-protein","Contains dairy, gluten",43.17,True
+MI00469,B03-O03,Coffee Culture,B03,Block 4,French Fries,Snacks,Snacks,Vegetarian,False,65,Limited,4.0,18,187,Spicy,Regular,"Vegetarian, High-protein",May contain dairy,27.49,True
+MI00470,B03-O03,Coffee Culture,B03,Block 4,Garlic Bread,Snacks,Snacks,Vegetarian,False,90,Limited,4.7,14,238,Spicy,Small,Vegetarian,Contains gluten,53.43,True
+MI00471,B03-O03,Coffee Culture,B03,Block 4,Veg Puff,Bakery,Bakery,Vegetarian,False,35,Available,4.0,17,543,Medium,Regular,"Vegetarian, Egg-free",May contain nuts,13.93,True
+MI00472,B03-O03,Coffee Culture,B03,Block 4,Paneer Puff,Bakery,Bakery,Vegetarian,False,55,Available,3.8,11,450,Mild,Small,Vegetarian,May contain nuts,29.63,True
+MI00473,B03-O03,Coffee Culture,B03,Block 4,Butter Croissant,Bakery,Bakery,Vegetarian,False,70,Limited,3.6,13,302,Mild,Small,"Vegetarian, Egg-free",Contains gluten,31.98,True
+MI00474,B03-O03,Coffee Culture,B03,Block 4,Chocolate Muffin,Bakery,Bakery,Vegetarian,False,55,Available,3.6,12,299,Spicy,Large,"Vegetarian, Egg-free",May contain nuts,23.15,True
+MI00475,B03-O03,Coffee Culture,B03,Block 4,Blueberry Muffin,Bakery,Bakery,Vegetarian,False,65,Available,4.7,11,490,Spicy,Large,"Vegetarian, Budget-friendly",May contain dairy,33.47,True
+MI00476,B03-O03,Coffee Culture,B03,Block 4,Chocolate Brownie,Desserts,Desserts,Vegetarian,False,75,Limited,4.8,13,444,Spicy,Small,"Vegetarian, Egg-free","Contains dairy, gluten",41.83,True
+MI00477,B03-O03,Coffee Culture,B03,Block 4,Chocolate Cookie,Bakery,Bakery,Vegetarian,False,40,Available,4.4,4,491,Mild,Regular,"Vegetarian, Egg-free",Dairy-free,17.0,True
+MI00478,B03-O03,Coffee Culture,B03,Block 4,Chocolate Donut,Bakery,Bakery,Vegetarian,False,55,Available,4.1,6,714,Medium,Regular,"Vegetarian, Budget-friendly",Contains gluten,25.38,True
+MI00479,B03-O03,Coffee Culture,B03,Block 4,Cheesecake Slice,Desserts,Desserts,Vegetarian,False,130,Available,4.9,8,493,Mild,Large,"Vegetarian, High-protein",May contain dairy,53.07,True
+MI00480,B03-O03,Coffee Culture,B03,Block 4,Waffle,Desserts,Desserts,Vegetarian,False,120,Available,4.7,6,707,Spicy,Large,Vegetarian,Dairy-free,49.39,True
+MI00481,B03-O03,Coffee Culture,B03,Block 4,Cinnamon Roll,Bakery,Bakery,Vegetarian,False,95,Limited,3.5,5,607,Spicy,Small,"Vegetarian, High-protein",May contain nuts,45.21,True
+MI00482,B03-O03,Coffee Culture,B03,Block 4,Vanilla Milkshake,Beverages,Beverages,Vegetarian,False,105,Available,3.9,12,165,Medium,Regular,"Vegetarian, Budget-friendly",May contain dairy,57.69,True
+MI00483,B03-O03,Coffee Culture,B03,Block 4,Fresh Lime Soda,Beverages,Beverages,Vegetarian,False,60,Available,4.0,15,666,Medium,Regular,"Vegetarian, High-protein",May contain nuts,29.03,True
+MI00484,B03-O03,Coffee Culture,B03,Block 4,Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,135,Available,3.8,23,534,Medium,Large,"Chicken, High-protein",May contain dairy,65.65,True
+MI00485,B03-O03,Coffee Culture,B03,Block 4,Chicken Cheese Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,145,Available,3.7,23,774,Medium,Regular,"Chicken, High-protein",Contains gluten,70.85,True
+MI00486,B03-O03,Coffee Culture,B03,Block 4,Chicken Burger,Burgers,Burgers,Non-Vegetarian (Chicken),True,130,Available,4.6,23,278,Medium,Regular,"Chicken, High-protein","May contain dairy, gluten",76.5,True
+MI00487,B03-O03,Coffee Culture,B03,Block 4,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,120,Available,3.7,11,417,Medium,Regular,"Chicken, High-protein",May contain dairy,78.23,True
+MI00488,B03-O03,Coffee Culture,B03,Block 4,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,110,Limited,4.2,21,625,Mild,Regular,"Chicken, High-protein",Contains gluten,58.96,True
+MI00489,B03-O03,Coffee Culture,B03,Block 4,Chicken Puff,Bakery,Bakery,Non-Vegetarian (Chicken),True,70,Available,4.5,9,301,Mild,Regular,"Chicken, High-protein","May contain dairy, gluten",34.38,True
+MI00490,B03-O03,Coffee Culture,B03,Block 4,Chicken Fingers,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,130,Available,3.9,9,269,Spicy,Large,"Chicken, High-protein","May contain dairy, gluten",81.59,True
+MI00491,B03-O04,Fresh Basket,B03,Block 4,Seasonal Fruit Bowl,Healthy Bowls,Healthy Bowls,Vegetarian,False,90,Available,3.8,14,122,Mild,Small,"Vegetarian, Budget-friendly",Dairy-free,44.54,True
+MI00492,B03-O04,Fresh Basket,B03,Block 4,Sprouts Salad,Salads,Salads,Vegetarian,False,75,Available,4.5,13,571,Medium,Large,Vegetarian,Dairy-free,32.55,True
+MI00493,B03-O04,Fresh Basket,B03,Block 4,Chickpea Salad,Salads,Salads,Vegetarian,False,95,Available,4.4,16,619,Medium,Large,"Vegetarian, Egg-free",May contain dairy,52.8,True
+MI00494,B03-O04,Fresh Basket,B03,Block 4,Paneer Salad,Salads,Salads,Vegetarian,False,125,Limited,3.9,14,224,Mild,Large,"Vegetarian, High-protein",Dairy-free,61.33,True
+MI00495,B03-O04,Fresh Basket,B03,Block 4,Corn & Veg Salad,Salads,Salads,Vegetarian,False,80,Available,4.1,12,423,Mild,Large,"Vegetarian, Egg-free","Contains dairy, gluten",35.92,True
+MI00496,B03-O04,Fresh Basket,B03,Block 4,Greek Yogurt Bowl,Healthy Bowls,Healthy Bowls,Vegetarian,False,95,Limited,4.6,13,120,Mild,Small,"Vegetarian, High-protein",Contains gluten,44.87,True
+MI00497,B03-O04,Fresh Basket,B03,Block 4,Overnight Oats,Breakfast,Breakfast,Vegetarian,False,85,Limited,4.2,16,194,Spicy,Regular,Vegetarian,May contain nuts,50.31,True
+MI00498,B03-O04,Fresh Basket,B03,Block 4,Muesli with Milk,Breakfast,Breakfast,Vegetarian,False,95,Available,3.6,10,496,Mild,Large,Vegetarian,Dairy-free,39.09,True
+MI00499,B03-O04,Fresh Basket,B03,Block 4,Vegetable Poha,Breakfast,Breakfast,Vegetarian,False,60,Available,4.7,11,287,Mild,Regular,"Vegetarian, Egg-free",May contain nuts,34.46,True
+MI00500,B03-O04,Fresh Basket,B03,Block 4,Upma,Breakfast,Breakfast,Vegetarian,False,60,Available,3.8,8,426,Medium,Small,Vegetarian,May contain nuts,36.19,True
+MI00501,B03-O04,Fresh Basket,B03,Block 4,Idli Sambar,South Indian,South Indian,Vegetarian,False,55,Available,4.3,8,339,Medium,Regular,"Vegetarian, High-protein",May contain dairy,24.1,True
+MI00502,B03-O04,Fresh Basket,B03,Block 4,Grilled Vegetable Sandwich,Sandwiches,Sandwiches,Vegetarian,False,95,Available,4.0,9,579,Medium,Small,"Vegetarian, High-protein",May contain dairy,48.62,True
+MI00503,B03-O04,Fresh Basket,B03,Block 4,Paneer Sandwich,Sandwiches,Sandwiches,Vegetarian,False,115,Available,3.6,16,223,Spicy,Small,"Vegetarian, High-protein","Contains dairy, gluten",43.94,True
+MI00504,B03-O04,Fresh Basket,B03,Block 4,Multigrain Veg Wrap,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,115,Limited,3.8,10,616,Mild,Large,Vegetarian,Dairy-free,63.64,True
+MI00505,B03-O04,Fresh Basket,B03,Block 4,Paneer Wrap,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,125,Available,3.8,17,280,Medium,Small,Vegetarian,"Contains dairy, gluten",68.65,True
+MI00506,B03-O04,Fresh Basket,B03,Block 4,Vegetable Soup,Soups,Soups,Vegetarian,False,70,Available,4.4,9,698,Mild,Small,"Vegetarian, Egg-free","Contains dairy, gluten",29.58,True
+MI00507,B03-O04,Fresh Basket,B03,Block 4,Tomato Soup,Soups,Soups,Vegetarian,False,60,Available,3.8,10,625,Spicy,Regular,"Vegetarian, Egg-free",Dairy-free,33.26,True
+MI00508,B03-O04,Fresh Basket,B03,Block 4,Vegetable Khichdi,Healthy Meals,Healthy Meals,Vegetarian,False,100,Available,4.8,18,176,Mild,Large,"Vegetarian, High-protein",May contain dairy,49.65,True
+MI00509,B03-O04,Fresh Basket,B03,Block 4,Lemon Rice,Healthy Meals,Healthy Meals,Vegetarian,False,90,Available,3.8,14,400,Spicy,Large,Vegetarian,May contain nuts,34.65,True
+MI00510,B03-O04,Fresh Basket,B03,Block 4,Curd Rice,Healthy Meals,Healthy Meals,Vegetarian,False,90,Limited,4.5,10,718,Mild,Large,Vegetarian,"Contains dairy, gluten",50.99,True
+MI00511,B03-O04,Fresh Basket,B03,Block 4,Quinoa Veg Bowl,Healthy Bowls,Healthy Bowls,Vegetarian,False,155,Available,4.8,15,349,Medium,Regular,"Vegetarian, High-protein","Contains dairy, gluten",76.4,True
+MI00512,B03-O04,Fresh Basket,B03,Block 4,Brown Rice Bowl,Healthy Bowls,Healthy Bowls,Vegetarian,False,135,Limited,3.7,18,629,Mild,Small,"Vegetarian, Egg-free",May contain nuts,58.22,True
+MI00513,B03-O04,Fresh Basket,B03,Block 4,Steamed Corn,Snacks,Snacks,Vegetarian,False,55,Available,4.2,16,389,Medium,Small,"Vegetarian, High-protein",May contain dairy,24.88,True
+MI00514,B03-O04,Fresh Basket,B03,Block 4,Boiled Peanut Chaat,Snacks,Snacks,Vegetarian,False,60,Available,4.4,17,459,Mild,Regular,"Vegetarian, Egg-free",May contain dairy,31.51,True
+MI00515,B03-O04,Fresh Basket,B03,Block 4,Coconut Water,Beverages,Beverages,Vegetarian,False,55,Available,4.5,18,388,Medium,Large,Vegetarian,May contain nuts,21.58,True
+MI00516,B03-O04,Fresh Basket,B03,Block 4,Buttermilk,Beverages,Beverages,Vegetarian,False,30,Available,3.9,5,700,Medium,Small,"Vegetarian, Egg-free",Dairy-free,14.75,True
+MI00517,B03-O04,Fresh Basket,B03,Block 4,Fresh Orange Juice,Beverages,Beverages,Vegetarian,False,65,Available,4.2,6,390,Mild,Regular,"Vegetarian, High-protein","Contains dairy, gluten",38.31,True
+MI00518,B03-O04,Fresh Basket,B03,Block 4,Banana Smoothie,Beverages,Beverages,Vegetarian,False,90,Available,4.9,15,502,Spicy,Small,"Vegetarian, Egg-free",May contain nuts,50.91,True
+MI00519,B03-O04,Fresh Basket,B03,Block 4,Chicken Salad Bowl,Salads,Salads,Non-Vegetarian (Chicken),True,160,Available,4.1,14,427,Medium,Regular,"Chicken, High-protein",May contain dairy,100.23,True
+MI00520,B03-O04,Fresh Basket,B03,Block 4,Grilled Chicken Salad,Salads,Salads,Non-Vegetarian (Chicken),True,155,Limited,4.4,19,576,Medium,Large,"Chicken, High-protein",May contain dairy,78.29,True
+MI00521,B03-O04,Fresh Basket,B03,Block 4,Grilled Chicken Wrap,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,150,Limited,4.2,14,719,Spicy,Large,"Chicken, High-protein","May contain dairy, gluten",100.03,True
+MI00522,B03-O04,Fresh Basket,B03,Block 4,Chicken Rice Bowl,Healthy Bowls,Healthy Bowls,Non-Vegetarian (Chicken),True,170,Limited,3.8,21,441,Medium,Large,"Chicken, High-protein",Contains gluten,90.78,True
+MI00523,B03-O04,Fresh Basket,B03,Block 4,Chicken Soup,Soups,Soups,Non-Vegetarian (Chicken),True,105,Limited,4.7,8,755,Mild,Regular,"Chicken, High-protein",Contains gluten,56.53,True
+MI00524,B03-O04,Fresh Basket,B03,Block 4,Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,135,Available,4.5,18,403,Mild,Regular,"Chicken, High-protein",Contains gluten,81.04,True
+MI00525,B03-O04,Fresh Basket,B03,Block 4,Multigrain Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,155,Available,3.9,12,287,Medium,Large,"Chicken, High-protein",May contain dairy,76.25,True
+MI00526,B03-O05,Mariyaan's Cafe,B03,Block 4,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,70,Available,3.9,6,274,Spicy,Regular,"Vegetarian, Budget-friendly",May contain dairy,37.98,True
+MI00527,B03-O05,Mariyaan's Cafe,B03,Block 4,Grilled Cheese Sandwich,Sandwiches,Sandwiches,Vegetarian,False,105,Available,4.7,18,179,Mild,Large,"Vegetarian, High-protein",May contain nuts,62.6,True
+MI00528,B03-O05,Mariyaan's Cafe,B03,Block 4,Paneer Tikka Sandwich,Sandwiches,Sandwiches,Vegetarian,False,100,Available,3.5,7,329,Mild,Regular,"Vegetarian, Budget-friendly",May contain dairy,59.06,True
+MI00529,B03-O05,Mariyaan's Cafe,B03,Block 4,Veg Burger,Burgers,Burgers,Vegetarian,False,95,Available,4.0,14,187,Spicy,Large,Vegetarian,May contain dairy,53.52,True
+MI00530,B03-O05,Mariyaan's Cafe,B03,Block 4,Cheese Burger,Burgers,Burgers,Vegetarian,False,105,Available,4.1,5,255,Mild,Small,"Vegetarian, Budget-friendly",May contain dairy,43.25,True
+MI00531,B03-O05,Mariyaan's Cafe,B03,Block 4,Paneer Burger,Burgers,Burgers,Vegetarian,False,135,Limited,3.7,8,219,Spicy,Large,"Vegetarian, High-protein","Contains dairy, gluten",71.67,True
+MI00532,B03-O05,Mariyaan's Cafe,B03,Block 4,French Fries,Snacks,Snacks,Vegetarian,False,65,Available,4.5,4,307,Mild,Large,"Vegetarian, Egg-free",May contain nuts,28.67,True
+MI00533,B03-O05,Mariyaan's Cafe,B03,Block 4,Peri Peri Fries,Snacks,Snacks,Vegetarian,False,85,Available,4.1,6,476,Mild,Regular,Vegetarian,Dairy-free,42.15,True
+MI00534,B03-O05,Mariyaan's Cafe,B03,Block 4,Veg Puff,Bakery,Bakery,Vegetarian,False,35,Available,4.5,6,352,Mild,Regular,"Vegetarian, Egg-free",May contain dairy,21.18,True
+MI00535,B03-O05,Mariyaan's Cafe,B03,Block 4,Paneer Puff,Bakery,Bakery,Vegetarian,False,60,Available,4.7,9,395,Spicy,Small,Vegetarian,Dairy-free,27.33,True
+MI00536,B03-O05,Mariyaan's Cafe,B03,Block 4,Samosa,Snacks,Snacks,Vegetarian,False,25,Limited,4.0,5,198,Mild,Large,Vegetarian,May contain nuts,14.73,True
+MI00537,B03-O05,Mariyaan's Cafe,B03,Block 4,Veg Momos,Snacks,Snacks,Vegetarian,False,90,Available,4.3,14,157,Spicy,Regular,"Vegetarian, Egg-free",May contain dairy,50.72,True
+MI00538,B03-O05,Mariyaan's Cafe,B03,Block 4,Spring Rolls,Snacks,Snacks,Vegetarian,False,85,Available,4.0,12,630,Spicy,Regular,"Vegetarian, High-protein",Dairy-free,47.83,True
+MI00539,B03-O05,Mariyaan's Cafe,B03,Block 4,Masala Maggi,Quick Meals,Quick Meals,Vegetarian,False,50,Available,3.9,15,481,Mild,Small,"Vegetarian, High-protein","Contains dairy, gluten",28.12,True
+MI00540,B03-O05,Mariyaan's Cafe,B03,Block 4,Veg Fried Rice,Rice & Noodles,Rice & Noodles,Vegetarian,False,115,Limited,4.5,16,129,Mild,Regular,"Vegetarian, Budget-friendly","Contains dairy, gluten",51.38,True
+MI00541,B03-O05,Mariyaan's Cafe,B03,Block 4,Veg Hakka Noodles,Rice & Noodles,Rice & Noodles,Vegetarian,False,115,Limited,4.0,10,533,Mild,Small,"Vegetarian, High-protein",May contain nuts,44.41,True
+MI00542,B03-O05,Mariyaan's Cafe,B03,Block 4,Paneer Roll,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,100,Available,3.8,15,436,Spicy,Regular,Vegetarian,May contain nuts,48.06,True
+MI00543,B03-O05,Mariyaan's Cafe,B03,Block 4,Veg Frankie,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,85,Limited,3.6,13,273,Mild,Small,"Vegetarian, Egg-free",Contains gluten,46.39,True
+MI00544,B03-O05,Mariyaan's Cafe,B03,Block 4,Margherita Pizza Slice,Pizza,Pizza,Vegetarian,False,95,Available,4.0,8,335,Spicy,Small,"Vegetarian, Budget-friendly",May contain dairy,42.23,True
+MI00545,B03-O05,Mariyaan's Cafe,B03,Block 4,White Sauce Pasta,Pasta,Pasta,Vegetarian,False,140,Available,3.7,13,183,Medium,Large,"Vegetarian, Egg-free","Contains dairy, gluten",77.0,True
+MI00546,B03-O05,Mariyaan's Cafe,B03,Block 4,Garlic Bread,Snacks,Snacks,Vegetarian,False,80,Available,4.5,17,452,Mild,Small,"Vegetarian, High-protein",May contain dairy,41.78,True
+MI00547,B03-O05,Mariyaan's Cafe,B03,Block 4,Masala Tea,Beverages,Beverages,Vegetarian,False,20,Available,4.7,13,401,Medium,Small,Vegetarian,May contain dairy,8.11,True
+MI00548,B03-O05,Mariyaan's Cafe,B03,Block 4,Filter Coffee,Beverages,Beverages,Vegetarian,False,30,Available,3.9,8,689,Spicy,Large,"Vegetarian, Budget-friendly","Contains dairy, gluten",13.65,True
+MI00549,B03-O05,Mariyaan's Cafe,B03,Block 4,Cold Coffee,Beverages,Beverages,Vegetarian,False,90,Available,3.8,16,386,Spicy,Regular,"Vegetarian, High-protein",May contain dairy,38.08,True
+MI00550,B03-O05,Mariyaan's Cafe,B03,Block 4,Fresh Lime Soda,Beverages,Beverages,Vegetarian,False,55,Available,4.4,10,584,Mild,Regular,Vegetarian,"Contains dairy, gluten",23.58,True
+MI00551,B03-O05,Mariyaan's Cafe,B03,Block 4,Chocolate Brownie,Desserts,Desserts,Vegetarian,False,70,Available,3.6,10,617,Mild,Large,Vegetarian,May contain dairy,34.44,True
+MI00552,B03-O05,Mariyaan's Cafe,B03,Block 4,Chocolate Muffin,Bakery,Bakery,Vegetarian,False,55,Available,3.7,17,601,Spicy,Large,"Vegetarian, Egg-free",Dairy-free,26.08,True
+MI00553,B03-O05,Mariyaan's Cafe,B03,Block 4,Vanilla Milkshake,Beverages,Beverages,Vegetarian,False,90,Available,4.6,16,276,Medium,Regular,"Vegetarian, High-protein",May contain dairy,54.4,True
+MI00554,B03-O05,Mariyaan's Cafe,B03,Block 4,Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,125,Available,4.7,22,586,Spicy,Regular,"Chicken, High-protein",May contain dairy,61.23,True
+MI00555,B03-O05,Mariyaan's Cafe,B03,Block 4,Chicken Burger,Burgers,Burgers,Non-Vegetarian (Chicken),True,150,Available,3.9,23,497,Spicy,Large,"Chicken, High-protein","May contain dairy, gluten",82.38,True
+MI00556,B03-O05,Mariyaan's Cafe,B03,Block 4,Chicken Cheese Burger,Burgers,Burgers,Non-Vegetarian (Chicken),True,155,Limited,3.7,16,542,Spicy,Regular,"Chicken, High-protein","May contain dairy, gluten",88.27,True
+MI00557,B03-O05,Mariyaan's Cafe,B03,Block 4,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,135,Available,4.0,8,295,Mild,Large,"Chicken, High-protein",May contain dairy,72.68,True
+MI00558,B03-O05,Mariyaan's Cafe,B03,Block 4,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,110,Limited,4.1,12,351,Mild,Large,"Chicken, High-protein","May contain dairy, gluten",55.59,True
+MI00559,B03-O05,Mariyaan's Cafe,B03,Block 4,Chicken Momos,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,130,Available,4.8,8,345,Spicy,Large,"Chicken, High-protein",Contains gluten,73.72,True
+MI00560,B03-O05,Mariyaan's Cafe,B03,Block 4,Chicken Fried Rice,Rice & Noodles,Rice & Noodles,Non-Vegetarian (Chicken),True,140,Available,4.1,23,811,Mild,Regular,"Chicken, High-protein",May contain dairy,74.32,True
+MI00561,B04-O01,R&D Café,B04,R&D Block,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,75,Available,4.3,12,267,Medium,Regular,"Vegetarian, Budget-friendly",May contain nuts,36.59,True
+MI00562,B04-O01,R&D Café,B04,R&D Block,Grilled Cheese Sandwich,Sandwiches,Sandwiches,Vegetarian,False,105,Available,4.8,5,619,Mild,Regular,"Vegetarian, Budget-friendly",May contain nuts,40.34,True
+MI00563,B04-O01,R&D Café,B04,R&D Block,Paneer Tikka Sandwich,Sandwiches,Sandwiches,Vegetarian,False,115,Limited,3.9,8,159,Mild,Small,Vegetarian,May contain dairy,57.3,True
+MI00564,B04-O01,R&D Café,B04,R&D Block,Veg Burger,Burgers,Burgers,Vegetarian,False,90,Available,3.9,17,605,Mild,Regular,"Vegetarian, Budget-friendly",Contains gluten,41.51,True
+MI00565,B04-O01,R&D Café,B04,R&D Block,Cheese Burger,Burgers,Burgers,Vegetarian,False,105,Available,3.6,5,558,Mild,Small,"Vegetarian, Egg-free",May contain nuts,64.86,True
+MI00566,B04-O01,R&D Café,B04,R&D Block,Paneer Burger,Burgers,Burgers,Vegetarian,False,135,Available,4.6,11,259,Medium,Large,"Vegetarian, Egg-free",May contain nuts,81.58,True
+MI00567,B04-O01,R&D Café,B04,R&D Block,French Fries,Snacks,Snacks,Vegetarian,False,65,Limited,3.8,14,382,Mild,Small,Vegetarian,Dairy-free,35.67,True
+MI00568,B04-O01,R&D Café,B04,R&D Block,Peri Peri Fries,Snacks,Snacks,Vegetarian,False,90,Available,3.9,9,172,Mild,Small,"Vegetarian, Egg-free",Dairy-free,52.55,True
+MI00569,B04-O01,R&D Café,B04,R&D Block,Veg Puff,Bakery,Bakery,Vegetarian,False,40,Available,3.8,6,364,Mild,Regular,"Vegetarian, High-protein","Contains dairy, gluten",20.04,True
+MI00570,B04-O01,R&D Café,B04,R&D Block,Paneer Puff,Bakery,Bakery,Vegetarian,False,55,Limited,4.3,9,394,Mild,Small,"Vegetarian, Egg-free",May contain dairy,25.16,True
+MI00571,B04-O01,R&D Café,B04,R&D Block,Samosa,Snacks,Snacks,Vegetarian,False,25,Available,4.7,9,354,Mild,Large,Vegetarian,May contain nuts,14.71,True
+MI00572,B04-O01,R&D Café,B04,R&D Block,Veg Momos,Snacks,Snacks,Vegetarian,False,75,Limited,4.9,10,434,Medium,Small,"Vegetarian, Budget-friendly",May contain nuts,30.93,True
+MI00573,B04-O01,R&D Café,B04,R&D Block,Spring Rolls,Snacks,Snacks,Vegetarian,False,80,Available,4.3,18,431,Spicy,Small,Vegetarian,May contain nuts,31.84,True
+MI00574,B04-O01,R&D Café,B04,R&D Block,Masala Maggi,Quick Meals,Quick Meals,Vegetarian,False,60,Available,4.9,9,130,Spicy,Large,"Vegetarian, Egg-free",May contain dairy,27.46,True
+MI00575,B04-O01,R&D Café,B04,R&D Block,Veg Fried Rice,Rice & Noodles,Rice & Noodles,Vegetarian,False,115,Available,4.4,8,262,Mild,Regular,"Vegetarian, Egg-free",May contain dairy,60.95,True
+MI00576,B04-O01,R&D Café,B04,R&D Block,Veg Hakka Noodles,Rice & Noodles,Rice & Noodles,Vegetarian,False,110,Available,3.9,12,375,Spicy,Small,"Vegetarian, High-protein",May contain dairy,55.92,True
+MI00577,B04-O01,R&D Café,B04,R&D Block,Paneer Roll,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,95,Limited,3.8,13,709,Medium,Regular,"Vegetarian, Egg-free",Contains gluten,58.1,True
+MI00578,B04-O01,R&D Café,B04,R&D Block,Veg Frankie,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,95,Limited,3.9,5,620,Mild,Regular,"Vegetarian, Budget-friendly",May contain dairy,49.31,True
+MI00579,B04-O01,R&D Café,B04,R&D Block,Margherita Pizza Slice,Pizza,Pizza,Vegetarian,False,95,Available,4.9,8,556,Spicy,Large,"Vegetarian, Budget-friendly","Contains dairy, gluten",54.88,True
+MI00580,B04-O01,R&D Café,B04,R&D Block,White Sauce Pasta,Pasta,Pasta,Vegetarian,False,130,Limited,3.9,7,534,Mild,Small,"Vegetarian, Budget-friendly","Contains dairy, gluten",62.35,True
+MI00581,B04-O01,R&D Café,B04,R&D Block,Garlic Bread,Snacks,Snacks,Vegetarian,False,85,Limited,4.6,16,370,Mild,Large,"Vegetarian, Budget-friendly",Contains gluten,45.45,True
+MI00582,B04-O01,R&D Café,B04,R&D Block,Masala Tea,Beverages,Beverages,Vegetarian,False,20,Available,4.3,9,447,Mild,Large,"Vegetarian, Egg-free",May contain nuts,8.61,True
+MI00583,B04-O01,R&D Café,B04,R&D Block,Filter Coffee,Beverages,Beverages,Vegetarian,False,30,Available,3.7,18,508,Medium,Small,"Vegetarian, High-protein","Contains dairy, gluten",13.54,True
+MI00584,B04-O01,R&D Café,B04,R&D Block,Cold Coffee,Beverages,Beverages,Vegetarian,False,95,Available,3.8,11,315,Medium,Small,"Vegetarian, Egg-free","Contains dairy, gluten",55.68,True
+MI00585,B04-O01,R&D Café,B04,R&D Block,Fresh Lime Soda,Beverages,Beverages,Vegetarian,False,55,Available,3.8,4,339,Medium,Large,"Vegetarian, Egg-free",Dairy-free,28.74,True
+MI00586,B04-O01,R&D Café,B04,R&D Block,Chocolate Brownie,Desserts,Desserts,Vegetarian,False,70,Available,4.5,15,346,Medium,Large,"Vegetarian, Egg-free",May contain nuts,29.69,True
+MI00587,B04-O01,R&D Café,B04,R&D Block,Chocolate Muffin,Bakery,Bakery,Vegetarian,False,55,Limited,4.8,8,438,Medium,Regular,"Vegetarian, Budget-friendly",Contains gluten,33.1,True
+MI00588,B04-O01,R&D Café,B04,R&D Block,Vanilla Milkshake,Beverages,Beverages,Vegetarian,False,90,Available,4.1,12,556,Mild,Regular,"Vegetarian, Budget-friendly",May contain dairy,47.34,True
+MI00589,B04-O01,R&D Café,B04,R&D Block,Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,130,Available,4.1,9,419,Medium,Regular,"Chicken, High-protein",Contains gluten,60.81,True
+MI00590,B04-O01,R&D Café,B04,R&D Block,Chicken Burger,Burgers,Burgers,Non-Vegetarian (Chicken),True,135,Available,4.6,16,460,Mild,Regular,"Chicken, High-protein",Contains gluten,76.16,True
+MI00591,B04-O01,R&D Café,B04,R&D Block,Chicken Cheese Burger,Burgers,Burgers,Non-Vegetarian (Chicken),True,145,Limited,3.9,9,433,Medium,Regular,"Chicken, High-protein",May contain dairy,77.2,True
+MI00592,B04-O01,R&D Café,B04,R&D Block,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,140,Available,4.7,20,563,Medium,Regular,"Chicken, High-protein",Contains gluten,67.83,True
+MI00593,B04-O01,R&D Café,B04,R&D Block,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,120,Available,4.7,19,195,Medium,Regular,"Chicken, High-protein","May contain dairy, gluten",72.81,True
+MI00594,B04-O01,R&D Café,B04,R&D Block,Chicken Momos,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,130,Available,3.8,23,807,Medium,Large,"Chicken, High-protein",May contain dairy,86.37,True
+MI00595,B04-O01,R&D Café,B04,R&D Block,Chicken Fried Rice,Rice & Noodles,Rice & Noodles,Non-Vegetarian (Chicken),True,160,Available,4.1,11,205,Medium,Large,"Chicken, High-protein","May contain dairy, gluten",99.57,True
+MI00596,B04-O02,Research Brew,B04,R&D Block,Espresso,Coffee,Coffee,Vegetarian,False,60,Available,4.1,5,458,Mild,Large,Vegetarian,May contain nuts,24.64,True
+MI00597,B04-O02,Research Brew,B04,R&D Block,Americano,Coffee,Coffee,Vegetarian,False,85,Available,3.9,11,341,Spicy,Large,"Vegetarian, Egg-free",May contain dairy,36.71,True
+MI00598,B04-O02,Research Brew,B04,R&D Block,Cappuccino,Coffee,Coffee,Vegetarian,False,110,Limited,3.6,13,380,Medium,Large,"Vegetarian, Budget-friendly",Contains gluten,42.46,True
+MI00599,B04-O02,Research Brew,B04,R&D Block,Café Latte,Coffee,Coffee,Vegetarian,False,110,Limited,4.5,8,336,Medium,Regular,Vegetarian,May contain nuts,45.09,True
+MI00600,B04-O02,Research Brew,B04,R&D Block,Café Mocha,Coffee,Coffee,Vegetarian,False,140,Limited,4.3,6,334,Medium,Regular,"Vegetarian, Egg-free",May contain dairy,63.81,True
+MI00601,B04-O02,Research Brew,B04,R&D Block,Cold Coffee,Coffee,Coffee,Vegetarian,False,100,Available,4.7,8,272,Mild,Large,Vegetarian,Dairy-free,49.08,True
+MI00602,B04-O02,Research Brew,B04,R&D Block,Iced Latte,Coffee,Coffee,Vegetarian,False,125,Available,3.6,18,231,Mild,Small,"Vegetarian, High-protein","Contains dairy, gluten",52.01,True
+MI00603,B04-O02,Research Brew,B04,R&D Block,Hot Chocolate,Beverages,Beverages,Vegetarian,False,95,Available,4.8,11,522,Mild,Small,"Vegetarian, High-protein",Dairy-free,44.76,True
+MI00604,B04-O02,Research Brew,B04,R&D Block,Masala Tea,Beverages,Beverages,Vegetarian,False,25,Limited,4.7,15,310,Mild,Large,"Vegetarian, High-protein",Dairy-free,10.08,True
+MI00605,B04-O02,Research Brew,B04,R&D Block,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,75,Limited,4.3,14,693,Spicy,Large,"Vegetarian, High-protein",Contains gluten,43.96,True
+MI00606,B04-O02,Research Brew,B04,R&D Block,Grilled Cheese Sandwich,Sandwiches,Sandwiches,Vegetarian,False,90,Available,3.9,15,480,Mild,Small,"Vegetarian, Budget-friendly",May contain dairy,36.2,True
+MI00607,B04-O02,Research Brew,B04,R&D Block,Paneer Sandwich,Sandwiches,Sandwiches,Vegetarian,False,110,Available,4.9,10,681,Mild,Small,"Vegetarian, Budget-friendly",May contain nuts,64.76,True
+MI00608,B04-O02,Research Brew,B04,R&D Block,Veg Burger,Burgers,Burgers,Vegetarian,False,100,Available,4.1,8,426,Medium,Small,Vegetarian,Contains gluten,48.91,True
+MI00609,B04-O02,Research Brew,B04,R&D Block,French Fries,Snacks,Snacks,Vegetarian,False,70,Limited,3.8,12,126,Medium,Small,Vegetarian,Dairy-free,27.19,True
+MI00610,B04-O02,Research Brew,B04,R&D Block,Garlic Bread,Snacks,Snacks,Vegetarian,False,85,Available,4.2,5,203,Spicy,Regular,"Vegetarian, High-protein",Contains gluten,42.66,True
+MI00611,B04-O02,Research Brew,B04,R&D Block,Veg Puff,Bakery,Bakery,Vegetarian,False,35,Available,4.0,9,264,Medium,Regular,Vegetarian,May contain dairy,16.04,True
+MI00612,B04-O02,Research Brew,B04,R&D Block,Paneer Puff,Bakery,Bakery,Vegetarian,False,60,Available,3.9,14,404,Spicy,Small,"Vegetarian, Egg-free",Dairy-free,23.32,True
+MI00613,B04-O02,Research Brew,B04,R&D Block,Butter Croissant,Bakery,Bakery,Vegetarian,False,80,Limited,4.2,15,423,Medium,Large,"Vegetarian, Budget-friendly",May contain dairy,35.13,True
+MI00614,B04-O02,Research Brew,B04,R&D Block,Chocolate Muffin,Bakery,Bakery,Vegetarian,False,55,Available,4.2,9,520,Medium,Large,"Vegetarian, High-protein","Contains dairy, gluten",27.5,True
+MI00615,B04-O02,Research Brew,B04,R&D Block,Blueberry Muffin,Bakery,Bakery,Vegetarian,False,60,Available,4.7,17,148,Spicy,Large,Vegetarian,May contain dairy,32.38,True
+MI00616,B04-O02,Research Brew,B04,R&D Block,Chocolate Brownie,Desserts,Desserts,Vegetarian,False,70,Available,4.5,12,296,Spicy,Regular,Vegetarian,"Contains dairy, gluten",43.23,True
+MI00617,B04-O02,Research Brew,B04,R&D Block,Chocolate Cookie,Bakery,Bakery,Vegetarian,False,30,Available,4.5,12,544,Mild,Regular,"Vegetarian, High-protein",May contain nuts,13.44,True
+MI00618,B04-O02,Research Brew,B04,R&D Block,Chocolate Donut,Bakery,Bakery,Vegetarian,False,50,Available,3.8,18,132,Mild,Large,Vegetarian,Contains gluten,27.01,True
+MI00619,B04-O02,Research Brew,B04,R&D Block,Cheesecake Slice,Desserts,Desserts,Vegetarian,False,130,Limited,4.1,5,129,Spicy,Regular,"Vegetarian, Egg-free",Dairy-free,75.7,True
+MI00620,B04-O02,Research Brew,B04,R&D Block,Waffle,Desserts,Desserts,Vegetarian,False,110,Available,4.6,6,428,Spicy,Large,Vegetarian,Contains gluten,48.29,True
+MI00621,B04-O02,Research Brew,B04,R&D Block,Cinnamon Roll,Bakery,Bakery,Vegetarian,False,80,Available,4.8,18,309,Medium,Large,"Vegetarian, High-protein","Contains dairy, gluten",42.69,True
+MI00622,B04-O02,Research Brew,B04,R&D Block,Vanilla Milkshake,Beverages,Beverages,Vegetarian,False,100,Limited,4.2,17,405,Medium,Large,"Vegetarian, Egg-free",May contain dairy,38.57,True
+MI00623,B04-O02,Research Brew,B04,R&D Block,Fresh Lime Soda,Beverages,Beverages,Vegetarian,False,55,Available,3.8,8,488,Mild,Large,Vegetarian,May contain nuts,32.86,True
+MI00624,B04-O02,Research Brew,B04,R&D Block,Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,125,Available,4.4,12,338,Mild,Regular,"Chicken, High-protein",May contain dairy,65.52,True
+MI00625,B04-O02,Research Brew,B04,R&D Block,Chicken Cheese Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,145,Limited,4.3,12,699,Mild,Large,"Chicken, High-protein",Contains gluten,67.68,True
+MI00626,B04-O02,Research Brew,B04,R&D Block,Chicken Burger,Burgers,Burgers,Non-Vegetarian (Chicken),True,130,Available,4.2,12,479,Mild,Large,"Chicken, High-protein",May contain dairy,60.79,True
+MI00627,B04-O02,Research Brew,B04,R&D Block,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,125,Available,3.8,22,665,Medium,Large,"Chicken, High-protein","May contain dairy, gluten",84.9,True
+MI00628,B04-O02,Research Brew,B04,R&D Block,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,110,Available,4.3,18,623,Spicy,Regular,"Chicken, High-protein",Contains gluten,50.81,True
+MI00629,B04-O02,Research Brew,B04,R&D Block,Chicken Puff,Bakery,Bakery,Non-Vegetarian (Chicken),True,65,Available,4.7,20,467,Spicy,Regular,"Chicken, High-protein","May contain dairy, gluten",33.8,True
+MI00630,B04-O02,Research Brew,B04,R&D Block,Chicken Fingers,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,125,Available,4.8,15,710,Mild,Regular,"Chicken, High-protein",Contains gluten,70.2,True
+MI00631,B04-O03,The Food Stop,B04,R&D Block,Samosa,Snacks,Snacks,Vegetarian,False,25,Available,3.6,10,175,Medium,Regular,"Vegetarian, Budget-friendly",Dairy-free,13.04,True
+MI00632,B04-O03,The Food Stop,B04,R&D Block,Veg Puff,Bakery,Bakery,Vegetarian,False,40,Available,3.8,7,559,Spicy,Small,"Vegetarian, High-protein",Dairy-free,20.73,True
+MI00633,B04-O03,The Food Stop,B04,R&D Block,Paneer Puff,Bakery,Bakery,Vegetarian,False,55,Available,3.9,9,380,Medium,Small,"Vegetarian, Egg-free",May contain dairy,28.59,True
+MI00634,B04-O03,The Food Stop,B04,R&D Block,Vegetable Cutlet,Snacks,Snacks,Vegetarian,False,45,Available,3.6,16,456,Spicy,Large,"Vegetarian, Budget-friendly",May contain nuts,18.23,True
+MI00635,B04-O03,The Food Stop,B04,R&D Block,Onion Pakora,Snacks,Snacks,Vegetarian,False,45,Available,3.8,13,386,Spicy,Large,"Vegetarian, High-protein","Contains dairy, gluten",21.47,True
+MI00636,B04-O03,The Food Stop,B04,R&D Block,Aloo Tikki,Snacks,Snacks,Vegetarian,False,45,Available,4.0,5,191,Spicy,Large,Vegetarian,"Contains dairy, gluten",27.04,True
+MI00637,B04-O03,The Food Stop,B04,R&D Block,French Fries,Snacks,Snacks,Vegetarian,False,70,Available,4.5,10,248,Medium,Large,"Vegetarian, Budget-friendly",May contain nuts,26.93,True
+MI00638,B04-O03,The Food Stop,B04,R&D Block,Peri Peri Fries,Snacks,Snacks,Vegetarian,False,90,Limited,4.2,12,322,Medium,Regular,"Vegetarian, High-protein",Contains gluten,40.5,True
+MI00639,B04-O03,The Food Stop,B04,R&D Block,Cheese Balls,Snacks,Snacks,Vegetarian,False,80,Available,4.8,16,485,Spicy,Small,Vegetarian,May contain dairy,49.41,True
+MI00640,B04-O03,The Food Stop,B04,R&D Block,Spring Rolls,Snacks,Snacks,Vegetarian,False,80,Available,4.5,13,390,Spicy,Large,"Vegetarian, Budget-friendly",May contain dairy,31.8,True
+MI00641,B04-O03,The Food Stop,B04,R&D Block,Veg Momos,Snacks,Snacks,Vegetarian,False,85,Limited,3.7,12,517,Medium,Small,Vegetarian,May contain dairy,43.89,True
+MI00642,B04-O03,The Food Stop,B04,R&D Block,Paneer Momos,Snacks,Snacks,Vegetarian,False,105,Available,3.7,13,160,Mild,Regular,Vegetarian,"Contains dairy, gluten",44.25,True
+MI00643,B04-O03,The Food Stop,B04,R&D Block,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,75,Available,3.5,15,434,Mild,Large,"Vegetarian, Egg-free",May contain dairy,33.26,True
+MI00644,B04-O03,The Food Stop,B04,R&D Block,Paneer Sandwich,Sandwiches,Sandwiches,Vegetarian,False,95,Limited,4.8,8,547,Spicy,Small,"Vegetarian, High-protein",May contain dairy,53.97,True
+MI00645,B04-O03,The Food Stop,B04,R&D Block,Masala Maggi,Quick Meals,Quick Meals,Vegetarian,False,55,Available,4.2,17,215,Medium,Large,Vegetarian,May contain nuts,32.41,True
+MI00646,B04-O03,The Food Stop,B04,R&D Block,Cheese Maggi,Quick Meals,Quick Meals,Vegetarian,False,85,Limited,4.6,13,453,Mild,Large,"Vegetarian, Budget-friendly",Contains gluten,51.51,True
+MI00647,B04-O03,The Food Stop,B04,R&D Block,Veg Frankie,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,80,Available,3.9,13,641,Mild,Regular,"Vegetarian, Egg-free",May contain dairy,33.32,True
+MI00648,B04-O03,The Food Stop,B04,R&D Block,Paneer Roll,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,110,Available,4.6,15,295,Spicy,Regular,"Vegetarian, Budget-friendly",Contains gluten,67.95,True
+MI00649,B04-O03,The Food Stop,B04,R&D Block,Veg Burger,Burgers,Burgers,Vegetarian,False,90,Available,4.0,11,440,Medium,Large,"Vegetarian, Budget-friendly","Contains dairy, gluten",51.31,True
+MI00650,B04-O03,The Food Stop,B04,R&D Block,Cheese Burger,Burgers,Burgers,Vegetarian,False,105,Available,3.7,10,166,Mild,Large,"Vegetarian, Egg-free",Dairy-free,59.41,True
+MI00651,B04-O03,The Food Stop,B04,R&D Block,Sweet Corn Cup,Snacks,Snacks,Vegetarian,False,50,Available,3.9,18,683,Spicy,Large,"Vegetarian, Budget-friendly",Contains gluten,27.62,True
+MI00652,B04-O03,The Food Stop,B04,R&D Block,Masala Peanuts,Snacks,Snacks,Vegetarian,False,40,Limited,4.0,13,191,Mild,Small,"Vegetarian, Egg-free",May contain dairy,20.58,True
+MI00653,B04-O03,The Food Stop,B04,R&D Block,Masala Tea,Beverages,Beverages,Vegetarian,False,20,Available,4.3,17,386,Mild,Small,"Vegetarian, Budget-friendly","Contains dairy, gluten",12.28,True
+MI00654,B04-O03,The Food Stop,B04,R&D Block,Ginger Tea,Beverages,Beverages,Vegetarian,False,25,Available,3.7,4,705,Mild,Large,"Vegetarian, High-protein",Contains gluten,13.35,True
+MI00655,B04-O03,The Food Stop,B04,R&D Block,Filter Coffee,Beverages,Beverages,Vegetarian,False,30,Available,3.7,13,241,Spicy,Large,"Vegetarian, Budget-friendly",Dairy-free,12.03,True
+MI00656,B04-O03,The Food Stop,B04,R&D Block,Cold Coffee,Beverages,Beverages,Vegetarian,False,90,Limited,4.3,16,618,Mild,Large,Vegetarian,May contain dairy,54.38,True
+MI00657,B04-O03,The Food Stop,B04,R&D Block,Chocolate Brownie,Desserts,Desserts,Vegetarian,False,60,Available,4.6,15,672,Medium,Large,"Vegetarian, Budget-friendly",May contain nuts,25.79,True
+MI00658,B04-O03,The Food Stop,B04,R&D Block,Chocolate Donut,Bakery,Bakery,Vegetarian,False,60,Available,3.6,16,286,Spicy,Small,"Vegetarian, High-protein",May contain dairy,23.38,True
+MI00659,B04-O03,The Food Stop,B04,R&D Block,Chicken Momos,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,115,Available,3.6,19,329,Medium,Large,"Chicken, High-protein","May contain dairy, gluten",74.2,True
+MI00660,B04-O03,The Food Stop,B04,R&D Block,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,115,Available,4.2,14,461,Medium,Large,"Chicken, High-protein","May contain dairy, gluten",54.74,True
+MI00661,B04-O03,The Food Stop,B04,R&D Block,Chicken Popcorn,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,120,Available,4.7,23,670,Mild,Regular,"Chicken, High-protein",May contain dairy,71.02,True
+MI00662,B04-O03,The Food Stop,B04,R&D Block,Chicken Fingers,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,115,Limited,4.2,11,544,Spicy,Regular,"Chicken, High-protein",May contain dairy,63.31,True
+MI00663,B04-O03,The Food Stop,B04,R&D Block,Chicken Puff,Bakery,Bakery,Non-Vegetarian (Chicken),True,65,Limited,4.2,18,546,Mild,Regular,"Chicken, High-protein","May contain dairy, gluten",42.55,True
+MI00664,B04-O03,The Food Stop,B04,R&D Block,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,125,Available,3.9,9,338,Medium,Regular,"Chicken, High-protein",May contain dairy,66.27,True
+MI00665,B04-O03,The Food Stop,B04,R&D Block,Chicken Frankie,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,135,Limited,4.2,23,211,Medium,Regular,"Chicken, High-protein",Contains gluten,70.22,True
+MI00666,B04-O04,Bite Express,B04,R&D Block,Samosa,Snacks,Snacks,Vegetarian,False,25,Limited,3.9,10,144,Mild,Large,Vegetarian,"Contains dairy, gluten",13.23,True
+MI00667,B04-O04,Bite Express,B04,R&D Block,Veg Puff,Bakery,Bakery,Vegetarian,False,35,Limited,4.0,6,202,Mild,Small,"Vegetarian, Budget-friendly",Dairy-free,13.47,True
+MI00668,B04-O04,Bite Express,B04,R&D Block,Paneer Puff,Bakery,Bakery,Vegetarian,False,60,Available,4.2,7,691,Spicy,Small,"Vegetarian, Egg-free",May contain dairy,29.96,True
+MI00669,B04-O04,Bite Express,B04,R&D Block,Vegetable Cutlet,Snacks,Snacks,Vegetarian,False,40,Available,3.7,8,545,Spicy,Regular,"Vegetarian, Egg-free","Contains dairy, gluten",21.07,True
+MI00670,B04-O04,Bite Express,B04,R&D Block,Onion Pakora,Snacks,Snacks,Vegetarian,False,45,Available,4.2,6,631,Mild,Small,"Vegetarian, Egg-free",May contain nuts,19.21,True
+MI00671,B04-O04,Bite Express,B04,R&D Block,Aloo Tikki,Snacks,Snacks,Vegetarian,False,45,Available,3.9,14,701,Medium,Large,"Vegetarian, Egg-free",Dairy-free,26.22,True
+MI00672,B04-O04,Bite Express,B04,R&D Block,French Fries,Snacks,Snacks,Vegetarian,False,60,Available,4.9,9,710,Medium,Regular,Vegetarian,May contain nuts,37.09,True
+MI00673,B04-O04,Bite Express,B04,R&D Block,Peri Peri Fries,Snacks,Snacks,Vegetarian,False,85,Available,4.5,6,688,Medium,Large,Vegetarian,Dairy-free,41.82,True
+MI00674,B04-O04,Bite Express,B04,R&D Block,Cheese Balls,Snacks,Snacks,Vegetarian,False,85,Available,4.9,6,429,Medium,Regular,Vegetarian,May contain nuts,46.1,True
+MI00675,B04-O04,Bite Express,B04,R&D Block,Spring Rolls,Snacks,Snacks,Vegetarian,False,75,Available,4.5,12,653,Spicy,Regular,Vegetarian,Dairy-free,37.44,True
+MI00676,B04-O04,Bite Express,B04,R&D Block,Veg Momos,Snacks,Snacks,Vegetarian,False,90,Available,4.6,12,143,Spicy,Large,"Vegetarian, Egg-free","Contains dairy, gluten",44.97,True
+MI00677,B04-O04,Bite Express,B04,R&D Block,Paneer Momos,Snacks,Snacks,Vegetarian,False,100,Available,4.4,5,701,Medium,Large,"Vegetarian, Budget-friendly",May contain nuts,58.23,True
+MI00678,B04-O04,Bite Express,B04,R&D Block,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,80,Limited,3.8,17,172,Mild,Regular,"Vegetarian, High-protein",May contain nuts,43.8,True
+MI00679,B04-O04,Bite Express,B04,R&D Block,Paneer Sandwich,Sandwiches,Sandwiches,Vegetarian,False,105,Available,3.7,12,340,Mild,Large,"Vegetarian, Egg-free",Contains gluten,64.22,True
+MI00680,B04-O04,Bite Express,B04,R&D Block,Masala Maggi,Quick Meals,Quick Meals,Vegetarian,False,55,Available,4.2,7,366,Mild,Regular,"Vegetarian, High-protein",May contain dairy,31.6,True
+MI00681,B04-O04,Bite Express,B04,R&D Block,Cheese Maggi,Quick Meals,Quick Meals,Vegetarian,False,75,Available,4.3,5,306,Mild,Large,"Vegetarian, High-protein",May contain dairy,32.33,True
+MI00682,B04-O04,Bite Express,B04,R&D Block,Veg Frankie,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,80,Available,4.4,7,538,Spicy,Small,Vegetarian,"Contains dairy, gluten",48.1,True
+MI00683,B04-O04,Bite Express,B04,R&D Block,Paneer Roll,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,110,Available,3.7,18,693,Mild,Large,"Vegetarian, Egg-free",Dairy-free,65.81,True
+MI00684,B04-O04,Bite Express,B04,R&D Block,Veg Burger,Burgers,Burgers,Vegetarian,False,85,Available,4.3,14,628,Medium,Regular,"Vegetarian, High-protein",Dairy-free,35.08,True
+MI00685,B04-O04,Bite Express,B04,R&D Block,Cheese Burger,Burgers,Burgers,Vegetarian,False,115,Limited,3.8,16,620,Spicy,Small,"Vegetarian, High-protein",Dairy-free,56.3,True
+MI00686,B04-O04,Bite Express,B04,R&D Block,Sweet Corn Cup,Snacks,Snacks,Vegetarian,False,50,Available,3.8,7,657,Spicy,Regular,"Vegetarian, Egg-free",May contain nuts,27.27,True
+MI00687,B04-O04,Bite Express,B04,R&D Block,Masala Peanuts,Snacks,Snacks,Vegetarian,False,40,Available,3.8,6,291,Mild,Regular,Vegetarian,May contain dairy,24.72,True
+MI00688,B04-O04,Bite Express,B04,R&D Block,Masala Tea,Beverages,Beverages,Vegetarian,False,20,Limited,4.4,11,207,Medium,Large,"Vegetarian, Budget-friendly",May contain dairy,11.05,True
+MI00689,B04-O04,Bite Express,B04,R&D Block,Ginger Tea,Beverages,Beverages,Vegetarian,False,25,Limited,3.6,4,239,Spicy,Regular,"Vegetarian, Egg-free",Contains gluten,10.3,True
+MI00690,B04-O04,Bite Express,B04,R&D Block,Filter Coffee,Beverages,Beverages,Vegetarian,False,30,Available,4.2,17,243,Mild,Small,"Vegetarian, Egg-free",May contain dairy,15.86,True
+MI00691,B04-O04,Bite Express,B04,R&D Block,Cold Coffee,Beverages,Beverages,Vegetarian,False,90,Available,4.8,8,284,Spicy,Large,"Vegetarian, High-protein",Contains gluten,44.22,True
+MI00692,B04-O04,Bite Express,B04,R&D Block,Chocolate Brownie,Desserts,Desserts,Vegetarian,False,60,Available,4.0,18,429,Mild,Large,"Vegetarian, High-protein",May contain nuts,32.53,True
+MI00693,B04-O04,Bite Express,B04,R&D Block,Chocolate Donut,Bakery,Bakery,Vegetarian,False,55,Available,4.8,8,375,Mild,Regular,Vegetarian,May contain nuts,27.95,True
+MI00694,B04-O04,Bite Express,B04,R&D Block,Chicken Momos,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,120,Available,4.2,8,752,Medium,Regular,"Chicken, High-protein",May contain dairy,59.75,True
+MI00695,B04-O04,Bite Express,B04,R&D Block,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,120,Available,3.8,8,572,Mild,Large,"Chicken, High-protein",Contains gluten,80.59,True
+MI00696,B04-O04,Bite Express,B04,R&D Block,Chicken Popcorn,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,110,Limited,4.9,15,350,Medium,Regular,"Chicken, High-protein",Contains gluten,74.62,True
+MI00697,B04-O04,Bite Express,B04,R&D Block,Chicken Fingers,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,115,Available,4.3,13,845,Medium,Large,"Chicken, High-protein","May contain dairy, gluten",63.91,True
+MI00698,B04-O04,Bite Express,B04,R&D Block,Chicken Puff,Bakery,Bakery,Non-Vegetarian (Chicken),True,60,Available,3.9,10,731,Mild,Large,"Chicken, High-protein","May contain dairy, gluten",30.1,True
+MI00699,B04-O04,Bite Express,B04,R&D Block,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,125,Limited,4.6,11,516,Mild,Large,"Chicken, High-protein",Contains gluten,76.55,True
+MI00700,B04-O04,Bite Express,B04,R&D Block,Chicken Frankie,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,130,Available,3.7,16,271,Medium,Regular,"Chicken, High-protein","May contain dairy, gluten",85.96,True
+MI00701,B04-O05,Chai Point,B04,R&D Block,Samosa,Snacks,Snacks,Vegetarian,False,25,Limited,3.5,15,225,Spicy,Regular,"Vegetarian, Budget-friendly",May contain dairy,14.26,True
+MI00702,B04-O05,Chai Point,B04,R&D Block,Veg Puff,Bakery,Bakery,Vegetarian,False,40,Limited,4.1,6,206,Spicy,Large,"Vegetarian, Budget-friendly",May contain nuts,22.2,True
+MI00703,B04-O05,Chai Point,B04,R&D Block,Paneer Puff,Bakery,Bakery,Vegetarian,False,60,Available,3.8,4,549,Medium,Regular,"Vegetarian, High-protein",May contain dairy,34.7,True
+MI00704,B04-O05,Chai Point,B04,R&D Block,Vegetable Cutlet,Snacks,Snacks,Vegetarian,False,40,Available,4.6,4,578,Spicy,Regular,"Vegetarian, Budget-friendly",Contains gluten,22.78,True
+MI00705,B04-O05,Chai Point,B04,R&D Block,Onion Pakora,Snacks,Snacks,Vegetarian,False,50,Available,4.3,9,687,Spicy,Large,Vegetarian,Contains gluten,22.18,True
+MI00706,B04-O05,Chai Point,B04,R&D Block,Aloo Tikki,Snacks,Snacks,Vegetarian,False,50,Available,4.4,17,650,Mild,Large,"Vegetarian, Egg-free",Dairy-free,22.84,True
+MI00707,B04-O05,Chai Point,B04,R&D Block,French Fries,Snacks,Snacks,Vegetarian,False,70,Available,4.1,6,434,Spicy,Regular,"Vegetarian, High-protein",May contain nuts,38.35,True
+MI00708,B04-O05,Chai Point,B04,R&D Block,Peri Peri Fries,Snacks,Snacks,Vegetarian,False,95,Available,4.1,17,241,Mild,Regular,"Vegetarian, Budget-friendly",Contains gluten,43.34,True
+MI00709,B04-O05,Chai Point,B04,R&D Block,Cheese Balls,Snacks,Snacks,Vegetarian,False,80,Available,4.1,10,670,Mild,Small,Vegetarian,Contains gluten,31.58,True
+MI00710,B04-O05,Chai Point,B04,R&D Block,Spring Rolls,Snacks,Snacks,Vegetarian,False,75,Available,4.6,10,271,Mild,Regular,"Vegetarian, High-protein",May contain nuts,29.9,True
+MI00711,B04-O05,Chai Point,B04,R&D Block,Veg Momos,Snacks,Snacks,Vegetarian,False,80,Limited,4.9,14,602,Mild,Large,"Vegetarian, Budget-friendly","Contains dairy, gluten",31.32,True
+MI00712,B04-O05,Chai Point,B04,R&D Block,Paneer Momos,Snacks,Snacks,Vegetarian,False,95,Limited,3.6,11,167,Medium,Regular,"Vegetarian, Egg-free","Contains dairy, gluten",39.91,True
+MI00713,B04-O05,Chai Point,B04,R&D Block,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,70,Available,4.3,8,168,Mild,Regular,"Vegetarian, High-protein",May contain nuts,26.89,True
+MI00714,B04-O05,Chai Point,B04,R&D Block,Paneer Sandwich,Sandwiches,Sandwiches,Vegetarian,False,100,Available,3.6,5,299,Medium,Small,"Vegetarian, High-protein","Contains dairy, gluten",55.01,True
+MI00715,B04-O05,Chai Point,B04,R&D Block,Masala Maggi,Quick Meals,Quick Meals,Vegetarian,False,55,Available,4.2,14,473,Spicy,Large,"Vegetarian, High-protein",May contain dairy,21.4,True
+MI00716,B04-O05,Chai Point,B04,R&D Block,Cheese Maggi,Quick Meals,Quick Meals,Vegetarian,False,80,Available,3.8,18,166,Spicy,Small,"Vegetarian, Egg-free",Dairy-free,31.87,True
+MI00717,B04-O05,Chai Point,B04,R&D Block,Veg Frankie,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,90,Limited,4.9,4,360,Medium,Large,"Vegetarian, Budget-friendly",May contain nuts,51.08,True
+MI00718,B04-O05,Chai Point,B04,R&D Block,Paneer Roll,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,100,Available,3.9,15,581,Spicy,Large,"Vegetarian, High-protein",May contain dairy,40.56,True
+MI00719,B04-O05,Chai Point,B04,R&D Block,Veg Burger,Burgers,Burgers,Vegetarian,False,95,Available,4.6,4,535,Spicy,Regular,"Vegetarian, High-protein",May contain nuts,49.75,True
+MI00720,B04-O05,Chai Point,B04,R&D Block,Cheese Burger,Burgers,Burgers,Vegetarian,False,120,Available,4.2,8,311,Medium,Regular,"Vegetarian, Egg-free",Contains gluten,53.85,True
+MI00721,B04-O05,Chai Point,B04,R&D Block,Sweet Corn Cup,Snacks,Snacks,Vegetarian,False,45,Available,3.6,9,718,Medium,Large,"Vegetarian, Egg-free",Contains gluten,27.23,True
+MI00722,B04-O05,Chai Point,B04,R&D Block,Masala Peanuts,Snacks,Snacks,Vegetarian,False,35,Available,3.6,18,711,Spicy,Small,"Vegetarian, High-protein",May contain nuts,20.8,True
+MI00723,B04-O05,Chai Point,B04,R&D Block,Masala Tea,Beverages,Beverages,Vegetarian,False,20,Limited,4.7,17,359,Mild,Small,"Vegetarian, Egg-free",May contain nuts,8.71,True
+MI00724,B04-O05,Chai Point,B04,R&D Block,Ginger Tea,Beverages,Beverages,Vegetarian,False,25,Available,4.7,6,597,Mild,Small,"Vegetarian, High-protein",May contain dairy,11.45,True
+MI00725,B04-O05,Chai Point,B04,R&D Block,Filter Coffee,Beverages,Beverages,Vegetarian,False,30,Available,3.8,17,303,Mild,Small,"Vegetarian, Egg-free",May contain dairy,12.49,True
+MI00726,B04-O05,Chai Point,B04,R&D Block,Cold Coffee,Beverages,Beverages,Vegetarian,False,100,Available,4.6,16,678,Mild,Regular,Vegetarian,Dairy-free,53.38,True
+MI00727,B04-O05,Chai Point,B04,R&D Block,Chocolate Brownie,Desserts,Desserts,Vegetarian,False,60,Available,4.5,12,362,Medium,Small,"Vegetarian, Egg-free",Contains gluten,22.85,True
+MI00728,B04-O05,Chai Point,B04,R&D Block,Chocolate Donut,Bakery,Bakery,Vegetarian,False,50,Available,4.1,11,162,Spicy,Small,Vegetarian,May contain nuts,19.65,True
+MI00729,B04-O05,Chai Point,B04,R&D Block,Chicken Momos,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,125,Available,4.4,8,795,Spicy,Regular,"Chicken, High-protein","May contain dairy, gluten",59.51,True
+MI00730,B04-O05,Chai Point,B04,R&D Block,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,110,Available,4.4,23,440,Spicy,Regular,"Chicken, High-protein","May contain dairy, gluten",59.6,True
+MI00731,B04-O05,Chai Point,B04,R&D Block,Chicken Popcorn,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,105,Available,4.5,23,448,Medium,Regular,"Chicken, High-protein",May contain dairy,65.73,True
+MI00732,B04-O05,Chai Point,B04,R&D Block,Chicken Fingers,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,115,Available,4.2,13,380,Medium,Large,"Chicken, High-protein",May contain dairy,51.99,True
+MI00733,B04-O05,Chai Point,B04,R&D Block,Chicken Puff,Bakery,Bakery,Non-Vegetarian (Chicken),True,70,Limited,4.6,23,407,Mild,Regular,"Chicken, High-protein","May contain dairy, gluten",46.61,True
+MI00734,B04-O05,Chai Point,B04,R&D Block,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,140,Available,3.8,12,450,Mild,Large,"Chicken, High-protein",Contains gluten,85.4,True
+MI00735,B04-O05,Chai Point,B04,R&D Block,Chicken Frankie,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,150,Available,3.7,18,606,Mild,Regular,"Chicken, High-protein",Contains gluten,83.79,True
+MI00736,B04-O06,Nutri Bowl,B04,R&D Block,Seasonal Fruit Bowl,Healthy Bowls,Healthy Bowls,Vegetarian,False,80,Limited,4.6,16,673,Spicy,Regular,"Vegetarian, High-protein",Contains gluten,47.6,True
+MI00737,B04-O06,Nutri Bowl,B04,R&D Block,Sprouts Salad,Salads,Salads,Vegetarian,False,65,Limited,4.0,8,297,Mild,Small,Vegetarian,Contains gluten,26.03,True
+MI00738,B04-O06,Nutri Bowl,B04,R&D Block,Chickpea Salad,Salads,Salads,Vegetarian,False,90,Limited,4.4,12,336,Spicy,Regular,"Vegetarian, Budget-friendly",May contain nuts,43.35,True
+MI00739,B04-O06,Nutri Bowl,B04,R&D Block,Paneer Salad,Salads,Salads,Vegetarian,False,120,Available,4.5,14,527,Medium,Small,"Vegetarian, High-protein",Dairy-free,63.88,True
+MI00740,B04-O06,Nutri Bowl,B04,R&D Block,Corn & Veg Salad,Salads,Salads,Vegetarian,False,80,Available,3.7,17,165,Medium,Regular,"Vegetarian, Budget-friendly",Dairy-free,37.47,True
+MI00741,B04-O06,Nutri Bowl,B04,R&D Block,Greek Yogurt Bowl,Healthy Bowls,Healthy Bowls,Vegetarian,False,110,Limited,3.9,6,136,Medium,Small,"Vegetarian, High-protein","Contains dairy, gluten",66.86,True
+MI00742,B04-O06,Nutri Bowl,B04,R&D Block,Overnight Oats,Breakfast,Breakfast,Vegetarian,False,90,Available,4.7,8,460,Spicy,Regular,"Vegetarian, Budget-friendly",Contains gluten,34.71,True
+MI00743,B04-O06,Nutri Bowl,B04,R&D Block,Muesli with Milk,Breakfast,Breakfast,Vegetarian,False,105,Available,3.8,10,200,Mild,Small,"Vegetarian, Egg-free",May contain nuts,54.6,True
+MI00744,B04-O06,Nutri Bowl,B04,R&D Block,Vegetable Poha,Breakfast,Breakfast,Vegetarian,False,55,Available,3.5,14,696,Medium,Small,Vegetarian,Contains gluten,23.23,True
+MI00745,B04-O06,Nutri Bowl,B04,R&D Block,Upma,Breakfast,Breakfast,Vegetarian,False,55,Available,4.4,13,546,Spicy,Regular,"Vegetarian, Budget-friendly",Dairy-free,32.78,True
+MI00746,B04-O06,Nutri Bowl,B04,R&D Block,Idli Sambar,South Indian,South Indian,Vegetarian,False,55,Available,3.9,16,706,Spicy,Regular,Vegetarian,Contains gluten,21.91,True
+MI00747,B04-O06,Nutri Bowl,B04,R&D Block,Grilled Vegetable Sandwich,Sandwiches,Sandwiches,Vegetarian,False,90,Available,4.8,5,259,Mild,Large,Vegetarian,Dairy-free,35.87,True
+MI00748,B04-O06,Nutri Bowl,B04,R&D Block,Paneer Sandwich,Sandwiches,Sandwiches,Vegetarian,False,115,Available,4.5,18,269,Medium,Regular,"Vegetarian, Egg-free","Contains dairy, gluten",65.45,True
+MI00749,B04-O06,Nutri Bowl,B04,R&D Block,Multigrain Veg Wrap,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,110,Available,4.7,17,488,Spicy,Small,"Vegetarian, Egg-free",May contain dairy,62.29,True
+MI00750,B04-O06,Nutri Bowl,B04,R&D Block,Paneer Wrap,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,130,Limited,4.2,15,156,Mild,Regular,Vegetarian,May contain nuts,62.47,True
+MI00751,B04-O06,Nutri Bowl,B04,R&D Block,Vegetable Soup,Soups,Soups,Vegetarian,False,70,Available,4.4,6,353,Spicy,Regular,"Vegetarian, Budget-friendly",May contain nuts,33.13,True
+MI00752,B04-O06,Nutri Bowl,B04,R&D Block,Tomato Soup,Soups,Soups,Vegetarian,False,60,Limited,4.7,4,188,Mild,Small,"Vegetarian, Egg-free",May contain nuts,34.07,True
+MI00753,B04-O06,Nutri Bowl,B04,R&D Block,Vegetable Khichdi,Healthy Meals,Healthy Meals,Vegetarian,False,90,Limited,4.7,14,347,Spicy,Large,"Vegetarian, High-protein",May contain nuts,34.72,True
+MI00754,B04-O06,Nutri Bowl,B04,R&D Block,Lemon Rice,Healthy Meals,Healthy Meals,Vegetarian,False,90,Available,4.2,14,538,Medium,Small,"Vegetarian, High-protein","Contains dairy, gluten",35.62,True
+MI00755,B04-O06,Nutri Bowl,B04,R&D Block,Curd Rice,Healthy Meals,Healthy Meals,Vegetarian,False,90,Available,3.6,10,680,Medium,Small,"Vegetarian, Budget-friendly",Contains gluten,52.38,True
+MI00756,B04-O06,Nutri Bowl,B04,R&D Block,Quinoa Veg Bowl,Healthy Bowls,Healthy Bowls,Vegetarian,False,155,Limited,4.8,5,187,Medium,Regular,Vegetarian,May contain dairy,82.63,True
+MI00757,B04-O06,Nutri Bowl,B04,R&D Block,Brown Rice Bowl,Healthy Bowls,Healthy Bowls,Vegetarian,False,125,Limited,4.8,14,493,Mild,Small,"Vegetarian, High-protein",May contain dairy,50.88,True
+MI00758,B04-O06,Nutri Bowl,B04,R&D Block,Steamed Corn,Snacks,Snacks,Vegetarian,False,50,Available,4.0,11,362,Mild,Small,"Vegetarian, Budget-friendly","Contains dairy, gluten",19.26,True
+MI00759,B04-O06,Nutri Bowl,B04,R&D Block,Boiled Peanut Chaat,Snacks,Snacks,Vegetarian,False,55,Available,4.7,18,343,Spicy,Small,"Vegetarian, High-protein","Contains dairy, gluten",31.44,True
+MI00760,B04-O06,Nutri Bowl,B04,R&D Block,Coconut Water,Beverages,Beverages,Vegetarian,False,55,Limited,4.5,4,416,Mild,Regular,Vegetarian,Dairy-free,25.36,True
+MI00761,B04-O06,Nutri Bowl,B04,R&D Block,Buttermilk,Beverages,Beverages,Vegetarian,False,30,Available,3.5,13,531,Mild,Large,"Vegetarian, Egg-free",May contain dairy,14.13,True
+MI00762,B04-O06,Nutri Bowl,B04,R&D Block,Fresh Orange Juice,Beverages,Beverages,Vegetarian,False,75,Available,4.7,10,215,Medium,Small,"Vegetarian, High-protein",Contains gluten,29.48,True
+MI00763,B04-O06,Nutri Bowl,B04,R&D Block,Banana Smoothie,Beverages,Beverages,Vegetarian,False,95,Available,3.6,11,385,Medium,Small,"Vegetarian, Budget-friendly",May contain dairy,48.74,True
+MI00764,B04-O06,Nutri Bowl,B04,R&D Block,Chicken Salad Bowl,Salads,Salads,Non-Vegetarian (Chicken),True,160,Available,3.7,20,268,Mild,Large,"Chicken, High-protein","May contain dairy, gluten",100.62,True
+MI00765,B04-O06,Nutri Bowl,B04,R&D Block,Grilled Chicken Salad,Salads,Salads,Non-Vegetarian (Chicken),True,175,Limited,4.1,22,549,Mild,Large,"Chicken, High-protein",Contains gluten,118.9,True
+MI00766,B04-O06,Nutri Bowl,B04,R&D Block,Grilled Chicken Wrap,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,155,Limited,4.0,8,593,Medium,Regular,"Chicken, High-protein","May contain dairy, gluten",81.34,True
+MI00767,B04-O06,Nutri Bowl,B04,R&D Block,Chicken Rice Bowl,Healthy Bowls,Healthy Bowls,Non-Vegetarian (Chicken),True,155,Available,4.7,12,735,Spicy,Regular,"Chicken, High-protein","May contain dairy, gluten",99.55,True
+MI00768,B04-O06,Nutri Bowl,B04,R&D Block,Chicken Soup,Soups,Soups,Non-Vegetarian (Chicken),True,95,Limited,4.5,10,798,Mild,Regular,"Chicken, High-protein",May contain dairy,44.24,True
+MI00769,B04-O06,Nutri Bowl,B04,R&D Block,Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,130,Available,4.7,22,620,Mild,Large,"Chicken, High-protein",Contains gluten,85.83,True
+MI00770,B04-O06,Nutri Bowl,B04,R&D Block,Multigrain Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,155,Available,3.9,14,431,Spicy,Large,"Chicken, High-protein","May contain dairy, gluten",70.73,True
+MI00771,B05-O01,The Refreshment Corner,B05,Main Audi Block,Samosa,Snacks,Snacks,Vegetarian,False,25,Available,4.1,7,719,Medium,Large,"Vegetarian, Egg-free",May contain nuts,10.11,True
+MI00772,B05-O01,The Refreshment Corner,B05,Main Audi Block,Veg Puff,Bakery,Bakery,Vegetarian,False,40,Limited,4.6,10,425,Mild,Small,"Vegetarian, Egg-free",May contain nuts,18.27,True
+MI00773,B05-O01,The Refreshment Corner,B05,Main Audi Block,Paneer Puff,Bakery,Bakery,Vegetarian,False,60,Available,4.3,13,349,Spicy,Large,Vegetarian,Contains gluten,30.8,True
+MI00774,B05-O01,The Refreshment Corner,B05,Main Audi Block,Vegetable Cutlet,Snacks,Snacks,Vegetarian,False,45,Limited,3.7,15,685,Medium,Regular,"Vegetarian, Egg-free",Dairy-free,19.54,True
+MI00775,B05-O01,The Refreshment Corner,B05,Main Audi Block,Onion Pakora,Snacks,Snacks,Vegetarian,False,40,Available,3.8,12,199,Spicy,Regular,"Vegetarian, Budget-friendly",Contains gluten,18.39,True
+MI00776,B05-O01,The Refreshment Corner,B05,Main Audi Block,Aloo Tikki,Snacks,Snacks,Vegetarian,False,45,Limited,4.8,18,235,Mild,Regular,"Vegetarian, High-protein",May contain nuts,26.17,True
+MI00777,B05-O01,The Refreshment Corner,B05,Main Audi Block,French Fries,Snacks,Snacks,Vegetarian,False,65,Available,3.8,9,605,Spicy,Small,"Vegetarian, Egg-free",Contains gluten,38.35,True
+MI00778,B05-O01,The Refreshment Corner,B05,Main Audi Block,Peri Peri Fries,Snacks,Snacks,Vegetarian,False,85,Available,4.8,18,512,Medium,Regular,"Vegetarian, Budget-friendly",May contain dairy,50.97,True
+MI00779,B05-O01,The Refreshment Corner,B05,Main Audi Block,Cheese Balls,Snacks,Snacks,Vegetarian,False,80,Available,3.7,5,286,Medium,Large,Vegetarian,May contain nuts,36.93,True
+MI00780,B05-O01,The Refreshment Corner,B05,Main Audi Block,Spring Rolls,Snacks,Snacks,Vegetarian,False,80,Available,4.3,13,484,Medium,Small,Vegetarian,"Contains dairy, gluten",33.3,True
+MI00781,B05-O01,The Refreshment Corner,B05,Main Audi Block,Veg Momos,Snacks,Snacks,Vegetarian,False,85,Available,4.6,10,604,Spicy,Small,"Vegetarian, Budget-friendly","Contains dairy, gluten",45.74,True
+MI00782,B05-O01,The Refreshment Corner,B05,Main Audi Block,Paneer Momos,Snacks,Snacks,Vegetarian,False,100,Available,4.2,4,215,Medium,Small,Vegetarian,"Contains dairy, gluten",49.02,True
+MI00783,B05-O01,The Refreshment Corner,B05,Main Audi Block,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,70,Available,3.8,16,320,Mild,Regular,Vegetarian,May contain dairy,35.7,True
+MI00784,B05-O01,The Refreshment Corner,B05,Main Audi Block,Paneer Sandwich,Sandwiches,Sandwiches,Vegetarian,False,95,Available,4.4,7,409,Mild,Small,"Vegetarian, Budget-friendly",May contain dairy,44.62,True
+MI00785,B05-O01,The Refreshment Corner,B05,Main Audi Block,Masala Maggi,Quick Meals,Quick Meals,Vegetarian,False,55,Available,4.2,5,573,Spicy,Small,Vegetarian,May contain nuts,29.86,True
+MI00786,B05-O01,The Refreshment Corner,B05,Main Audi Block,Cheese Maggi,Quick Meals,Quick Meals,Vegetarian,False,70,Available,4.9,8,243,Mild,Small,"Vegetarian, Egg-free",Dairy-free,42.79,True
+MI00787,B05-O01,The Refreshment Corner,B05,Main Audi Block,Veg Frankie,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,90,Available,3.8,9,701,Mild,Regular,"Vegetarian, Budget-friendly",May contain nuts,41.96,True
+MI00788,B05-O01,The Refreshment Corner,B05,Main Audi Block,Paneer Roll,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,100,Available,3.9,16,332,Medium,Large,"Vegetarian, Egg-free",Dairy-free,47.73,True
+MI00789,B05-O01,The Refreshment Corner,B05,Main Audi Block,Veg Burger,Burgers,Burgers,Vegetarian,False,90,Limited,4.7,7,703,Mild,Regular,"Vegetarian, High-protein",Dairy-free,42.61,True
+MI00790,B05-O01,The Refreshment Corner,B05,Main Audi Block,Cheese Burger,Burgers,Burgers,Vegetarian,False,110,Available,3.8,5,372,Medium,Large,Vegetarian,May contain nuts,50.83,True
+MI00791,B05-O01,The Refreshment Corner,B05,Main Audi Block,Sweet Corn Cup,Snacks,Snacks,Vegetarian,False,45,Available,4.1,9,294,Medium,Small,"Vegetarian, High-protein",Contains gluten,18.59,True
+MI00792,B05-O01,The Refreshment Corner,B05,Main Audi Block,Masala Peanuts,Snacks,Snacks,Vegetarian,False,35,Available,4.1,4,560,Mild,Large,Vegetarian,Dairy-free,21.1,True
+MI00793,B05-O01,The Refreshment Corner,B05,Main Audi Block,Masala Tea,Beverages,Beverages,Vegetarian,False,20,Limited,4.0,11,209,Spicy,Large,"Vegetarian, Budget-friendly",May contain nuts,11.55,True
+MI00794,B05-O01,The Refreshment Corner,B05,Main Audi Block,Ginger Tea,Beverages,Beverages,Vegetarian,False,30,Available,3.6,16,501,Medium,Regular,"Vegetarian, High-protein",May contain nuts,17.4,True
+MI00795,B05-O01,The Refreshment Corner,B05,Main Audi Block,Filter Coffee,Beverages,Beverages,Vegetarian,False,30,Limited,4.0,16,219,Spicy,Large,"Vegetarian, High-protein","Contains dairy, gluten",15.17,True
+MI00796,B05-O01,The Refreshment Corner,B05,Main Audi Block,Cold Coffee,Beverages,Beverages,Vegetarian,False,100,Available,3.8,13,215,Medium,Regular,"Vegetarian, Budget-friendly",May contain nuts,49.52,True
+MI00797,B05-O01,The Refreshment Corner,B05,Main Audi Block,Chocolate Brownie,Desserts,Desserts,Vegetarian,False,70,Available,3.8,15,180,Medium,Large,"Vegetarian, High-protein",May contain dairy,30.59,True
+MI00798,B05-O01,The Refreshment Corner,B05,Main Audi Block,Chocolate Donut,Bakery,Bakery,Vegetarian,False,55,Available,4.9,15,236,Spicy,Regular,"Vegetarian, Budget-friendly","Contains dairy, gluten",28.35,True
+MI00799,B05-O01,The Refreshment Corner,B05,Main Audi Block,Chicken Momos,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,115,Limited,4.8,15,393,Mild,Large,"Chicken, High-protein",Contains gluten,75.52,True
+MI00800,B05-O01,The Refreshment Corner,B05,Main Audi Block,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,105,Available,4.5,11,703,Medium,Regular,"Chicken, High-protein","May contain dairy, gluten",70.38,True
+MI00801,B05-O01,The Refreshment Corner,B05,Main Audi Block,Chicken Popcorn,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,110,Available,4.3,23,444,Medium,Large,"Chicken, High-protein",May contain dairy,68.03,True
+MI00802,B05-O01,The Refreshment Corner,B05,Main Audi Block,Chicken Fingers,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,130,Available,3.7,9,369,Spicy,Regular,"Chicken, High-protein",May contain dairy,73.54,True
+MI00803,B05-O01,The Refreshment Corner,B05,Main Audi Block,Chicken Puff,Bakery,Bakery,Non-Vegetarian (Chicken),True,65,Limited,3.8,9,681,Medium,Large,"Chicken, High-protein","May contain dairy, gluten",30.12,True
+MI00804,B05-O01,The Refreshment Corner,B05,Main Audi Block,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,140,Available,4.3,20,529,Spicy,Large,"Chicken, High-protein",May contain dairy,65.84,True
+MI00805,B05-O01,The Refreshment Corner,B05,Main Audi Block,Chicken Frankie,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,130,Available,4.0,21,759,Mild,Large,"Chicken, High-protein",Contains gluten,67.03,True
+MI00806,B05-O02,Quick Bites,B05,Main Audi Block,Samosa,Snacks,Snacks,Vegetarian,False,25,Available,4.6,15,348,Spicy,Large,"Vegetarian, Egg-free",May contain dairy,13.16,True
+MI00807,B05-O02,Quick Bites,B05,Main Audi Block,Veg Puff,Bakery,Bakery,Vegetarian,False,40,Limited,3.7,14,189,Mild,Small,"Vegetarian, Budget-friendly",Contains gluten,16.57,True
+MI00808,B05-O02,Quick Bites,B05,Main Audi Block,Paneer Puff,Bakery,Bakery,Vegetarian,False,55,Available,3.6,8,241,Mild,Regular,"Vegetarian, Budget-friendly","Contains dairy, gluten",26.43,True
+MI00809,B05-O02,Quick Bites,B05,Main Audi Block,Vegetable Cutlet,Snacks,Snacks,Vegetarian,False,45,Available,4.5,16,172,Spicy,Large,"Vegetarian, Budget-friendly",Contains gluten,23.0,True
+MI00810,B05-O02,Quick Bites,B05,Main Audi Block,Onion Pakora,Snacks,Snacks,Vegetarian,False,40,Limited,4.7,9,169,Mild,Large,"Vegetarian, High-protein",Contains gluten,22.79,True
+MI00811,B05-O02,Quick Bites,B05,Main Audi Block,Aloo Tikki,Snacks,Snacks,Vegetarian,False,45,Available,4.3,7,214,Mild,Small,"Vegetarian, High-protein",May contain nuts,27.03,True
+MI00812,B05-O02,Quick Bites,B05,Main Audi Block,French Fries,Snacks,Snacks,Vegetarian,False,65,Available,4.4,18,555,Spicy,Regular,"Vegetarian, High-protein",May contain nuts,35.76,True
+MI00813,B05-O02,Quick Bites,B05,Main Audi Block,Peri Peri Fries,Snacks,Snacks,Vegetarian,False,80,Available,3.6,5,352,Mild,Small,"Vegetarian, Budget-friendly",May contain nuts,34.93,True
+MI00814,B05-O02,Quick Bites,B05,Main Audi Block,Cheese Balls,Snacks,Snacks,Vegetarian,False,85,Available,4.0,17,664,Medium,Large,"Vegetarian, Budget-friendly",Contains gluten,36.65,True
+MI00815,B05-O02,Quick Bites,B05,Main Audi Block,Spring Rolls,Snacks,Snacks,Vegetarian,False,80,Available,4.4,14,513,Medium,Large,"Vegetarian, High-protein",Dairy-free,46.48,True
+MI00816,B05-O02,Quick Bites,B05,Main Audi Block,Veg Momos,Snacks,Snacks,Vegetarian,False,90,Available,4.3,7,285,Mild,Regular,"Vegetarian, Egg-free",May contain nuts,47.65,True
+MI00817,B05-O02,Quick Bites,B05,Main Audi Block,Paneer Momos,Snacks,Snacks,Vegetarian,False,100,Limited,4.6,11,208,Spicy,Regular,"Vegetarian, Egg-free",Dairy-free,39.66,True
+MI00818,B05-O02,Quick Bites,B05,Main Audi Block,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,80,Available,4.5,16,543,Medium,Small,"Vegetarian, Egg-free","Contains dairy, gluten",39.01,True
+MI00819,B05-O02,Quick Bites,B05,Main Audi Block,Paneer Sandwich,Sandwiches,Sandwiches,Vegetarian,False,100,Available,3.6,7,544,Mild,Small,"Vegetarian, Egg-free",May contain nuts,60.76,True
+MI00820,B05-O02,Quick Bites,B05,Main Audi Block,Masala Maggi,Quick Meals,Quick Meals,Vegetarian,False,55,Available,4.1,8,545,Spicy,Small,Vegetarian,Contains gluten,28.61,True
+MI00821,B05-O02,Quick Bites,B05,Main Audi Block,Cheese Maggi,Quick Meals,Quick Meals,Vegetarian,False,75,Available,4.7,5,625,Medium,Regular,"Vegetarian, Egg-free",May contain dairy,40.49,True
+MI00822,B05-O02,Quick Bites,B05,Main Audi Block,Veg Frankie,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,90,Available,4.6,5,314,Mild,Regular,"Vegetarian, Budget-friendly",May contain nuts,54.33,True
+MI00823,B05-O02,Quick Bites,B05,Main Audi Block,Paneer Roll,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,100,Limited,4.4,15,700,Spicy,Large,"Vegetarian, Egg-free",Contains gluten,55.43,True
+MI00824,B05-O02,Quick Bites,B05,Main Audi Block,Veg Burger,Burgers,Burgers,Vegetarian,False,85,Available,4.5,15,302,Spicy,Large,"Vegetarian, Egg-free",May contain dairy,48.82,True
+MI00825,B05-O02,Quick Bites,B05,Main Audi Block,Cheese Burger,Burgers,Burgers,Vegetarian,False,115,Available,4.9,6,266,Spicy,Large,Vegetarian,May contain nuts,55.84,True
+MI00826,B05-O02,Quick Bites,B05,Main Audi Block,Sweet Corn Cup,Snacks,Snacks,Vegetarian,False,45,Available,3.7,15,496,Spicy,Small,"Vegetarian, High-protein",May contain nuts,25.6,True
+MI00827,B05-O02,Quick Bites,B05,Main Audi Block,Masala Peanuts,Snacks,Snacks,Vegetarian,False,35,Available,4.6,16,352,Medium,Large,Vegetarian,Contains gluten,15.72,True
+MI00828,B05-O02,Quick Bites,B05,Main Audi Block,Masala Tea,Beverages,Beverages,Vegetarian,False,20,Limited,3.7,7,142,Mild,Small,"Vegetarian, Egg-free",Dairy-free,10.63,True
+MI00829,B05-O02,Quick Bites,B05,Main Audi Block,Ginger Tea,Beverages,Beverages,Vegetarian,False,25,Limited,3.8,14,293,Medium,Regular,Vegetarian,Contains gluten,15.0,True
+MI00830,B05-O02,Quick Bites,B05,Main Audi Block,Filter Coffee,Beverages,Beverages,Vegetarian,False,30,Available,3.8,18,244,Spicy,Small,"Vegetarian, Egg-free",May contain dairy,15.2,True
+MI00831,B05-O02,Quick Bites,B05,Main Audi Block,Cold Coffee,Beverages,Beverages,Vegetarian,False,90,Available,4.2,16,668,Spicy,Regular,"Vegetarian, High-protein","Contains dairy, gluten",50.87,True
+MI00832,B05-O02,Quick Bites,B05,Main Audi Block,Chocolate Brownie,Desserts,Desserts,Vegetarian,False,65,Available,4.5,12,389,Spicy,Large,"Vegetarian, High-protein",May contain dairy,33.53,True
+MI00833,B05-O02,Quick Bites,B05,Main Audi Block,Chocolate Donut,Bakery,Bakery,Vegetarian,False,60,Limited,4.5,8,140,Spicy,Large,"Vegetarian, Budget-friendly",May contain nuts,34.31,True
+MI00834,B05-O02,Quick Bites,B05,Main Audi Block,Chicken Momos,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,125,Available,3.8,16,332,Medium,Regular,"Chicken, High-protein",Contains gluten,67.48,True
+MI00835,B05-O02,Quick Bites,B05,Main Audi Block,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,110,Available,4.7,22,501,Spicy,Regular,"Chicken, High-protein","May contain dairy, gluten",56.32,True
+MI00836,B05-O02,Quick Bites,B05,Main Audi Block,Chicken Popcorn,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,110,Limited,4.8,23,698,Mild,Regular,"Chicken, High-protein",Contains gluten,56.82,True
+MI00837,B05-O02,Quick Bites,B05,Main Audi Block,Chicken Fingers,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,130,Available,4.2,20,550,Medium,Large,"Chicken, High-protein",May contain dairy,59.2,True
+MI00838,B05-O02,Quick Bites,B05,Main Audi Block,Chicken Puff,Bakery,Bakery,Non-Vegetarian (Chicken),True,70,Available,4.5,14,477,Mild,Regular,"Chicken, High-protein",Contains gluten,38.21,True
+MI00839,B05-O02,Quick Bites,B05,Main Audi Block,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,135,Available,4.5,18,633,Medium,Regular,"Chicken, High-protein",May contain dairy,75.62,True
+MI00840,B05-O02,Quick Bites,B05,Main Audi Block,Chicken Frankie,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,130,Limited,3.9,11,290,Spicy,Regular,"Chicken, High-protein",Contains gluten,76.6,True
+MI00841,B05-O03,Coffee Break,B05,Main Audi Block,Espresso,Coffee,Coffee,Vegetarian,False,55,Available,3.8,9,255,Spicy,Regular,Vegetarian,Dairy-free,24.81,True
+MI00842,B05-O03,Coffee Break,B05,Main Audi Block,Americano,Coffee,Coffee,Vegetarian,False,70,Available,4.6,16,355,Medium,Large,"Vegetarian, Egg-free",Contains gluten,35.02,True
+MI00843,B05-O03,Coffee Break,B05,Main Audi Block,Cappuccino,Coffee,Coffee,Vegetarian,False,105,Limited,3.9,8,189,Spicy,Large,"Vegetarian, Budget-friendly",May contain nuts,63.4,True
+MI00844,B05-O03,Coffee Break,B05,Main Audi Block,Café Latte,Coffee,Coffee,Vegetarian,False,120,Available,4.0,12,140,Spicy,Small,Vegetarian,"Contains dairy, gluten",74.36,True
+MI00845,B05-O03,Coffee Break,B05,Main Audi Block,Café Mocha,Coffee,Coffee,Vegetarian,False,120,Available,4.8,14,490,Mild,Large,Vegetarian,"Contains dairy, gluten",68.92,True
+MI00846,B05-O03,Coffee Break,B05,Main Audi Block,Cold Coffee,Coffee,Coffee,Vegetarian,False,95,Available,3.6,4,469,Spicy,Large,Vegetarian,Contains gluten,37.97,True
+MI00847,B05-O03,Coffee Break,B05,Main Audi Block,Iced Latte,Coffee,Coffee,Vegetarian,False,120,Available,4.2,17,449,Medium,Regular,"Vegetarian, High-protein",May contain dairy,62.01,True
+MI00848,B05-O03,Coffee Break,B05,Main Audi Block,Hot Chocolate,Beverages,Beverages,Vegetarian,False,100,Available,3.9,7,508,Mild,Large,"Vegetarian, Budget-friendly",May contain dairy,53.97,True
+MI00849,B05-O03,Coffee Break,B05,Main Audi Block,Masala Tea,Beverages,Beverages,Vegetarian,False,25,Available,4.4,8,303,Mild,Small,"Vegetarian, Egg-free","Contains dairy, gluten",11.72,True
+MI00850,B05-O03,Coffee Break,B05,Main Audi Block,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,75,Available,4.9,10,535,Medium,Small,Vegetarian,May contain dairy,28.63,True
+MI00851,B05-O03,Coffee Break,B05,Main Audi Block,Grilled Cheese Sandwich,Sandwiches,Sandwiches,Vegetarian,False,110,Available,4.4,13,204,Spicy,Large,"Vegetarian, High-protein",Contains gluten,49.97,True
+MI00852,B05-O03,Coffee Break,B05,Main Audi Block,Paneer Sandwich,Sandwiches,Sandwiches,Vegetarian,False,110,Available,4.7,14,237,Spicy,Small,"Vegetarian, Egg-free",May contain nuts,44.93,True
+MI00853,B05-O03,Coffee Break,B05,Main Audi Block,Veg Burger,Burgers,Burgers,Vegetarian,False,90,Available,3.7,5,126,Mild,Small,"Vegetarian, Budget-friendly",May contain nuts,37.1,True
+MI00854,B05-O03,Coffee Break,B05,Main Audi Block,French Fries,Snacks,Snacks,Vegetarian,False,65,Available,4.9,5,579,Spicy,Small,"Vegetarian, Egg-free",Dairy-free,25.41,True
+MI00855,B05-O03,Coffee Break,B05,Main Audi Block,Garlic Bread,Snacks,Snacks,Vegetarian,False,95,Available,4.0,11,697,Mild,Small,"Vegetarian, Egg-free",Contains gluten,50.28,True
+MI00856,B05-O03,Coffee Break,B05,Main Audi Block,Veg Puff,Bakery,Bakery,Vegetarian,False,35,Available,4.5,9,449,Spicy,Regular,"Vegetarian, High-protein",Contains gluten,20.09,True
+MI00857,B05-O03,Coffee Break,B05,Main Audi Block,Paneer Puff,Bakery,Bakery,Vegetarian,False,55,Available,3.5,7,624,Mild,Small,"Vegetarian, Budget-friendly",Dairy-free,30.42,True
+MI00858,B05-O03,Coffee Break,B05,Main Audi Block,Butter Croissant,Bakery,Bakery,Vegetarian,False,85,Available,4.9,18,490,Mild,Small,"Vegetarian, Budget-friendly",May contain dairy,48.65,True
+MI00859,B05-O03,Coffee Break,B05,Main Audi Block,Chocolate Muffin,Bakery,Bakery,Vegetarian,False,60,Limited,3.7,7,642,Medium,Large,"Vegetarian, High-protein",Contains gluten,24.7,True
+MI00860,B05-O03,Coffee Break,B05,Main Audi Block,Blueberry Muffin,Bakery,Bakery,Vegetarian,False,65,Limited,3.6,8,556,Medium,Regular,Vegetarian,Contains gluten,40.2,True
+MI00861,B05-O03,Coffee Break,B05,Main Audi Block,Chocolate Brownie,Desserts,Desserts,Vegetarian,False,65,Available,4.1,15,244,Spicy,Small,"Vegetarian, Budget-friendly",May contain nuts,34.4,True
+MI00862,B05-O03,Coffee Break,B05,Main Audi Block,Chocolate Cookie,Bakery,Bakery,Vegetarian,False,35,Limited,4.7,6,468,Mild,Small,"Vegetarian, High-protein",Contains gluten,20.86,True
+MI00863,B05-O03,Coffee Break,B05,Main Audi Block,Chocolate Donut,Bakery,Bakery,Vegetarian,False,55,Available,4.0,6,638,Mild,Small,Vegetarian,May contain nuts,31.76,True
+MI00864,B05-O03,Coffee Break,B05,Main Audi Block,Cheesecake Slice,Desserts,Desserts,Vegetarian,False,120,Limited,4.8,7,142,Medium,Large,"Vegetarian, High-protein",Contains gluten,47.97,True
+MI00865,B05-O03,Coffee Break,B05,Main Audi Block,Waffle,Desserts,Desserts,Vegetarian,False,110,Available,4.4,5,284,Spicy,Regular,"Vegetarian, High-protein",Contains gluten,55.83,True
+MI00866,B05-O03,Coffee Break,B05,Main Audi Block,Cinnamon Roll,Bakery,Bakery,Vegetarian,False,95,Available,4.6,16,258,Mild,Large,"Vegetarian, Egg-free",May contain nuts,44.91,True
+MI00867,B05-O03,Coffee Break,B05,Main Audi Block,Vanilla Milkshake,Beverages,Beverages,Vegetarian,False,95,Available,3.6,11,613,Medium,Regular,"Vegetarian, High-protein",Dairy-free,49.55,True
+MI00868,B05-O03,Coffee Break,B05,Main Audi Block,Fresh Lime Soda,Beverages,Beverages,Vegetarian,False,60,Limited,3.9,15,202,Medium,Large,"Vegetarian, High-protein",Dairy-free,28.61,True
+MI00869,B05-O03,Coffee Break,B05,Main Audi Block,Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,135,Available,3.7,15,420,Spicy,Regular,"Chicken, High-protein",Contains gluten,70.13,True
+MI00870,B05-O03,Coffee Break,B05,Main Audi Block,Chicken Cheese Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,155,Limited,4.9,22,806,Medium,Large,"Chicken, High-protein","May contain dairy, gluten",86.42,True
+MI00871,B05-O03,Coffee Break,B05,Main Audi Block,Chicken Burger,Burgers,Burgers,Non-Vegetarian (Chicken),True,130,Available,4.8,14,301,Mild,Large,"Chicken, High-protein","May contain dairy, gluten",81.32,True
+MI00872,B05-O03,Coffee Break,B05,Main Audi Block,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,135,Limited,4.5,15,194,Medium,Large,"Chicken, High-protein",Contains gluten,76.46,True
+MI00873,B05-O03,Coffee Break,B05,Main Audi Block,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,105,Available,3.9,9,392,Spicy,Large,"Chicken, High-protein",May contain dairy,62.45,True
+MI00874,B05-O03,Coffee Break,B05,Main Audi Block,Chicken Puff,Bakery,Bakery,Non-Vegetarian (Chicken),True,65,Available,4.0,19,572,Spicy,Large,"Chicken, High-protein","May contain dairy, gluten",32.25,True
+MI00875,B05-O03,Coffee Break,B05,Main Audi Block,Chicken Fingers,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,125,Available,4.6,8,483,Mild,Regular,"Chicken, High-protein",Contains gluten,59.04,True
+MI00876,B05-O04,The Snack Hub,B05,Main Audi Block,Samosa,Snacks,Snacks,Vegetarian,False,25,Available,4.7,15,149,Mild,Small,Vegetarian,Dairy-free,10.32,True
+MI00877,B05-O04,The Snack Hub,B05,Main Audi Block,Veg Puff,Bakery,Bakery,Vegetarian,False,40,Available,4.1,15,626,Mild,Large,"Vegetarian, Egg-free",May contain nuts,19.67,True
+MI00878,B05-O04,The Snack Hub,B05,Main Audi Block,Paneer Puff,Bakery,Bakery,Vegetarian,False,55,Available,4.7,17,638,Mild,Large,"Vegetarian, Egg-free","Contains dairy, gluten",23.17,True
+MI00879,B05-O04,The Snack Hub,B05,Main Audi Block,Vegetable Cutlet,Snacks,Snacks,Vegetarian,False,40,Available,3.7,14,371,Spicy,Small,"Vegetarian, Budget-friendly",Contains gluten,20.03,True
+MI00880,B05-O04,The Snack Hub,B05,Main Audi Block,Onion Pakora,Snacks,Snacks,Vegetarian,False,50,Available,4.3,14,635,Mild,Large,"Vegetarian, Egg-free",Contains gluten,29.24,True
+MI00881,B05-O04,The Snack Hub,B05,Main Audi Block,Aloo Tikki,Snacks,Snacks,Vegetarian,False,45,Available,4.2,7,275,Medium,Regular,"Vegetarian, Egg-free",May contain nuts,22.03,True
+MI00882,B05-O04,The Snack Hub,B05,Main Audi Block,French Fries,Snacks,Snacks,Vegetarian,False,60,Available,4.1,16,659,Spicy,Regular,"Vegetarian, Budget-friendly",May contain nuts,27.42,True
+MI00883,B05-O04,The Snack Hub,B05,Main Audi Block,Peri Peri Fries,Snacks,Snacks,Vegetarian,False,80,Available,3.6,14,367,Spicy,Small,"Vegetarian, Egg-free","Contains dairy, gluten",38.61,True
+MI00884,B05-O04,The Snack Hub,B05,Main Audi Block,Cheese Balls,Snacks,Snacks,Vegetarian,False,85,Available,3.6,17,712,Mild,Small,"Vegetarian, High-protein",Contains gluten,33.89,True
+MI00885,B05-O04,The Snack Hub,B05,Main Audi Block,Spring Rolls,Snacks,Snacks,Vegetarian,False,85,Limited,3.7,4,703,Mild,Regular,Vegetarian,May contain nuts,52.36,True
+MI00886,B05-O04,The Snack Hub,B05,Main Audi Block,Veg Momos,Snacks,Snacks,Vegetarian,False,85,Available,4.1,18,653,Medium,Regular,"Vegetarian, Budget-friendly","Contains dairy, gluten",45.69,True
+MI00887,B05-O04,The Snack Hub,B05,Main Audi Block,Paneer Momos,Snacks,Snacks,Vegetarian,False,110,Available,4.0,17,151,Spicy,Large,"Vegetarian, Egg-free",Dairy-free,51.98,True
+MI00888,B05-O04,The Snack Hub,B05,Main Audi Block,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,80,Available,4.0,8,682,Medium,Regular,Vegetarian,"Contains dairy, gluten",35.6,True
+MI00889,B05-O04,The Snack Hub,B05,Main Audi Block,Paneer Sandwich,Sandwiches,Sandwiches,Vegetarian,False,105,Available,4.2,10,701,Medium,Small,"Vegetarian, Budget-friendly","Contains dairy, gluten",42.73,True
+MI00890,B05-O04,The Snack Hub,B05,Main Audi Block,Masala Maggi,Quick Meals,Quick Meals,Vegetarian,False,55,Limited,4.0,15,609,Medium,Small,"Vegetarian, Egg-free",May contain dairy,26.13,True
+MI00891,B05-O04,The Snack Hub,B05,Main Audi Block,Cheese Maggi,Quick Meals,Quick Meals,Vegetarian,False,75,Available,4.1,4,491,Spicy,Large,"Vegetarian, Egg-free",Dairy-free,38.39,True
+MI00892,B05-O04,The Snack Hub,B05,Main Audi Block,Veg Frankie,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,85,Limited,3.5,7,222,Spicy,Large,Vegetarian,May contain nuts,37.04,True
+MI00893,B05-O04,The Snack Hub,B05,Main Audi Block,Paneer Roll,Rolls & Wraps,Rolls & Wraps,Vegetarian,False,105,Limited,4.5,17,423,Mild,Large,"Vegetarian, High-protein",May contain dairy,58.31,True
+MI00894,B05-O04,The Snack Hub,B05,Main Audi Block,Veg Burger,Burgers,Burgers,Vegetarian,False,95,Available,3.9,15,475,Mild,Large,"Vegetarian, Budget-friendly","Contains dairy, gluten",51.08,True
+MI00895,B05-O04,The Snack Hub,B05,Main Audi Block,Cheese Burger,Burgers,Burgers,Vegetarian,False,120,Limited,4.1,11,662,Spicy,Regular,"Vegetarian, Budget-friendly","Contains dairy, gluten",46.45,True
+MI00896,B05-O04,The Snack Hub,B05,Main Audi Block,Sweet Corn Cup,Snacks,Snacks,Vegetarian,False,45,Available,4.6,6,542,Spicy,Small,"Vegetarian, Budget-friendly",May contain nuts,20.02,True
+MI00897,B05-O04,The Snack Hub,B05,Main Audi Block,Masala Peanuts,Snacks,Snacks,Vegetarian,False,35,Available,4.8,17,640,Medium,Large,"Vegetarian, Budget-friendly",May contain dairy,14.14,True
+MI00898,B05-O04,The Snack Hub,B05,Main Audi Block,Masala Tea,Beverages,Beverages,Vegetarian,False,20,Available,4.7,17,205,Mild,Regular,"Vegetarian, Egg-free",May contain dairy,11.44,True
+MI00899,B05-O04,The Snack Hub,B05,Main Audi Block,Ginger Tea,Beverages,Beverages,Vegetarian,False,25,Limited,3.9,11,298,Spicy,Large,"Vegetarian, Egg-free",May contain dairy,13.43,True
+MI00900,B05-O04,The Snack Hub,B05,Main Audi Block,Filter Coffee,Beverages,Beverages,Vegetarian,False,30,Available,4.2,7,477,Spicy,Regular,"Vegetarian, High-protein",Contains gluten,17.98,True
+MI00901,B05-O04,The Snack Hub,B05,Main Audi Block,Cold Coffee,Beverages,Beverages,Vegetarian,False,90,Available,3.9,13,548,Medium,Small,"Vegetarian, High-protein",May contain dairy,55.3,True
+MI00902,B05-O04,The Snack Hub,B05,Main Audi Block,Chocolate Brownie,Desserts,Desserts,Vegetarian,False,60,Available,4.4,12,456,Medium,Large,"Vegetarian, Budget-friendly",Contains gluten,30.05,True
+MI00903,B05-O04,The Snack Hub,B05,Main Audi Block,Chocolate Donut,Bakery,Bakery,Vegetarian,False,55,Available,3.9,18,363,Spicy,Large,"Vegetarian, Budget-friendly",Contains gluten,25.03,True
+MI00904,B05-O04,The Snack Hub,B05,Main Audi Block,Chicken Momos,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,130,Available,3.6,9,743,Mild,Large,"Chicken, High-protein",Contains gluten,86.44,True
+MI00905,B05-O04,The Snack Hub,B05,Main Audi Block,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,105,Available,3.9,9,197,Mild,Large,"Chicken, High-protein",May contain dairy,47.38,True
+MI00906,B05-O04,The Snack Hub,B05,Main Audi Block,Chicken Popcorn,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,110,Limited,4.2,10,416,Spicy,Regular,"Chicken, High-protein",Contains gluten,60.49,True
+MI00907,B05-O04,The Snack Hub,B05,Main Audi Block,Chicken Fingers,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,120,Available,4.4,18,733,Medium,Regular,"Chicken, High-protein","May contain dairy, gluten",71.37,True
+MI00908,B05-O04,The Snack Hub,B05,Main Audi Block,Chicken Puff,Bakery,Bakery,Non-Vegetarian (Chicken),True,65,Available,3.7,9,787,Mild,Large,"Chicken, High-protein","May contain dairy, gluten",40.89,True
+MI00909,B05-O04,The Snack Hub,B05,Main Audi Block,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,140,Available,4.6,14,470,Medium,Regular,"Chicken, High-protein","May contain dairy, gluten",91.88,True
+MI00910,B05-O04,The Snack Hub,B05,Main Audi Block,Chicken Frankie,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,135,Limited,3.7,16,222,Medium,Regular,"Chicken, High-protein",May contain dairy,79.08,True
+MI00911,B05-O05,Punjabi Bites,B05,Main Audi Block,Chole Bhature,Punjabi Meals,Punjabi Meals,Vegetarian,False,100,Available,4.5,11,451,Medium,Small,Vegetarian,Contains gluten,38.33,True
+MI00912,B05-O05,Punjabi Bites,B05,Main Audi Block,Amritsari Kulcha,Punjabi Meals,Punjabi Meals,Vegetarian,False,95,Available,4.1,17,148,Mild,Small,"Vegetarian, Egg-free",May contain dairy,38.84,True
+MI00913,B05-O05,Punjabi Bites,B05,Main Audi Block,Rajma Rice,Meals,Meals,Vegetarian,False,110,Available,3.7,5,246,Spicy,Regular,"Vegetarian, Egg-free","Contains dairy, gluten",49.11,True
+MI00914,B05-O05,Punjabi Bites,B05,Main Audi Block,Dal Makhani,Curries,Curries,Vegetarian,False,135,Available,3.7,7,580,Mild,Regular,Vegetarian,May contain dairy,71.24,True
+MI00915,B05-O05,Punjabi Bites,B05,Main Audi Block,Paneer Butter Masala,Curries,Curries,Vegetarian,False,160,Available,4.5,5,313,Spicy,Small,"Vegetarian, Egg-free",Contains gluten,93.68,True
+MI00916,B05-O05,Punjabi Bites,B05,Main Audi Block,Kadai Paneer,Curries,Curries,Vegetarian,False,155,Available,4.8,15,199,Spicy,Regular,"Vegetarian, High-protein","Contains dairy, gluten",88.66,True
+MI00917,B05-O05,Punjabi Bites,B05,Main Audi Block,Shahi Paneer,Curries,Curries,Vegetarian,False,160,Available,4.5,4,305,Spicy,Large,Vegetarian,Contains gluten,76.8,True
+MI00918,B05-O05,Punjabi Bites,B05,Main Audi Block,Dal Tadka,Curries,Curries,Vegetarian,False,105,Available,4.1,6,495,Medium,Small,"Vegetarian, High-protein","Contains dairy, gluten",41.91,True
+MI00919,B05-O05,Punjabi Bites,B05,Main Audi Block,Veg Thali,Meals,Meals,Vegetarian,False,125,Available,4.8,9,451,Spicy,Large,Vegetarian,Dairy-free,49.24,True
+MI00920,B05-O05,Punjabi Bites,B05,Main Audi Block,Paneer Thali,Meals,Meals,Vegetarian,False,165,Available,4.6,8,420,Spicy,Small,"Vegetarian, Budget-friendly",May contain dairy,65.31,True
+MI00921,B05-O05,Punjabi Bites,B05,Main Audi Block,Jeera Rice,Rice & Meals,Rice & Meals,Vegetarian,False,75,Available,4.6,15,182,Medium,Large,"Vegetarian, High-protein","Contains dairy, gluten",34.39,True
+MI00922,B05-O05,Punjabi Bites,B05,Main Audi Block,Veg Pulao,Rice & Meals,Rice & Meals,Vegetarian,False,110,Limited,4.3,10,199,Medium,Large,"Vegetarian, Egg-free",May contain nuts,58.36,True
+MI00923,B05-O05,Punjabi Bites,B05,Main Audi Block,Plain Paratha,Breads,Breads,Vegetarian,False,35,Available,3.9,14,227,Mild,Large,"Vegetarian, Egg-free",May contain dairy,17.89,True
+MI00924,B05-O05,Punjabi Bites,B05,Main Audi Block,Aloo Paratha,Breads,Breads,Vegetarian,False,55,Available,4.6,11,201,Spicy,Regular,"Vegetarian, High-protein",May contain nuts,24.61,True
+MI00925,B05-O05,Punjabi Bites,B05,Main Audi Block,Paneer Paratha,Breads,Breads,Vegetarian,False,80,Available,4.2,17,601,Spicy,Regular,"Vegetarian, Budget-friendly",Contains gluten,49.53,True
+MI00926,B05-O05,Punjabi Bites,B05,Main Audi Block,Butter Naan,Breads,Breads,Vegetarian,False,35,Available,4.2,13,388,Medium,Large,"Vegetarian, Budget-friendly","Contains dairy, gluten",21.0,True
+MI00927,B05-O05,Punjabi Bites,B05,Main Audi Block,Tandoori Roti,Breads,Breads,Vegetarian,False,20,Available,3.7,7,605,Spicy,Small,"Vegetarian, Egg-free",May contain nuts,8.57,True
+MI00928,B05-O05,Punjabi Bites,B05,Main Audi Block,Veg Biryani,Rice & Meals,Rice & Meals,Vegetarian,False,120,Limited,3.6,16,522,Mild,Large,"Vegetarian, Egg-free",May contain nuts,53.58,True
+MI00929,B05-O05,Punjabi Bites,B05,Main Audi Block,Paneer Biryani,Rice & Meals,Rice & Meals,Vegetarian,False,150,Limited,3.9,6,698,Medium,Small,"Vegetarian, Budget-friendly",Dairy-free,81.01,True
+MI00930,B05-O05,Punjabi Bites,B05,Main Audi Block,Veg Raita,Sides,Sides,Vegetarian,False,40,Available,4.9,17,433,Spicy,Large,"Vegetarian, Budget-friendly",Dairy-free,15.96,True
+MI00931,B05-O05,Punjabi Bites,B05,Main Audi Block,Boondi Raita,Sides,Sides,Vegetarian,False,45,Available,4.8,8,567,Mild,Large,"Vegetarian, Budget-friendly","Contains dairy, gluten",18.98,True
+MI00932,B05-O05,Punjabi Bites,B05,Main Audi Block,Masala Papad,Sides,Sides,Vegetarian,False,25,Available,4.0,6,374,Spicy,Regular,"Vegetarian, Budget-friendly",Contains gluten,10.8,True
+MI00933,B05-O05,Punjabi Bites,B05,Main Audi Block,Samosa,Snacks,Snacks,Vegetarian,False,25,Limited,4.8,4,570,Spicy,Regular,"Vegetarian, Budget-friendly",Contains gluten,11.05,True
+MI00934,B05-O05,Punjabi Bites,B05,Main Audi Block,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,70,Available,4.7,11,318,Medium,Large,"Vegetarian, Egg-free",Dairy-free,36.21,True
+MI00935,B05-O05,Punjabi Bites,B05,Main Audi Block,Masala Tea,Beverages,Beverages,Vegetarian,False,20,Available,4.6,18,639,Medium,Small,"Vegetarian, Budget-friendly",Dairy-free,11.75,True
+MI00936,B05-O05,Punjabi Bites,B05,Main Audi Block,Sweet Lassi,Beverages,Beverages,Vegetarian,False,55,Available,3.5,8,595,Mild,Regular,Vegetarian,Contains gluten,28.98,True
+MI00937,B05-O05,Punjabi Bites,B05,Main Audi Block,Salted Chaas,Beverages,Beverages,Vegetarian,False,40,Available,4.7,14,351,Spicy,Regular,"Vegetarian, Budget-friendly",Dairy-free,20.04,True
+MI00938,B05-O05,Punjabi Bites,B05,Main Audi Block,Gulab Jamun,Desserts,Desserts,Vegetarian,False,45,Available,3.9,7,612,Mild,Large,"Vegetarian, Budget-friendly",May contain nuts,21.9,True
+MI00939,B05-O05,Punjabi Bites,B05,Main Audi Block,Chicken Biryani,Rice & Meals,Rice & Meals,Non-Vegetarian (Chicken),True,165,Available,4.7,21,816,Mild,Regular,"Chicken, High-protein",May contain dairy,112.12,True
+MI00940,B05-O05,Punjabi Bites,B05,Main Audi Block,Butter Chicken with Rice,Meals,Meals,Non-Vegetarian (Chicken),True,205,Available,4.1,15,294,Mild,Large,"Chicken, High-protein",May contain dairy,116.3,True
+MI00941,B05-O05,Punjabi Bites,B05,Main Audi Block,Kadai Chicken with Rice,Meals,Meals,Non-Vegetarian (Chicken),True,175,Available,4.0,22,785,Mild,Regular,"Chicken, High-protein",Contains gluten,91.67,True
+MI00942,B05-O05,Punjabi Bites,B05,Main Audi Block,Chicken Tikka Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,165,Available,4.6,20,511,Mild,Regular,"Chicken, High-protein",Contains gluten,109.85,True
+MI00943,B05-O05,Punjabi Bites,B05,Main Audi Block,Chicken Kebab Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,150,Available,4.5,17,262,Mild,Regular,"Chicken, High-protein",Contains gluten,94.34,True
+MI00944,B05-O05,Punjabi Bites,B05,Main Audi Block,Chicken Fried Rice,Rice & Noodles,Rice & Noodles,Non-Vegetarian (Chicken),True,155,Available,4.1,11,355,Medium,Large,"Chicken, High-protein","May contain dairy, gluten",87.9,True
+MI00945,B05-O05,Punjabi Bites,B05,Main Audi Block,Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,115,Limited,4.0,19,541,Spicy,Regular,"Chicken, High-protein","May contain dairy, gluten",69.12,True
+MI00946,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Espresso,Coffee,Coffee,Vegetarian,False,60,Available,4.7,6,493,Mild,Small,Vegetarian,May contain nuts,29.12,True
+MI00947,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Americano,Coffee,Coffee,Vegetarian,False,75,Available,4.3,12,491,Spicy,Large,Vegetarian,"Contains dairy, gluten",36.9,True
+MI00948,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Cappuccino,Coffee,Coffee,Vegetarian,False,110,Available,4.7,16,444,Mild,Regular,Vegetarian,Contains gluten,60.21,True
+MI00949,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Café Latte,Coffee,Coffee,Vegetarian,False,110,Available,4.1,14,157,Spicy,Regular,"Vegetarian, Egg-free",Dairy-free,66.57,True
+MI00950,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Café Mocha,Coffee,Coffee,Vegetarian,False,130,Available,4.6,9,257,Mild,Regular,"Vegetarian, High-protein",Contains gluten,74.8,True
+MI00951,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Cold Coffee,Coffee,Coffee,Vegetarian,False,105,Limited,4.6,6,158,Spicy,Large,Vegetarian,May contain dairy,46.03,True
+MI00952,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Iced Latte,Coffee,Coffee,Vegetarian,False,110,Available,4.9,15,372,Mild,Large,"Vegetarian, High-protein",May contain nuts,61.46,True
+MI00953,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Hot Chocolate,Beverages,Beverages,Vegetarian,False,100,Available,4.7,8,557,Mild,Large,"Vegetarian, High-protein",May contain nuts,49.82,True
+MI00954,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Masala Tea,Beverages,Beverages,Vegetarian,False,25,Available,4.3,11,158,Medium,Small,"Vegetarian, Egg-free",May contain dairy,14.52,True
+MI00955,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Veg Sandwich,Sandwiches,Sandwiches,Vegetarian,False,80,Available,4.2,5,574,Medium,Small,"Vegetarian, Budget-friendly","Contains dairy, gluten",34.49,True
+MI00956,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Grilled Cheese Sandwich,Sandwiches,Sandwiches,Vegetarian,False,105,Limited,3.7,4,191,Medium,Regular,"Vegetarian, Egg-free",May contain dairy,60.48,True
+MI00957,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Paneer Sandwich,Sandwiches,Sandwiches,Vegetarian,False,115,Available,4.6,11,236,Mild,Small,"Vegetarian, Budget-friendly",Contains gluten,51.46,True
+MI00958,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Veg Burger,Burgers,Burgers,Vegetarian,False,105,Limited,4.4,18,394,Medium,Regular,Vegetarian,"Contains dairy, gluten",51.23,True
+MI00959,B05-O06,NesCafe's Orignal,B05,Main Audi Block,French Fries,Snacks,Snacks,Vegetarian,False,65,Available,4.3,12,216,Medium,Small,"Vegetarian, High-protein",Dairy-free,30.56,True
+MI00960,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Garlic Bread,Snacks,Snacks,Vegetarian,False,85,Available,3.5,15,492,Medium,Regular,Vegetarian,May contain dairy,41.26,True
+MI00961,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Veg Puff,Bakery,Bakery,Vegetarian,False,35,Available,4.0,8,238,Medium,Small,"Vegetarian, Budget-friendly",Dairy-free,19.75,True
+MI00962,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Paneer Puff,Bakery,Bakery,Vegetarian,False,50,Limited,3.8,6,629,Spicy,Small,"Vegetarian, Egg-free","Contains dairy, gluten",22.2,True
+MI00963,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Butter Croissant,Bakery,Bakery,Vegetarian,False,85,Limited,4.1,15,159,Medium,Small,"Vegetarian, High-protein",May contain nuts,45.21,True
+MI00964,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Chocolate Muffin,Bakery,Bakery,Vegetarian,False,60,Available,4.5,16,354,Mild,Large,"Vegetarian, High-protein",May contain nuts,27.75,True
+MI00965,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Blueberry Muffin,Bakery,Bakery,Vegetarian,False,60,Available,4.3,10,406,Medium,Large,"Vegetarian, Egg-free",May contain dairy,32.59,True
+MI00966,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Chocolate Brownie,Desserts,Desserts,Vegetarian,False,65,Limited,3.8,17,437,Medium,Large,"Vegetarian, Egg-free",May contain nuts,27.85,True
+MI00967,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Chocolate Cookie,Bakery,Bakery,Vegetarian,False,40,Available,3.7,18,562,Spicy,Small,"Vegetarian, High-protein",Contains gluten,20.95,True
+MI00968,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Chocolate Donut,Bakery,Bakery,Vegetarian,False,55,Available,4.4,11,235,Spicy,Small,"Vegetarian, High-protein",Contains gluten,24.51,True
+MI00969,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Cheesecake Slice,Desserts,Desserts,Vegetarian,False,130,Available,4.5,5,309,Spicy,Regular,"Vegetarian, Egg-free",Contains gluten,53.1,True
+MI00970,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Waffle,Desserts,Desserts,Vegetarian,False,100,Available,3.7,11,307,Spicy,Regular,"Vegetarian, Egg-free",Contains gluten,55.43,True
+MI00971,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Cinnamon Roll,Bakery,Bakery,Vegetarian,False,95,Available,3.8,11,677,Mild,Regular,Vegetarian,"Contains dairy, gluten",41.2,True
+MI00972,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Vanilla Milkshake,Beverages,Beverages,Vegetarian,False,90,Available,3.8,5,486,Medium,Regular,"Vegetarian, Egg-free",May contain dairy,44.3,True
+MI00973,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Fresh Lime Soda,Beverages,Beverages,Vegetarian,False,60,Available,4.6,13,449,Medium,Large,"Vegetarian, Egg-free",Contains gluten,26.53,True
+MI00974,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Chicken Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,135,Available,4.6,13,518,Mild,Regular,"Chicken, High-protein","May contain dairy, gluten",80.6,True
+MI00975,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Chicken Cheese Sandwich,Sandwiches,Sandwiches,Non-Vegetarian (Chicken),True,155,Available,3.8,15,446,Medium,Large,"Chicken, High-protein",May contain dairy,70.64,True
+MI00976,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Chicken Burger,Burgers,Burgers,Non-Vegetarian (Chicken),True,150,Available,4.2,20,574,Mild,Regular,"Chicken, High-protein","May contain dairy, gluten",87.34,True
+MI00977,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Chicken Roll,Rolls & Wraps,Rolls & Wraps,Non-Vegetarian (Chicken),True,135,Limited,4.7,23,845,Mild,Large,"Chicken, High-protein",Contains gluten,91.63,True
+MI00978,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Chicken Nuggets,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,105,Available,3.9,15,719,Mild,Large,"Chicken, High-protein","May contain dairy, gluten",66.62,True
+MI00979,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Chicken Puff,Bakery,Bakery,Non-Vegetarian (Chicken),True,60,Limited,3.9,8,230,Mild,Large,"Chicken, High-protein",May contain dairy,33.72,True
+MI00980,B05-O06,NesCafe's Orignal,B05,Main Audi Block,Chicken Fingers,Chicken Snacks,Chicken Snacks,Non-Vegetarian (Chicken),True,130,Available,4.8,9,533,Medium,Large,"Chicken, High-protein",Contains gluten,82.91,True

@@ -1,0 +1,29 @@
+﻿outlet_id,outlet_name,block_id,block_name,outlet_type,opening_time,closing_time,operating_days,seating_capacity,accepts_digital_payment,synthetic_record
+B01-O01,Central Café,B01,Central Block,Café & Quick Service,08:00,18:00,Monday-Saturday,14,True,True
+B01-O02,Campus Bites,B01,Central Block,Meals & Multi-cuisine,08:00,18:00,Monday-Saturday,24,True,True
+B01-O03,Snack Station,B01,Central Block,Snacks & Quick Bites,08:00,18:00,Monday-Saturday,33,True,True
+B01-O04,Green Bowl Café,B01,Central Block,Healthy Café,08:00,18:00,Monday-Saturday,30,True,True
+B01-O05,11Elevem,B01,Central Block,Convenience Store,08:00,18:00,Monday-Saturday,30,True,True
+B01-O06,Mingos,B01,Central Block,Café & Quick Service,08:00,18:00,Monday-Saturday,25,True,True
+B02-O01,The Hungry Hub,B02,Block 1,Meals & Multi-cuisine,08:00,18:00,Monday-Saturday,38,True,True
+B02-O02,Brew & Bites,B02,Block 1,Coffee & Bakery,08:00,18:00,Monday-Saturday,13,True,True
+B02-O03,Quick Munch,B02,Block 1,Snacks & Quick Bites,08:00,18:00,Monday-Saturday,29,True,True
+B02-O04,Daily Dose Café,B02,Block 1,Healthy Café,08:00,18:00,Monday-Saturday,21,True,True
+B02-O05,The Food Court,B02,Block 1,Meals & Multi-cuisine,08:00,18:00,Monday-Saturday,24,True,True
+B03-O01,Café Connect,B03,Block 4,Café & Quick Service,08:00,18:00,Monday-Saturday,33,True,True
+B03-O02,The Snack Bar,B03,Block 4,Snacks & Quick Bites,08:00,18:00,Monday-Saturday,43,True,True
+B03-O03,Coffee Culture,B03,Block 4,Coffee & Bakery,08:00,18:00,Monday-Saturday,16,True,True
+B03-O04,Fresh Basket,B03,Block 4,Healthy Café,08:00,18:00,Monday-Saturday,45,True,True
+B03-O05,Mariyaan's Cafe,B03,Block 4,Café & Quick Service,08:00,18:00,Monday-Saturday,13,True,True
+B04-O01,R&D Café,B04,R&D Block,Café & Quick Service,08:00,18:00,Monday-Saturday,38,True,True
+B04-O02,Research Brew,B04,R&D Block,Coffee & Bakery,08:00,18:00,Monday-Saturday,37,True,True
+B04-O03,The Food Stop,B04,R&D Block,Snacks & Quick Bites,08:00,18:00,Monday-Saturday,15,True,True
+B04-O04,Bite Express,B04,R&D Block,Snacks & Quick Bites,08:00,18:00,Monday-Saturday,45,True,True
+B04-O05,Chai Point,B04,R&D Block,Snacks & Quick Bites,08:00,18:00,Monday-Saturday,34,True,True
+B04-O06,Nutri Bowl,B04,R&D Block,Healthy Café,08:00,18:00,Monday-Saturday,29,True,True
+B05-O01,The Refreshment Corner,B05,Main Audi Block,Snacks & Quick Bites,08:00,18:00,Monday-Saturday,25,True,True
+B05-O02,Quick Bites,B05,Main Audi Block,Snacks & Quick Bites,08:00,18:00,Monday-Saturday,35,True,True
+B05-O03,Coffee Break,B05,Main Audi Block,Coffee & Bakery,08:00,18:00,Monday-Saturday,15,True,True
+B05-O04,The Snack Hub,B05,Main Audi Block,Snacks & Quick Bites,08:00,18:00,Monday-Saturday,16,True,True
+B05-O05,Punjabi Bites,B05,Main Audi Block,Punjabi / Meals,08:00,18:00,Monday-Saturday,31,True,True
+B05-O06,NesCafe's Orignal,B05,Main Audi Block,Coffee & Bakery,08:00,18:00,Monday-Saturday,33,True,True

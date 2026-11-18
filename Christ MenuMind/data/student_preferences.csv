@@ -1,0 +1,801 @@
+﻿student_id,preferred_food_type,preferred_categories,usual_budget_inr,preferred_block_id,spice_preference,dietary_goal,preferred_daypart,visits_per_week,data_type
+STU0001,Vegetarian,"Rice & Noodles, Beverages, Salads",150,B01,Mild,Budget-friendly,Afternoon,5,SIMULATED
+STU0002,Both,"Sandwiches, Healthy Bowls, Rice & Noodles",120,B02,Medium,Healthy,Evening,6,SIMULATED
+STU0003,Vegetarian,"Salads, Sandwiches, Meals",100,B05,Medium,No specific goal,Breakfast,3,SIMULATED
+STU0004,Vegetarian,"Desserts, Sandwiches, Salads",100,B05,Medium,Budget-friendly,Evening,3,SIMULATED
+STU0005,Non-Vegetarian (Chicken),"Desserts, Beverages, Sandwiches",150,B03,Spicy,High-protein,Evening,4,SIMULATED
+STU0006,Vegetarian,"Rice & Noodles, Sandwiches, Healthy Bowls",75,B01,Medium,No specific goal,Lunch,4,SIMULATED
+STU0007,Vegetarian,"Healthy Bowls, Meals, Snacks",150,B03,Mild,No specific goal,Lunch,5,SIMULATED
+STU0008,Vegetarian,"Rice & Noodles, Snacks, Sandwiches",250,B03,Medium,No specific goal,Evening,6,SIMULATED
+STU0009,Vegetarian,"Beverages, Meals, Healthy Bowls",50,B03,Medium,Budget-friendly,Breakfast,5,SIMULATED
+STU0010,Vegetarian,"Meals, Desserts, Salads",100,B05,Medium,Healthy,Evening,3,SIMULATED
+STU0011,Vegetarian,"Meals, Healthy Bowls, Desserts",150,B05,Medium,Healthy,Breakfast,3,SIMULATED
+STU0012,Vegetarian,"Desserts, Healthy Bowls, Beverages",100,B02,Medium,High-protein,Afternoon,5,SIMULATED
+STU0013,Non-Vegetarian (Chicken),"Meals, Beverages, Sandwiches",120,B05,Spicy,High-protein,Evening,2,SIMULATED
+STU0014,Vegetarian,"Healthy Bowls, Rice & Noodles, Snacks",200,B04,Medium,Healthy,Lunch,1,SIMULATED
+STU0015,Vegetarian,"Snacks, Desserts, Meals",100,B03,Medium,Budget-friendly,Lunch,5,SIMULATED
+STU0016,Non-Vegetarian (Chicken),"Healthy Bowls, Rice & Noodles, Sandwiches",200,B03,Spicy,Healthy,Lunch,4,SIMULATED
+STU0017,Vegetarian,"Sandwiches, Snacks, Healthy Bowls",200,B04,Spicy,Budget-friendly,Lunch,3,SIMULATED
+STU0018,Both,"Beverages, Snacks, Salads",120,B05,Spicy,Healthy,Afternoon,4,SIMULATED
+STU0019,Vegetarian,"Rice & Noodles, Meals, Healthy Bowls",250,B01,Mild,No specific goal,Afternoon,4,SIMULATED
+STU0020,Non-Vegetarian (Chicken),"Sandwiches, Salads, Rice & Noodles",75,B01,Mild,Budget-friendly,Evening,4,SIMULATED
+STU0021,Vegetarian,"Snacks, Rice & Noodles, Beverages",200,B03,Medium,No specific goal,Evening,5,SIMULATED
+STU0022,Non-Vegetarian (Chicken),"Desserts, Snacks, Sandwiches",180,B04,Medium,High-protein,Evening,1,SIMULATED
+STU0023,Both,"Sandwiches, Healthy Bowls, Snacks",180,B04,Spicy,High-protein,Lunch,5,SIMULATED
+STU0024,Vegetarian,"Healthy Bowls, Meals, Sandwiches",150,B05,Medium,Healthy,Lunch,1,SIMULATED
+STU0025,Vegetarian,"Snacks, Desserts, Rice & Noodles",150,B01,Spicy,Budget-friendly,Afternoon,2,SIMULATED
+STU0026,Both,"Snacks, Healthy Bowls, Desserts",180,B04,Spicy,Healthy,Evening,1,SIMULATED
+STU0027,Non-Vegetarian (Chicken),"Beverages, Desserts, Salads",75,B03,Medium,Budget-friendly,Afternoon,4,SIMULATED
+STU0028,Both,"Healthy Bowls, Rice & Noodles, Snacks",120,B03,Mild,High-protein,Evening,3,SIMULATED
+STU0029,Vegetarian,"Healthy Bowls, Desserts, Salads",100,B02,Spicy,Budget-friendly,Breakfast,4,SIMULATED
+STU0030,Both,"Snacks, Beverages, Desserts",200,B02,Spicy,High-protein,Evening,5,SIMULATED
+STU0031,Non-Vegetarian (Chicken),"Meals, Salads, Desserts",120,B02,Mild,High-protein,Afternoon,2,SIMULATED
+STU0032,Non-Vegetarian (Chicken),"Meals, Snacks, Beverages",200,B01,Medium,Healthy,Evening,4,SIMULATED
+STU0033,Both,"Desserts, Salads, Sandwiches",150,B04,Mild,No specific goal,Lunch,2,SIMULATED
+STU0034,Vegetarian,"Desserts, Meals, Rice & Noodles",120,B05,Mild,No specific goal,Evening,3,SIMULATED
+STU0035,Both,"Meals, Salads, Snacks",250,B05,Medium,Budget-friendly,Evening,5,SIMULATED
+STU0036,Both,"Sandwiches, Salads, Meals",200,B02,Mild,High-protein,Breakfast,2,SIMULATED
+STU0037,Both,"Desserts, Sandwiches, Beverages",180,B04,Medium,No specific goal,Evening,2,SIMULATED
+STU0038,Vegetarian,"Rice & Noodles, Snacks, Desserts",75,B02,Medium,Budget-friendly,Evening,4,SIMULATED
+STU0039,Vegetarian,"Salads, Sandwiches, Beverages",100,B01,Mild,Healthy,Lunch,1,SIMULATED
+STU0040,Vegetarian,"Desserts, Sandwiches, Rice & Noodles",100,B02,Medium,No specific goal,Afternoon,4,SIMULATED
+STU0041,Vegetarian,"Meals, Snacks, Desserts",250,B03,Medium,No specific goal,Breakfast,4,SIMULATED
+STU0042,Vegetarian,"Meals, Rice & Noodles, Snacks",100,B02,Medium,Budget-friendly,Lunch,4,SIMULATED
+STU0043,Non-Vegetarian (Chicken),"Sandwiches, Salads, Beverages",100,B04,Medium,High-protein,Afternoon,2,SIMULATED
+STU0044,Non-Vegetarian (Chicken),"Salads, Desserts, Healthy Bowls",250,B04,Medium,Budget-friendly,Breakfast,6,SIMULATED
+STU0045,Vegetarian,"Meals, Healthy Bowls, Rice & Noodles",150,B03,Medium,No specific goal,Afternoon,5,SIMULATED
+STU0046,Both,"Sandwiches, Snacks, Healthy Bowls",100,B04,Spicy,No specific goal,Afternoon,5,SIMULATED
+STU0047,Vegetarian,"Snacks, Salads, Rice & Noodles",75,B05,Spicy,No specific goal,Breakfast,3,SIMULATED
+STU0048,Vegetarian,"Meals, Snacks, Salads",120,B01,Spicy,Healthy,Evening,5,SIMULATED
+STU0049,Non-Vegetarian (Chicken),"Beverages, Rice & Noodles, Sandwiches",200,B02,Mild,High-protein,Lunch,4,SIMULATED
+STU0050,Vegetarian,"Meals, Healthy Bowls, Desserts",120,B01,Mild,Budget-friendly,Afternoon,2,SIMULATED
+STU0051,Both,"Healthy Bowls, Desserts, Sandwiches",120,B01,Medium,Healthy,Lunch,2,SIMULATED
+STU0052,Non-Vegetarian (Chicken),"Salads, Desserts, Healthy Bowls",180,B01,Mild,High-protein,Breakfast,5,SIMULATED
+STU0053,Both,"Healthy Bowls, Rice & Noodles, Beverages",200,B02,Medium,Healthy,Breakfast,6,SIMULATED
+STU0054,Vegetarian,"Sandwiches, Healthy Bowls, Desserts",100,B04,Mild,High-protein,Lunch,6,SIMULATED
+STU0055,Vegetarian,"Healthy Bowls, Beverages, Meals",180,B04,Medium,Budget-friendly,Breakfast,4,SIMULATED
+STU0056,Vegetarian,"Sandwiches, Rice & Noodles, Beverages",75,B02,Mild,No specific goal,Afternoon,5,SIMULATED
+STU0057,Vegetarian,"Healthy Bowls, Snacks, Beverages",75,B03,Medium,High-protein,Afternoon,5,SIMULATED
+STU0058,Vegetarian,"Sandwiches, Meals, Desserts",150,B04,Medium,High-protein,Breakfast,2,SIMULATED
+STU0059,Vegetarian,"Healthy Bowls, Desserts, Meals",150,B01,Medium,Healthy,Lunch,6,SIMULATED
+STU0060,Both,"Snacks, Desserts, Meals",75,B03,Medium,No specific goal,Afternoon,4,SIMULATED
+STU0061,Both,"Sandwiches, Meals, Desserts",250,B03,Medium,High-protein,Evening,5,SIMULATED
+STU0062,Vegetarian,"Rice & Noodles, Sandwiches, Salads",180,B04,Mild,Budget-friendly,Evening,5,SIMULATED
+STU0063,Non-Vegetarian (Chicken),"Beverages, Healthy Bowls, Meals",75,B05,Medium,Healthy,Afternoon,4,SIMULATED
+STU0064,Both,"Rice & Noodles, Sandwiches, Desserts",50,B02,Medium,Budget-friendly,Breakfast,4,SIMULATED
+STU0065,Both,"Sandwiches, Rice & Noodles, Meals",75,B04,Spicy,Healthy,Breakfast,2,SIMULATED
+STU0066,Vegetarian,"Sandwiches, Rice & Noodles, Meals",180,B04,Mild,High-protein,Afternoon,6,SIMULATED
+STU0067,Both,"Rice & Noodles, Meals, Healthy Bowls",250,B01,Mild,Budget-friendly,Breakfast,2,SIMULATED
+STU0068,Vegetarian,"Beverages, Snacks, Rice & Noodles",100,B05,Spicy,Budget-friendly,Lunch,4,SIMULATED
+STU0069,Vegetarian,"Meals, Desserts, Salads",100,B01,Medium,Healthy,Lunch,6,SIMULATED
+STU0070,Both,"Sandwiches, Rice & Noodles, Beverages",180,B03,Medium,No specific goal,Evening,5,SIMULATED
+STU0071,Both,"Salads, Rice & Noodles, Snacks",250,B05,Spicy,Healthy,Lunch,3,SIMULATED
+STU0072,Vegetarian,"Desserts, Meals, Rice & Noodles",100,B05,Medium,Healthy,Evening,2,SIMULATED
+STU0073,Vegetarian,"Sandwiches, Snacks, Salads",180,B01,Medium,Budget-friendly,Evening,3,SIMULATED
+STU0074,Vegetarian,"Snacks, Meals, Sandwiches",100,B03,Spicy,High-protein,Evening,2,SIMULATED
+STU0075,Vegetarian,"Sandwiches, Beverages, Salads",120,B05,Medium,No specific goal,Breakfast,1,SIMULATED
+STU0076,Vegetarian,"Desserts, Sandwiches, Healthy Bowls",100,B05,Mild,Budget-friendly,Evening,1,SIMULATED
+STU0077,Both,"Snacks, Rice & Noodles, Desserts",100,B02,Medium,Healthy,Lunch,6,SIMULATED
+STU0078,Both,"Desserts, Healthy Bowls, Beverages",100,B01,Spicy,Healthy,Afternoon,4,SIMULATED
+STU0079,Vegetarian,"Desserts, Meals, Healthy Bowls",100,B03,Medium,High-protein,Afternoon,5,SIMULATED
+STU0080,Non-Vegetarian (Chicken),"Sandwiches, Rice & Noodles, Desserts",100,B01,Medium,Healthy,Afternoon,1,SIMULATED
+STU0081,Vegetarian,"Desserts, Rice & Noodles, Beverages",50,B05,Spicy,No specific goal,Lunch,4,SIMULATED
+STU0082,Both,"Snacks, Meals, Salads",180,B03,Spicy,No specific goal,Lunch,6,SIMULATED
+STU0083,Non-Vegetarian (Chicken),"Desserts, Sandwiches, Rice & Noodles",100,B04,Spicy,Budget-friendly,Lunch,2,SIMULATED
+STU0084,Vegetarian,"Healthy Bowls, Meals, Sandwiches",100,B01,Spicy,High-protein,Evening,5,SIMULATED
+STU0085,Both,"Snacks, Healthy Bowls, Desserts",150,B02,Mild,Healthy,Lunch,6,SIMULATED
+STU0086,Non-Vegetarian (Chicken),"Healthy Bowls, Meals, Snacks",150,B04,Medium,High-protein,Afternoon,3,SIMULATED
+STU0087,Both,"Salads, Sandwiches, Snacks",180,B02,Mild,Budget-friendly,Lunch,6,SIMULATED
+STU0088,Both,"Meals, Salads, Healthy Bowls",120,B04,Spicy,Budget-friendly,Lunch,4,SIMULATED
+STU0089,Both,"Meals, Rice & Noodles, Healthy Bowls",100,B05,Spicy,No specific goal,Evening,2,SIMULATED
+STU0090,Non-Vegetarian (Chicken),"Healthy Bowls, Meals, Beverages",50,B04,Medium,Budget-friendly,Lunch,2,SIMULATED
+STU0091,Vegetarian,"Beverages, Sandwiches, Snacks",150,B03,Medium,Healthy,Evening,2,SIMULATED
+STU0092,Vegetarian,"Meals, Rice & Noodles, Desserts",100,B02,Medium,Budget-friendly,Lunch,3,SIMULATED
+STU0093,Vegetarian,"Snacks, Salads, Meals",75,B04,Mild,Budget-friendly,Lunch,5,SIMULATED
+STU0094,Both,"Desserts, Snacks, Healthy Bowls",50,B01,Spicy,Budget-friendly,Lunch,1,SIMULATED
+STU0095,Both,"Rice & Noodles, Salads, Snacks",120,B03,Medium,Healthy,Afternoon,6,SIMULATED
+STU0096,Non-Vegetarian (Chicken),"Healthy Bowls, Sandwiches, Meals",250,B05,Spicy,No specific goal,Lunch,5,SIMULATED
+STU0097,Non-Vegetarian (Chicken),"Meals, Sandwiches, Healthy Bowls",180,B04,Mild,Budget-friendly,Afternoon,1,SIMULATED
+STU0098,Both,"Sandwiches, Rice & Noodles, Meals",100,B03,Spicy,No specific goal,Lunch,1,SIMULATED
+STU0099,Vegetarian,"Sandwiches, Beverages, Salads",120,B04,Medium,Budget-friendly,Afternoon,5,SIMULATED
+STU0100,Vegetarian,"Beverages, Rice & Noodles, Desserts",120,B05,Medium,Budget-friendly,Lunch,3,SIMULATED
+STU0101,Vegetarian,"Meals, Desserts, Healthy Bowls",180,B03,Medium,No specific goal,Afternoon,4,SIMULATED
+STU0102,Both,"Meals, Beverages, Desserts",100,B02,Medium,Budget-friendly,Breakfast,2,SIMULATED
+STU0103,Vegetarian,"Desserts, Rice & Noodles, Sandwiches",250,B05,Mild,High-protein,Evening,3,SIMULATED
+STU0104,Vegetarian,"Sandwiches, Rice & Noodles, Desserts",50,B03,Medium,No specific goal,Evening,3,SIMULATED
+STU0105,Vegetarian,"Sandwiches, Salads, Healthy Bowls",75,B04,Spicy,No specific goal,Lunch,5,SIMULATED
+STU0106,Non-Vegetarian (Chicken),"Snacks, Sandwiches, Beverages",200,B01,Medium,Healthy,Afternoon,6,SIMULATED
+STU0107,Vegetarian,"Healthy Bowls, Rice & Noodles, Snacks",150,B02,Mild,Healthy,Evening,1,SIMULATED
+STU0108,Both,"Beverages, Snacks, Rice & Noodles",180,B04,Mild,No specific goal,Breakfast,5,SIMULATED
+STU0109,Vegetarian,"Rice & Noodles, Healthy Bowls, Meals",150,B02,Mild,Healthy,Afternoon,3,SIMULATED
+STU0110,Vegetarian,"Sandwiches, Snacks, Beverages",180,B05,Medium,Healthy,Afternoon,1,SIMULATED
+STU0111,Vegetarian,"Desserts, Snacks, Rice & Noodles",180,B05,Spicy,No specific goal,Lunch,3,SIMULATED
+STU0112,Both,"Snacks, Rice & Noodles, Healthy Bowls",250,B03,Mild,Healthy,Breakfast,3,SIMULATED
+STU0113,Non-Vegetarian (Chicken),"Salads, Rice & Noodles, Sandwiches",75,B02,Medium,Budget-friendly,Lunch,3,SIMULATED
+STU0114,Both,"Sandwiches, Desserts, Meals",200,B03,Spicy,No specific goal,Breakfast,5,SIMULATED
+STU0115,Vegetarian,"Meals, Salads, Healthy Bowls",150,B01,Medium,Budget-friendly,Lunch,5,SIMULATED
+STU0116,Vegetarian,"Sandwiches, Salads, Desserts",200,B01,Medium,No specific goal,Evening,4,SIMULATED
+STU0117,Both,"Beverages, Healthy Bowls, Rice & Noodles",75,B05,Medium,Budget-friendly,Afternoon,3,SIMULATED
+STU0118,Vegetarian,"Healthy Bowls, Sandwiches, Snacks",150,B04,Spicy,Budget-friendly,Afternoon,5,SIMULATED
+STU0119,Non-Vegetarian (Chicken),"Snacks, Beverages, Sandwiches",75,B04,Spicy,Healthy,Breakfast,1,SIMULATED
+STU0120,Non-Vegetarian (Chicken),"Healthy Bowls, Sandwiches, Desserts",180,B02,Spicy,No specific goal,Breakfast,5,SIMULATED
+STU0121,Vegetarian,"Healthy Bowls, Salads, Desserts",120,B04,Medium,Budget-friendly,Lunch,1,SIMULATED
+STU0122,Vegetarian,"Meals, Rice & Noodles, Sandwiches",120,B04,Medium,Budget-friendly,Afternoon,3,SIMULATED
+STU0123,Vegetarian,"Healthy Bowls, Rice & Noodles, Salads",180,B03,Medium,No specific goal,Breakfast,6,SIMULATED
+STU0124,Vegetarian,"Meals, Healthy Bowls, Salads",100,B03,Mild,High-protein,Afternoon,1,SIMULATED
+STU0125,Both,"Sandwiches, Beverages, Rice & Noodles",200,B03,Medium,No specific goal,Afternoon,4,SIMULATED
+STU0126,Vegetarian,"Snacks, Rice & Noodles, Healthy Bowls",120,B02,Medium,Budget-friendly,Afternoon,5,SIMULATED
+STU0127,Vegetarian,"Meals, Rice & Noodles, Snacks",50,B02,Mild,Budget-friendly,Afternoon,1,SIMULATED
+STU0128,Non-Vegetarian (Chicken),"Snacks, Desserts, Healthy Bowls",120,B02,Medium,No specific goal,Afternoon,3,SIMULATED
+STU0129,Non-Vegetarian (Chicken),"Meals, Salads, Sandwiches",75,B02,Spicy,Healthy,Afternoon,2,SIMULATED
+STU0130,Non-Vegetarian (Chicken),"Sandwiches, Rice & Noodles, Meals",100,B03,Spicy,No specific goal,Lunch,6,SIMULATED
+STU0131,Both,"Rice & Noodles, Snacks, Sandwiches",180,B05,Mild,No specific goal,Evening,3,SIMULATED
+STU0132,Vegetarian,"Salads, Sandwiches, Beverages",100,B02,Medium,High-protein,Lunch,6,SIMULATED
+STU0133,Vegetarian,"Desserts, Beverages, Rice & Noodles",50,B01,Medium,High-protein,Evening,6,SIMULATED
+STU0134,Both,"Rice & Noodles, Sandwiches, Desserts",75,B02,Medium,Budget-friendly,Breakfast,4,SIMULATED
+STU0135,Vegetarian,"Sandwiches, Snacks, Meals",150,B05,Spicy,High-protein,Evening,5,SIMULATED
+STU0136,Non-Vegetarian (Chicken),"Snacks, Salads, Sandwiches",75,B04,Medium,Healthy,Breakfast,1,SIMULATED
+STU0137,Vegetarian,"Snacks, Sandwiches, Rice & Noodles",120,B02,Spicy,Healthy,Evening,1,SIMULATED
+STU0138,Non-Vegetarian (Chicken),"Beverages, Desserts, Meals",75,B03,Medium,High-protein,Lunch,4,SIMULATED
+STU0139,Non-Vegetarian (Chicken),"Salads, Rice & Noodles, Beverages",250,B02,Mild,Healthy,Breakfast,2,SIMULATED
+STU0140,Vegetarian,"Rice & Noodles, Salads, Beverages",120,B04,Medium,No specific goal,Afternoon,4,SIMULATED
+STU0141,Both,"Healthy Bowls, Rice & Noodles, Snacks",120,B03,Spicy,No specific goal,Breakfast,5,SIMULATED
+STU0142,Vegetarian,"Snacks, Beverages, Healthy Bowls",75,B04,Medium,Healthy,Afternoon,5,SIMULATED
+STU0143,Vegetarian,"Beverages, Sandwiches, Meals",150,B04,Medium,Budget-friendly,Afternoon,1,SIMULATED
+STU0144,Both,"Meals, Rice & Noodles, Healthy Bowls",150,B03,Spicy,Budget-friendly,Lunch,1,SIMULATED
+STU0145,Vegetarian,"Sandwiches, Healthy Bowls, Salads",180,B04,Medium,High-protein,Lunch,5,SIMULATED
+STU0146,Non-Vegetarian (Chicken),"Meals, Rice & Noodles, Sandwiches",150,B03,Medium,High-protein,Afternoon,5,SIMULATED
+STU0147,Both,"Salads, Beverages, Snacks",180,B01,Medium,Budget-friendly,Evening,3,SIMULATED
+STU0148,Vegetarian,"Snacks, Beverages, Rice & Noodles",120,B05,Spicy,High-protein,Afternoon,1,SIMULATED
+STU0149,Both,"Rice & Noodles, Sandwiches, Desserts",50,B03,Spicy,Budget-friendly,Lunch,4,SIMULATED
+STU0150,Vegetarian,"Snacks, Beverages, Desserts",250,B04,Medium,Healthy,Breakfast,6,SIMULATED
+STU0151,Vegetarian,"Desserts, Beverages, Healthy Bowls",180,B01,Mild,No specific goal,Afternoon,6,SIMULATED
+STU0152,Vegetarian,"Desserts, Sandwiches, Snacks",180,B03,Medium,Healthy,Evening,4,SIMULATED
+STU0153,Vegetarian,"Beverages, Healthy Bowls, Snacks",150,B04,Mild,High-protein,Breakfast,1,SIMULATED
+STU0154,Both,"Sandwiches, Salads, Snacks",75,B01,Medium,Healthy,Evening,4,SIMULATED
+STU0155,Non-Vegetarian (Chicken),"Beverages, Meals, Rice & Noodles",120,B03,Mild,High-protein,Afternoon,2,SIMULATED
+STU0156,Both,"Sandwiches, Healthy Bowls, Rice & Noodles",50,B04,Medium,Budget-friendly,Afternoon,2,SIMULATED
+STU0157,Non-Vegetarian (Chicken),"Beverages, Salads, Rice & Noodles",100,B03,Medium,High-protein,Lunch,6,SIMULATED
+STU0158,Vegetarian,"Sandwiches, Rice & Noodles, Snacks",150,B03,Mild,Budget-friendly,Lunch,4,SIMULATED
+STU0159,Non-Vegetarian (Chicken),"Desserts, Snacks, Sandwiches",100,B05,Spicy,Budget-friendly,Evening,6,SIMULATED
+STU0160,Vegetarian,"Salads, Healthy Bowls, Rice & Noodles",50,B04,Spicy,Healthy,Afternoon,4,SIMULATED
+STU0161,Vegetarian,"Salads, Desserts, Snacks",180,B05,Medium,High-protein,Evening,4,SIMULATED
+STU0162,Non-Vegetarian (Chicken),"Sandwiches, Healthy Bowls, Rice & Noodles",100,B01,Mild,High-protein,Lunch,2,SIMULATED
+STU0163,Both,"Meals, Desserts, Salads",250,B02,Spicy,Budget-friendly,Breakfast,4,SIMULATED
+STU0164,Both,"Rice & Noodles, Sandwiches, Meals",200,B04,Spicy,Healthy,Breakfast,2,SIMULATED
+STU0165,Both,"Salads, Sandwiches, Rice & Noodles",120,B02,Spicy,High-protein,Afternoon,1,SIMULATED
+STU0166,Vegetarian,"Rice & Noodles, Meals, Snacks",200,B04,Medium,Budget-friendly,Breakfast,6,SIMULATED
+STU0167,Non-Vegetarian (Chicken),"Sandwiches, Healthy Bowls, Snacks",150,B02,Spicy,Healthy,Breakfast,6,SIMULATED
+STU0168,Non-Vegetarian (Chicken),"Healthy Bowls, Beverages, Rice & Noodles",180,B04,Spicy,High-protein,Lunch,1,SIMULATED
+STU0169,Vegetarian,"Beverages, Desserts, Healthy Bowls",120,B04,Spicy,Healthy,Afternoon,4,SIMULATED
+STU0170,Both,"Sandwiches, Desserts, Meals",120,B01,Medium,Healthy,Lunch,1,SIMULATED
+STU0171,Both,"Meals, Desserts, Rice & Noodles",150,B01,Mild,Budget-friendly,Evening,1,SIMULATED
+STU0172,Both,"Salads, Sandwiches, Meals",120,B03,Medium,Budget-friendly,Evening,5,SIMULATED
+STU0173,Both,"Desserts, Salads, Healthy Bowls",50,B03,Spicy,High-protein,Evening,2,SIMULATED
+STU0174,Vegetarian,"Salads, Sandwiches, Healthy Bowls",50,B03,Medium,Budget-friendly,Breakfast,6,SIMULATED
+STU0175,Both,"Snacks, Salads, Desserts",120,B04,Spicy,High-protein,Afternoon,6,SIMULATED
+STU0176,Non-Vegetarian (Chicken),"Sandwiches, Beverages, Rice & Noodles",100,B01,Medium,Healthy,Breakfast,3,SIMULATED
+STU0177,Both,"Beverages, Salads, Snacks",100,B01,Medium,No specific goal,Afternoon,4,SIMULATED
+STU0178,Vegetarian,"Healthy Bowls, Rice & Noodles, Meals",100,B05,Spicy,High-protein,Afternoon,4,SIMULATED
+STU0179,Non-Vegetarian (Chicken),"Beverages, Meals, Desserts",50,B05,Medium,Healthy,Lunch,5,SIMULATED
+STU0180,Both,"Snacks, Healthy Bowls, Salads",100,B01,Medium,No specific goal,Evening,6,SIMULATED
+STU0181,Both,"Desserts, Snacks, Rice & Noodles",250,B05,Spicy,High-protein,Evening,5,SIMULATED
+STU0182,Both,"Salads, Meals, Desserts",100,B05,Mild,Healthy,Afternoon,6,SIMULATED
+STU0183,Vegetarian,"Snacks, Salads, Sandwiches",180,B01,Medium,High-protein,Lunch,5,SIMULATED
+STU0184,Both,"Healthy Bowls, Sandwiches, Rice & Noodles",75,B01,Medium,Healthy,Afternoon,4,SIMULATED
+STU0185,Non-Vegetarian (Chicken),"Beverages, Sandwiches, Rice & Noodles",75,B02,Mild,High-protein,Afternoon,2,SIMULATED
+STU0186,Vegetarian,"Beverages, Desserts, Healthy Bowls",150,B01,Medium,Budget-friendly,Afternoon,5,SIMULATED
+STU0187,Both,"Beverages, Meals, Desserts",50,B02,Medium,Healthy,Lunch,4,SIMULATED
+STU0188,Non-Vegetarian (Chicken),"Salads, Rice & Noodles, Beverages",150,B01,Medium,Budget-friendly,Evening,6,SIMULATED
+STU0189,Vegetarian,"Sandwiches, Rice & Noodles, Beverages",100,B02,Spicy,Budget-friendly,Afternoon,1,SIMULATED
+STU0190,Vegetarian,"Desserts, Sandwiches, Meals",150,B04,Mild,No specific goal,Afternoon,6,SIMULATED
+STU0191,Both,"Snacks, Salads, Desserts",150,B01,Medium,Budget-friendly,Breakfast,2,SIMULATED
+STU0192,Non-Vegetarian (Chicken),"Meals, Sandwiches, Beverages",250,B03,Medium,No specific goal,Evening,1,SIMULATED
+STU0193,Both,"Snacks, Sandwiches, Healthy Bowls",200,B02,Medium,Budget-friendly,Lunch,6,SIMULATED
+STU0194,Both,"Beverages, Rice & Noodles, Salads",150,B04,Medium,Budget-friendly,Afternoon,4,SIMULATED
+STU0195,Non-Vegetarian (Chicken),"Desserts, Sandwiches, Meals",120,B04,Mild,No specific goal,Lunch,2,SIMULATED
+STU0196,Non-Vegetarian (Chicken),"Beverages, Desserts, Salads",50,B04,Medium,Healthy,Lunch,4,SIMULATED
+STU0197,Both,"Desserts, Beverages, Snacks",50,B04,Medium,High-protein,Evening,1,SIMULATED
+STU0198,Vegetarian,"Beverages, Salads, Snacks",180,B02,Spicy,High-protein,Evening,6,SIMULATED
+STU0199,Non-Vegetarian (Chicken),"Desserts, Salads, Snacks",200,B02,Medium,Budget-friendly,Breakfast,1,SIMULATED
+STU0200,Non-Vegetarian (Chicken),"Meals, Beverages, Healthy Bowls",50,B01,Spicy,Budget-friendly,Evening,1,SIMULATED
+STU0201,Both,"Beverages, Meals, Salads",75,B05,Spicy,High-protein,Lunch,1,SIMULATED
+STU0202,Vegetarian,"Healthy Bowls, Rice & Noodles, Meals",200,B03,Mild,High-protein,Breakfast,5,SIMULATED
+STU0203,Both,"Rice & Noodles, Meals, Beverages",100,B05,Mild,Budget-friendly,Breakfast,2,SIMULATED
+STU0204,Vegetarian,"Rice & Noodles, Healthy Bowls, Beverages",150,B03,Spicy,High-protein,Breakfast,6,SIMULATED
+STU0205,Vegetarian,"Sandwiches, Salads, Snacks",150,B02,Medium,No specific goal,Breakfast,5,SIMULATED
+STU0206,Vegetarian,"Beverages, Desserts, Rice & Noodles",50,B01,Spicy,Budget-friendly,Lunch,2,SIMULATED
+STU0207,Non-Vegetarian (Chicken),"Rice & Noodles, Sandwiches, Desserts",150,B04,Mild,No specific goal,Lunch,6,SIMULATED
+STU0208,Non-Vegetarian (Chicken),"Rice & Noodles, Healthy Bowls, Sandwiches",100,B03,Mild,High-protein,Breakfast,5,SIMULATED
+STU0209,Non-Vegetarian (Chicken),"Beverages, Rice & Noodles, Meals",75,B05,Spicy,Budget-friendly,Afternoon,2,SIMULATED
+STU0210,Both,"Sandwiches, Meals, Desserts",150,B01,Medium,Healthy,Lunch,2,SIMULATED
+STU0211,Both,"Rice & Noodles, Meals, Sandwiches",150,B03,Spicy,No specific goal,Breakfast,3,SIMULATED
+STU0212,Vegetarian,"Snacks, Healthy Bowls, Desserts",75,B05,Spicy,High-protein,Afternoon,1,SIMULATED
+STU0213,Vegetarian,"Healthy Bowls, Salads, Meals",200,B05,Medium,No specific goal,Lunch,5,SIMULATED
+STU0214,Vegetarian,"Meals, Salads, Rice & Noodles",150,B05,Medium,Healthy,Evening,5,SIMULATED
+STU0215,Vegetarian,"Meals, Healthy Bowls, Beverages",120,B04,Medium,Budget-friendly,Evening,3,SIMULATED
+STU0216,Non-Vegetarian (Chicken),"Healthy Bowls, Meals, Snacks",75,B01,Spicy,High-protein,Breakfast,3,SIMULATED
+STU0217,Vegetarian,"Salads, Desserts, Meals",200,B05,Spicy,Budget-friendly,Evening,3,SIMULATED
+STU0218,Vegetarian,"Healthy Bowls, Desserts, Beverages",120,B02,Mild,High-protein,Breakfast,1,SIMULATED
+STU0219,Vegetarian,"Rice & Noodles, Snacks, Beverages",150,B04,Medium,No specific goal,Breakfast,3,SIMULATED
+STU0220,Vegetarian,"Sandwiches, Healthy Bowls, Meals",180,B05,Spicy,No specific goal,Breakfast,3,SIMULATED
+STU0221,Vegetarian,"Meals, Snacks, Beverages",180,B03,Spicy,No specific goal,Breakfast,4,SIMULATED
+STU0222,Vegetarian,"Salads, Beverages, Rice & Noodles",250,B01,Mild,No specific goal,Breakfast,6,SIMULATED
+STU0223,Vegetarian,"Beverages, Salads, Meals",200,B05,Medium,Budget-friendly,Lunch,6,SIMULATED
+STU0224,Both,"Healthy Bowls, Sandwiches, Desserts",200,B01,Medium,High-protein,Breakfast,2,SIMULATED
+STU0225,Vegetarian,"Beverages, Healthy Bowls, Rice & Noodles",200,B03,Spicy,Healthy,Afternoon,4,SIMULATED
+STU0226,Vegetarian,"Snacks, Sandwiches, Desserts",180,B04,Medium,Healthy,Lunch,4,SIMULATED
+STU0227,Both,"Desserts, Snacks, Rice & Noodles",200,B04,Medium,No specific goal,Lunch,1,SIMULATED
+STU0228,Both,"Rice & Noodles, Desserts, Healthy Bowls",120,B04,Mild,High-protein,Lunch,4,SIMULATED
+STU0229,Both,"Salads, Desserts, Snacks",75,B02,Medium,Budget-friendly,Afternoon,3,SIMULATED
+STU0230,Non-Vegetarian (Chicken),"Sandwiches, Healthy Bowls, Beverages",250,B03,Medium,Budget-friendly,Lunch,3,SIMULATED
+STU0231,Non-Vegetarian (Chicken),"Desserts, Sandwiches, Snacks",50,B03,Medium,Healthy,Afternoon,2,SIMULATED
+STU0232,Non-Vegetarian (Chicken),"Sandwiches, Salads, Healthy Bowls",200,B05,Medium,No specific goal,Breakfast,4,SIMULATED
+STU0233,Both,"Rice & Noodles, Snacks, Sandwiches",120,B01,Medium,Budget-friendly,Breakfast,3,SIMULATED
+STU0234,Both,"Rice & Noodles, Meals, Snacks",200,B05,Mild,Budget-friendly,Afternoon,1,SIMULATED
+STU0235,Vegetarian,"Desserts, Beverages, Snacks",150,B04,Spicy,No specific goal,Lunch,1,SIMULATED
+STU0236,Both,"Rice & Noodles, Salads, Sandwiches",100,B04,Spicy,High-protein,Afternoon,4,SIMULATED
+STU0237,Vegetarian,"Snacks, Salads, Rice & Noodles",200,B05,Medium,No specific goal,Evening,4,SIMULATED
+STU0238,Both,"Snacks, Beverages, Sandwiches",50,B05,Spicy,Budget-friendly,Afternoon,2,SIMULATED
+STU0239,Non-Vegetarian (Chicken),"Snacks, Desserts, Meals",180,B01,Spicy,High-protein,Breakfast,2,SIMULATED
+STU0240,Vegetarian,"Rice & Noodles, Healthy Bowls, Snacks",180,B01,Medium,High-protein,Lunch,1,SIMULATED
+STU0241,Both,"Beverages, Sandwiches, Meals",120,B01,Medium,Healthy,Afternoon,1,SIMULATED
+STU0242,Vegetarian,"Sandwiches, Salads, Desserts",120,B04,Medium,Budget-friendly,Evening,5,SIMULATED
+STU0243,Both,"Rice & Noodles, Sandwiches, Healthy Bowls",100,B02,Mild,High-protein,Evening,6,SIMULATED
+STU0244,Both,"Salads, Healthy Bowls, Sandwiches",100,B01,Spicy,Budget-friendly,Lunch,1,SIMULATED
+STU0245,Vegetarian,"Rice & Noodles, Beverages, Meals",50,B05,Mild,Budget-friendly,Evening,4,SIMULATED
+STU0246,Vegetarian,"Meals, Beverages, Healthy Bowls",150,B02,Spicy,Budget-friendly,Afternoon,1,SIMULATED
+STU0247,Both,"Beverages, Desserts, Salads",75,B02,Medium,Budget-friendly,Lunch,3,SIMULATED
+STU0248,Vegetarian,"Meals, Sandwiches, Desserts",75,B01,Medium,No specific goal,Evening,5,SIMULATED
+STU0249,Vegetarian,"Snacks, Healthy Bowls, Desserts",100,B04,Spicy,High-protein,Breakfast,4,SIMULATED
+STU0250,Vegetarian,"Beverages, Meals, Rice & Noodles",50,B03,Mild,High-protein,Evening,1,SIMULATED
+STU0251,Both,"Desserts, Meals, Beverages",200,B05,Mild,No specific goal,Lunch,6,SIMULATED
+STU0252,Both,"Sandwiches, Healthy Bowls, Rice & Noodles",150,B01,Mild,High-protein,Evening,3,SIMULATED
+STU0253,Vegetarian,"Salads, Snacks, Healthy Bowls",120,B01,Mild,No specific goal,Evening,3,SIMULATED
+STU0254,Vegetarian,"Healthy Bowls, Desserts, Rice & Noodles",120,B04,Medium,High-protein,Lunch,4,SIMULATED
+STU0255,Vegetarian,"Sandwiches, Salads, Snacks",75,B05,Medium,Healthy,Lunch,4,SIMULATED
+STU0256,Vegetarian,"Healthy Bowls, Salads, Rice & Noodles",100,B04,Medium,Healthy,Evening,3,SIMULATED
+STU0257,Both,"Meals, Healthy Bowls, Beverages",150,B01,Mild,High-protein,Breakfast,4,SIMULATED
+STU0258,Vegetarian,"Salads, Healthy Bowls, Desserts",50,B03,Spicy,No specific goal,Lunch,5,SIMULATED
+STU0259,Both,"Rice & Noodles, Snacks, Healthy Bowls",75,B02,Medium,Budget-friendly,Lunch,6,SIMULATED
+STU0260,Non-Vegetarian (Chicken),"Beverages, Snacks, Healthy Bowls",200,B05,Mild,Budget-friendly,Breakfast,2,SIMULATED
+STU0261,Non-Vegetarian (Chicken),"Beverages, Healthy Bowls, Snacks",120,B01,Medium,Budget-friendly,Afternoon,6,SIMULATED
+STU0262,Both,"Meals, Salads, Beverages",250,B01,Mild,No specific goal,Breakfast,5,SIMULATED
+STU0263,Vegetarian,"Beverages, Desserts, Snacks",120,B04,Medium,No specific goal,Breakfast,6,SIMULATED
+STU0264,Both,"Snacks, Beverages, Rice & Noodles",100,B03,Mild,No specific goal,Evening,2,SIMULATED
+STU0265,Vegetarian,"Beverages, Meals, Healthy Bowls",100,B03,Medium,No specific goal,Evening,2,SIMULATED
+STU0266,Non-Vegetarian (Chicken),"Salads, Snacks, Meals",120,B01,Spicy,Healthy,Afternoon,1,SIMULATED
+STU0267,Non-Vegetarian (Chicken),"Healthy Bowls, Beverages, Meals",75,B02,Spicy,No specific goal,Evening,5,SIMULATED
+STU0268,Vegetarian,"Sandwiches, Beverages, Snacks",150,B04,Medium,No specific goal,Afternoon,4,SIMULATED
+STU0269,Non-Vegetarian (Chicken),"Rice & Noodles, Salads, Sandwiches",180,B01,Mild,High-protein,Lunch,1,SIMULATED
+STU0270,Both,"Rice & Noodles, Snacks, Healthy Bowls",75,B01,Mild,High-protein,Lunch,1,SIMULATED
+STU0271,Vegetarian,"Desserts, Beverages, Salads",150,B03,Mild,High-protein,Breakfast,3,SIMULATED
+STU0272,Non-Vegetarian (Chicken),"Salads, Beverages, Desserts",150,B04,Medium,High-protein,Lunch,1,SIMULATED
+STU0273,Both,"Meals, Snacks, Healthy Bowls",120,B02,Medium,High-protein,Evening,1,SIMULATED
+STU0274,Vegetarian,"Desserts, Salads, Snacks",250,B03,Medium,Healthy,Evening,5,SIMULATED
+STU0275,Non-Vegetarian (Chicken),"Snacks, Healthy Bowls, Beverages",75,B05,Spicy,No specific goal,Lunch,6,SIMULATED
+STU0276,Non-Vegetarian (Chicken),"Beverages, Meals, Healthy Bowls",50,B04,Spicy,High-protein,Lunch,4,SIMULATED
+STU0277,Both,"Healthy Bowls, Snacks, Meals",100,B03,Medium,Budget-friendly,Lunch,2,SIMULATED
+STU0278,Vegetarian,"Salads, Beverages, Sandwiches",100,B04,Spicy,Budget-friendly,Breakfast,5,SIMULATED
+STU0279,Non-Vegetarian (Chicken),"Meals, Sandwiches, Desserts",200,B01,Medium,High-protein,Evening,2,SIMULATED
+STU0280,Vegetarian,"Beverages, Desserts, Salads",50,B04,Spicy,No specific goal,Afternoon,3,SIMULATED
+STU0281,Non-Vegetarian (Chicken),"Meals, Sandwiches, Healthy Bowls",180,B01,Mild,No specific goal,Lunch,5,SIMULATED
+STU0282,Vegetarian,"Rice & Noodles, Snacks, Healthy Bowls",150,B02,Mild,High-protein,Afternoon,5,SIMULATED
+STU0283,Both,"Meals, Snacks, Healthy Bowls",50,B02,Spicy,Healthy,Afternoon,1,SIMULATED
+STU0284,Both,"Salads, Sandwiches, Desserts",75,B05,Mild,Healthy,Lunch,4,SIMULATED
+STU0285,Vegetarian,"Salads, Desserts, Sandwiches",200,B01,Spicy,No specific goal,Lunch,5,SIMULATED
+STU0286,Vegetarian,"Desserts, Beverages, Sandwiches",250,B04,Mild,High-protein,Evening,1,SIMULATED
+STU0287,Non-Vegetarian (Chicken),"Beverages, Meals, Salads",180,B02,Spicy,High-protein,Evening,6,SIMULATED
+STU0288,Non-Vegetarian (Chicken),"Beverages, Healthy Bowls, Rice & Noodles",50,B05,Spicy,High-protein,Evening,3,SIMULATED
+STU0289,Vegetarian,"Snacks, Beverages, Desserts",75,B04,Medium,Budget-friendly,Breakfast,6,SIMULATED
+STU0290,Both,"Desserts, Snacks, Meals",180,B02,Medium,Healthy,Breakfast,3,SIMULATED
+STU0291,Vegetarian,"Snacks, Healthy Bowls, Rice & Noodles",250,B05,Medium,No specific goal,Breakfast,6,SIMULATED
+STU0292,Both,"Desserts, Salads, Beverages",75,B04,Medium,No specific goal,Lunch,3,SIMULATED
+STU0293,Vegetarian,"Salads, Beverages, Meals",100,B05,Spicy,Budget-friendly,Afternoon,6,SIMULATED
+STU0294,Non-Vegetarian (Chicken),"Salads, Meals, Beverages",50,B05,Medium,Budget-friendly,Afternoon,5,SIMULATED
+STU0295,Both,"Healthy Bowls, Beverages, Meals",200,B03,Mild,High-protein,Evening,6,SIMULATED
+STU0296,Both,"Sandwiches, Healthy Bowls, Desserts",180,B05,Mild,High-protein,Afternoon,1,SIMULATED
+STU0297,Vegetarian,"Snacks, Desserts, Meals",150,B04,Medium,Healthy,Lunch,4,SIMULATED
+STU0298,Vegetarian,"Healthy Bowls, Rice & Noodles, Meals",150,B01,Spicy,No specific goal,Afternoon,3,SIMULATED
+STU0299,Vegetarian,"Snacks, Meals, Desserts",180,B01,Spicy,Budget-friendly,Breakfast,6,SIMULATED
+STU0300,Vegetarian,"Snacks, Sandwiches, Beverages",120,B05,Spicy,Budget-friendly,Evening,3,SIMULATED
+STU0301,Vegetarian,"Sandwiches, Snacks, Rice & Noodles",120,B05,Medium,High-protein,Lunch,5,SIMULATED
+STU0302,Vegetarian,"Rice & Noodles, Beverages, Salads",75,B05,Mild,No specific goal,Evening,3,SIMULATED
+STU0303,Both,"Meals, Rice & Noodles, Beverages",75,B05,Mild,High-protein,Breakfast,3,SIMULATED
+STU0304,Vegetarian,"Desserts, Meals, Beverages",200,B02,Medium,Budget-friendly,Afternoon,3,SIMULATED
+STU0305,Both,"Snacks, Desserts, Rice & Noodles",200,B01,Medium,Budget-friendly,Lunch,5,SIMULATED
+STU0306,Both,"Rice & Noodles, Healthy Bowls, Salads",50,B03,Medium,Budget-friendly,Lunch,6,SIMULATED
+STU0307,Non-Vegetarian (Chicken),"Healthy Bowls, Beverages, Snacks",180,B01,Medium,High-protein,Breakfast,4,SIMULATED
+STU0308,Both,"Snacks, Desserts, Meals",50,B03,Medium,High-protein,Afternoon,6,SIMULATED
+STU0309,Vegetarian,"Rice & Noodles, Salads, Beverages",100,B03,Mild,Budget-friendly,Evening,4,SIMULATED
+STU0310,Vegetarian,"Beverages, Healthy Bowls, Rice & Noodles",100,B02,Spicy,Budget-friendly,Breakfast,2,SIMULATED
+STU0311,Vegetarian,"Beverages, Rice & Noodles, Salads",50,B03,Medium,No specific goal,Evening,6,SIMULATED
+STU0312,Non-Vegetarian (Chicken),"Salads, Snacks, Beverages",100,B05,Medium,High-protein,Evening,1,SIMULATED
+STU0313,Both,"Desserts, Healthy Bowls, Sandwiches",50,B05,Spicy,Healthy,Lunch,2,SIMULATED
+STU0314,Both,"Sandwiches, Desserts, Healthy Bowls",100,B05,Spicy,No specific goal,Breakfast,2,SIMULATED
+STU0315,Vegetarian,"Salads, Desserts, Rice & Noodles",180,B04,Medium,No specific goal,Evening,6,SIMULATED
+STU0316,Non-Vegetarian (Chicken),"Desserts, Salads, Snacks",150,B03,Mild,High-protein,Evening,1,SIMULATED
+STU0317,Non-Vegetarian (Chicken),"Salads, Rice & Noodles, Meals",50,B03,Medium,Budget-friendly,Afternoon,3,SIMULATED
+STU0318,Vegetarian,"Beverages, Healthy Bowls, Snacks",50,B04,Medium,Healthy,Afternoon,1,SIMULATED
+STU0319,Both,"Healthy Bowls, Salads, Meals",200,B05,Medium,High-protein,Breakfast,3,SIMULATED
+STU0320,Vegetarian,"Healthy Bowls, Salads, Rice & Noodles",75,B05,Medium,Healthy,Afternoon,1,SIMULATED
+STU0321,Both,"Beverages, Salads, Sandwiches",150,B02,Mild,Healthy,Evening,1,SIMULATED
+STU0322,Vegetarian,"Desserts, Snacks, Salads",100,B04,Spicy,No specific goal,Evening,1,SIMULATED
+STU0323,Both,"Meals, Snacks, Beverages",100,B03,Mild,Healthy,Evening,2,SIMULATED
+STU0324,Non-Vegetarian (Chicken),"Snacks, Rice & Noodles, Sandwiches",75,B03,Medium,No specific goal,Breakfast,3,SIMULATED
+STU0325,Vegetarian,"Salads, Beverages, Sandwiches",75,B04,Medium,Budget-friendly,Breakfast,6,SIMULATED
+STU0326,Both,"Sandwiches, Rice & Noodles, Beverages",100,B02,Mild,No specific goal,Evening,3,SIMULATED
+STU0327,Vegetarian,"Salads, Healthy Bowls, Sandwiches",180,B02,Medium,Healthy,Afternoon,6,SIMULATED
+STU0328,Both,"Desserts, Healthy Bowls, Salads",250,B04,Medium,No specific goal,Afternoon,2,SIMULATED
+STU0329,Non-Vegetarian (Chicken),"Meals, Salads, Sandwiches",150,B03,Medium,High-protein,Afternoon,6,SIMULATED
+STU0330,Both,"Rice & Noodles, Beverages, Snacks",180,B01,Spicy,High-protein,Afternoon,6,SIMULATED
+STU0331,Vegetarian,"Healthy Bowls, Beverages, Meals",75,B01,Spicy,No specific goal,Lunch,3,SIMULATED
+STU0332,Vegetarian,"Desserts, Snacks, Salads",100,B05,Medium,High-protein,Evening,2,SIMULATED
+STU0333,Non-Vegetarian (Chicken),"Beverages, Salads, Desserts",150,B03,Medium,No specific goal,Breakfast,4,SIMULATED
+STU0334,Non-Vegetarian (Chicken),"Meals, Sandwiches, Snacks",100,B03,Medium,Budget-friendly,Lunch,6,SIMULATED
+STU0335,Both,"Healthy Bowls, Desserts, Snacks",75,B05,Spicy,High-protein,Afternoon,3,SIMULATED
+STU0336,Vegetarian,"Healthy Bowls, Desserts, Salads",250,B04,Spicy,Healthy,Evening,2,SIMULATED
+STU0337,Vegetarian,"Beverages, Meals, Rice & Noodles",150,B01,Medium,No specific goal,Lunch,4,SIMULATED
+STU0338,Non-Vegetarian (Chicken),"Salads, Sandwiches, Healthy Bowls",50,B04,Medium,Budget-friendly,Evening,5,SIMULATED
+STU0339,Both,"Rice & Noodles, Meals, Beverages",120,B03,Medium,No specific goal,Lunch,2,SIMULATED
+STU0340,Both,"Healthy Bowls, Snacks, Beverages",250,B04,Medium,Budget-friendly,Afternoon,1,SIMULATED
+STU0341,Both,"Desserts, Snacks, Beverages",50,B05,Medium,Healthy,Lunch,6,SIMULATED
+STU0342,Non-Vegetarian (Chicken),"Rice & Noodles, Desserts, Salads",75,B04,Medium,High-protein,Breakfast,1,SIMULATED
+STU0343,Both,"Salads, Desserts, Sandwiches",200,B02,Medium,High-protein,Breakfast,2,SIMULATED
+STU0344,Vegetarian,"Healthy Bowls, Meals, Rice & Noodles",150,B03,Medium,Healthy,Evening,5,SIMULATED
+STU0345,Both,"Beverages, Sandwiches, Salads",200,B05,Medium,High-protein,Lunch,2,SIMULATED
+STU0346,Vegetarian,"Salads, Healthy Bowls, Snacks",150,B04,Medium,Budget-friendly,Lunch,5,SIMULATED
+STU0347,Both,"Healthy Bowls, Beverages, Rice & Noodles",75,B02,Medium,No specific goal,Evening,2,SIMULATED
+STU0348,Both,"Snacks, Salads, Desserts",250,B01,Spicy,No specific goal,Evening,6,SIMULATED
+STU0349,Non-Vegetarian (Chicken),"Salads, Sandwiches, Meals",50,B03,Mild,Healthy,Lunch,4,SIMULATED
+STU0350,Vegetarian,"Salads, Desserts, Sandwiches",200,B05,Medium,High-protein,Evening,6,SIMULATED
+STU0351,Both,"Meals, Beverages, Healthy Bowls",75,B03,Mild,Budget-friendly,Evening,5,SIMULATED
+STU0352,Vegetarian,"Sandwiches, Healthy Bowls, Rice & Noodles",200,B04,Mild,No specific goal,Evening,5,SIMULATED
+STU0353,Both,"Beverages, Rice & Noodles, Desserts",120,B02,Mild,Budget-friendly,Evening,5,SIMULATED
+STU0354,Both,"Sandwiches, Salads, Rice & Noodles",200,B05,Mild,High-protein,Afternoon,2,SIMULATED
+STU0355,Vegetarian,"Desserts, Beverages, Sandwiches",75,B05,Medium,No specific goal,Afternoon,2,SIMULATED
+STU0356,Vegetarian,"Salads, Meals, Healthy Bowls",50,B04,Spicy,Healthy,Evening,3,SIMULATED
+STU0357,Vegetarian,"Beverages, Desserts, Snacks",150,B01,Mild,No specific goal,Breakfast,5,SIMULATED
+STU0358,Both,"Rice & Noodles, Salads, Healthy Bowls",120,B04,Mild,Budget-friendly,Afternoon,6,SIMULATED
+STU0359,Non-Vegetarian (Chicken),"Meals, Snacks, Desserts",150,B02,Medium,Healthy,Lunch,2,SIMULATED
+STU0360,Vegetarian,"Salads, Desserts, Healthy Bowls",150,B04,Medium,High-protein,Breakfast,5,SIMULATED
+STU0361,Vegetarian,"Salads, Rice & Noodles, Meals",120,B03,Medium,No specific goal,Breakfast,4,SIMULATED
+STU0362,Vegetarian,"Salads, Beverages, Rice & Noodles",200,B03,Mild,High-protein,Afternoon,4,SIMULATED
+STU0363,Vegetarian,"Rice & Noodles, Sandwiches, Meals",150,B02,Spicy,No specific goal,Afternoon,3,SIMULATED
+STU0364,Vegetarian,"Sandwiches, Healthy Bowls, Desserts",75,B04,Spicy,Budget-friendly,Breakfast,3,SIMULATED
+STU0365,Non-Vegetarian (Chicken),"Salads, Sandwiches, Snacks",180,B05,Medium,Budget-friendly,Evening,4,SIMULATED
+STU0366,Vegetarian,"Healthy Bowls, Sandwiches, Desserts",50,B04,Mild,High-protein,Lunch,3,SIMULATED
+STU0367,Vegetarian,"Meals, Desserts, Salads",150,B02,Medium,Budget-friendly,Afternoon,2,SIMULATED
+STU0368,Vegetarian,"Healthy Bowls, Rice & Noodles, Snacks",180,B04,Spicy,Budget-friendly,Lunch,1,SIMULATED
+STU0369,Vegetarian,"Snacks, Salads, Beverages",75,B01,Spicy,Healthy,Lunch,2,SIMULATED
+STU0370,Non-Vegetarian (Chicken),"Healthy Bowls, Sandwiches, Salads",100,B03,Spicy,Healthy,Lunch,2,SIMULATED
+STU0371,Non-Vegetarian (Chicken),"Desserts, Snacks, Rice & Noodles",100,B03,Medium,Budget-friendly,Evening,4,SIMULATED
+STU0372,Vegetarian,"Sandwiches, Rice & Noodles, Beverages",75,B05,Medium,High-protein,Breakfast,4,SIMULATED
+STU0373,Vegetarian,"Healthy Bowls, Desserts, Beverages",200,B05,Spicy,No specific goal,Breakfast,3,SIMULATED
+STU0374,Vegetarian,"Rice & Noodles, Healthy Bowls, Snacks",120,B03,Medium,No specific goal,Evening,5,SIMULATED
+STU0375,Non-Vegetarian (Chicken),"Healthy Bowls, Sandwiches, Meals",150,B03,Medium,Budget-friendly,Afternoon,5,SIMULATED
+STU0376,Non-Vegetarian (Chicken),"Beverages, Rice & Noodles, Snacks",100,B02,Spicy,Budget-friendly,Breakfast,6,SIMULATED
+STU0377,Both,"Beverages, Salads, Healthy Bowls",100,B05,Medium,High-protein,Lunch,4,SIMULATED
+STU0378,Both,"Rice & Noodles, Snacks, Beverages",150,B04,Spicy,High-protein,Afternoon,6,SIMULATED
+STU0379,Vegetarian,"Healthy Bowls, Snacks, Beverages",180,B04,Medium,Healthy,Breakfast,5,SIMULATED
+STU0380,Vegetarian,"Salads, Rice & Noodles, Desserts",180,B04,Medium,No specific goal,Evening,5,SIMULATED
+STU0381,Both,"Salads, Rice & Noodles, Snacks",75,B01,Medium,No specific goal,Breakfast,6,SIMULATED
+STU0382,Vegetarian,"Meals, Desserts, Beverages",120,B05,Medium,Healthy,Breakfast,3,SIMULATED
+STU0383,Vegetarian,"Sandwiches, Healthy Bowls, Salads",100,B02,Spicy,High-protein,Breakfast,1,SIMULATED
+STU0384,Both,"Snacks, Beverages, Sandwiches",75,B02,Spicy,Budget-friendly,Afternoon,4,SIMULATED
+STU0385,Vegetarian,"Beverages, Healthy Bowls, Desserts",120,B01,Spicy,No specific goal,Evening,3,SIMULATED
+STU0386,Vegetarian,"Desserts, Sandwiches, Snacks",250,B05,Medium,Healthy,Breakfast,6,SIMULATED
+STU0387,Both,"Rice & Noodles, Meals, Healthy Bowls",200,B05,Medium,High-protein,Afternoon,2,SIMULATED
+STU0388,Non-Vegetarian (Chicken),"Beverages, Sandwiches, Rice & Noodles",100,B04,Spicy,No specific goal,Breakfast,6,SIMULATED
+STU0389,Both,"Sandwiches, Salads, Rice & Noodles",180,B03,Mild,Budget-friendly,Breakfast,1,SIMULATED
+STU0390,Non-Vegetarian (Chicken),"Beverages, Snacks, Rice & Noodles",200,B02,Medium,No specific goal,Afternoon,3,SIMULATED
+STU0391,Vegetarian,"Salads, Beverages, Meals",120,B01,Spicy,No specific goal,Breakfast,2,SIMULATED
+STU0392,Vegetarian,"Sandwiches, Desserts, Rice & Noodles",180,B01,Medium,High-protein,Evening,2,SIMULATED
+STU0393,Vegetarian,"Healthy Bowls, Snacks, Beverages",75,B05,Spicy,Budget-friendly,Breakfast,5,SIMULATED
+STU0394,Both,"Rice & Noodles, Snacks, Beverages",150,B02,Spicy,Budget-friendly,Evening,3,SIMULATED
+STU0395,Vegetarian,"Rice & Noodles, Sandwiches, Meals",250,B01,Mild,High-protein,Lunch,4,SIMULATED
+STU0396,Non-Vegetarian (Chicken),"Rice & Noodles, Snacks, Desserts",75,B05,Medium,No specific goal,Lunch,1,SIMULATED
+STU0397,Both,"Healthy Bowls, Sandwiches, Salads",50,B02,Medium,No specific goal,Lunch,5,SIMULATED
+STU0398,Vegetarian,"Rice & Noodles, Snacks, Meals",75,B03,Spicy,No specific goal,Breakfast,3,SIMULATED
+STU0399,Vegetarian,"Rice & Noodles, Desserts, Beverages",180,B05,Medium,Budget-friendly,Evening,5,SIMULATED
+STU0400,Both,"Healthy Bowls, Sandwiches, Salads",120,B02,Mild,No specific goal,Lunch,3,SIMULATED
+STU0401,Both,"Desserts, Beverages, Rice & Noodles",180,B02,Medium,Budget-friendly,Lunch,5,SIMULATED
+STU0402,Vegetarian,"Sandwiches, Rice & Noodles, Salads",120,B01,Medium,High-protein,Lunch,4,SIMULATED
+STU0403,Both,"Healthy Bowls, Snacks, Sandwiches",100,B02,Spicy,No specific goal,Afternoon,5,SIMULATED
+STU0404,Non-Vegetarian (Chicken),"Snacks, Healthy Bowls, Beverages",50,B02,Medium,No specific goal,Breakfast,5,SIMULATED
+STU0405,Non-Vegetarian (Chicken),"Beverages, Rice & Noodles, Salads",180,B04,Spicy,High-protein,Lunch,4,SIMULATED
+STU0406,Vegetarian,"Rice & Noodles, Sandwiches, Snacks",150,B01,Spicy,High-protein,Afternoon,4,SIMULATED
+STU0407,Vegetarian,"Salads, Snacks, Sandwiches",120,B04,Spicy,Budget-friendly,Lunch,1,SIMULATED
+STU0408,Vegetarian,"Rice & Noodles, Healthy Bowls, Meals",180,B05,Medium,High-protein,Breakfast,4,SIMULATED
+STU0409,Non-Vegetarian (Chicken),"Snacks, Meals, Rice & Noodles",200,B02,Medium,No specific goal,Breakfast,3,SIMULATED
+STU0410,Vegetarian,"Rice & Noodles, Sandwiches, Desserts",100,B05,Mild,No specific goal,Evening,1,SIMULATED
+STU0411,Vegetarian,"Rice & Noodles, Snacks, Sandwiches",180,B01,Medium,High-protein,Lunch,2,SIMULATED
+STU0412,Vegetarian,"Rice & Noodles, Desserts, Healthy Bowls",150,B04,Spicy,High-protein,Lunch,5,SIMULATED
+STU0413,Both,"Sandwiches, Rice & Noodles, Snacks",180,B05,Spicy,High-protein,Evening,4,SIMULATED
+STU0414,Both,"Desserts, Meals, Snacks",120,B01,Spicy,High-protein,Evening,1,SIMULATED
+STU0415,Both,"Healthy Bowls, Meals, Sandwiches",180,B05,Medium,Healthy,Evening,2,SIMULATED
+STU0416,Both,"Healthy Bowls, Salads, Meals",100,B04,Spicy,Healthy,Afternoon,3,SIMULATED
+STU0417,Vegetarian,"Sandwiches, Snacks, Desserts",100,B02,Spicy,Budget-friendly,Evening,6,SIMULATED
+STU0418,Non-Vegetarian (Chicken),"Beverages, Salads, Rice & Noodles",150,B05,Mild,High-protein,Evening,1,SIMULATED
+STU0419,Non-Vegetarian (Chicken),"Meals, Sandwiches, Snacks",120,B05,Medium,High-protein,Evening,1,SIMULATED
+STU0420,Vegetarian,"Rice & Noodles, Meals, Snacks",120,B03,Mild,Healthy,Breakfast,2,SIMULATED
+STU0421,Both,"Beverages, Sandwiches, Healthy Bowls",50,B03,Medium,Budget-friendly,Afternoon,1,SIMULATED
+STU0422,Non-Vegetarian (Chicken),"Rice & Noodles, Snacks, Healthy Bowls",75,B04,Spicy,No specific goal,Lunch,4,SIMULATED
+STU0423,Both,"Beverages, Rice & Noodles, Desserts",100,B03,Medium,Budget-friendly,Breakfast,2,SIMULATED
+STU0424,Non-Vegetarian (Chicken),"Rice & Noodles, Healthy Bowls, Meals",150,B02,Spicy,Budget-friendly,Evening,1,SIMULATED
+STU0425,Both,"Rice & Noodles, Meals, Sandwiches",100,B01,Medium,No specific goal,Afternoon,2,SIMULATED
+STU0426,Both,"Salads, Beverages, Desserts",75,B04,Spicy,High-protein,Afternoon,3,SIMULATED
+STU0427,Both,"Salads, Beverages, Desserts",100,B05,Medium,Budget-friendly,Evening,5,SIMULATED
+STU0428,Vegetarian,"Meals, Snacks, Healthy Bowls",180,B02,Medium,Healthy,Lunch,3,SIMULATED
+STU0429,Non-Vegetarian (Chicken),"Beverages, Desserts, Healthy Bowls",150,B02,Medium,High-protein,Breakfast,6,SIMULATED
+STU0430,Vegetarian,"Sandwiches, Meals, Healthy Bowls",180,B03,Mild,No specific goal,Breakfast,3,SIMULATED
+STU0431,Vegetarian,"Rice & Noodles, Snacks, Beverages",100,B02,Medium,Healthy,Evening,1,SIMULATED
+STU0432,Vegetarian,"Salads, Desserts, Meals",120,B04,Medium,Healthy,Evening,5,SIMULATED
+STU0433,Non-Vegetarian (Chicken),"Beverages, Desserts, Sandwiches",120,B01,Mild,Healthy,Breakfast,6,SIMULATED
+STU0434,Vegetarian,"Salads, Snacks, Beverages",200,B03,Mild,Budget-friendly,Afternoon,1,SIMULATED
+STU0435,Vegetarian,"Snacks, Rice & Noodles, Desserts",150,B02,Mild,Healthy,Afternoon,4,SIMULATED
+STU0436,Both,"Healthy Bowls, Sandwiches, Meals",180,B04,Medium,No specific goal,Evening,6,SIMULATED
+STU0437,Non-Vegetarian (Chicken),"Healthy Bowls, Snacks, Salads",50,B05,Medium,High-protein,Breakfast,4,SIMULATED
+STU0438,Vegetarian,"Salads, Rice & Noodles, Beverages",150,B02,Medium,Healthy,Breakfast,6,SIMULATED
+STU0439,Non-Vegetarian (Chicken),"Salads, Sandwiches, Beverages",200,B03,Medium,High-protein,Breakfast,5,SIMULATED
+STU0440,Both,"Meals, Sandwiches, Beverages",250,B02,Medium,High-protein,Evening,4,SIMULATED
+STU0441,Both,"Rice & Noodles, Healthy Bowls, Desserts",150,B01,Medium,High-protein,Lunch,2,SIMULATED
+STU0442,Vegetarian,"Healthy Bowls, Desserts, Meals",180,B02,Spicy,Budget-friendly,Evening,2,SIMULATED
+STU0443,Both,"Beverages, Desserts, Salads",100,B03,Medium,Healthy,Lunch,1,SIMULATED
+STU0444,Both,"Healthy Bowls, Rice & Noodles, Snacks",75,B04,Medium,Budget-friendly,Afternoon,5,SIMULATED
+STU0445,Non-Vegetarian (Chicken),"Beverages, Healthy Bowls, Snacks",50,B05,Spicy,No specific goal,Lunch,2,SIMULATED
+STU0446,Both,"Desserts, Rice & Noodles, Meals",50,B03,Medium,Budget-friendly,Evening,5,SIMULATED
+STU0447,Vegetarian,"Beverages, Snacks, Meals",100,B02,Medium,Healthy,Afternoon,2,SIMULATED
+STU0448,Vegetarian,"Salads, Sandwiches, Meals",200,B03,Mild,Budget-friendly,Breakfast,3,SIMULATED
+STU0449,Both,"Sandwiches, Healthy Bowls, Beverages",250,B02,Spicy,High-protein,Lunch,4,SIMULATED
+STU0450,Both,"Rice & Noodles, Sandwiches, Beverages",75,B02,Medium,Healthy,Breakfast,2,SIMULATED
+STU0451,Vegetarian,"Meals, Sandwiches, Rice & Noodles",180,B02,Mild,High-protein,Lunch,3,SIMULATED
+STU0452,Both,"Snacks, Meals, Rice & Noodles",250,B02,Medium,No specific goal,Breakfast,2,SIMULATED
+STU0453,Vegetarian,"Desserts, Snacks, Beverages",75,B02,Medium,Healthy,Afternoon,2,SIMULATED
+STU0454,Vegetarian,"Rice & Noodles, Snacks, Healthy Bowls",250,B03,Mild,High-protein,Lunch,6,SIMULATED
+STU0455,Vegetarian,"Rice & Noodles, Salads, Beverages",180,B03,Spicy,Healthy,Evening,1,SIMULATED
+STU0456,Vegetarian,"Sandwiches, Meals, Snacks",75,B04,Medium,No specific goal,Afternoon,6,SIMULATED
+STU0457,Vegetarian,"Desserts, Meals, Salads",120,B03,Medium,Budget-friendly,Afternoon,6,SIMULATED
+STU0458,Vegetarian,"Sandwiches, Desserts, Rice & Noodles",150,B01,Medium,No specific goal,Lunch,2,SIMULATED
+STU0459,Vegetarian,"Salads, Snacks, Healthy Bowls",75,B03,Medium,High-protein,Breakfast,3,SIMULATED
+STU0460,Both,"Snacks, Healthy Bowls, Sandwiches",200,B05,Mild,High-protein,Breakfast,3,SIMULATED
+STU0461,Vegetarian,"Sandwiches, Salads, Desserts",50,B04,Mild,Healthy,Breakfast,6,SIMULATED
+STU0462,Both,"Snacks, Beverages, Meals",75,B04,Spicy,Budget-friendly,Afternoon,3,SIMULATED
+STU0463,Non-Vegetarian (Chicken),"Desserts, Healthy Bowls, Meals",100,B05,Spicy,Healthy,Lunch,6,SIMULATED
+STU0464,Vegetarian,"Rice & Noodles, Beverages, Salads",120,B03,Medium,High-protein,Lunch,3,SIMULATED
+STU0465,Non-Vegetarian (Chicken),"Salads, Snacks, Sandwiches",180,B01,Spicy,Budget-friendly,Breakfast,1,SIMULATED
+STU0466,Vegetarian,"Meals, Salads, Snacks",150,B05,Medium,High-protein,Evening,1,SIMULATED
+STU0467,Both,"Rice & Noodles, Beverages, Sandwiches",180,B02,Spicy,Healthy,Afternoon,2,SIMULATED
+STU0468,Vegetarian,"Meals, Healthy Bowls, Desserts",75,B02,Spicy,No specific goal,Evening,6,SIMULATED
+STU0469,Vegetarian,"Rice & Noodles, Snacks, Meals",50,B05,Spicy,High-protein,Afternoon,5,SIMULATED
+STU0470,Non-Vegetarian (Chicken),"Rice & Noodles, Sandwiches, Desserts",50,B05,Medium,No specific goal,Breakfast,6,SIMULATED
+STU0471,Both,"Beverages, Desserts, Healthy Bowls",75,B04,Mild,No specific goal,Afternoon,6,SIMULATED
+STU0472,Non-Vegetarian (Chicken),"Meals, Rice & Noodles, Salads",50,B04,Spicy,High-protein,Breakfast,1,SIMULATED
+STU0473,Non-Vegetarian (Chicken),"Desserts, Sandwiches, Salads",50,B05,Medium,Healthy,Lunch,3,SIMULATED
+STU0474,Vegetarian,"Salads, Meals, Snacks",250,B05,Medium,High-protein,Lunch,1,SIMULATED
+STU0475,Both,"Sandwiches, Snacks, Healthy Bowls",250,B02,Spicy,No specific goal,Afternoon,5,SIMULATED
+STU0476,Non-Vegetarian (Chicken),"Beverages, Salads, Healthy Bowls",120,B05,Medium,High-protein,Afternoon,6,SIMULATED
+STU0477,Both,"Rice & Noodles, Beverages, Sandwiches",75,B01,Mild,High-protein,Lunch,2,SIMULATED
+STU0478,Both,"Sandwiches, Meals, Healthy Bowls",150,B03,Mild,Budget-friendly,Breakfast,4,SIMULATED
+STU0479,Vegetarian,"Desserts, Beverages, Healthy Bowls",75,B02,Medium,No specific goal,Afternoon,5,SIMULATED
+STU0480,Vegetarian,"Salads, Healthy Bowls, Beverages",150,B01,Medium,No specific goal,Afternoon,4,SIMULATED
+STU0481,Non-Vegetarian (Chicken),"Snacks, Healthy Bowls, Beverages",120,B02,Mild,No specific goal,Breakfast,6,SIMULATED
+STU0482,Vegetarian,"Beverages, Healthy Bowls, Snacks",200,B03,Medium,Healthy,Lunch,1,SIMULATED
+STU0483,Vegetarian,"Rice & Noodles, Desserts, Beverages",200,B05,Medium,No specific goal,Evening,5,SIMULATED
+STU0484,Vegetarian,"Desserts, Healthy Bowls, Beverages",75,B02,Medium,Healthy,Afternoon,1,SIMULATED
+STU0485,Vegetarian,"Snacks, Meals, Beverages",100,B05,Mild,Healthy,Breakfast,4,SIMULATED
+STU0486,Non-Vegetarian (Chicken),"Snacks, Desserts, Healthy Bowls",200,B01,Spicy,High-protein,Breakfast,1,SIMULATED
+STU0487,Vegetarian,"Meals, Desserts, Rice & Noodles",100,B05,Spicy,Budget-friendly,Evening,4,SIMULATED
+STU0488,Both,"Salads, Healthy Bowls, Meals",75,B05,Mild,Healthy,Breakfast,6,SIMULATED
+STU0489,Vegetarian,"Desserts, Meals, Beverages",150,B02,Spicy,Healthy,Evening,2,SIMULATED
+STU0490,Vegetarian,"Sandwiches, Meals, Snacks",150,B02,Spicy,No specific goal,Evening,6,SIMULATED
+STU0491,Vegetarian,"Salads, Beverages, Snacks",75,B04,Mild,No specific goal,Lunch,1,SIMULATED
+STU0492,Both,"Sandwiches, Snacks, Rice & Noodles",120,B04,Medium,Healthy,Afternoon,5,SIMULATED
+STU0493,Non-Vegetarian (Chicken),"Salads, Sandwiches, Snacks",250,B03,Medium,Budget-friendly,Afternoon,1,SIMULATED
+STU0494,Vegetarian,"Desserts, Healthy Bowls, Snacks",150,B04,Medium,High-protein,Evening,1,SIMULATED
+STU0495,Non-Vegetarian (Chicken),"Salads, Snacks, Sandwiches",180,B05,Spicy,High-protein,Evening,6,SIMULATED
+STU0496,Non-Vegetarian (Chicken),"Rice & Noodles, Sandwiches, Snacks",75,B01,Medium,Healthy,Breakfast,5,SIMULATED
+STU0497,Vegetarian,"Meals, Snacks, Desserts",120,B05,Medium,No specific goal,Lunch,2,SIMULATED
+STU0498,Vegetarian,"Beverages, Meals, Rice & Noodles",150,B01,Spicy,Budget-friendly,Afternoon,2,SIMULATED
+STU0499,Non-Vegetarian (Chicken),"Meals, Desserts, Healthy Bowls",250,B04,Spicy,No specific goal,Breakfast,6,SIMULATED
+STU0500,Both,"Healthy Bowls, Rice & Noodles, Salads",250,B02,Spicy,High-protein,Lunch,6,SIMULATED
+STU0501,Vegetarian,"Desserts, Rice & Noodles, Sandwiches",50,B04,Spicy,High-protein,Afternoon,2,SIMULATED
+STU0502,Both,"Salads, Healthy Bowls, Desserts",120,B02,Medium,No specific goal,Breakfast,5,SIMULATED
+STU0503,Both,"Healthy Bowls, Sandwiches, Salads",50,B05,Medium,High-protein,Lunch,3,SIMULATED
+STU0504,Vegetarian,"Beverages, Rice & Noodles, Meals",100,B01,Mild,No specific goal,Lunch,2,SIMULATED
+STU0505,Vegetarian,"Beverages, Healthy Bowls, Meals",120,B02,Medium,Budget-friendly,Breakfast,1,SIMULATED
+STU0506,Vegetarian,"Salads, Rice & Noodles, Snacks",120,B03,Medium,No specific goal,Afternoon,6,SIMULATED
+STU0507,Both,"Rice & Noodles, Sandwiches, Salads",75,B02,Medium,Budget-friendly,Breakfast,6,SIMULATED
+STU0508,Both,"Desserts, Healthy Bowls, Beverages",100,B04,Medium,Healthy,Afternoon,5,SIMULATED
+STU0509,Vegetarian,"Salads, Snacks, Meals",150,B02,Spicy,High-protein,Afternoon,6,SIMULATED
+STU0510,Non-Vegetarian (Chicken),"Beverages, Meals, Snacks",75,B05,Mild,Healthy,Breakfast,1,SIMULATED
+STU0511,Vegetarian,"Sandwiches, Snacks, Beverages",250,B01,Spicy,High-protein,Lunch,6,SIMULATED
+STU0512,Vegetarian,"Desserts, Sandwiches, Snacks",180,B03,Medium,No specific goal,Evening,4,SIMULATED
+STU0513,Vegetarian,"Desserts, Meals, Salads",250,B01,Medium,High-protein,Lunch,6,SIMULATED
+STU0514,Both,"Desserts, Beverages, Snacks",75,B04,Medium,Healthy,Evening,5,SIMULATED
+STU0515,Both,"Healthy Bowls, Snacks, Meals",150,B01,Medium,Budget-friendly,Evening,6,SIMULATED
+STU0516,Vegetarian,"Desserts, Snacks, Sandwiches",75,B01,Spicy,Healthy,Evening,6,SIMULATED
+STU0517,Vegetarian,"Rice & Noodles, Desserts, Snacks",120,B03,Medium,High-protein,Lunch,2,SIMULATED
+STU0518,Non-Vegetarian (Chicken),"Beverages, Snacks, Healthy Bowls",75,B05,Mild,No specific goal,Lunch,4,SIMULATED
+STU0519,Vegetarian,"Beverages, Meals, Salads",75,B03,Medium,High-protein,Evening,1,SIMULATED
+STU0520,Both,"Rice & Noodles, Salads, Desserts",200,B01,Spicy,Budget-friendly,Lunch,1,SIMULATED
+STU0521,Non-Vegetarian (Chicken),"Healthy Bowls, Sandwiches, Rice & Noodles",180,B01,Medium,High-protein,Breakfast,1,SIMULATED
+STU0522,Vegetarian,"Healthy Bowls, Sandwiches, Desserts",150,B02,Medium,Healthy,Evening,1,SIMULATED
+STU0523,Vegetarian,"Healthy Bowls, Rice & Noodles, Sandwiches",180,B05,Medium,No specific goal,Lunch,2,SIMULATED
+STU0524,Non-Vegetarian (Chicken),"Rice & Noodles, Desserts, Beverages",100,B05,Medium,High-protein,Evening,3,SIMULATED
+STU0525,Non-Vegetarian (Chicken),"Rice & Noodles, Salads, Meals",180,B04,Medium,Budget-friendly,Afternoon,1,SIMULATED
+STU0526,Both,"Sandwiches, Desserts, Rice & Noodles",200,B02,Mild,Healthy,Afternoon,5,SIMULATED
+STU0527,Vegetarian,"Healthy Bowls, Salads, Meals",200,B05,Mild,High-protein,Evening,5,SIMULATED
+STU0528,Both,"Beverages, Healthy Bowls, Sandwiches",150,B05,Spicy,Budget-friendly,Breakfast,1,SIMULATED
+STU0529,Non-Vegetarian (Chicken),"Beverages, Snacks, Salads",120,B04,Medium,No specific goal,Afternoon,2,SIMULATED
+STU0530,Both,"Salads, Healthy Bowls, Meals",150,B02,Medium,Healthy,Afternoon,6,SIMULATED
+STU0531,Vegetarian,"Desserts, Snacks, Sandwiches",200,B02,Medium,No specific goal,Evening,4,SIMULATED
+STU0532,Vegetarian,"Desserts, Snacks, Sandwiches",100,B04,Medium,No specific goal,Lunch,1,SIMULATED
+STU0533,Vegetarian,"Rice & Noodles, Healthy Bowls, Snacks",100,B03,Spicy,High-protein,Afternoon,4,SIMULATED
+STU0534,Both,"Salads, Meals, Snacks",120,B03,Spicy,High-protein,Lunch,3,SIMULATED
+STU0535,Both,"Sandwiches, Snacks, Rice & Noodles",100,B03,Medium,High-protein,Evening,5,SIMULATED
+STU0536,Non-Vegetarian (Chicken),"Meals, Desserts, Rice & Noodles",200,B05,Medium,Budget-friendly,Breakfast,3,SIMULATED
+STU0537,Vegetarian,"Sandwiches, Snacks, Meals",120,B03,Medium,No specific goal,Breakfast,6,SIMULATED
+STU0538,Both,"Healthy Bowls, Snacks, Sandwiches",100,B05,Mild,Healthy,Lunch,6,SIMULATED
+STU0539,Vegetarian,"Healthy Bowls, Snacks, Desserts",150,B05,Mild,No specific goal,Lunch,6,SIMULATED
+STU0540,Vegetarian,"Salads, Desserts, Rice & Noodles",120,B04,Mild,Healthy,Evening,4,SIMULATED
+STU0541,Vegetarian,"Healthy Bowls, Rice & Noodles, Beverages",150,B02,Medium,Budget-friendly,Lunch,6,SIMULATED
+STU0542,Vegetarian,"Healthy Bowls, Salads, Beverages",150,B03,Mild,Healthy,Afternoon,1,SIMULATED
+STU0543,Vegetarian,"Meals, Desserts, Salads",180,B03,Mild,No specific goal,Lunch,2,SIMULATED
+STU0544,Both,"Rice & Noodles, Desserts, Meals",120,B03,Spicy,Budget-friendly,Lunch,4,SIMULATED
+STU0545,Both,"Meals, Snacks, Beverages",100,B01,Medium,Budget-friendly,Afternoon,3,SIMULATED
+STU0546,Both,"Healthy Bowls, Salads, Sandwiches",120,B01,Spicy,High-protein,Evening,4,SIMULATED
+STU0547,Non-Vegetarian (Chicken),"Rice & Noodles, Desserts, Healthy Bowls",200,B02,Medium,High-protein,Afternoon,5,SIMULATED
+STU0548,Both,"Healthy Bowls, Salads, Meals",150,B04,Mild,Budget-friendly,Breakfast,6,SIMULATED
+STU0549,Both,"Beverages, Desserts, Salads",120,B04,Mild,Healthy,Breakfast,1,SIMULATED
+STU0550,Non-Vegetarian (Chicken),"Snacks, Healthy Bowls, Salads",120,B01,Mild,High-protein,Breakfast,5,SIMULATED
+STU0551,Vegetarian,"Sandwiches, Beverages, Healthy Bowls",150,B03,Medium,No specific goal,Lunch,6,SIMULATED
+STU0552,Both,"Desserts, Beverages, Meals",180,B03,Mild,High-protein,Evening,4,SIMULATED
+STU0553,Both,"Salads, Desserts, Beverages",180,B05,Spicy,Budget-friendly,Lunch,1,SIMULATED
+STU0554,Both,"Snacks, Meals, Salads",200,B05,Medium,Budget-friendly,Afternoon,2,SIMULATED
+STU0555,Non-Vegetarian (Chicken),"Salads, Sandwiches, Rice & Noodles",75,B02,Medium,Budget-friendly,Lunch,4,SIMULATED
+STU0556,Vegetarian,"Beverages, Sandwiches, Meals",120,B02,Spicy,No specific goal,Lunch,4,SIMULATED
+STU0557,Vegetarian,"Snacks, Sandwiches, Rice & Noodles",100,B01,Medium,High-protein,Breakfast,4,SIMULATED
+STU0558,Non-Vegetarian (Chicken),"Salads, Beverages, Healthy Bowls",75,B01,Mild,Healthy,Breakfast,6,SIMULATED
+STU0559,Both,"Rice & Noodles, Snacks, Healthy Bowls",180,B03,Mild,No specific goal,Breakfast,4,SIMULATED
+STU0560,Both,"Snacks, Meals, Sandwiches",100,B03,Medium,No specific goal,Evening,5,SIMULATED
+STU0561,Both,"Beverages, Meals, Salads",180,B03,Spicy,Healthy,Breakfast,2,SIMULATED
+STU0562,Both,"Healthy Bowls, Salads, Beverages",100,B04,Medium,High-protein,Evening,1,SIMULATED
+STU0563,Vegetarian,"Meals, Salads, Desserts",75,B03,Spicy,No specific goal,Breakfast,2,SIMULATED
+STU0564,Vegetarian,"Sandwiches, Beverages, Snacks",100,B01,Medium,No specific goal,Evening,2,SIMULATED
+STU0565,Non-Vegetarian (Chicken),"Salads, Sandwiches, Desserts",75,B04,Mild,Healthy,Breakfast,6,SIMULATED
+STU0566,Non-Vegetarian (Chicken),"Sandwiches, Snacks, Meals",50,B02,Mild,Healthy,Lunch,6,SIMULATED
+STU0567,Non-Vegetarian (Chicken),"Rice & Noodles, Healthy Bowls, Desserts",100,B03,Spicy,High-protein,Lunch,5,SIMULATED
+STU0568,Vegetarian,"Snacks, Salads, Sandwiches",100,B04,Mild,No specific goal,Evening,5,SIMULATED
+STU0569,Vegetarian,"Rice & Noodles, Snacks, Salads",100,B04,Spicy,Budget-friendly,Afternoon,6,SIMULATED
+STU0570,Vegetarian,"Meals, Rice & Noodles, Sandwiches",200,B05,Medium,High-protein,Evening,5,SIMULATED
+STU0571,Vegetarian,"Meals, Desserts, Snacks",150,B02,Medium,High-protein,Breakfast,1,SIMULATED
+STU0572,Vegetarian,"Desserts, Meals, Beverages",75,B04,Spicy,Healthy,Afternoon,2,SIMULATED
+STU0573,Non-Vegetarian (Chicken),"Salads, Desserts, Beverages",250,B03,Medium,High-protein,Lunch,1,SIMULATED
+STU0574,Both,"Rice & Noodles, Meals, Desserts",200,B05,Medium,Healthy,Evening,2,SIMULATED
+STU0575,Vegetarian,"Desserts, Rice & Noodles, Salads",75,B05,Medium,Healthy,Lunch,1,SIMULATED
+STU0576,Non-Vegetarian (Chicken),"Healthy Bowls, Beverages, Snacks",75,B01,Medium,High-protein,Lunch,5,SIMULATED
+STU0577,Non-Vegetarian (Chicken),"Healthy Bowls, Snacks, Meals",100,B03,Medium,No specific goal,Evening,5,SIMULATED
+STU0578,Vegetarian,"Rice & Noodles, Meals, Salads",120,B04,Medium,High-protein,Afternoon,6,SIMULATED
+STU0579,Non-Vegetarian (Chicken),"Meals, Desserts, Beverages",50,B01,Medium,Budget-friendly,Breakfast,2,SIMULATED
+STU0580,Vegetarian,"Salads, Sandwiches, Desserts",180,B03,Medium,Healthy,Lunch,1,SIMULATED
+STU0581,Vegetarian,"Beverages, Snacks, Meals",100,B05,Medium,Healthy,Evening,4,SIMULATED
+STU0582,Both,"Meals, Salads, Rice & Noodles",180,B01,Mild,High-protein,Afternoon,1,SIMULATED
+STU0583,Non-Vegetarian (Chicken),"Healthy Bowls, Desserts, Snacks",100,B02,Medium,No specific goal,Evening,4,SIMULATED
+STU0584,Vegetarian,"Meals, Salads, Healthy Bowls",150,B05,Medium,Healthy,Afternoon,3,SIMULATED
+STU0585,Vegetarian,"Desserts, Snacks, Rice & Noodles",75,B04,Mild,Healthy,Breakfast,1,SIMULATED
+STU0586,Vegetarian,"Snacks, Meals, Rice & Noodles",120,B05,Spicy,No specific goal,Lunch,4,SIMULATED
+STU0587,Both,"Meals, Healthy Bowls, Desserts",150,B04,Medium,No specific goal,Lunch,1,SIMULATED
+STU0588,Both,"Snacks, Salads, Desserts",50,B02,Mild,Budget-friendly,Afternoon,2,SIMULATED
+STU0589,Vegetarian,"Snacks, Beverages, Desserts",180,B03,Medium,High-protein,Lunch,2,SIMULATED
+STU0590,Both,"Beverages, Salads, Desserts",250,B02,Medium,No specific goal,Lunch,3,SIMULATED
+STU0591,Both,"Meals, Sandwiches, Rice & Noodles",180,B05,Spicy,No specific goal,Afternoon,1,SIMULATED
+STU0592,Both,"Sandwiches, Snacks, Rice & Noodles",150,B04,Spicy,Budget-friendly,Evening,2,SIMULATED
+STU0593,Both,"Healthy Bowls, Meals, Snacks",150,B04,Spicy,High-protein,Afternoon,2,SIMULATED
+STU0594,Vegetarian,"Snacks, Desserts, Meals",180,B03,Spicy,Healthy,Afternoon,2,SIMULATED
+STU0595,Both,"Snacks, Rice & Noodles, Desserts",150,B03,Mild,High-protein,Breakfast,3,SIMULATED
+STU0596,Both,"Healthy Bowls, Sandwiches, Meals",150,B02,Mild,Healthy,Breakfast,6,SIMULATED
+STU0597,Vegetarian,"Salads, Rice & Noodles, Beverages",150,B02,Mild,Healthy,Breakfast,1,SIMULATED
+STU0598,Vegetarian,"Rice & Noodles, Sandwiches, Salads",180,B03,Mild,No specific goal,Lunch,5,SIMULATED
+STU0599,Both,"Meals, Snacks, Desserts",150,B03,Spicy,High-protein,Evening,3,SIMULATED
+STU0600,Vegetarian,"Meals, Snacks, Rice & Noodles",75,B04,Mild,No specific goal,Evening,6,SIMULATED
+STU0601,Vegetarian,"Salads, Snacks, Sandwiches",100,B02,Spicy,Healthy,Lunch,5,SIMULATED
+STU0602,Both,"Meals, Healthy Bowls, Sandwiches",200,B03,Medium,Budget-friendly,Lunch,4,SIMULATED
+STU0603,Vegetarian,"Healthy Bowls, Salads, Snacks",250,B05,Mild,Healthy,Afternoon,1,SIMULATED
+STU0604,Both,"Healthy Bowls, Meals, Desserts",120,B04,Spicy,High-protein,Evening,6,SIMULATED
+STU0605,Vegetarian,"Beverages, Meals, Healthy Bowls",100,B03,Medium,Healthy,Lunch,5,SIMULATED
+STU0606,Both,"Healthy Bowls, Desserts, Salads",75,B05,Spicy,Healthy,Breakfast,1,SIMULATED
+STU0607,Vegetarian,"Salads, Meals, Healthy Bowls",200,B02,Mild,High-protein,Breakfast,5,SIMULATED
+STU0608,Vegetarian,"Salads, Desserts, Beverages",200,B04,Medium,Budget-friendly,Afternoon,1,SIMULATED
+STU0609,Non-Vegetarian (Chicken),"Sandwiches, Rice & Noodles, Snacks",50,B01,Medium,High-protein,Afternoon,6,SIMULATED
+STU0610,Vegetarian,"Rice & Noodles, Beverages, Salads",50,B02,Mild,Budget-friendly,Lunch,2,SIMULATED
+STU0611,Both,"Sandwiches, Rice & Noodles, Beverages",150,B03,Mild,No specific goal,Lunch,5,SIMULATED
+STU0612,Non-Vegetarian (Chicken),"Snacks, Salads, Meals",150,B01,Medium,Budget-friendly,Afternoon,1,SIMULATED
+STU0613,Non-Vegetarian (Chicken),"Meals, Desserts, Healthy Bowls",100,B01,Medium,No specific goal,Breakfast,6,SIMULATED
+STU0614,Vegetarian,"Healthy Bowls, Salads, Desserts",100,B02,Medium,No specific goal,Lunch,1,SIMULATED
+STU0615,Vegetarian,"Desserts, Salads, Meals",200,B01,Medium,Budget-friendly,Breakfast,1,SIMULATED
+STU0616,Both,"Snacks, Desserts, Beverages",150,B04,Mild,Budget-friendly,Afternoon,1,SIMULATED
+STU0617,Both,"Desserts, Healthy Bowls, Salads",180,B04,Spicy,High-protein,Lunch,2,SIMULATED
+STU0618,Vegetarian,"Salads, Desserts, Healthy Bowls",100,B02,Medium,High-protein,Breakfast,2,SIMULATED
+STU0619,Vegetarian,"Meals, Salads, Snacks",180,B04,Medium,High-protein,Afternoon,5,SIMULATED
+STU0620,Vegetarian,"Sandwiches, Snacks, Healthy Bowls",120,B04,Medium,High-protein,Afternoon,2,SIMULATED
+STU0621,Non-Vegetarian (Chicken),"Beverages, Rice & Noodles, Salads",150,B04,Mild,Healthy,Afternoon,3,SIMULATED
+STU0622,Both,"Beverages, Salads, Rice & Noodles",75,B03,Medium,Budget-friendly,Afternoon,2,SIMULATED
+STU0623,Vegetarian,"Desserts, Rice & Noodles, Healthy Bowls",150,B03,Spicy,High-protein,Breakfast,5,SIMULATED
+STU0624,Vegetarian,"Sandwiches, Salads, Beverages",180,B05,Medium,High-protein,Evening,1,SIMULATED
+STU0625,Non-Vegetarian (Chicken),"Meals, Healthy Bowls, Salads",100,B01,Medium,High-protein,Lunch,6,SIMULATED
+STU0626,Both,"Salads, Desserts, Snacks",100,B03,Medium,High-protein,Evening,3,SIMULATED
+STU0627,Vegetarian,"Beverages, Desserts, Meals",120,B05,Mild,Healthy,Lunch,5,SIMULATED
+STU0628,Vegetarian,"Desserts, Snacks, Salads",150,B02,Spicy,No specific goal,Breakfast,1,SIMULATED
+STU0629,Both,"Rice & Noodles, Snacks, Salads",150,B03,Mild,Budget-friendly,Breakfast,1,SIMULATED
+STU0630,Non-Vegetarian (Chicken),"Salads, Healthy Bowls, Beverages",120,B05,Spicy,Healthy,Afternoon,6,SIMULATED
+STU0631,Both,"Snacks, Sandwiches, Desserts",100,B01,Spicy,Budget-friendly,Breakfast,1,SIMULATED
+STU0632,Non-Vegetarian (Chicken),"Rice & Noodles, Snacks, Meals",150,B02,Medium,Budget-friendly,Lunch,6,SIMULATED
+STU0633,Both,"Snacks, Beverages, Sandwiches",75,B05,Medium,No specific goal,Evening,2,SIMULATED
+STU0634,Non-Vegetarian (Chicken),"Rice & Noodles, Meals, Sandwiches",75,B01,Medium,Healthy,Lunch,4,SIMULATED
+STU0635,Both,"Healthy Bowls, Desserts, Sandwiches",150,B01,Medium,No specific goal,Afternoon,2,SIMULATED
+STU0636,Non-Vegetarian (Chicken),"Desserts, Sandwiches, Meals",75,B01,Medium,Budget-friendly,Breakfast,6,SIMULATED
+STU0637,Vegetarian,"Meals, Healthy Bowls, Sandwiches",200,B02,Medium,High-protein,Evening,1,SIMULATED
+STU0638,Non-Vegetarian (Chicken),"Meals, Desserts, Beverages",120,B01,Medium,Budget-friendly,Afternoon,6,SIMULATED
+STU0639,Non-Vegetarian (Chicken),"Snacks, Healthy Bowls, Rice & Noodles",180,B05,Mild,Healthy,Lunch,3,SIMULATED
+STU0640,Vegetarian,"Snacks, Rice & Noodles, Salads",100,B05,Medium,Healthy,Breakfast,1,SIMULATED
+STU0641,Non-Vegetarian (Chicken),"Meals, Beverages, Salads",50,B04,Medium,No specific goal,Evening,1,SIMULATED
+STU0642,Both,"Beverages, Desserts, Sandwiches",250,B02,Mild,No specific goal,Lunch,5,SIMULATED
+STU0643,Vegetarian,"Healthy Bowls, Sandwiches, Desserts",50,B05,Medium,High-protein,Breakfast,1,SIMULATED
+STU0644,Both,"Beverages, Rice & Noodles, Salads",200,B04,Medium,No specific goal,Lunch,3,SIMULATED
+STU0645,Both,"Salads, Rice & Noodles, Healthy Bowls",150,B03,Medium,Healthy,Evening,1,SIMULATED
+STU0646,Both,"Sandwiches, Snacks, Salads",75,B05,Medium,Healthy,Breakfast,5,SIMULATED
+STU0647,Vegetarian,"Rice & Noodles, Desserts, Sandwiches",150,B04,Medium,Healthy,Breakfast,4,SIMULATED
+STU0648,Both,"Salads, Snacks, Desserts",120,B04,Mild,High-protein,Breakfast,4,SIMULATED
+STU0649,Vegetarian,"Rice & Noodles, Meals, Beverages",200,B01,Mild,Budget-friendly,Lunch,3,SIMULATED
+STU0650,Vegetarian,"Rice & Noodles, Snacks, Salads",120,B02,Spicy,Healthy,Afternoon,4,SIMULATED
+STU0651,Both,"Salads, Healthy Bowls, Snacks",150,B01,Medium,High-protein,Evening,5,SIMULATED
+STU0652,Vegetarian,"Beverages, Healthy Bowls, Meals",100,B05,Medium,Healthy,Lunch,2,SIMULATED
+STU0653,Vegetarian,"Rice & Noodles, Sandwiches, Healthy Bowls",200,B02,Mild,No specific goal,Evening,1,SIMULATED
+STU0654,Both,"Snacks, Sandwiches, Healthy Bowls",180,B04,Medium,No specific goal,Breakfast,3,SIMULATED
+STU0655,Both,"Meals, Snacks, Desserts",75,B05,Spicy,Healthy,Afternoon,3,SIMULATED
+STU0656,Non-Vegetarian (Chicken),"Rice & Noodles, Healthy Bowls, Sandwiches",150,B01,Spicy,Budget-friendly,Afternoon,1,SIMULATED
+STU0657,Vegetarian,"Beverages, Salads, Healthy Bowls",100,B03,Medium,No specific goal,Evening,5,SIMULATED
+STU0658,Vegetarian,"Sandwiches, Salads, Healthy Bowls",75,B05,Mild,No specific goal,Breakfast,4,SIMULATED
+STU0659,Vegetarian,"Meals, Desserts, Sandwiches",150,B05,Medium,Budget-friendly,Evening,6,SIMULATED
+STU0660,Non-Vegetarian (Chicken),"Snacks, Meals, Sandwiches",100,B01,Medium,Budget-friendly,Lunch,4,SIMULATED
+STU0661,Non-Vegetarian (Chicken),"Healthy Bowls, Snacks, Sandwiches",120,B05,Spicy,Healthy,Lunch,2,SIMULATED
+STU0662,Non-Vegetarian (Chicken),"Beverages, Desserts, Rice & Noodles",150,B03,Medium,No specific goal,Afternoon,4,SIMULATED
+STU0663,Both,"Beverages, Meals, Desserts",150,B01,Spicy,High-protein,Breakfast,4,SIMULATED
+STU0664,Both,"Salads, Rice & Noodles, Sandwiches",50,B03,Spicy,Budget-friendly,Afternoon,1,SIMULATED
+STU0665,Vegetarian,"Desserts, Sandwiches, Beverages",150,B03,Mild,High-protein,Lunch,2,SIMULATED
+STU0666,Non-Vegetarian (Chicken),"Healthy Bowls, Rice & Noodles, Desserts",250,B04,Medium,Healthy,Evening,3,SIMULATED
+STU0667,Vegetarian,"Beverages, Rice & Noodles, Desserts",75,B05,Medium,Healthy,Afternoon,5,SIMULATED
+STU0668,Both,"Meals, Beverages, Desserts",180,B04,Medium,Healthy,Breakfast,1,SIMULATED
+STU0669,Vegetarian,"Sandwiches, Healthy Bowls, Desserts",200,B03,Mild,Budget-friendly,Evening,2,SIMULATED
+STU0670,Non-Vegetarian (Chicken),"Salads, Beverages, Snacks",180,B03,Spicy,No specific goal,Evening,1,SIMULATED
+STU0671,Vegetarian,"Rice & Noodles, Snacks, Beverages",150,B02,Mild,High-protein,Evening,3,SIMULATED
+STU0672,Non-Vegetarian (Chicken),"Meals, Desserts, Healthy Bowls",250,B01,Mild,No specific goal,Afternoon,4,SIMULATED
+STU0673,Vegetarian,"Desserts, Salads, Snacks",180,B02,Mild,No specific goal,Breakfast,6,SIMULATED
+STU0674,Both,"Sandwiches, Beverages, Healthy Bowls",200,B01,Spicy,Healthy,Afternoon,4,SIMULATED
+STU0675,Both,"Beverages, Snacks, Meals",100,B04,Medium,High-protein,Lunch,3,SIMULATED
+STU0676,Non-Vegetarian (Chicken),"Desserts, Beverages, Sandwiches",100,B02,Medium,Budget-friendly,Afternoon,5,SIMULATED
+STU0677,Both,"Beverages, Meals, Sandwiches",120,B05,Medium,High-protein,Evening,4,SIMULATED
+STU0678,Non-Vegetarian (Chicken),"Salads, Meals, Snacks",120,B05,Spicy,Budget-friendly,Afternoon,3,SIMULATED
+STU0679,Vegetarian,"Sandwiches, Desserts, Salads",120,B04,Medium,No specific goal,Afternoon,2,SIMULATED
+STU0680,Vegetarian,"Sandwiches, Snacks, Salads",150,B01,Medium,Healthy,Afternoon,2,SIMULATED
+STU0681,Non-Vegetarian (Chicken),"Meals, Healthy Bowls, Snacks",150,B04,Medium,No specific goal,Breakfast,2,SIMULATED
+STU0682,Both,"Meals, Sandwiches, Beverages",250,B01,Spicy,High-protein,Afternoon,2,SIMULATED
+STU0683,Vegetarian,"Salads, Meals, Desserts",120,B01,Spicy,Healthy,Breakfast,2,SIMULATED
+STU0684,Non-Vegetarian (Chicken),"Desserts, Sandwiches, Meals",150,B01,Spicy,Budget-friendly,Breakfast,4,SIMULATED
+STU0685,Vegetarian,"Healthy Bowls, Sandwiches, Salads",50,B04,Mild,Budget-friendly,Lunch,5,SIMULATED
+STU0686,Non-Vegetarian (Chicken),"Sandwiches, Salads, Snacks",200,B03,Medium,No specific goal,Lunch,3,SIMULATED
+STU0687,Vegetarian,"Healthy Bowls, Salads, Beverages",180,B03,Spicy,Budget-friendly,Afternoon,4,SIMULATED
+STU0688,Non-Vegetarian (Chicken),"Salads, Snacks, Sandwiches",100,B02,Mild,High-protein,Evening,2,SIMULATED
+STU0689,Vegetarian,"Rice & Noodles, Beverages, Healthy Bowls",120,B05,Medium,Healthy,Afternoon,6,SIMULATED
+STU0690,Both,"Sandwiches, Beverages, Healthy Bowls",50,B03,Medium,Healthy,Breakfast,6,SIMULATED
+STU0691,Non-Vegetarian (Chicken),"Sandwiches, Rice & Noodles, Healthy Bowls",100,B01,Spicy,Healthy,Lunch,4,SIMULATED
+STU0692,Non-Vegetarian (Chicken),"Sandwiches, Rice & Noodles, Healthy Bowls",50,B04,Mild,Budget-friendly,Lunch,3,SIMULATED
+STU0693,Both,"Snacks, Healthy Bowls, Meals",50,B05,Mild,No specific goal,Evening,1,SIMULATED
+STU0694,Non-Vegetarian (Chicken),"Healthy Bowls, Snacks, Salads",100,B03,Mild,No specific goal,Lunch,1,SIMULATED
+STU0695,Both,"Beverages, Meals, Sandwiches",180,B04,Mild,Budget-friendly,Breakfast,2,SIMULATED
+STU0696,Both,"Healthy Bowls, Desserts, Sandwiches",120,B05,Medium,No specific goal,Evening,1,SIMULATED
+STU0697,Both,"Healthy Bowls, Sandwiches, Desserts",150,B01,Mild,Budget-friendly,Lunch,1,SIMULATED
+STU0698,Vegetarian,"Salads, Snacks, Beverages",100,B04,Medium,High-protein,Afternoon,1,SIMULATED
+STU0699,Both,"Snacks, Meals, Salads",75,B05,Medium,No specific goal,Lunch,2,SIMULATED
+STU0700,Non-Vegetarian (Chicken),"Beverages, Healthy Bowls, Meals",120,B02,Medium,Budget-friendly,Afternoon,1,SIMULATED
+STU0701,Both,"Beverages, Meals, Healthy Bowls",200,B04,Mild,High-protein,Lunch,6,SIMULATED
+STU0702,Both,"Meals, Sandwiches, Desserts",100,B03,Spicy,Healthy,Afternoon,4,SIMULATED
+STU0703,Non-Vegetarian (Chicken),"Snacks, Meals, Rice & Noodles",150,B01,Medium,High-protein,Afternoon,5,SIMULATED
+STU0704,Non-Vegetarian (Chicken),"Beverages, Salads, Sandwiches",75,B01,Mild,High-protein,Evening,6,SIMULATED
+STU0705,Vegetarian,"Healthy Bowls, Rice & Noodles, Beverages",200,B03,Medium,No specific goal,Lunch,6,SIMULATED
+STU0706,Non-Vegetarian (Chicken),"Snacks, Meals, Beverages",75,B05,Medium,High-protein,Breakfast,5,SIMULATED
+STU0707,Both,"Salads, Desserts, Snacks",120,B04,Mild,Healthy,Evening,1,SIMULATED
+STU0708,Vegetarian,"Meals, Rice & Noodles, Snacks",100,B04,Medium,Budget-friendly,Breakfast,1,SIMULATED
+STU0709,Non-Vegetarian (Chicken),"Salads, Snacks, Beverages",200,B03,Mild,No specific goal,Lunch,5,SIMULATED
+STU0710,Both,"Salads, Snacks, Desserts",100,B02,Mild,Budget-friendly,Lunch,1,SIMULATED
+STU0711,Both,"Rice & Noodles, Snacks, Desserts",250,B05,Mild,High-protein,Breakfast,4,SIMULATED
+STU0712,Vegetarian,"Meals, Salads, Rice & Noodles",150,B03,Medium,High-protein,Evening,4,SIMULATED
+STU0713,Both,"Beverages, Meals, Sandwiches",50,B04,Mild,Healthy,Lunch,3,SIMULATED
+STU0714,Non-Vegetarian (Chicken),"Snacks, Salads, Beverages",150,B04,Spicy,Budget-friendly,Afternoon,2,SIMULATED
+STU0715,Vegetarian,"Salads, Sandwiches, Rice & Noodles",120,B04,Medium,Healthy,Afternoon,5,SIMULATED
+STU0716,Both,"Meals, Desserts, Sandwiches",100,B05,Spicy,No specific goal,Evening,4,SIMULATED
+STU0717,Vegetarian,"Beverages, Meals, Healthy Bowls",180,B05,Medium,High-protein,Afternoon,3,SIMULATED
+STU0718,Vegetarian,"Rice & Noodles, Meals, Sandwiches",180,B03,Mild,Healthy,Afternoon,2,SIMULATED
+STU0719,Both,"Healthy Bowls, Desserts, Rice & Noodles",200,B04,Medium,Healthy,Breakfast,6,SIMULATED
+STU0720,Vegetarian,"Meals, Desserts, Healthy Bowls",75,B01,Medium,Healthy,Breakfast,1,SIMULATED
+STU0721,Vegetarian,"Healthy Bowls, Desserts, Snacks",120,B03,Medium,No specific goal,Evening,6,SIMULATED
+STU0722,Both,"Meals, Snacks, Sandwiches",50,B03,Spicy,Budget-friendly,Lunch,5,SIMULATED
+STU0723,Vegetarian,"Rice & Noodles, Beverages, Desserts",150,B05,Spicy,Budget-friendly,Lunch,6,SIMULATED
+STU0724,Non-Vegetarian (Chicken),"Healthy Bowls, Salads, Desserts",200,B03,Medium,High-protein,Afternoon,2,SIMULATED
+STU0725,Both,"Meals, Desserts, Rice & Noodles",180,B05,Medium,No specific goal,Evening,3,SIMULATED
+STU0726,Vegetarian,"Rice & Noodles, Beverages, Sandwiches",100,B02,Mild,No specific goal,Afternoon,2,SIMULATED
+STU0727,Both,"Rice & Noodles, Sandwiches, Beverages",120,B05,Medium,High-protein,Breakfast,2,SIMULATED
+STU0728,Both,"Salads, Beverages, Snacks",200,B05,Medium,Budget-friendly,Afternoon,4,SIMULATED
+STU0729,Non-Vegetarian (Chicken),"Meals, Rice & Noodles, Beverages",120,B03,Medium,Budget-friendly,Lunch,2,SIMULATED
+STU0730,Vegetarian,"Meals, Desserts, Snacks",150,B03,Spicy,Healthy,Lunch,5,SIMULATED
+STU0731,Vegetarian,"Snacks, Salads, Desserts",50,B01,Medium,No specific goal,Evening,3,SIMULATED
+STU0732,Non-Vegetarian (Chicken),"Desserts, Salads, Healthy Bowls",120,B04,Spicy,No specific goal,Evening,3,SIMULATED
+STU0733,Non-Vegetarian (Chicken),"Meals, Salads, Healthy Bowls",180,B05,Medium,No specific goal,Evening,6,SIMULATED
+STU0734,Vegetarian,"Sandwiches, Meals, Rice & Noodles",120,B05,Medium,High-protein,Breakfast,4,SIMULATED
+STU0735,Vegetarian,"Beverages, Salads, Healthy Bowls",100,B02,Mild,Budget-friendly,Breakfast,2,SIMULATED
+STU0736,Non-Vegetarian (Chicken),"Rice & Noodles, Snacks, Healthy Bowls",50,B05,Medium,Budget-friendly,Breakfast,5,SIMULATED
+STU0737,Vegetarian,"Beverages, Meals, Healthy Bowls",100,B05,Spicy,High-protein,Lunch,3,SIMULATED
+STU0738,Vegetarian,"Meals, Salads, Beverages",200,B03,Mild,No specific goal,Lunch,1,SIMULATED
+STU0739,Vegetarian,"Meals, Beverages, Desserts",100,B02,Spicy,Healthy,Afternoon,4,SIMULATED
+STU0740,Vegetarian,"Snacks, Desserts, Sandwiches",150,B05,Medium,High-protein,Breakfast,2,SIMULATED
+STU0741,Both,"Salads, Rice & Noodles, Beverages",150,B05,Medium,High-protein,Breakfast,1,SIMULATED
+STU0742,Vegetarian,"Snacks, Sandwiches, Meals",150,B01,Medium,Budget-friendly,Afternoon,4,SIMULATED
+STU0743,Non-Vegetarian (Chicken),"Desserts, Snacks, Healthy Bowls",100,B04,Spicy,High-protein,Afternoon,2,SIMULATED
+STU0744,Non-Vegetarian (Chicken),"Healthy Bowls, Salads, Rice & Noodles",75,B02,Medium,No specific goal,Lunch,5,SIMULATED
+STU0745,Vegetarian,"Beverages, Healthy Bowls, Salads",180,B03,Spicy,Budget-friendly,Lunch,2,SIMULATED
+STU0746,Vegetarian,"Beverages, Snacks, Meals",75,B01,Medium,High-protein,Lunch,4,SIMULATED
+STU0747,Vegetarian,"Sandwiches, Rice & Noodles, Salads",180,B02,Medium,Healthy,Breakfast,2,SIMULATED
+STU0748,Non-Vegetarian (Chicken),"Salads, Rice & Noodles, Meals",50,B01,Mild,Healthy,Afternoon,4,SIMULATED
+STU0749,Vegetarian,"Salads, Beverages, Meals",150,B03,Medium,No specific goal,Evening,2,SIMULATED
+STU0750,Vegetarian,"Rice & Noodles, Meals, Healthy Bowls",150,B03,Medium,Healthy,Lunch,1,SIMULATED
+STU0751,Both,"Sandwiches, Meals, Beverages",50,B03,Medium,No specific goal,Afternoon,3,SIMULATED
+STU0752,Vegetarian,"Snacks, Beverages, Meals",150,B04,Mild,Healthy,Evening,4,SIMULATED
+STU0753,Both,"Desserts, Salads, Snacks",75,B01,Medium,No specific goal,Lunch,4,SIMULATED
+STU0754,Both,"Sandwiches, Rice & Noodles, Healthy Bowls",250,B03,Medium,Healthy,Afternoon,4,SIMULATED
+STU0755,Vegetarian,"Beverages, Meals, Healthy Bowls",100,B04,Medium,High-protein,Lunch,5,SIMULATED
+STU0756,Vegetarian,"Desserts, Beverages, Meals",75,B03,Medium,Budget-friendly,Breakfast,5,SIMULATED
+STU0757,Non-Vegetarian (Chicken),"Sandwiches, Meals, Salads",150,B03,Spicy,High-protein,Evening,4,SIMULATED
+STU0758,Non-Vegetarian (Chicken),"Healthy Bowls, Meals, Salads",150,B04,Mild,High-protein,Afternoon,6,SIMULATED
+STU0759,Non-Vegetarian (Chicken),"Meals, Beverages, Sandwiches",150,B01,Medium,Budget-friendly,Breakfast,1,SIMULATED
+STU0760,Non-Vegetarian (Chicken),"Rice & Noodles, Beverages, Sandwiches",120,B01,Mild,No specific goal,Breakfast,3,SIMULATED
+STU0761,Non-Vegetarian (Chicken),"Healthy Bowls, Rice & Noodles, Salads",50,B05,Medium,No specific goal,Breakfast,2,SIMULATED
+STU0762,Vegetarian,"Desserts, Healthy Bowls, Meals",100,B01,Spicy,No specific goal,Breakfast,4,SIMULATED
+STU0763,Vegetarian,"Beverages, Salads, Sandwiches",120,B05,Medium,Healthy,Lunch,6,SIMULATED
+STU0764,Vegetarian,"Salads, Snacks, Beverages",180,B02,Spicy,High-protein,Evening,5,SIMULATED
+STU0765,Vegetarian,"Desserts, Beverages, Salads",120,B02,Mild,No specific goal,Afternoon,1,SIMULATED
+STU0766,Both,"Desserts, Snacks, Sandwiches",180,B01,Mild,No specific goal,Lunch,2,SIMULATED
+STU0767,Vegetarian,"Sandwiches, Meals, Snacks",200,B01,Mild,Budget-friendly,Breakfast,5,SIMULATED
+STU0768,Both,"Sandwiches, Salads, Meals",100,B01,Medium,No specific goal,Evening,3,SIMULATED
+STU0769,Both,"Healthy Bowls, Meals, Sandwiches",120,B05,Mild,Healthy,Evening,3,SIMULATED
+STU0770,Both,"Desserts, Sandwiches, Snacks",180,B05,Spicy,Healthy,Afternoon,3,SIMULATED
+STU0771,Non-Vegetarian (Chicken),"Salads, Rice & Noodles, Meals",200,B05,Spicy,Budget-friendly,Afternoon,3,SIMULATED
+STU0772,Vegetarian,"Rice & Noodles, Sandwiches, Desserts",75,B02,Medium,No specific goal,Breakfast,6,SIMULATED
+STU0773,Both,"Salads, Snacks, Beverages",250,B04,Medium,High-protein,Evening,1,SIMULATED
+STU0774,Non-Vegetarian (Chicken),"Desserts, Salads, Meals",50,B04,Mild,Budget-friendly,Breakfast,4,SIMULATED
+STU0775,Vegetarian,"Desserts, Healthy Bowls, Beverages",180,B02,Mild,High-protein,Breakfast,6,SIMULATED
+STU0776,Non-Vegetarian (Chicken),"Salads, Beverages, Meals",100,B01,Medium,No specific goal,Evening,3,SIMULATED
+STU0777,Vegetarian,"Rice & Noodles, Sandwiches, Meals",100,B05,Spicy,High-protein,Evening,1,SIMULATED
+STU0778,Vegetarian,"Beverages, Desserts, Meals",180,B04,Mild,High-protein,Afternoon,3,SIMULATED
+STU0779,Both,"Desserts, Snacks, Rice & Noodles",100,B05,Medium,No specific goal,Breakfast,5,SIMULATED
+STU0780,Both,"Beverages, Snacks, Healthy Bowls",200,B05,Medium,Healthy,Afternoon,2,SIMULATED
+STU0781,Vegetarian,"Snacks, Rice & Noodles, Desserts",75,B05,Medium,Budget-friendly,Afternoon,2,SIMULATED
+STU0782,Vegetarian,"Meals, Snacks, Desserts",150,B03,Mild,High-protein,Breakfast,2,SIMULATED
+STU0783,Vegetarian,"Salads, Desserts, Healthy Bowls",180,B04,Mild,No specific goal,Lunch,3,SIMULATED
+STU0784,Non-Vegetarian (Chicken),"Rice & Noodles, Snacks, Salads",100,B02,Mild,No specific goal,Breakfast,6,SIMULATED
+STU0785,Vegetarian,"Meals, Desserts, Sandwiches",100,B05,Medium,High-protein,Afternoon,5,SIMULATED
+STU0786,Vegetarian,"Sandwiches, Beverages, Salads",150,B01,Medium,Healthy,Lunch,6,SIMULATED
+STU0787,Vegetarian,"Desserts, Meals, Rice & Noodles",120,B02,Mild,Healthy,Evening,5,SIMULATED
+STU0788,Vegetarian,"Rice & Noodles, Beverages, Sandwiches",150,B05,Medium,Healthy,Breakfast,2,SIMULATED
+STU0789,Both,"Healthy Bowls, Meals, Desserts",120,B05,Medium,No specific goal,Breakfast,6,SIMULATED
+STU0790,Non-Vegetarian (Chicken),"Meals, Salads, Desserts",75,B05,Medium,Budget-friendly,Breakfast,4,SIMULATED
+STU0791,Vegetarian,"Salads, Meals, Snacks",50,B02,Medium,Healthy,Afternoon,4,SIMULATED
+STU0792,Vegetarian,"Salads, Rice & Noodles, Meals",150,B01,Mild,No specific goal,Evening,5,SIMULATED
+STU0793,Vegetarian,"Healthy Bowls, Desserts, Beverages",250,B03,Spicy,No specific goal,Evening,4,SIMULATED
+STU0794,Non-Vegetarian (Chicken),"Rice & Noodles, Salads, Desserts",200,B02,Spicy,No specific goal,Breakfast,3,SIMULATED
+STU0795,Non-Vegetarian (Chicken),"Beverages, Healthy Bowls, Snacks",100,B01,Medium,High-protein,Lunch,1,SIMULATED
+STU0796,Both,"Salads, Meals, Sandwiches",120,B02,Medium,Budget-friendly,Afternoon,2,SIMULATED
+STU0797,Vegetarian,"Sandwiches, Rice & Noodles, Salads",180,B02,Spicy,No specific goal,Afternoon,1,SIMULATED
+STU0798,Both,"Sandwiches, Rice & Noodles, Healthy Bowls",100,B01,Medium,Healthy,Breakfast,4,SIMULATED
+STU0799,Non-Vegetarian (Chicken),"Beverages, Salads, Rice & Noodles",50,B01,Medium,Budget-friendly,Evening,2,SIMULATED
+STU0800,Non-Vegetarian (Chicken),"Beverages, Rice & Noodles, Sandwiches",75,B01,Medium,Healthy,Breakfast,3,SIMULATED
