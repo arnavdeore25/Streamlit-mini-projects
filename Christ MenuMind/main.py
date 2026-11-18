@@ -206,6 +206,81 @@ elif analysis_group == "Menu Analytics":
                 color="white"
             )
 
+    # Vegetarian vs Chicken
+    elif chart_choice == "Vegetarian vs Chicken":
+
+        chart_data = (
+            filtered_menu.groupby("food_type")
+            .size()
+            .reset_index(name="item_count")
+        )
+
+        total_items = chart_data["item_count"].sum()
+
+        colors = ["#66C2A5", "#FC8D62"]
+
+        fig, ax = plt.subplots(figsize=(9, 5))
+
+        wedges, texts, autotexts = ax.pie(
+            chart_data["item_count"],
+            labels=None,
+            autopct="%1.1f%%",
+            startangle=90,
+            pctdistance=0.78,
+            colors=colors[:len(chart_data)],
+            wedgeprops={
+                "width": 0.38,
+                "edgecolor": "#0e1117",
+                "linewidth": 3
+            },
+            textprops={
+                "color": "white",
+                "fontsize": 12,
+                "fontweight": "bold"
+            }
+        )
+
+        ax.text(
+            0, 0,
+            f"{total_items}\nItems",
+            ha="center",
+            va="center",
+            fontsize=20,
+            fontweight="bold",
+            color="white"
+        )
+
+        ax.set_title(
+            "Vegetarian vs Chicken Distribution",
+            fontsize=16,
+            fontweight="bold",
+            color="white",
+            pad=20
+        )
+
+        legend_labels = [
+            f"{food_type} ({count})"
+            for food_type, count in zip(
+                chart_data["food_type"],
+                chart_data["item_count"]
+            )
+        ]
+
+        legend = ax.legend(
+            wedges,
+            legend_labels,
+            title="Food Type",
+            loc="center left",
+            bbox_to_anchor=(1, 0.5),
+            frameon=False,
+            fontsize=11
+        )
+
+        legend.get_title().set_color("white")
+
+        for text in legend.get_texts():
+            text.set_color("white")
+
     # Common chart styling
     if fig is not None:
 
