@@ -1,4 +1,4 @@
-MenuIQ – Synthetic CSV Dataset
+Christ MenuMind – Synthetic CSV Dataset
 
 IMPORTANT: All menu prices, menus, sales, ratings, reviews, student preferences, footfall and operational metrics are synthetic/demo data. Outlet names and block mapping follow the list supplied for this project, but menu items and performance figures have not been independently verified with the real outlets. Never present simulated sales as actual campus sales.
 
