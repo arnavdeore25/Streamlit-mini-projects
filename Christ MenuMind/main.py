@@ -155,6 +155,85 @@ chart_choice = st.radio(
     horizontal=True
 )
 
+st.divider()
+st.subheader(f"📈 {chart_choice}")
+
+# Display selected graph
+if filtered_menu.empty:
+    st.warning("No menu data available for the selected filters.")
+
+elif analysis_group == "Menu Analytics":
+
+    fig = None
+    ax = None
+
+    # Category distribution
+    if chart_choice == "Category Distribution":
+
+        chart_data = (
+            filtered_menu.groupby("category")
+            .size()
+            .reset_index(name="item_count")
+            .sort_values("item_count", ascending=True)
+        )
+
+        fig, ax = plt.subplots(figsize=(10, 7))
+
+        bars = ax.barh(
+            chart_data["category"],
+            chart_data["item_count"],
+            color=plt.cm.viridis(
+                np.linspace(0.25, 0.85, len(chart_data))
+            )
+        )
+
+        ax.set_title(
+            "Menu Distribution by Category",
+            fontsize=16,
+            fontweight="bold",
+            color="white"
+        )
+
+        ax.set_xlabel("Number of Food Items")
+        ax.set_ylabel("Category")
+
+        for bar in bars:
+            ax.text(
+                bar.get_width() + 1,
+                bar.get_y() + bar.get_height() / 2,
+                int(bar.get_width()),
+                va="center",
+                color="white"
+            )
+
+    # Common chart styling
+    if fig is not None:
+
+        fig.patch.set_facecolor("#0e1117")
+        ax.set_facecolor("#0e1117")
+
+        ax.tick_params(colors="white")
+        ax.xaxis.label.set_color("white")
+        ax.yaxis.label.set_color("white")
+
+        if chart_choice != "Vegetarian vs Chicken":
+            ax.grid(axis="y", linestyle="--", alpha=0.2)
+            ax.grid(axis="x", visible=False)
+
+        for spine in ax.spines.values():
+            spine.set_visible(False)
+
+        plt.tight_layout()
+
+        st.pyplot(fig, use_container_width=True)
+
+        plt.close(fig)
+
+else:
+    st.info(
+        f"{analysis_group} graphs will be implemented in the next stages."
+    )
+
 # Menu overview
 st.divider()
 st.subheader("🍴 Menu Overview")
