@@ -281,6 +281,99 @@ elif analysis_group == "Menu Analytics":
         for text in legend.get_texts():
             text.set_color("white")
 
+    # Menu availability by outlet
+    elif chart_choice == "Menu Availability by Outlet":
+
+        chart_data = (
+            filtered_menu.groupby("outlet_name")
+            .size()
+            .reset_index(name="item_count")
+            .sort_values("item_count", ascending=False)
+        )
+
+        fig, ax = plt.subplots(figsize=(12, 6))
+
+        bars = ax.bar(
+            chart_data["outlet_name"],
+            chart_data["item_count"],
+            color="#66C2A5",
+            width=0.65
+        )
+
+        ax.set_title(
+            "Menu Items Available per Outlet",
+            fontsize=16,
+            fontweight="bold",
+            color="white",
+            pad=20
+        )
+
+        ax.set_xlabel("Outlet")
+        ax.set_ylabel("Number of Food Items")
+
+        ax.tick_params(axis="x", rotation=45)
+
+        for bar in bars:
+            ax.text(
+                bar.get_x() + bar.get_width() / 2,
+                bar.get_height() + 0.5,
+                int(bar.get_height()),
+                ha="center",
+                color="white",
+                fontsize=9
+            )
+
+    # Category distribution by outlet
+    elif chart_choice == "Category Distribution by Outlet":
+
+        chart_data = (
+            filtered_menu.groupby(["outlet_name", "category"])
+            .size()
+            .reset_index(name="item_count")
+        )
+
+        pivot_data = chart_data.pivot(
+            index="outlet_name",
+            columns="category",
+            values="item_count"
+        ).fillna(0)
+
+        fig, ax = plt.subplots(figsize=(14, 7))
+
+        pivot_data.plot(
+            kind="bar",
+            stacked=False,
+            ax=ax,
+            width=0.8,
+            colormap="tab20"
+        )
+
+        ax.set_title(
+            "Category Distribution Across Outlets",
+            fontsize=16,
+            fontweight="bold",
+            color="white",
+            pad=20
+        )
+
+        ax.set_xlabel("Outlet")
+        ax.set_ylabel("Number of Food Items")
+
+        ax.tick_params(axis="x", rotation=45)
+
+        legend = ax.legend(
+            title="Food Category",
+            bbox_to_anchor=(1.02, 1),
+            loc="upper left",
+            fontsize=8,
+            frameon=False
+        )
+
+        legend.get_title().set_color("white")
+
+        for text in legend.get_texts():
+            text.set_color("white")
+
     # Common chart styling
     if fig is not None:
 
