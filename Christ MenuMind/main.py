@@ -156,7 +156,7 @@ st.divider()
 st.subheader(f"📈 {chart_choice}")
 
 # Display selected graph
-if filtered_menu.empty:
+if analysis_group in ["Menu Analytics", "Pricing Analytics"] and filtered_menu.empty:
     st.warning("No menu data available for the selected filters.")
 
 elif analysis_group == "Menu Analytics":
@@ -515,7 +515,6 @@ elif analysis_group == "Pricing Analytics":
 
             boxplot = ax.boxplot(
                 box_data,
-                tick_labels=categories,
                 patch_artist=True,
                 medianprops={
                     "color": "#FC8D62",
@@ -533,6 +532,11 @@ elif analysis_group == "Pricing Analytics":
                     "markeredgecolor": "none",
                     "markersize": 5
                 }
+            )
+
+            ax.set_xticks(
+                range(1, len(categories) + 1),
+                labels=categories
             )
 
             colors = plt.cm.viridis(
@@ -555,8 +559,6 @@ elif analysis_group == "Pricing Analytics":
             ax.set_ylabel("Price (₹)")
 
             ax.tick_params(axis="x", rotation=45)
-
-
 
         # Outlet-wise average pricing
         elif chart_choice == "Outlet-wise Average Pricing":
@@ -630,6 +632,167 @@ elif analysis_group == "Pricing Analytics":
             st.pyplot(fig, use_container_width=True)
 
             plt.close(fig)
+
+# Sales analytics
+elif analysis_group == "Sales Analytics":
+
+    sales_data = filtered_sales.copy()
+
+    sales_data["sales_date"] = pd.to_datetime(
+        sales_data["sales_date"],
+        errors="coerce"
+    )
+
+    sales_data["net_sales_inr"] = pd.to_numeric(
+        sales_data["net_sales_inr"],
+        errors="coerce"
+    )
+
+    sales_data["quantity_sold"] = pd.to_numeric(
+        sales_data["quantity_sold"],
+        errors="coerce"
+    )
+
+    sales_data = sales_data.dropna(
+        subset=["sales_date", "net_sales_inr", "quantity_sold"]
+    )
+
+    if sales_data.empty:
+        st.warning("No sales data available for the selected filters.")
+
+    else:
+
+        fig, ax = plt.subplots(figsize=(12, 6))
+
+        # Revenue trend
+        if chart_choice == "Revenue Trend":
+
+            chart_data = (
+                sales_data.groupby("sales_date")["net_sales_inr"]
+                .sum()
+                .reset_index()
+                .sort_values("sales_date")
+            )
+
+            ax.plot(
+                chart_data["sales_date"],
+                chart_data["net_sales_inr"],
+                color="#66C2A5",
+                linewidth=2.5,
+                marker="o",
+                markersize=4
+            )
+
+            ax.fill_between(
+                chart_data["sales_date"],
+                chart_data["net_sales_inr"],
+                color="#66C2A5",
+                alpha=0.12
+            )
+
+            ax.set_title(
+                "Daily Campus Food Revenue Trend",
+                fontsize=16,
+                fontweight="bold",
+                color="white",
+                pad=20
+            )
+
+            ax.set_xlabel("Sales Date")
+            ax.set_ylabel("Revenue (₹)")
+
+            fig.autofmt_xdate()
+
+        # Top 10 best-selling items
+        elif chart_choice == "Top 10 Best-Selling Items":
+
+            chart_data = (
+                sales_data.groupby("item_id")["quantity_sold"]
+                .sum()
+                .reset_index()
+                .sort_values("quantity_sold", ascending=False)
+                .head(10)
+                .merge(
+                    menu[["item_id", "item_name"]].drop_duplicates("item_id"),
+                    on="item_id",
+                    how="left"
+                )
+            )
+
+            chart_data["item_name"] = chart_data["item_name"].fillna(
+                chart_data["item_id"]
+            )
+
+            chart_data = chart_data.sort_values(
+                "quantity_sold",
+                ascending=True
+            )
+
+            fig.set_size_inches(12, 7)
+
+            bars = ax.barh(
+                chart_data["item_name"],
+                chart_data["quantity_sold"],
+                color=plt.cm.viridis(
+                    np.linspace(0.25, 0.85, len(chart_data))
+                ),
+                height=0.65
+            )
+
+            ax.set_title(
+                "Top 10 Most Purchased Food Items",
+                fontsize=16,
+                fontweight="bold",
+                color="white",
+                pad=20
+            )
+
+            ax.set_xlabel("Total Quantity Sold")
+            ax.set_ylabel("Food Item")
+
+            for bar in bars:
+                ax.text(
+                    bar.get_width() + 1,
+                    bar.get_y() + bar.get_height() / 2,
+                    f"{int(bar.get_width()):,}",
+                    va="center",
+                    color="white",
+                    fontsize=9
+                )
+
+        # Sales chart styling
+        fig.patch.set_facecolor("#0e1117")
+        ax.set_facecolor("#0e1117")
+
+        ax.tick_params(colors="white")
+        ax.xaxis.label.set_color("white")
+        ax.yaxis.label.set_color("white")
+
+        if chart_choice == "Revenue Trend":
+            ax.grid(axis="y", linestyle="--", alpha=0.2)
+            ax.grid(axis="x", visible=False)
+
+            ax.yaxis.set_major_formatter(
+                plt.FuncFormatter(
+                    lambda value, _: f"₹{value:,.0f}"
+                )
+            )
+        else:
+            ax.grid(axis="x", linestyle="--", alpha=0.2)
+            ax.grid(axis="y", visible=False)
+
+        for spine in ax.spines.values():
+            spine.set_visible(False)
+
+        plt.tight_layout()
+
+        st.pyplot(fig, use_container_width=True)
+
+        plt.close(fig)
+
+        st.caption(
+            "Sales figures are based on simulated demonstration data."
+        )
 
 else:
     st.info(
