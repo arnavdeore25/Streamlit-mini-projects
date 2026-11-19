@@ -502,6 +502,7 @@ elif analysis_group == "Pricing Analytics":
             )
 
         # Price comparison by category
+       
         elif chart_choice == "Price Comparison by Category":
 
             categories = sorted(price_data["category"].unique())
@@ -518,7 +519,7 @@ elif analysis_group == "Pricing Analytics":
 
             boxplot = ax.boxplot(
                 box_data,
-                labels=categories,
+                tick_labels=categories,
                 patch_artist=True,
                 medianprops={
                     "color": "#FC8D62",
@@ -558,6 +559,8 @@ elif analysis_group == "Pricing Analytics":
             ax.set_ylabel("Price (₹)")
 
             ax.tick_params(axis="x", rotation=45)
+
+
 
         # Outlet-wise average pricing
         elif chart_choice == "Outlet-wise Average Pricing":
