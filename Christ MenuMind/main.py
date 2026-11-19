@@ -397,6 +397,241 @@ elif analysis_group == "Menu Analytics":
 
         plt.close(fig)
 
+# Pricing analytics
+elif analysis_group == "Pricing Analytics":
+
+    price_data = filtered_menu.copy()
+
+    price_data["price_inr"] = pd.to_numeric(
+        price_data["price_inr"],
+        errors="coerce"
+    )
+
+    price_data = price_data.dropna(subset=["price_inr"])
+
+    if price_data.empty:
+        st.warning("No valid pricing data available.")
+
+    else:
+
+        fig = None
+        ax = None
+
+        # Average price by category
+        if chart_choice == "Average Price by Category":
+
+            chart_data = (
+                price_data.groupby("category")["price_inr"]
+                .mean()
+                .reset_index()
+                .sort_values("price_inr", ascending=True)
+            )
+
+            fig, ax = plt.subplots(figsize=(11, 7))
+
+            bars = ax.bar(
+                chart_data["category"],
+                chart_data["price_inr"],
+                color=plt.cm.viridis(
+                    np.linspace(0.25, 0.85, len(chart_data))
+                ),
+                width=0.65
+            )
+
+            ax.set_title(
+                "Average Price by Food Category",
+                fontsize=16,
+                fontweight="bold",
+                color="white",
+                pad=20
+            )
+
+            ax.set_xlabel("Food Category")
+            ax.set_ylabel("Average Price (₹)")
+
+            ax.tick_params(axis="x", rotation=45)
+
+            for bar in bars:
+                ax.text(
+                    bar.get_x() + bar.get_width() / 2,
+                    bar.get_height() + 1,
+                    f"₹{bar.get_height():.0f}",
+                    ha="center",
+                    color="white",
+                    fontsize=9
+                )
+
+        # Food price distribution
+        elif chart_choice == "Food Price Distribution":
+
+            fig, ax = plt.subplots(figsize=(11, 6))
+
+            ax.hist(
+                price_data["price_inr"],
+                bins=15,
+                color="#66C2A5",
+                edgecolor="#0e1117",
+                linewidth=1.5
+            )
+
+            median_price = price_data["price_inr"].median()
+
+            ax.axvline(
+                median_price,
+                color="#FC8D62",
+                linestyle="--",
+                linewidth=2,
+                label=f"Median: ₹{median_price:.0f}"
+            )
+
+            ax.set_title(
+                "Distribution of Food Prices",
+                fontsize=16,
+                fontweight="bold",
+                color="white",
+                pad=20
+            )
+
+            ax.set_xlabel("Food Price (₹)")
+            ax.set_ylabel("Number of Food Items")
+
+            ax.legend(
+                facecolor="#0e1117",
+                edgecolor="none",
+                labelcolor="white"
+            )
+
+        # Price comparison by category
+        elif chart_choice == "Price Comparison by Category":
+
+            categories = sorted(price_data["category"].unique())
+
+            box_data = [
+                price_data.loc[
+                    price_data["category"] == category,
+                    "price_inr"
+                ].values
+                for category in categories
+            ]
+
+            fig, ax = plt.subplots(figsize=(12, 7))
+
+            boxplot = ax.boxplot(
+                box_data,
+                labels=categories,
+                patch_artist=True,
+                medianprops={
+                    "color": "#FC8D62",
+                    "linewidth": 2
+                },
+                whiskerprops={
+                    "color": "white"
+                },
+                capprops={
+                    "color": "white"
+                },
+                flierprops={
+                    "marker": "o",
+                    "markerfacecolor": "#A78BFA",
+                    "markeredgecolor": "none",
+                    "markersize": 5
+                }
+            )
+
+            colors = plt.cm.viridis(
+                np.linspace(0.25, 0.85, len(categories))
+            )
+
+            for patch, color in zip(boxplot["boxes"], colors):
+                patch.set_facecolor(color)
+                patch.set_alpha(0.85)
+
+            ax.set_title(
+                "Food Price Comparison Across Categories",
+                fontsize=16,
+                fontweight="bold",
+                color="white",
+                pad=20
+            )
+
+            ax.set_xlabel("Food Category")
+            ax.set_ylabel("Price (₹)")
+
+            ax.tick_params(axis="x", rotation=45)
+
+        # Outlet-wise average pricing
+        elif chart_choice == "Outlet-wise Average Pricing":
+
+            chart_data = (
+                price_data.groupby("outlet_name")["price_inr"]
+                .mean()
+                .reset_index()
+                .sort_values("price_inr", ascending=True)
+            )
+
+            fig, ax = plt.subplots(
+                figsize=(11, max(5, len(chart_data) * 0.4))
+            )
+
+            bars = ax.barh(
+                chart_data["outlet_name"],
+                chart_data["price_inr"],
+                color=plt.cm.viridis(
+                    np.linspace(0.25, 0.85, len(chart_data))
+                ),
+                height=0.65
+            )
+
+            ax.set_title(
+                "Average Food Price by Outlet",
+                fontsize=16,
+                fontweight="bold",
+                color="white",
+                pad=20
+            )
+
+            ax.set_xlabel("Average Price (₹)")
+            ax.set_ylabel("Food Outlet")
+
+            for bar in bars:
+                ax.text(
+                    bar.get_width() + 1,
+                    bar.get_y() + bar.get_height() / 2,
+                    f"₹{bar.get_width():.0f}",
+                    va="center",
+                    color="white",
+                    fontsize=9
+                )
+
+        # Pricing chart styling
+        if fig is not None:
+
+            fig.patch.set_facecolor("#0e1117")
+            ax.set_facecolor("#0e1117")
+
+            ax.tick_params(colors="white")
+            ax.xaxis.label.set_color("white")
+            ax.yaxis.label.set_color("white")
+
+            ax.grid(
+                axis="y",
+                linestyle="--",
+                alpha=0.2
+            )
+
+            if chart_choice == "Outlet-wise Average Pricing":
+                ax.grid(axis="x", linestyle="--", alpha=0.2)
+                ax.grid(axis="y", visible=False)
+
+            for spine in ax.spines.values():
+                spine.set_visible(False)
+
+            plt.tight_layout()
+
+            st.pyplot(fig, use_container_width=True)
+
+            plt.close(fig)
+
 else:
     st.info(
         f"{analysis_group} graphs will be implemented in the next stages."
