@@ -129,7 +129,7 @@ chart_options = {
     ],
 
     "Sales Analytics": [
-        "Revenue Trend",
+        
         "Top 10 Best-Selling Items"
     ],
 
@@ -664,47 +664,8 @@ elif analysis_group == "Sales Analytics":
 
         fig, ax = plt.subplots(figsize=(12, 6))
 
-        # Revenue trend
-        if chart_choice == "Revenue Trend":
-
-            chart_data = (
-                sales_data.groupby("sales_date")["net_sales_inr"]
-                .sum()
-                .reset_index()
-                .sort_values("sales_date")
-            )
-
-            ax.plot(
-                chart_data["sales_date"],
-                chart_data["net_sales_inr"],
-                color="#66C2A5",
-                linewidth=2.5,
-                marker="o",
-                markersize=4
-            )
-
-            ax.fill_between(
-                chart_data["sales_date"],
-                chart_data["net_sales_inr"],
-                color="#66C2A5",
-                alpha=0.12
-            )
-
-            ax.set_title(
-                "Daily Campus Food Revenue Trend",
-                fontsize=16,
-                fontweight="bold",
-                color="white",
-                pad=20
-            )
-
-            ax.set_xlabel("Sales Date")
-            ax.set_ylabel("Revenue (₹)")
-
-            fig.autofmt_xdate()
-
         # Top 10 best-selling items
-        elif chart_choice == "Top 10 Best-Selling Items":
+        if chart_choice == "Top 10 Best-Selling Items":
 
             chart_data = (
                 sales_data.groupby("item_id")["quantity_sold"]
