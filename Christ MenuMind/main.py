@@ -130,10 +130,7 @@ chart_options = {
 
     "Sales Analytics": [
         "Revenue Trend",
-        "Top 10 Best-Selling Items",
-        "Revenue by Outlet",
-        "Category-wise Sales Contribution",
-        "Sales Activity"
+        "Top 10 Best-Selling Items"
     ],
 
     "Student Feedback": [
@@ -502,7 +499,6 @@ elif analysis_group == "Pricing Analytics":
             )
 
         # Price comparison by category
-       
         elif chart_choice == "Price Comparison by Category":
 
             categories = sorted(price_data["category"].unique())
