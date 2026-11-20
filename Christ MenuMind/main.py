@@ -926,7 +926,27 @@ elif analysis_group == "Student Feedback":
                 ax.set_ylabel("Average Rating")
                 ax.set_ylim(0, 5.5)
                 fig.autofmt_xdate()
+                
+        # Most reviewed food items
+        elif chart_choice == "Most Reviewed Food Items":
+            chart_data = review_data.groupby("item_id").size().sort_values(ascending=False).head(10)
+            if chart_data.empty:
+                st.warning("No food item review data available.")
+            else:
+                names = menu[["item_id", "item_name"]].drop_duplicates("item_id")
+                chart_data = chart_data.rename("review_count").reset_index().merge(names, on="item_id", how="left")
+                chart_data["item_name"] = chart_data["item_name"].fillna(chart_data["item_id"].astype(str))
+                chart_data = chart_data.sort_values("review_count")
+                bars = ax.barh(chart_data["item_name"], chart_data["review_count"],
+                               color=plt.cm.viridis(np.linspace(0.25, 0.85, len(chart_data))))
+                ax.set_title("Top 10 Most Reviewed Food Items", color="white", fontsize=16, fontweight="bold", pad=20)
+                ax.set_xlabel("Number of Reviews")
+                ax.set_ylabel("Food Item")
+                for bar in bars:
+                    ax.text(bar.get_width()+0.1, bar.get_y()+bar.get_height()/2,
+                            f"{int(bar.get_width())}", va="center", color="white")
 
+    
 else:
     st.info(
         f"{analysis_group} graphs will be implemented in the next stages."
