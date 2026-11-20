@@ -871,6 +871,24 @@ elif analysis_group == "Student Feedback":
                 st.metric("Total Reviews", len(data))
                 st.metric("Average Rating", f"{data['rating'].mean():.2f} / 5 ⭐")
 
+        # Outlet satisfaction
+        elif chart_choice == "Outlet Satisfaction":
+            data = review_data.dropna(subset=["outlet_name", "rating"])
+            chart_data = data.groupby("outlet_name")["rating"].mean().sort_values()
+            if chart_data.empty:
+                st.warning("No outlet rating data available.")
+            else:
+                bars = ax.barh(chart_data.index, chart_data.values,
+                               color=plt.cm.viridis(np.linspace(0.25, 0.85, len(chart_data))))
+                ax.set_title("Average Student Satisfaction by Outlet", color="white", fontsize=16, fontweight="bold", pad=20)
+                ax.set_xlabel("Average Rating")
+                ax.set_ylabel("Outlet")
+                ax.set_xlim(0, 5.5)
+                for bar in bars:
+                    ax.text(bar.get_width()+0.05, bar.get_y()+bar.get_height()/2,
+                            f"{bar.get_width():.2f}", va="center", color="white")
+
+
 else:
     st.info(
         f"{analysis_group} graphs will be implemented in the next stages."
