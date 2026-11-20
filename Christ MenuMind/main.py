@@ -946,7 +946,23 @@ elif analysis_group == "Student Feedback":
                     ax.text(bar.get_width()+0.1, bar.get_y()+bar.get_height()/2,
                             f"{int(bar.get_width())}", va="center", color="white")
 
-    
+        # Common feedback chart styling
+        if fig.axes and ax.has_data():
+            ax.tick_params(colors="white")
+            ax.xaxis.label.set_color("white")
+            ax.yaxis.label.set_color("white")
+            if chart_choice not in ["Student Recommendation Analysis", "Outlet Rating Heatmap"]:
+                ax.grid(axis="y", linestyle="--", alpha=0.2)
+                if chart_choice in ["Outlet Satisfaction", "Most Reviewed Food Items"]:
+                    ax.grid(axis="x", linestyle="--", alpha=0.2)
+            for spine in ax.spines.values():
+                spine.set_visible(False)
+            plt.tight_layout()
+            st.pyplot(fig, use_container_width=True)
+
+        plt.close(fig)
+        st.caption("Student feedback is based on simulated demonstration data.")
+
 else:
     st.info(
         f"{analysis_group} graphs will be implemented in the next stages."
