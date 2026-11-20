@@ -684,6 +684,44 @@ elif analysis_group == "Sales Analytics":
     else:
         fig, ax = plt.subplots(figsize=(12, 6))
 
+        # Revenue trend
+        if chart_choice == "Revenue Trend":
+
+            chart_data = (
+                sales_data.groupby("sales_date")["net_sales_inr"]
+                .sum()
+                .reset_index()
+                .sort_values("sales_date")
+            )
+
+            ax.plot(
+                chart_data["sales_date"],
+                chart_data["net_sales_inr"],
+                color="#66C2A5",
+                linewidth=2.5,
+                marker="o",
+                markersize=4
+            )
+
+            ax.fill_between(
+                chart_data["sales_date"],
+                chart_data["net_sales_inr"],
+                color="#66C2A5",
+                alpha=0.12
+            )
+
+            ax.set_title(
+                "Daily Campus Food Revenue Trend",
+                fontsize=16,
+                fontweight="bold",
+                color="white",
+                pad=20
+            )
+
+            ax.set_xlabel("Sales Date")
+            ax.set_ylabel("Revenue (₹)")
+            fig.autofmt_xdate()
+
         # Top 10 best-selling items
         elif chart_choice == "Top 10 Best-Selling Items":
 
@@ -763,6 +801,76 @@ elif analysis_group == "Sales Analytics":
         plt.close(fig)
 
         st.caption("Sales figures are based on simulated demonstration data.")
+
+elif analysis_group == "Student Feedback":
+
+    review_data = filtered_reviews.copy()
+
+    numeric_columns = [
+        "rating", "taste_rating", "portion_rating", "value_for_money"
+    ]
+    for column in numeric_columns:
+        if column in review_data.columns:
+            review_data[column] = pd.to_numeric(
+                review_data[column], errors="coerce"
+            )
+
+    required_columns = {
+        "Rating Distribution": ["rating"],
+        "Outlet Satisfaction": ["outlet_name", "rating"],
+        "Feedback Dimension Analysis": [
+            "taste_rating", "portion_rating", "value_for_money"
+        ],
+        "Student Recommendation Analysis": ["would_recommend"],
+        "Rating Trends Over Time": ["review_date", "rating"],
+        "Outlet Rating Heatmap": [
+            "outlet_name", "rating", "taste_rating",
+            "portion_rating", "value_for_money"
+        ],
+        "Taste vs Value for Money": ["taste_rating", "value_for_money"],
+        "Most Reviewed Food Items": ["item_id"]
+    }
+
+    missing = [
+        col for col in required_columns[chart_choice]
+        if col not in review_data.columns
+    ]
+
+    if missing:
+        st.error(
+            "Required column(s) missing from student_reviews.csv: "
+            + ", ".join(missing)
+        )
+    elif review_data.empty:
+        st.warning("No student reviews available for the selected filters.")
+    else:
+        fig, ax = plt.subplots(figsize=(12, 6))
+        fig.patch.set_facecolor("#0e1117")
+        ax.set_facecolor("#0e1117")
+
+        # Rating distribution
+        if chart_choice == "Rating Distribution":
+            data = review_data[review_data["rating"].between(1, 5)]
+            if data.empty:
+                st.warning("No valid ratings found.")
+            else:
+                counts = data["rating"].round().value_counts().reindex(
+                    [1, 2, 3, 4, 5], fill_value=0
+                )
+                bars = ax.bar(
+                    ["⭐ 1", "⭐ 2", "⭐ 3", "⭐ 4", "⭐ 5"],
+                    counts.values,
+                    color=["#FC8D62", "#FDCB6E", "#A8DADC", "#66C2A5", "#6C9BCF"]
+                )
+                ax.set_title("Student Food Rating Distribution", color="white", fontsize=16, fontweight="bold", pad=20)
+                ax.set_xlabel("Star Rating")
+                ax.set_ylabel("Number of Reviews")
+                for bar in bars:
+                    ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.5,
+                            f"{int(bar.get_height())}", ha="center", color="white")
+                st.metric("Total Reviews", len(data))
+                st.metric("Average Rating", f"{data['rating'].mean():.2f} / 5 ⭐")
+
 else:
     st.info(
         f"{analysis_group} graphs will be implemented in the next stages."
