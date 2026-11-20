@@ -1,3 +1,4 @@
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -14,6 +15,15 @@ blocks = pd.read_csv("data/blocks.csv")
 outlets = pd.read_csv("data/outlets.csv")
 menu = pd.read_csv("data/menu_items.csv")
 sales = pd.read_csv("data/sales_data.csv")
+student_reviews = pd.read_csv("data/student_reviews.csv")
+
+# Clean review column names
+student_reviews.columns = (
+    student_reviews.columns
+    .str.replace("\ufeff", "", regex=False)
+    .str.strip()
+    .str.lower()
+)
 
 # Sidebar
 st.sidebar.title("🍽️ Christ MenuMind")
@@ -67,6 +77,19 @@ if selected_outlet != "All Outlets":
 
     filtered_sales = filtered_sales[
         filtered_sales["outlet_name"] == selected_outlet
+    ]
+
+# Filter student reviews
+if selected_block == "All Blocks":
+    filtered_reviews = student_reviews.copy()
+else:
+    filtered_reviews = student_reviews[
+        student_reviews["block_name"] == selected_block
+    ]
+
+if selected_outlet != "All Outlets":
+    filtered_reviews = filtered_reviews[
+        filtered_reviews["outlet_name"] == selected_outlet
     ]
 
 # Main dashboard
@@ -128,14 +151,16 @@ chart_options = {
     ],
 
     "Sales Analytics": [
-        
+        "Revenue Trend",
         "Top 10 Best-Selling Items"
     ],
 
     "Student Feedback": [
         "Rating Distribution",
         "Outlet Satisfaction",
-        "Feedback Dimension Analysis"
+        "Student Recommendation Analysis",
+        "Rating Trends Over Time",
+        "Most Reviewed Food Items"
     ],
 
     "Operational Analytics": [
@@ -514,6 +539,7 @@ elif analysis_group == "Pricing Analytics":
 
             boxplot = ax.boxplot(
                 box_data,
+                tick_labels=categories,
                 patch_artist=True,
                 medianprops={
                     "color": "#FC8D62",
@@ -531,11 +557,6 @@ elif analysis_group == "Pricing Analytics":
                     "markeredgecolor": "none",
                     "markersize": 5
                 }
-            )
-
-            ax.set_xticks(
-                range(1, len(categories) + 1),
-                labels=categories
             )
 
             colors = plt.cm.viridis(
@@ -558,6 +579,8 @@ elif analysis_group == "Pricing Analytics":
             ax.set_ylabel("Price (₹)")
 
             ax.tick_params(axis="x", rotation=45)
+
+
 
         # Outlet-wise average pricing
         elif chart_choice == "Outlet-wise Average Pricing":
@@ -632,7 +655,6 @@ elif analysis_group == "Pricing Analytics":
 
             plt.close(fig)
 
-# Sales analytics
 elif analysis_group == "Sales Analytics":
 
     sales_data = filtered_sales.copy()
@@ -660,11 +682,10 @@ elif analysis_group == "Sales Analytics":
         st.warning("No sales data available for the selected filters.")
 
     else:
-
         fig, ax = plt.subplots(figsize=(12, 6))
 
         # Top 10 best-selling items
-        if chart_choice == "Top 10 Best-Selling Items":
+        elif chart_choice == "Top 10 Best-Selling Items":
 
             chart_data = (
                 sales_data.groupby("item_id")["quantity_sold"]
@@ -682,11 +703,7 @@ elif analysis_group == "Sales Analytics":
             chart_data["item_name"] = chart_data["item_name"].fillna(
                 chart_data["item_id"]
             )
-
-            chart_data = chart_data.sort_values(
-                "quantity_sold",
-                ascending=True
-            )
+            chart_data = chart_data.sort_values("quantity_sold", ascending=True)
 
             fig.set_size_inches(12, 7)
 
@@ -731,11 +748,8 @@ elif analysis_group == "Sales Analytics":
         if chart_choice == "Revenue Trend":
             ax.grid(axis="y", linestyle="--", alpha=0.2)
             ax.grid(axis="x", visible=False)
-
             ax.yaxis.set_major_formatter(
-                plt.FuncFormatter(
-                    lambda value, _: f"₹{value:,.0f}"
-                )
+                plt.FuncFormatter(lambda value, _: f"₹{value:,.0f}")
             )
         else:
             ax.grid(axis="x", linestyle="--", alpha=0.2)
@@ -745,15 +759,10 @@ elif analysis_group == "Sales Analytics":
             spine.set_visible(False)
 
         plt.tight_layout()
-
         st.pyplot(fig, use_container_width=True)
-
         plt.close(fig)
 
-        st.caption(
-            "Sales figures are based on simulated demonstration data."
-        )
-
+        st.caption("Sales figures are based on simulated demonstration data.")
 else:
     st.info(
         f"{analysis_group} graphs will be implemented in the next stages."
