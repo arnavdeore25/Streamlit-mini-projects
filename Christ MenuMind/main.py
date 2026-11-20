@@ -166,7 +166,6 @@ chart_options = {
     "Operational Analytics": [
         "Daily Footfall",
         "Average Waiting Time",
-        "Food Wastage"
     ]
 }
 
