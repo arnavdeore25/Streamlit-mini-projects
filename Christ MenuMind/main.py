@@ -908,7 +908,24 @@ elif analysis_group == "Student Feedback":
                 ax.text(0, 0, f"{counts.sum()}\nResponses", ha="center", va="center", color="white", fontsize=15, fontweight="bold")
                 ax.set_title("Would Students Recommend This Food?", color="white", fontsize=16, fontweight="bold", pad=20)
 
-
+        # Rating trends over time
+        elif chart_choice == "Rating Trends Over Time":
+            data = review_data.copy()
+            data["review_date"] = pd.to_datetime(data["review_date"], errors="coerce")
+            data = data.dropna(subset=["review_date", "rating"])
+            chart_data = data.groupby(data["review_date"].dt.date)["rating"].mean()
+            if chart_data.empty:
+                st.warning("No valid dated ratings available.")
+            else:
+                ax.plot(pd.to_datetime(chart_data.index), chart_data.values,
+                        color="#66C2A5", marker="o", linewidth=2.5)
+                ax.fill_between(pd.to_datetime(chart_data.index), chart_data.values,
+                                color="#66C2A5", alpha=0.12)
+                ax.set_title("Average Student Rating Over Time", color="white", fontsize=16, fontweight="bold", pad=20)
+                ax.set_xlabel("Review Date")
+                ax.set_ylabel("Average Rating")
+                ax.set_ylim(0, 5.5)
+                fig.autofmt_xdate()
 
 else:
     st.info(
