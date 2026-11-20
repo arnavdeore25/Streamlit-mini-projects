@@ -888,6 +888,27 @@ elif analysis_group == "Student Feedback":
                     ax.text(bar.get_width()+0.05, bar.get_y()+bar.get_height()/2,
                             f"{bar.get_width():.2f}", va="center", color="white")
 
+        # Student recommendation analysis
+        elif chart_choice == "Student Recommendation Analysis":
+            values = review_data["would_recommend"].dropna().astype(str).str.strip().str.lower()
+            values = values.replace({"true": "yes", "1": "yes", "false": "no", "0": "no", "y": "yes", "n": "no"})
+            counts = values.value_counts()
+            if counts.empty:
+                st.warning("No recommendation responses available.")
+            else:
+                labels = [str(x).title() for x in counts.index]
+                wedges, texts, autotexts = ax.pie(
+                    counts.values, labels=labels, autopct="%1.1f%%", startangle=90,
+                    colors=["#66C2A5", "#FC8D62", "#A78BFA"],
+                    wedgeprops={"width": 0.42, "edgecolor": "#0e1117", "linewidth": 2},
+                    textprops={"color": "white"}
+                )
+                for text in autotexts:
+                    text.set_color("white")
+                ax.text(0, 0, f"{counts.sum()}\nResponses", ha="center", va="center", color="white", fontsize=15, fontweight="bold")
+                ax.set_title("Would Students Recommend This Food?", color="white", fontsize=16, fontweight="bold", pad=20)
+
+
 
 else:
     st.info(
