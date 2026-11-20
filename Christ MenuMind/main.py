@@ -16,6 +16,16 @@ outlets = pd.read_csv("data/outlets.csv")
 menu = pd.read_csv("data/menu_items.csv")
 sales = pd.read_csv("data/sales_data.csv")
 student_reviews = pd.read_csv("data/student_reviews.csv")
+operations = pd.read_csv("data/outlet_daily_operations.csv")
+
+# Clean operational data column names
+operations.columns = (
+    operations.columns
+    .str.replace("\ufeff", "", regex=False)
+    .str.strip()
+    .str.lower()
+)
+operations["date"] = pd.to_datetime(operations["date"], errors="coerce")
 
 # Clean review column names
 student_reviews.columns = (
@@ -24,6 +34,12 @@ student_reviews.columns = (
     .str.strip()
     .str.lower()
 )
+
+# Keep the feedback column name consistent with the chart logic.
+if "value_for_money" not in student_reviews.columns and "value_for_money_rating" in student_reviews.columns:
+    student_reviews = student_reviews.rename(
+        columns={"value_for_money_rating": "value_for_money"}
+    )
 
 # Sidebar
 st.sidebar.title("🍽️ Christ MenuMind")
@@ -90,6 +106,19 @@ else:
 if selected_outlet != "All Outlets":
     filtered_reviews = filtered_reviews[
         filtered_reviews["outlet_name"] == selected_outlet
+    ]
+
+# Filter operational data
+if selected_block == "All Blocks":
+    filtered_operations = operations.copy()
+else:
+    filtered_operations = operations[
+        operations["block_name"] == selected_block
+    ].copy()
+
+if selected_outlet != "All Outlets":
+    filtered_operations = filtered_operations[
+        filtered_operations["outlet_name"] == selected_outlet
     ]
 
 # Main dashboard
@@ -164,8 +193,12 @@ chart_options = {
     ],
 
     "Operational Analytics": [
-        "Daily Footfall",
-        "Average Waiting Time",
+        "Daily Footfall Trend",
+        "Outlet-wise Footfall Comparison",
+        "Day-wise Footfall Heatmap",
+        "Outlet-wise Average Waiting Time",
+        "Waiting Time Trend",
+        "Footfall vs Waiting Time"
     ]
 }
 
@@ -886,7 +919,7 @@ elif analysis_group == "Student Feedback":
                 for bar in bars:
                     ax.text(bar.get_width()+0.05, bar.get_y()+bar.get_height()/2,
                             f"{bar.get_width():.2f}", va="center", color="white")
-
+                    
         # Student recommendation analysis
         elif chart_choice == "Student Recommendation Analysis":
             values = review_data["would_recommend"].dropna().astype(str).str.strip().str.lower()
@@ -925,7 +958,7 @@ elif analysis_group == "Student Feedback":
                 ax.set_ylabel("Average Rating")
                 ax.set_ylim(0, 5.5)
                 fig.autofmt_xdate()
-                
+
         # Most reviewed food items
         elif chart_choice == "Most Reviewed Food Items":
             chart_data = review_data.groupby("item_id").size().sort_values(ascending=False).head(10)
@@ -961,11 +994,6 @@ elif analysis_group == "Student Feedback":
 
         plt.close(fig)
         st.caption("Student feedback is based on simulated demonstration data.")
-
-else:
-    st.info(
-        f"{analysis_group} graphs will be implemented in the next stages."
-    )
 
 # Menu overview
 st.divider()
