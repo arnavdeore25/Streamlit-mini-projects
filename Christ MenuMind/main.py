@@ -958,7 +958,7 @@ elif analysis_group == "Student Feedback":
                 ax.set_ylabel("Average Rating")
                 ax.set_ylim(0, 5.5)
                 fig.autofmt_xdate()
-
+                
         # Most reviewed food items
         elif chart_choice == "Most Reviewed Food Items":
             chart_data = review_data.groupby("item_id").size().sort_values(ascending=False).head(10)
@@ -994,6 +994,28 @@ elif analysis_group == "Student Feedback":
 
         plt.close(fig)
         st.caption("Student feedback is based on simulated demonstration data.")
+
+        # Common operational chart styling
+        if ax.has_data():
+            ax.tick_params(colors="white")
+            ax.xaxis.label.set_color("white")
+            ax.yaxis.label.set_color("white")
+            if chart_choice == "Outlet-wise Footfall Comparison":
+                ax.grid(axis="x", linestyle="--", alpha=0.2)
+            elif chart_choice == "Outlet-wise Average Waiting Time":
+                ax.grid(axis="x", linestyle="--", alpha=0.2)
+            elif chart_choice != "Day-wise Footfall Heatmap":
+                ax.grid(axis="y", linestyle="--", alpha=0.2)
+            for spine in ax.spines.values():
+                spine.set_visible(False)
+            plt.tight_layout()
+            st.pyplot(fig, use_container_width=True)
+
+        plt.close(fig)
+        st.caption(
+            "Operational metrics are based on simulated demonstration data. "
+            "Footfall values represent estimated daily student visits."
+        )
 
 # Menu overview
 st.divider()
