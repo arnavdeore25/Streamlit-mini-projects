@@ -1035,6 +1035,40 @@ elif analysis_group == "Operational Analytics":
         fig.patch.set_facecolor("#0e1117")
         ax.set_facecolor("#0e1117")
 
+        # Daily footfall trend
+        if chart_choice == "Daily Footfall Trend":
+            data = operation_data.dropna(
+                subset=["date", "estimated_footfall"]
+            )
+            chart_data = data.groupby("date")["estimated_footfall"].sum().sort_index()
+
+            if chart_data.empty:
+                st.warning("No valid daily footfall records available.")
+            else:
+                ax.plot(
+                    chart_data.index,
+                    chart_data.values,
+                    color="#66C2A5",
+                    marker="o",
+                    linewidth=2.5,
+                    markersize=5
+                )
+                ax.fill_between(
+                    chart_data.index,
+                    chart_data.values,
+                    color="#66C2A5",
+                    alpha=0.12
+                )
+                ax.set_title(
+                    "Daily Campus Footfall Trend",
+                    color="white", fontsize=16, fontweight="bold", pad=20
+                )
+                ax.set_xlabel("Date")
+                ax.set_ylabel("Estimated Student Footfall")
+                fig.autofmt_xdate()
+                st.metric("Total Recorded Footfall", f"{int(chart_data.sum()):,}")
+
+        # Outlet-wise footfall comparison
 
 
         # Common operational chart styling
