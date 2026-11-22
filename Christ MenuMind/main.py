@@ -995,6 +995,48 @@ elif analysis_group == "Student Feedback":
         plt.close(fig)
         st.caption("Student feedback is based on simulated demonstration data.")
 
+elif analysis_group == "Operational Analytics":
+
+    operation_data = filtered_operations.copy()
+
+    required_columns = {
+        "Daily Footfall Trend": ["date", "estimated_footfall"],
+        "Outlet-wise Footfall Comparison": ["outlet_name", "estimated_footfall"],
+        "Day-wise Footfall Heatmap": ["date", "outlet_name", "estimated_footfall"],
+        "Outlet-wise Average Waiting Time": ["outlet_name", "average_wait_time_min"],
+        "Waiting Time Trend": ["date", "average_wait_time_min"],
+        "Footfall vs Waiting Time": ["estimated_footfall", "average_wait_time_min"]
+    }
+
+    missing = [
+        column for column in required_columns[chart_choice]
+        if column not in operation_data.columns
+    ]
+
+    if missing:
+        st.error(
+            "Required column(s) missing from outlet_daily_operations.csv: "
+            + ", ".join(missing)
+        )
+    elif operation_data.empty:
+        st.warning("No operational data available for the selected filters.")
+    else:
+        operation_data["estimated_footfall"] = pd.to_numeric(
+            operation_data["estimated_footfall"], errors="coerce"
+        )
+        operation_data["average_wait_time_min"] = pd.to_numeric(
+            operation_data["average_wait_time_min"], errors="coerce"
+        )
+        operation_data["date"] = pd.to_datetime(
+            operation_data["date"], errors="coerce"
+        )
+
+        fig, ax = plt.subplots(figsize=(12, 6))
+        fig.patch.set_facecolor("#0e1117")
+        ax.set_facecolor("#0e1117")
+
+
+
         # Common operational chart styling
         if ax.has_data():
             ax.tick_params(colors="white")
