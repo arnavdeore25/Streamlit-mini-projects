@@ -1149,6 +1149,38 @@ elif analysis_group == "Operational Analytics":
                 colorbar.ax.yaxis.set_tick_params(color="white")
                 plt.setp(colorbar.ax.get_yticklabels(), color="white")
 
+        # Outlet-wise average waiting time
+        elif chart_choice == "Outlet-wise Average Waiting Time":
+            data = operation_data.dropna(
+                subset=["outlet_name", "average_wait_time_min"]
+            )
+            chart_data = data.groupby("outlet_name")["average_wait_time_min"].mean().sort_values()
+
+            if chart_data.empty:
+                st.warning("No outlet waiting-time records available.")
+            else:
+                bars = ax.barh(
+                    chart_data.index,
+                    chart_data.values,
+                    color=plt.cm.plasma(
+                        np.linspace(0.25, 0.85, len(chart_data))
+                    )
+                )
+                ax.set_title(
+                    "Average Waiting Time by Outlet",
+                    color="white", fontsize=16, fontweight="bold", pad=20
+                )
+                ax.set_xlabel("Average Waiting Time (Minutes)")
+                ax.set_ylabel("Outlet")
+                for bar in bars:
+                    ax.text(
+                        bar.get_width() + 0.1,
+                        bar.get_y() + bar.get_height() / 2,
+                        f"{bar.get_width():.1f} min",
+                        va="center", color="white", fontsize=9
+                    )
+
+    
         # Common operational chart styling
         if ax.has_data():
             ax.tick_params(colors="white")
