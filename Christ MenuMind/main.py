@@ -50,6 +50,7 @@ st.sidebar.divider()
 def reset_filters():
     st.session_state["selected_block_filter"] = "All Blocks"
     st.session_state["selected_outlet_filter"] = "All Outlets"
+    st.session_state["food_preference_filter"] = "All"
 
 
 def reset_outlet_on_block_change():
@@ -75,6 +76,13 @@ selected_outlet = st.sidebar.selectbox(
     "Select Outlet",
     ["All Outlets"] + available_outlets,
     key="selected_outlet_filter"
+)
+
+food_preference = st.sidebar.radio(
+    "Food Preference",
+    ["All", "Veg", "Non-Veg"],
+    horizontal=True,
+    key="food_preference_filter"
 )
 
 st.sidebar.divider()
@@ -140,6 +148,27 @@ if selected_outlet != "All Outlets":
     filtered_operations = filtered_operations[
         filtered_operations["outlet_name"] == selected_outlet
     ]
+
+# Apply Veg / Non-Veg preference consistently across menu, sales and feedback.
+if food_preference == "Veg":
+    filtered_menu = filtered_menu[
+        filtered_menu["food_type"].astype(str).str.strip().str.lower() == "vegetarian"
+    ]
+elif food_preference == "Non-Veg":
+    filtered_menu = filtered_menu[
+        filtered_menu["food_type"].astype(str).str.strip().str.lower().str.startswith("non-vegetarian")
+    ]
+
+if food_preference != "All":
+    matching_item_ids = filtered_menu["item_id"].unique()
+    if "item_id" in filtered_sales.columns:
+        filtered_sales = filtered_sales[
+            filtered_sales["item_id"].isin(matching_item_ids)
+        ]
+    if "item_id" in filtered_reviews.columns:
+        filtered_reviews = filtered_reviews[
+            filtered_reviews["item_id"].isin(matching_item_ids)
+        ]
 
 # Live clock, date and greeting
 st.components.v1.html(
@@ -212,23 +241,17 @@ st.components.v1.html(
     scrolling=False
 )
 
-
-# Main dashboard
-st.title("🍽️ Christ MenuMind")
-st.subheader("Eat Smart. Explore Better. Decide with Data.")
-
-st.write(
-    "An intelligent campus food analytics platform "
-    "for exploring food menus, prices, sales and student preferences."
-)
-
-
 # Active filter summary
 active_block_label = selected_block
 active_outlet_label = selected_outlet
+active_food_label = {
+    "All": "All Food Types",
+    "Veg": "Vegetarian",
+    "Non-Veg": "Non-Vegetarian (Chicken)"
+}[food_preference]
 
 st.markdown("### 🔎 Active Filters")
-filter_col1, filter_col2 = st.columns(2)
+filter_col1, filter_col2, filter_col3 = st.columns(3)
 
 with filter_col1:
     st.markdown(
@@ -265,6 +288,35 @@ with filter_col2:
         """,
         unsafe_allow_html=True
     )
+
+with filter_col3:
+    st.markdown(
+        f"""
+        <div style="
+            padding: 12px 16px;
+            border: 1px solid rgba(148, 163, 184, 0.25);
+            border-radius: 10px;
+            background: rgba(30, 41, 59, 0.45);
+        ">
+            <div style="font-size: 12px; color: #94A3B8;">FOOD PREFERENCE</div>
+            <div style="font-size: 16px; font-weight: 600; color: #F8FAFC;">
+                {active_food_label}
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+st.divider()
+
+# Main dashboard
+st.title("🍽️ Christ MenuMind")
+st.subheader("Eat Smart. Explore Better. Decide with Data.")
+
+st.write(
+    "An intelligent campus food analytics platform "
+    "for exploring food menus, prices, sales and student preferences."
+)
 
 st.divider()
 
