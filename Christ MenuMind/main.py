@@ -46,12 +46,24 @@ st.sidebar.title("🍽️ Christ MenuMind")
 st.sidebar.caption("Campus Food Intelligence")
 st.sidebar.divider()
 
+# Filter controls
+def reset_filters():
+    st.session_state["selected_block_filter"] = "All Blocks"
+    st.session_state["selected_outlet_filter"] = "All Outlets"
+
+
+def reset_outlet_on_block_change():
+    st.session_state["selected_outlet_filter"] = "All Outlets"
+
+
 selected_block = st.sidebar.selectbox(
     "Select Campus Block",
-    ["All Blocks"] + blocks["block_name"].tolist()
+    ["All Blocks"] + blocks["block_name"].tolist(),
+    key="selected_block_filter",
+    on_change=reset_outlet_on_block_change
 )
 
-# Filter outlet options
+# Filter outlet options based on the selected block
 if selected_block == "All Blocks":
     available_outlets = outlets["outlet_name"].tolist()
 else:
@@ -61,7 +73,15 @@ else:
 
 selected_outlet = st.sidebar.selectbox(
     "Select Outlet",
-    ["All Outlets"] + available_outlets
+    ["All Outlets"] + available_outlets,
+    key="selected_outlet_filter"
+)
+
+st.sidebar.divider()
+st.sidebar.button(
+    "↺ Reset Filters",
+    use_container_width=True,
+    on_click=reset_filters
 )
 
 # Apply filters
@@ -191,6 +211,51 @@ st.components.v1.html(
     height=112,
     scrolling=False
 )
+
+# Active filter summary
+active_block_label = selected_block
+active_outlet_label = selected_outlet
+
+st.markdown("### 🔎 Active Filters")
+filter_col1, filter_col2 = st.columns(2)
+
+with filter_col1:
+    st.markdown(
+        f"""
+        <div style="
+            padding: 12px 16px;
+            border: 1px solid rgba(148, 163, 184, 0.25);
+            border-radius: 10px;
+            background: rgba(30, 41, 59, 0.45);
+        ">
+            <div style="font-size: 12px; color: #94A3B8;">CAMPUS BLOCK</div>
+            <div style="font-size: 16px; font-weight: 600; color: #F8FAFC;">
+                {active_block_label}
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+with filter_col2:
+    st.markdown(
+        f"""
+        <div style="
+            padding: 12px 16px;
+            border: 1px solid rgba(148, 163, 184, 0.25);
+            border-radius: 10px;
+            background: rgba(30, 41, 59, 0.45);
+        ">
+            <div style="font-size: 12px; color: #94A3B8;">OUTLET</div>
+            <div style="font-size: 16px; font-weight: 600; color: #F8FAFC;">
+                {active_outlet_label}
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+st.divider()
 
 # Main dashboard
 st.title("🍽️ Christ MenuMind")
