@@ -1099,6 +1099,55 @@ elif analysis_group == "Operational Analytics":
                         va="center", color="white", fontsize=9
                     )
 
+        # Day-wise footfall heatmap
+        elif chart_choice == "Day-wise Footfall Heatmap":
+            data = operation_data.dropna(
+                subset=["date", "outlet_name", "estimated_footfall"]
+            ).copy()
+            data["day"] = data["date"].dt.day_name()
+            day_order = [
+                "Monday", "Tuesday", "Wednesday", "Thursday",
+                "Friday", "Saturday", "Sunday"
+            ]
+            heat_data = data.pivot_table(
+                index="outlet_name",
+                columns="day",
+                values="estimated_footfall",
+                aggfunc="mean"
+            ).reindex(columns=day_order)
+            heat_data = heat_data.dropna(how="all")
+
+            if heat_data.empty:
+                st.warning("No weekday footfall records available.")
+            else:
+                matrix = heat_data.to_numpy(dtype=float)
+                image = ax.imshow(matrix, aspect="auto", cmap="YlGnBu")
+                ax.set_xticks(
+                    range(len(heat_data.columns)),
+                    heat_data.columns,
+                    rotation=25,
+                    ha="right"
+                )
+                ax.set_yticks(range(len(heat_data.index)), heat_data.index)
+                ax.set_title(
+                    "Average Footfall by Outlet and Day",
+                    color="white", fontsize=16, fontweight="bold", pad=20
+                )
+                ax.set_xlabel("Day of Week")
+                ax.set_ylabel("Outlet")
+                for i in range(matrix.shape[0]):
+                    for j in range(matrix.shape[1]):
+                        if np.isfinite(matrix[i, j]):
+                            ax.text(
+                                j, i, f"{matrix[i, j]:.0f}",
+                                ha="center", va="center",
+                                color="white" if matrix[i, j] < np.nanmean(matrix) else "#0e1117",
+                                fontsize=8
+                            )
+                colorbar = fig.colorbar(image, ax=ax)
+                colorbar.set_label("Average Footfall", color="white")
+                colorbar.ax.yaxis.set_tick_params(color="white")
+                plt.setp(colorbar.ax.get_yticklabels(), color="white")
 
         # Common operational chart styling
         if ax.has_data():
