@@ -1,0 +1,125 @@
+/* Christ MenuMind - professional dark UI. Pure styling, no logic. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg: #080b11;
+  --card: #0e1117;            /* matches the chart background used in main.py */
+  --card-2: #131925;
+  --line: rgba(255,255,255,.08);
+  --text: #E6EAF2;
+  --muted: #8B95A7;
+  --accent: #5EC8AA;
+  --accent-ink: #06231C;
+}
+
+/* Typography (icons are left alone so Streamlit's icon font keeps working) */
+html, body, .stApp, .stMarkdown, p, label, input, textarea, button,
+[data-testid="stMetricValue"], [data-testid="stMetricLabel"], h1, h2, h3, h4 {
+  font-family: 'Inter', -apple-system, 'Segoe UI', sans-serif;
+}
+h1 { font-weight: 700 !important; font-size: 2.1rem !important; letter-spacing: -0.02em; }
+h2, h3 { font-weight: 600 !important; letter-spacing: -0.01em; }
+h3 { font-size: 1.15rem !important; }
+.stCaption, [data-testid="stCaptionContainer"] { color: var(--muted); }
+
+/* Page */
+.stApp {
+  background:
+    radial-gradient(900px 420px at 0% -5%, rgba(94,200,170,.07), transparent 60%),
+    linear-gradient(180deg, #0a0e16 0%, var(--bg) 100%);
+}
+#MainMenu, footer { visibility: hidden; }
+header[data-testid="stHeader"] { background: transparent; }
+.block-container { padding-top: 1.6rem; max-width: 1480px; }
+hr { border-color: var(--line) !important; }
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+  background: #0b0f17;
+  border-right: 1px solid var(--line);
+}
+section[data-testid="stSidebar"] h1 { font-size: 1.35rem !important; }
+section[data-testid="stSidebar"] .stButton > button {
+  background: transparent; color: var(--text);
+  border: 1px solid var(--line); border-radius: 10px; font-weight: 500;
+  transition: border-color .15s, color .15s;
+}
+section[data-testid="stSidebar"] .stButton > button:hover {
+  border-color: var(--accent); color: var(--accent);
+}
+
+/* Header banner (iframe) */
+.stApp [data-testid="stMain"] iframe {
+  border-radius: 16px;
+  box-shadow: 0 8px 28px rgba(0,0,0,.35);
+}
+
+/* Active filter cards (inline-styled boxes in main.py) */
+div[data-testid="stMarkdownContainer"] div[style*="border-radius: 10px"] {
+  background: var(--card) !important;
+  border: 1px solid var(--line) !important;
+  border-left: 3px solid var(--accent) !important;
+  border-radius: 12px !important;
+}
+div[data-testid="stMarkdownContainer"] div[style*="font-size: 12px"] {
+  letter-spacing: .08em; font-weight: 500;
+}
+
+/* Radio groups become pill selectors */
+div[data-testid="stRadio"] label[data-baseweb="radio"] {
+  background: var(--card); border: 1px solid var(--line);
+  border-radius: 999px; padding: 6px 16px; cursor: pointer;
+  transition: border-color .15s, background .15s;
+}
+div[data-testid="stRadio"] label[data-baseweb="radio"]:hover { border-color: var(--accent); }
+div[data-testid="stRadio"] label[data-baseweb="radio"] > div:first-child { display: none; }
+div[data-testid="stRadio"] label[data-baseweb="radio"]:has(input:checked) {
+  background: var(--accent); border-color: var(--accent);
+}
+div[data-testid="stRadio"] label[data-baseweb="radio"]:has(input:checked) p {
+  color: var(--accent-ink) !important; font-weight: 600;
+}
+section[data-testid="stSidebar"] div[data-testid="stRadio"] label[data-baseweb="radio"] {
+  padding: 5px 12px;
+}
+
+/* Chart cards */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+  background: var(--card);
+  border: 1px solid var(--line) !important;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0,0,0,.28);
+}
+
+/* KPI / metric cards (override the inline <style> in main.py) */
+.stApp div[data-testid="stMetric"] {
+  background: linear-gradient(180deg, var(--card-2), var(--card)) !important;
+  border: 1px solid var(--line) !important;
+  border-left: 3px solid var(--accent) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 6px 20px rgba(0,0,0,.25);
+}
+.stApp div[data-testid="stMetricLabel"] { color: var(--muted); font-weight: 500; }
+.stApp div[data-testid="stMetricValue"] { font-weight: 700 !important; letter-spacing: -0.02em; }
+
+/* Inputs, tables, alerts */
+.stTextInput input, div[data-baseweb="select"] > div {
+  background: var(--card) !important; border-radius: 10px !important;
+  border: 1px solid var(--line) !important;
+}
+.stTextInput input:focus, div[data-baseweb="select"]:focus-within > div {
+  border-color: var(--accent) !important; box-shadow: 0 0 0 1px var(--accent) !important;
+}
+div[data-testid="stDataFrame"] {
+  border: 1px solid var(--line); border-radius: 14px; overflow: hidden;
+}
+div[data-testid="stAlert"] {
+  background: rgba(94,200,170,.08); border: 1px solid rgba(94,200,170,.25);
+  border-radius: 12px;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: #232b3b; border-radius: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+:focus-visible { outline: 2px solid var(--accent) !important; outline-offset: 2px; }

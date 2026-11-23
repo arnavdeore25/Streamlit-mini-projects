@@ -10,6 +10,9 @@ st.set_page_config(
     layout="wide"
 )
 
+css = open("style.css", encoding="utf-8").read()
+st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
+
 # Load data
 blocks = pd.read_csv("data/blocks.csv")
 outlets = pd.read_csv("data/outlets.csv")
