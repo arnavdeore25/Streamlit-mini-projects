@@ -101,3 +101,159 @@ button[kind="secondary"], .stButton > button {
     border-color: #16866A !important;
 }
 [data-testid="stToggle"] p { color: #334155 !important; }
+
+/* ===== FIXES: white text + dark dropdowns in light mode ===== */
+
+/* Active-filter card values (inline color #F8FAFC in main.py) */
+div[data-testid="stMarkdownContainer"] div[style*="color: #F8FAFC"] {
+    color: #172B3A !important;
+}
+
+/* Select boxes (closed state): input text, placeholder, arrow icon */
+div[data-baseweb="select"] > div {
+    background: #FFFFFF !important;
+    border: 1px solid #CBD5E1 !important;
+}
+div[data-baseweb="select"] *,
+div[data-baseweb="select"] input {
+    color: #263445 !important;
+    -webkit-text-fill-color: #263445 !important;
+}
+div[data-baseweb="select"] svg { fill: #475569 !important; color: #475569 !important; }
+
+/* Select dropdown menu (rendered in a portal outside the app container) */
+div[data-baseweb="popover"]:has(ul[role="listbox"]) > div,
+div[data-baseweb="popover"] [data-baseweb="menu"],
+ul[role="listbox"] {
+    background: #FFFFFF !important;
+    border: 1px solid #D5DEE8 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 10px 28px rgba(31, 41, 55, .14) !important;
+}
+li[role="option"] {
+    background: #FFFFFF !important;
+    color: #263445 !important;
+}
+li[role="option"] * { color: inherit !important; }
+li[role="option"]:hover,
+li[role="option"][aria-selected="true"],
+li[role="option"][data-highlighted="true"] {
+    background: #E8F5F0 !important;
+    color: #126B55 !important;
+}
+
+/* Top toolbar (Deploy, menu) and sidebar collapse arrow */
+[data-testid="stHeader"] button,
+[data-testid="stHeader"] a,
+[data-testid="stHeader"] span,
+[data-testid="stSidebarCollapseButton"] button,
+[data-testid="stSidebarCollapseButton"] svg,
+[data-testid="stExpandSidebarButton"] svg {
+    color: #263445 !important;
+    fill: #263445 !important;
+}
+
+/* Sidebar: any remaining light text */
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3,
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] span,
+section[data-testid="stSidebar"] label {
+    color: #263445 !important;
+}
+section[data-testid="stSidebar"] [data-testid="stCaptionContainer"] p { color: #64748B !important; }
+section[data-testid="stSidebar"] .stButton > button {
+    background: #FFFFFF !important;
+    color: #263445 !important;
+    border: 1px solid #CBD5E1 !important;
+}
+section[data-testid="stSidebar"] .stButton > button:hover {
+    color: #126B55 !important;
+    border-color: #16866A !important;
+}
+
+/* Metric / headings kept dark even where style.css forces white */
+[data-testid="stMain"] h1, [data-testid="stMain"] h3 { color: #172B3A !important; }
+[data-testid="stMain"] h1::after {
+    background: linear-gradient(90deg, #16866A, rgba(22,134,106,.15)) !important;
+}
+
+/* Data table: Streamlit draws it on a dark canvas, so flip it to light */
+[data-testid="stDataFrame"] {
+    background: #0E1117 !important;
+    border: 1px solid #261E15 !important;
+    filter: invert(1) hue-rotate(180deg);
+}
+
+/* Light scrollbars */
+::-webkit-scrollbar-thumb { background: #C3CEDB !important; }
+
+/* ===== Newer Streamlit (React Aria) selectors: dropdowns + radio dots ===== */
+
+/* Closed select box */
+[data-testid="stSelectbox"] [role="group"],
+[data-testid="stMultiSelect"] [role="group"] {
+    background: #FFFFFF !important;
+    border: 1px solid #CBD5E1 !important;
+    border-radius: 10px !important;
+}
+[data-testid="stSelectbox"] input,
+[data-testid="stMultiSelect"] input {
+    color: #263445 !important;
+    -webkit-text-fill-color: #263445 !important;
+    background: transparent !important;
+}
+[data-testid="stSelectbox"] input::placeholder { color: #94A3B8 !important; }
+[data-testid="stSelectbox"] button,
+[data-testid="stSelectbox"] button svg,
+[data-testid="stMultiSelect"] button svg {
+    color: #475569 !important;
+    fill: #475569 !important;
+    background: transparent !important;
+}
+[data-testid="stSelectbox"] [role="group"]:focus-within {
+    border-color: #16866A !important;
+    box-shadow: 0 0 0 1px #16866A !important;
+}
+
+/* Open dropdown list */
+[data-testid="stSelectboxVirtualDropdown"],
+[data-testid="stSelectboxVirtualDropdown"] [role="listbox"],
+[role="listbox"] {
+    background: #FFFFFF !important;
+}
+[data-testid="stSelectboxVirtualDropdown"] {
+    border: 1px solid #D5DEE8 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 10px 28px rgba(31, 41, 55, .14) !important;
+}
+[role="listbox"] [role="option"],
+[role="listbox"] [role="option"] * {
+    color: #263445 !important;
+}
+[role="listbox"] [role="option"]:hover,
+[role="listbox"] [role="option"][aria-selected="true"],
+[role="listbox"] [role="option"][data-focused="true"],
+[role="listbox"] [role="option"][data-hovered="true"] {
+    background: #E8F5F0 !important;
+}
+[role="listbox"] [role="option"]:hover *,
+[role="listbox"] [role="option"][aria-selected="true"] * {
+    color: #126B55 !important;
+}
+
+/* Radio dots: unselected ones were black */
+[data-testid="stRadioOption"]:not([data-selected="true"]) > div > div:first-child {
+    background: #FFFFFF !important;
+    border: 1px solid #94A3B8 !important;
+}
+
+/* Active-filter cards: value text (structural selector, works whatever the inline color format is) */
+div[data-testid="stMarkdownContainer"] div[style*="border-radius: 10px"] > div:nth-child(2),
+div[data-testid="stMarkdownContainer"] div[style*="border-radius: 10px"] > div:nth-child(2) * {
+    color: #172B3A !important;
+}
+div[data-testid="stMarkdownContainer"] div[style*="border-radius: 10px"] > div:nth-child(1) {
+    color: #64748B !important;
+}
