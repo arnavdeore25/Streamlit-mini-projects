@@ -1069,6 +1069,35 @@ elif analysis_group == "Operational Analytics":
                 st.metric("Total Recorded Footfall", f"{int(chart_data.sum()):,}")
 
         # Outlet-wise footfall comparison
+        elif chart_choice == "Outlet-wise Footfall Comparison":
+            data = operation_data.dropna(
+                subset=["outlet_name", "estimated_footfall"]
+            )
+            chart_data = data.groupby("outlet_name")["estimated_footfall"].mean().sort_values()
+
+            if chart_data.empty:
+                st.warning("No outlet footfall records available.")
+            else:
+                bars = ax.barh(
+                    chart_data.index,
+                    chart_data.values,
+                    color=plt.cm.viridis(
+                        np.linspace(0.25, 0.85, len(chart_data))
+                    )
+                )
+                ax.set_title(
+                    "Average Daily Footfall by Outlet",
+                    color="white", fontsize=16, fontweight="bold", pad=20
+                )
+                ax.set_xlabel("Average Daily Student Footfall")
+                ax.set_ylabel("Outlet")
+                for bar in bars:
+                    ax.text(
+                        bar.get_width() + 1,
+                        bar.get_y() + bar.get_height() / 2,
+                        f"{bar.get_width():.0f}",
+                        va="center", color="white", fontsize=9
+                    )
 
 
         # Common operational chart styling
