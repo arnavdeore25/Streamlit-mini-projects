@@ -1180,7 +1180,40 @@ elif analysis_group == "Operational Analytics":
                         va="center", color="white", fontsize=9
                     )
 
-    
+        # Waiting time trend
+        elif chart_choice == "Waiting Time Trend":
+            data = operation_data.dropna(
+                subset=["date", "average_wait_time_min"]
+            )
+            chart_data = data.groupby("date")["average_wait_time_min"].mean().sort_index()
+
+            if chart_data.empty:
+                st.warning("No dated waiting-time records available.")
+            else:
+                ax.plot(
+                    chart_data.index,
+                    chart_data.values,
+                    color="#FDCB6E",
+                    marker="o",
+                    linewidth=2.5,
+                    markersize=5
+                )
+                ax.fill_between(
+                    chart_data.index,
+                    chart_data.values,
+                    color="#FDCB6E",
+                    alpha=0.12
+                )
+                ax.set_title(
+                    "Average Waiting Time Trend",
+                    color="white", fontsize=16, fontweight="bold", pad=20
+                )
+                ax.set_xlabel("Date")
+                ax.set_ylabel("Average Waiting Time (Minutes)")
+                ax.set_ylim(bottom=0)
+                fig.autofmt_xdate()
+
+        
         # Common operational chart styling
         if ax.has_data():
             ax.tick_params(colors="white")
