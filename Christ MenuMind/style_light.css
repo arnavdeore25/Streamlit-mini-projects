@@ -1,0 +1,103 @@
+/* LIGHT THEME — applied only when the sidebar Light Theme toggle is ON */
+:root {
+    --bg: #F4F7FB;
+    --card: #FFFFFF;
+    --card-2: #EEF3F8;
+    --line: #D9E1EA;
+    --text: #1F2937;
+    --muted: #64748B;
+    --accent: #16866A;
+    --accent-ink: #FFFFFF;
+}
+.stApp {
+    background: linear-gradient(180deg, #F8FAFC 0%, #EEF3F8 100%) !important;
+    color: #1F2937 !important;
+}
+[data-testid="stHeader"] { background: transparent !important; }
+[data-testid="stMain"], [data-testid="stAppViewContainer"] {
+    background: transparent !important;
+    color: #1F2937 !important;
+}
+section[data-testid="stSidebar"] {
+    background: #E9EFF5 !important;
+    border-right: 1px solid #D5DEE8 !important;
+}
+.stApp h1, .stApp h2, .stApp h3, .stApp h4,
+.stApp p, .stApp label, .stApp li,
+[data-testid="stWidgetLabel"] p,
+[data-testid="stWidgetLabel"] label,
+[data-testid="stMarkdownContainer"] {
+    color: #263445 !important;
+}
+.stApp [data-testid="stCaptionContainer"],
+.stApp [data-testid="stCaptionContainer"] p,
+section[data-testid="stSidebar"] [data-testid="stCaptionContainer"] p {
+    color: #64748B !important;
+}
+[data-testid="stMetric"] {
+    background: linear-gradient(180deg, #FFFFFF, #F5F8FC) !important;
+    border: 1px solid #D9E1EA !important;
+    border-left: 3px solid #16866A !important;
+    box-shadow: 0 4px 16px rgba(31, 41, 55, .07) !important;
+}
+[data-testid="stMetricLabel"], [data-testid="stMetricLabel"] p {
+    color: #64748B !important;
+}
+[data-testid="stMetricValue"], [data-testid="stMetricValue"] div {
+    color: #172B3A !important;
+}
+[data-testid="stVerticalBlockBorderWrapper"] {
+    background: #FFFFFF !important;
+    border: 1px solid #D9E1EA !important;
+    box-shadow: 0 4px 18px rgba(31, 41, 55, .06) !important;
+}
+div[data-testid="stMarkdownContainer"] div[style*="border-radius: 10px"] {
+    background: #FFFFFF !important;
+    border: 1px solid #D9E1EA !important;
+    border-left: 3px solid #16866A !important;
+}
+div[data-testid="stMarkdownContainer"] div[style*="font-size: 12px"] {
+    color: #64748B !important;
+}
+div[data-testid="stRadio"] label[data-baseweb="radio"] {
+    background: #FFFFFF !important;
+    border-color: #D5DEE8 !important;
+}
+div[data-testid="stRadio"] label[data-baseweb="radio"] p {
+    color: #334155 !important;
+}
+div[data-testid="stRadio"] label[data-baseweb="radio"]:has(input:checked) {
+    background: #16866A !important;
+    border-color: #16866A !important;
+}
+div[data-testid="stRadio"] label[data-baseweb="radio"]:has(input:checked) p {
+    color: #FFFFFF !important;
+}
+.stTextInput input, .stTextArea textarea,
+div[data-baseweb="select"] > div,
+[data-testid="stNumberInput"] input {
+    background: #FFFFFF !important;
+    color: #263445 !important;
+    border: 1px solid #CBD5E1 !important;
+}
+.stTextInput input::placeholder { color: #94A3B8 !important; }
+[data-testid="stDataFrame"], [data-testid="stTable"] {
+    background: #FFFFFF !important;
+    border: 1px solid #D9E1EA !important;
+}
+[data-testid="stAlert"] {
+    background: #E8F5F0 !important;
+    border: 1px solid #B7DFD0 !important;
+    color: #205B49 !important;
+}
+[data-testid="stAlert"] p { color: #205B49 !important; }
+hr { border-color: #D9E1EA !important; }
+button[kind="secondary"], .stButton > button {
+    color: #263445 !important;
+    border-color: #CBD5E1 !important;
+}
+.stButton > button:hover {
+    color: #126B55 !important;
+    border-color: #16866A !important;
+}
+[data-testid="stToggle"] p { color: #334155 !important; }

@@ -10,9 +10,6 @@ st.set_page_config(
     layout="wide"
 )
 
-css = open("style.css", encoding="utf-8").read()
-st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
-
 # Load data
 blocks = pd.read_csv("data/blocks.csv")
 outlets = pd.read_csv("data/outlets.csv")
@@ -47,6 +44,35 @@ if "value_for_money" not in student_reviews.columns and "value_for_money_rating"
 # Sidebar
 st.sidebar.title("🍽️ Christ MenuMind")
 st.sidebar.caption("Campus Food Intelligence")
+
+# Theme switch: OFF = Dark, ON = Light
+light_theme = st.sidebar.toggle(
+    "Light Theme",
+    value=False,
+    key="light_theme_toggle",
+    help="Switch between the dark and light dashboard appearance."
+)
+theme_name = "Light" if light_theme else "Dark"
+
+# Chart colours follow the selected theme.
+chart_bg_color = "#FFFFFF" if light_theme else "#0e1117"
+chart_text_color = "#263238" if light_theme else "#FFFFFF"
+chart_grid_color = "#D9E0E7" if light_theme else "#64748B"
+chart_edge_color = "#FFFFFF" if light_theme else "#0e1117"
+
+css = open("style.css", encoding="utf-8").read()
+
+light_theme_css = ""
+if light_theme:
+    with open("style_light.css", encoding="utf-8") as light_css_file:
+        light_theme_css = light_css_file.read()
+
+
+st.markdown(
+    f"<style>{css}\n{light_theme_css}</style>",
+    unsafe_allow_html=True
+)
+
 st.sidebar.divider()
 
 # Filter controls
@@ -181,8 +207,7 @@ if food_preference != "All":
         ]
 
 # Live clock, date and greeting
-st.components.v1.html(
-    """
+clock_html = """
     <div id="menumind-header" style="
         display: flex;
         justify-content: space-between;
@@ -192,8 +217,8 @@ st.components.v1.html(
         margin: 4px 0 18px 0;
         border: 1px solid rgba(148, 163, 184, 0.22);
         border-radius: 14px;
-        background: linear-gradient(110deg, rgba(30, 41, 59, 0.92), rgba(15, 23, 42, 0.88));
-        color: #F8FAFC;
+        background: __CLOCK_BG__;
+        color: __CLOCK_TEXT__;
         font-family: Arial, sans-serif;
         box-sizing: border-box;
     ">
@@ -201,7 +226,7 @@ st.components.v1.html(
             <div id="greeting" style="font-size: 21px; font-weight: 700; margin-bottom: 5px;">
                 Welcome!
             </div>
-            <div style="font-size: 13px; color: #CBD5E1;">
+            <div style="font-size: 13px; color: __CLOCK_MUTED__;">
                 Here's your campus food overview for today.
             </div>
         </div>
@@ -209,7 +234,7 @@ st.components.v1.html(
             <div id="live-clock" style="font-size: 27px; font-weight: 700; letter-spacing: 1px;">
                 --:--:--
             </div>
-            <div id="live-date" style="font-size: 13px; color: #CBD5E1; margin-top: 3px;">
+            <div id="live-date" style="font-size: 13px; color: __CLOCK_MUTED__; margin-top: 3px;">
                 Loading date...
             </div>
         </div>
@@ -246,10 +271,15 @@ st.components.v1.html(
         updateMenuMindHeader();
         setInterval(updateMenuMindHeader, 1000);
     </script>
-    """,
-    height=112,
-    scrolling=False
+    """
+
+clock_html = (
+    clock_html
+    .replace("__CLOCK_BG__", "linear-gradient(110deg, #FFFFFF, #EAF1F7)" if light_theme else "linear-gradient(110deg, rgba(30, 41, 59, 0.92), rgba(15, 23, 42, 0.88))")
+    .replace("__CLOCK_TEXT__", "#263445" if light_theme else "#F8FAFC")
+    .replace("__CLOCK_MUTED__", "#64748B" if light_theme else "#CBD5E1")
 )
+st.components.v1.html(clock_html, height=112, scrolling=False)
 
 
 # Main dashboard
@@ -523,7 +553,7 @@ else:
                             "Menu Distribution by Category",
                             fontsize=16,
                             fontweight="bold",
-                            color="white"
+                            color=chart_text_color
                         )
 
                         ax.set_xlabel("Number of Food Items")
@@ -535,7 +565,7 @@ else:
                                 bar.get_y() + bar.get_height() / 2,
                                 int(bar.get_width()),
                                 va="center",
-                                color="white"
+                                color=chart_text_color
                             )
 
                     # Vegetarian vs Chicken
@@ -562,7 +592,7 @@ else:
                             colors=colors[:len(chart_data)],
                             wedgeprops={
                                 "width": 0.38,
-                                "edgecolor": "#0e1117",
+                                "edgecolor": chart_edge_color,
                                 "linewidth": 3
                             },
                             textprops={
@@ -579,14 +609,14 @@ else:
                             va="center",
                             fontsize=20,
                             fontweight="bold",
-                            color="white"
+                            color=chart_text_color
                         )
 
                         ax.set_title(
                             "Vegetarian vs Chicken Distribution",
                             fontsize=16,
                             fontweight="bold",
-                            color="white",
+                            color=chart_text_color,
                             pad=20
                         )
 
@@ -608,10 +638,10 @@ else:
                             fontsize=11
                         )
 
-                        legend.get_title().set_color("white")
+                        legend.get_title().set_color(chart_text_color)
 
                         for text in legend.get_texts():
-                            text.set_color("white")
+                            text.set_color(chart_text_color)
 
                     # Menu availability by outlet
                     elif chart_choice == "Menu Availability by Outlet":
@@ -636,7 +666,7 @@ else:
                             "Menu Items Available per Outlet",
                             fontsize=16,
                             fontweight="bold",
-                            color="white",
+                            color=chart_text_color,
                             pad=20
                         )
 
@@ -651,7 +681,7 @@ else:
                                 bar.get_height() + 0.5,
                                 int(bar.get_height()),
                                 ha="center",
-                                color="white",
+                                color=chart_text_color,
                                 fontsize=9
                             )
 
@@ -684,7 +714,7 @@ else:
                             "Category Distribution Across Outlets",
                             fontsize=16,
                             fontweight="bold",
-                            color="white",
+                            color=chart_text_color,
                             pad=20
                         )
 
@@ -701,23 +731,23 @@ else:
                             frameon=False
                         )
 
-                        legend.get_title().set_color("white")
+                        legend.get_title().set_color(chart_text_color)
 
                         for text in legend.get_texts():
-                            text.set_color("white")
+                            text.set_color(chart_text_color)
 
                     # Common chart styling
                     if fig is not None:
 
-                        fig.patch.set_facecolor("#0e1117")
-                        ax.set_facecolor("#0e1117")
+                        fig.patch.set_facecolor(chart_bg_color)
+                        ax.set_facecolor(chart_bg_color)
 
-                        ax.tick_params(colors="white")
-                        ax.xaxis.label.set_color("white")
-                        ax.yaxis.label.set_color("white")
+                        ax.tick_params(colors=chart_text_color)
+                        ax.xaxis.label.set_color(chart_text_color)
+                        ax.yaxis.label.set_color(chart_text_color)
 
                         if chart_choice != "Vegetarian vs Chicken":
-                            ax.grid(axis="y", linestyle="--", alpha=0.2)
+                            ax.grid(axis="y", linestyle="--", alpha=0.35, color=chart_grid_color)
                             ax.grid(axis="x", visible=False)
 
                         for spine in ax.spines.values():
@@ -774,7 +804,7 @@ else:
                                 "Average Price by Food Category",
                                 fontsize=16,
                                 fontweight="bold",
-                                color="white",
+                                color=chart_text_color,
                                 pad=20
                             )
 
@@ -789,7 +819,7 @@ else:
                                     bar.get_height() + 1,
                                     f"₹{bar.get_height():.0f}",
                                     ha="center",
-                                    color="white",
+                                    color=chart_text_color,
                                     fontsize=9
                                 )
 
@@ -802,7 +832,7 @@ else:
                                 price_data["price_inr"],
                                 bins=15,
                                 color="#66C2A5",
-                                edgecolor="#0e1117",
+                                edgecolor=chart_edge_color,
                                 linewidth=1.5
                             )
 
@@ -820,7 +850,7 @@ else:
                                 "Distribution of Food Prices",
                                 fontsize=16,
                                 fontweight="bold",
-                                color="white",
+                                color=chart_text_color,
                                 pad=20
                             )
 
@@ -828,9 +858,9 @@ else:
                             ax.set_ylabel("Number of Food Items")
 
                             ax.legend(
-                                facecolor="#0e1117",
+                                facecolor=chart_bg_color,
                                 edgecolor="none",
-                                labelcolor="white"
+                                labelcolor=chart_text_color
                             )
 
                         # Price comparison by category
@@ -882,7 +912,7 @@ else:
                                 "Food Price Comparison Across Categories",
                                 fontsize=16,
                                 fontweight="bold",
-                                color="white",
+                                color=chart_text_color,
                                 pad=20
                             )
 
@@ -920,7 +950,7 @@ else:
                                 "Average Food Price by Outlet",
                                 fontsize=16,
                                 fontweight="bold",
-                                color="white",
+                                color=chart_text_color,
                                 pad=20
                             )
 
@@ -933,19 +963,19 @@ else:
                                     bar.get_y() + bar.get_height() / 2,
                                     f"₹{bar.get_width():.0f}",
                                     va="center",
-                                    color="white",
+                                    color=chart_text_color,
                                     fontsize=9
                                 )
 
                         # Pricing chart styling
                         if fig is not None:
 
-                            fig.patch.set_facecolor("#0e1117")
-                            ax.set_facecolor("#0e1117")
+                            fig.patch.set_facecolor(chart_bg_color)
+                            ax.set_facecolor(chart_bg_color)
 
-                            ax.tick_params(colors="white")
-                            ax.xaxis.label.set_color("white")
-                            ax.yaxis.label.set_color("white")
+                            ax.tick_params(colors=chart_text_color)
+                            ax.xaxis.label.set_color(chart_text_color)
+                            ax.yaxis.label.set_color(chart_text_color)
 
                             ax.grid(
                                 axis="y",
@@ -954,7 +984,7 @@ else:
                             )
 
                             if chart_choice == "Outlet-wise Average Pricing":
-                                ax.grid(axis="x", linestyle="--", alpha=0.2)
+                                ax.grid(axis="x", linestyle="--", alpha=0.35, color=chart_grid_color)
                                 ax.grid(axis="y", visible=False)
 
                             for spine in ax.spines.values():
@@ -1025,7 +1055,7 @@ else:
                                 "Daily Campus Food Revenue Trend",
                                 fontsize=16,
                                 fontweight="bold",
-                                color="white",
+                                color=chart_text_color,
                                 pad=20
                             )
 
@@ -1069,7 +1099,7 @@ else:
                                 "Top 10 Most Purchased Food Items",
                                 fontsize=16,
                                 fontweight="bold",
-                                color="white",
+                                color=chart_text_color,
                                 pad=20
                             )
 
@@ -1082,26 +1112,26 @@ else:
                                     bar.get_y() + bar.get_height() / 2,
                                     f"{int(bar.get_width()):,}",
                                     va="center",
-                                    color="white",
+                                    color=chart_text_color,
                                     fontsize=9
                                 )
 
                         # Sales chart styling
-                        fig.patch.set_facecolor("#0e1117")
-                        ax.set_facecolor("#0e1117")
+                        fig.patch.set_facecolor(chart_bg_color)
+                        ax.set_facecolor(chart_bg_color)
 
-                        ax.tick_params(colors="white")
-                        ax.xaxis.label.set_color("white")
-                        ax.yaxis.label.set_color("white")
+                        ax.tick_params(colors=chart_text_color)
+                        ax.xaxis.label.set_color(chart_text_color)
+                        ax.yaxis.label.set_color(chart_text_color)
 
                         if chart_choice == "Revenue Trend":
-                            ax.grid(axis="y", linestyle="--", alpha=0.2)
+                            ax.grid(axis="y", linestyle="--", alpha=0.35, color=chart_grid_color)
                             ax.grid(axis="x", visible=False)
                             ax.yaxis.set_major_formatter(
                                 plt.FuncFormatter(lambda value, _: f"₹{value:,.0f}")
                             )
                         else:
-                            ax.grid(axis="x", linestyle="--", alpha=0.2)
+                            ax.grid(axis="x", linestyle="--", alpha=0.35, color=chart_grid_color)
                             ax.grid(axis="y", visible=False)
 
                         for spine in ax.spines.values():
@@ -1156,8 +1186,8 @@ else:
                         st.warning("No student reviews available for the selected filters.")
                     else:
                         fig, ax = plt.subplots(figsize=(12, 6))
-                        fig.patch.set_facecolor("#0e1117")
-                        ax.set_facecolor("#0e1117")
+                        fig.patch.set_facecolor(chart_bg_color)
+                        ax.set_facecolor(chart_bg_color)
 
                         # Rating distribution
                         if chart_choice == "Rating Distribution":
@@ -1173,12 +1203,12 @@ else:
                                     counts.values,
                                     color=["#FC8D62", "#FDCB6E", "#A8DADC", "#66C2A5", "#6C9BCF"]
                                 )
-                                ax.set_title("Student Food Rating Distribution", color="white", fontsize=16, fontweight="bold", pad=20)
+                                ax.set_title("Student Food Rating Distribution", color=chart_text_color, fontsize=16, fontweight="bold", pad=20)
                                 ax.set_xlabel("Star Rating")
                                 ax.set_ylabel("Number of Reviews")
                                 for bar in bars:
                                     ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.5,
-                                            f"{int(bar.get_height())}", ha="center", color="white")
+                                            f"{int(bar.get_height())}", ha="center", color=chart_text_color)
                                 st.metric("Total Reviews", len(data))
                                 st.metric("Average Rating", f"{data['rating'].mean():.2f} / 5 ⭐")
 
@@ -1191,13 +1221,13 @@ else:
                             else:
                                 bars = ax.barh(chart_data.index, chart_data.values,
                                                color=plt.cm.viridis(np.linspace(0.25, 0.85, len(chart_data))))
-                                ax.set_title("Average Student Satisfaction by Outlet", color="white", fontsize=16, fontweight="bold", pad=20)
+                                ax.set_title("Average Student Satisfaction by Outlet", color=chart_text_color, fontsize=16, fontweight="bold", pad=20)
                                 ax.set_xlabel("Average Rating")
                                 ax.set_ylabel("Outlet")
                                 ax.set_xlim(0, 5.5)
                                 for bar in bars:
                                     ax.text(bar.get_width()+0.05, bar.get_y()+bar.get_height()/2,
-                                            f"{bar.get_width():.2f}", va="center", color="white")
+                                            f"{bar.get_width():.2f}", va="center", color=chart_text_color)
 
                         # Student recommendation analysis
                         elif chart_choice == "Student Recommendation Analysis":
@@ -1211,13 +1241,13 @@ else:
                                 wedges, texts, autotexts = ax.pie(
                                     counts.values, labels=labels, autopct="%1.1f%%", startangle=90,
                                     colors=["#66C2A5", "#FC8D62", "#A78BFA"],
-                                    wedgeprops={"width": 0.42, "edgecolor": "#0e1117", "linewidth": 2},
+                                    wedgeprops={"width": 0.42, "edgecolor": chart_edge_color, "linewidth": 2},
                                     textprops={"color": "white"}
                                 )
                                 for text in autotexts:
-                                    text.set_color("white")
-                                ax.text(0, 0, f"{counts.sum()}\nResponses", ha="center", va="center", color="white", fontsize=15, fontweight="bold")
-                                ax.set_title("Would Students Recommend This Food?", color="white", fontsize=16, fontweight="bold", pad=20)
+                                    text.set_color(chart_text_color)
+                                ax.text(0, 0, f"{counts.sum()}\nResponses", ha="center", va="center", color=chart_text_color, fontsize=15, fontweight="bold")
+                                ax.set_title("Would Students Recommend This Food?", color=chart_text_color, fontsize=16, fontweight="bold", pad=20)
 
                         # Rating trends over time
                         elif chart_choice == "Rating Trends Over Time":
@@ -1232,7 +1262,7 @@ else:
                                         color="#66C2A5", marker="o", linewidth=2.5)
                                 ax.fill_between(pd.to_datetime(chart_data.index), chart_data.values,
                                                 color="#66C2A5", alpha=0.12)
-                                ax.set_title("Average Student Rating Over Time", color="white", fontsize=16, fontweight="bold", pad=20)
+                                ax.set_title("Average Student Rating Over Time", color=chart_text_color, fontsize=16, fontweight="bold", pad=20)
                                 ax.set_xlabel("Review Date")
                                 ax.set_ylabel("Average Rating")
                                 ax.set_ylim(0, 5.5)
@@ -1250,22 +1280,22 @@ else:
                                 chart_data = chart_data.sort_values("review_count")
                                 bars = ax.barh(chart_data["item_name"], chart_data["review_count"],
                                                color=plt.cm.viridis(np.linspace(0.25, 0.85, len(chart_data))))
-                                ax.set_title("Top 10 Most Reviewed Food Items", color="white", fontsize=16, fontweight="bold", pad=20)
+                                ax.set_title("Top 10 Most Reviewed Food Items", color=chart_text_color, fontsize=16, fontweight="bold", pad=20)
                                 ax.set_xlabel("Number of Reviews")
                                 ax.set_ylabel("Food Item")
                                 for bar in bars:
                                     ax.text(bar.get_width()+0.1, bar.get_y()+bar.get_height()/2,
-                                            f"{int(bar.get_width())}", va="center", color="white")
+                                            f"{int(bar.get_width())}", va="center", color=chart_text_color)
 
                         # Common feedback chart styling
                         if fig.axes and ax.has_data():
-                            ax.tick_params(colors="white")
-                            ax.xaxis.label.set_color("white")
-                            ax.yaxis.label.set_color("white")
+                            ax.tick_params(colors=chart_text_color)
+                            ax.xaxis.label.set_color(chart_text_color)
+                            ax.yaxis.label.set_color(chart_text_color)
                             if chart_choice not in ["Student Recommendation Analysis", "Outlet Rating Heatmap"]:
-                                ax.grid(axis="y", linestyle="--", alpha=0.2)
+                                ax.grid(axis="y", linestyle="--", alpha=0.35, color=chart_grid_color)
                                 if chart_choice in ["Outlet Satisfaction", "Most Reviewed Food Items"]:
-                                    ax.grid(axis="x", linestyle="--", alpha=0.2)
+                                    ax.grid(axis="x", linestyle="--", alpha=0.35, color=chart_grid_color)
                             for spine in ax.spines.values():
                                 spine.set_visible(False)
                             plt.tight_layout()
@@ -1311,8 +1341,8 @@ else:
                         )
 
                         fig, ax = plt.subplots(figsize=(12, 6))
-                        fig.patch.set_facecolor("#0e1117")
-                        ax.set_facecolor("#0e1117")
+                        fig.patch.set_facecolor(chart_bg_color)
+                        ax.set_facecolor(chart_bg_color)
 
                         # Daily footfall trend
                         if chart_choice == "Daily Footfall Trend":
@@ -1340,7 +1370,7 @@ else:
                                 )
                                 ax.set_title(
                                     "Daily Campus Footfall Trend",
-                                    color="white", fontsize=16, fontweight="bold", pad=20
+                                    color=chart_text_color, fontsize=16, fontweight="bold", pad=20
                                 )
                                 ax.set_xlabel("Date")
                                 ax.set_ylabel("Estimated Student Footfall")
@@ -1366,7 +1396,7 @@ else:
                                 )
                                 ax.set_title(
                                     "Average Daily Footfall by Outlet",
-                                    color="white", fontsize=16, fontweight="bold", pad=20
+                                    color=chart_text_color, fontsize=16, fontweight="bold", pad=20
                                 )
                                 ax.set_xlabel("Average Daily Student Footfall")
                                 ax.set_ylabel("Outlet")
@@ -1375,7 +1405,7 @@ else:
                                         bar.get_width() + 1,
                                         bar.get_y() + bar.get_height() / 2,
                                         f"{bar.get_width():.0f}",
-                                        va="center", color="white", fontsize=9
+                                        va="center", color=chart_text_color, fontsize=9
                                     )
 
                         # Day-wise footfall heatmap
@@ -1410,7 +1440,7 @@ else:
                                 ax.set_yticks(range(len(heat_data.index)), heat_data.index)
                                 ax.set_title(
                                     "Average Footfall by Outlet and Day",
-                                    color="white", fontsize=16, fontweight="bold", pad=20
+                                    color=chart_text_color, fontsize=16, fontweight="bold", pad=20
                                 )
                                 ax.set_xlabel("Day of Week")
                                 ax.set_ylabel("Outlet")
@@ -1420,13 +1450,13 @@ else:
                                             ax.text(
                                                 j, i, f"{matrix[i, j]:.0f}",
                                                 ha="center", va="center",
-                                                color="white" if matrix[i, j] < np.nanmean(matrix) else "#0e1117",
+                                                color=chart_text_color if matrix[i, j] < np.nanmean(matrix) else "#0e1117",
                                                 fontsize=8
                                             )
                                 colorbar = fig.colorbar(image, ax=ax)
-                                colorbar.set_label("Average Footfall", color="white")
-                                colorbar.ax.yaxis.set_tick_params(color="white")
-                                plt.setp(colorbar.ax.get_yticklabels(), color="white")
+                                colorbar.set_label("Average Footfall", color=chart_text_color)
+                                colorbar.ax.yaxis.set_tick_params(color=chart_text_color)
+                                plt.setp(colorbar.ax.get_yticklabels(), color=chart_text_color)
 
                         # Outlet-wise average waiting time
                         elif chart_choice == "Outlet-wise Average Waiting Time":
@@ -1447,7 +1477,7 @@ else:
                                 )
                                 ax.set_title(
                                     "Average Waiting Time by Outlet",
-                                    color="white", fontsize=16, fontweight="bold", pad=20
+                                    color=chart_text_color, fontsize=16, fontweight="bold", pad=20
                                 )
                                 ax.set_xlabel("Average Waiting Time (Minutes)")
                                 ax.set_ylabel("Outlet")
@@ -1456,7 +1486,7 @@ else:
                                         bar.get_width() + 0.1,
                                         bar.get_y() + bar.get_height() / 2,
                                         f"{bar.get_width():.1f} min",
-                                        va="center", color="white", fontsize=9
+                                        va="center", color=chart_text_color, fontsize=9
                                     )
 
                         # Waiting time trend
@@ -1485,7 +1515,7 @@ else:
                                 )
                                 ax.set_title(
                                     "Average Waiting Time Trend",
-                                    color="white", fontsize=16, fontweight="bold", pad=20
+                                    color=chart_text_color, fontsize=16, fontweight="bold", pad=20
                                 )
                                 ax.set_xlabel("Date")
                                 ax.set_ylabel("Average Waiting Time (Minutes)")
@@ -1506,13 +1536,13 @@ else:
                                     data["average_wait_time_min"],
                                     color="#A78BFA",
                                     alpha=0.7,
-                                    edgecolors="white",
+                                    edgecolors=chart_text_color,
                                     linewidths=0.4,
                                     s=60
                                 )
                                 ax.set_title(
                                     "Student Footfall vs Average Waiting Time",
-                                    color="white", fontsize=16, fontweight="bold", pad=20
+                                    color=chart_text_color, fontsize=16, fontweight="bold", pad=20
                                 )
                                 ax.set_xlabel("Estimated Student Footfall")
                                 ax.set_ylabel("Average Waiting Time (Minutes)")
@@ -1520,15 +1550,15 @@ else:
 
                         # Common operational chart styling
                         if ax.has_data():
-                            ax.tick_params(colors="white")
-                            ax.xaxis.label.set_color("white")
-                            ax.yaxis.label.set_color("white")
+                            ax.tick_params(colors=chart_text_color)
+                            ax.xaxis.label.set_color(chart_text_color)
+                            ax.yaxis.label.set_color(chart_text_color)
                             if chart_choice == "Outlet-wise Footfall Comparison":
-                                ax.grid(axis="x", linestyle="--", alpha=0.2)
+                                ax.grid(axis="x", linestyle="--", alpha=0.35, color=chart_grid_color)
                             elif chart_choice == "Outlet-wise Average Waiting Time":
-                                ax.grid(axis="x", linestyle="--", alpha=0.2)
+                                ax.grid(axis="x", linestyle="--", alpha=0.35, color=chart_grid_color)
                             elif chart_choice != "Day-wise Footfall Heatmap":
-                                ax.grid(axis="y", linestyle="--", alpha=0.2)
+                                ax.grid(axis="y", linestyle="--", alpha=0.35, color=chart_grid_color)
                             for spine in ax.spines.values():
                                 spine.set_visible(False)
                             plt.tight_layout()
