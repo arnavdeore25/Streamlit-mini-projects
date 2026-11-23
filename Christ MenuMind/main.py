@@ -212,6 +212,17 @@ st.components.v1.html(
     scrolling=False
 )
 
+
+# Main dashboard
+st.title("🍽️ Christ MenuMind")
+st.subheader("Eat Smart. Explore Better. Decide with Data.")
+
+st.write(
+    "An intelligent campus food analytics platform "
+    "for exploring food menus, prices, sales and student preferences."
+)
+
+
 # Active filter summary
 active_block_label = selected_block
 active_outlet_label = selected_outlet
@@ -254,17 +265,6 @@ with filter_col2:
         """,
         unsafe_allow_html=True
     )
-
-st.divider()
-
-# Main dashboard
-st.title("🍽️ Christ MenuMind")
-st.subheader("Eat Smart. Explore Better. Decide with Data.")
-
-st.write(
-    "An intelligent campus food analytics platform "
-    "for exploring food menus, prices, sales and student preferences."
-)
 
 st.divider()
 
