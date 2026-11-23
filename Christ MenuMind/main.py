@@ -202,9 +202,28 @@ chart_options = {
     ]
 }
 
+# Hide outlet-comparison charts when a single outlet is selected.
+outlet_comparison_charts = {
+    "Menu Availability by Outlet",
+    "Category Distribution by Outlet",
+    "Outlet-wise Average Pricing",
+    "Outlet Satisfaction",
+    "Outlet Rating Heatmap",
+    "Outlet-wise Footfall Comparison",
+    "Outlet-wise Average Waiting Time"
+}
+
+visible_chart_options = chart_options[analysis_group]
+
+if selected_outlet != "All Outlets":
+    visible_chart_options = [
+        chart for chart in visible_chart_options
+        if chart not in outlet_comparison_charts
+    ]
+
 st.divider()
 
-for chart_index, chart_choice in enumerate(chart_options[analysis_group]):
+for chart_index, chart_choice in enumerate(visible_chart_options):
     if chart_index % 2 == 0:
         chart_columns = st.columns(2)
 
