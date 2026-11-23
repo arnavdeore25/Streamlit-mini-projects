@@ -1,13 +1,13 @@
 /* Christ MenuMind - professional dark UI. Pure styling, no logic. */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap');
 
 :root {
   --bg: #080b11;
   --card: #0e1117;            /* matches the chart background used in main.py */
   --card-2: #131925;
   --line: rgba(255,255,255,.08);
-  --text: #E6EAF2;
-  --muted: #8B95A7;
+  --text: #F1F4FA;
+  --muted: #B3BCCC;
   --accent: #5EC8AA;
   --accent-ink: #06231C;
 }
@@ -15,10 +15,10 @@
 /* Typography (icons are left alone so Streamlit's icon font keeps working) */
 html, body, .stApp, .stMarkdown, p, label, input, textarea, button,
 [data-testid="stMetricValue"], [data-testid="stMetricLabel"], h1, h2, h3, h4 {
-  font-family: 'Inter', -apple-system, 'Segoe UI', sans-serif;
+  font-family: 'Manrope', 'Segoe UI', sans-serif;
 }
-h1 { font-weight: 700 !important; font-size: 2.1rem !important; letter-spacing: -0.02em; }
-h2, h3 { font-weight: 600 !important; letter-spacing: -0.01em; }
+h1 { font-weight: 800 !important; font-size: 2.1rem !important; letter-spacing: -0.01em; }
+h2, h3 { font-weight: 700 !important; letter-spacing: 0; }
 h3 { font-size: 1.15rem !important; }
 .stCaption, [data-testid="stCaptionContainer"] { color: var(--muted); }
 
@@ -62,7 +62,7 @@ div[data-testid="stMarkdownContainer"] div[style*="border-radius: 10px"] {
   border-radius: 12px !important;
 }
 div[data-testid="stMarkdownContainer"] div[style*="font-size: 12px"] {
-  letter-spacing: .08em; font-weight: 500;
+  letter-spacing: .06em; font-weight: 600; color: #AEB8CA !important; font-size: 12.5px !important;
 }
 
 /* Radio groups become pill selectors */
@@ -100,7 +100,7 @@ div[data-testid="stVerticalBlockBorderWrapper"] {
   box-shadow: 0 6px 20px rgba(0,0,0,.25);
 }
 .stApp div[data-testid="stMetricLabel"] { color: var(--muted); font-weight: 500; }
-.stApp div[data-testid="stMetricValue"] { font-weight: 700 !important; letter-spacing: -0.02em; }
+.stApp div[data-testid="stMetricValue"] { font-weight: 800 !important; color: var(--text); }
 
 /* Inputs, tables, alerts */
 .stTextInput input, div[data-baseweb="select"] > div {
@@ -123,3 +123,32 @@ div[data-testid="stAlert"] {
 ::-webkit-scrollbar-thumb { background: #232b3b; border-radius: 8px; }
 ::-webkit-scrollbar-track { background: transparent; }
 :focus-visible { outline: 2px solid var(--accent) !important; outline-offset: 2px; }
+
+/* Readability fixes: brighter secondary text */
+[data-testid="stCaptionContainer"], [data-testid="stCaptionContainer"] p,
+section[data-testid="stSidebar"] [data-testid="stCaptionContainer"] p {
+  color: var(--muted) !important; font-size: 0.92rem; font-weight: 500;
+}
+[data-testid="stWidgetLabel"] p, [data-testid="stWidgetLabel"] label {
+  color: #D5DBE8 !important; font-weight: 600; font-size: 0.92rem;
+}
+div[data-testid="stRadio"] label[data-baseweb="radio"] p { color: #D5DBE8; font-weight: 500; }
+.stApp div[data-testid="stMetricLabel"] p { color: var(--muted) !important; font-weight: 600; }
+.stMarkdown p { color: #DDE3EE; line-height: 1.6; }
+section[data-testid="stSidebar"] [data-testid="stToggle"] p { color: #D5DBE8; font-weight: 500; }
+
+/* Headings: Sora display font */
+h1, h2, h3, h4, [data-testid="stHeading"] {
+  font-family: 'Sora', 'Manrope', sans-serif !important;
+}
+[data-testid="stMain"] h1 {
+  font-size: 3rem !important; font-weight: 800 !important;
+  letter-spacing: -0.02em; line-height: 1.1; color: #FFFFFF;
+  padding-bottom: .35rem;
+}
+[data-testid="stMain"] h1::after {
+  content: ""; display: block; width: 72px; height: 4px; margin-top: 14px;
+  border-radius: 4px; background: linear-gradient(90deg, var(--accent), rgba(94,200,170,.15));
+}
+[data-testid="stMain"] h3 { font-size: 1.3rem !important; font-weight: 700 !important; color: #FFFFFF; }
+section[data-testid="stSidebar"] h1 { font-size: 1.4rem !important; font-weight: 800 !important; }
