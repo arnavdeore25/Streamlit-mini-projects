@@ -1213,7 +1213,32 @@ elif analysis_group == "Operational Analytics":
                 ax.set_ylim(bottom=0)
                 fig.autofmt_xdate()
 
-        
+        # Footfall versus waiting time
+        elif chart_choice == "Footfall vs Waiting Time":
+            data = operation_data.dropna(
+                subset=["estimated_footfall", "average_wait_time_min"]
+            )
+
+            if data.empty:
+                st.warning("No matching footfall and waiting-time records available.")
+            else:
+                ax.scatter(
+                    data["estimated_footfall"],
+                    data["average_wait_time_min"],
+                    color="#A78BFA",
+                    alpha=0.7,
+                    edgecolors="white",
+                    linewidths=0.4,
+                    s=60
+                )
+                ax.set_title(
+                    "Student Footfall vs Average Waiting Time",
+                    color="white", fontsize=16, fontweight="bold", pad=20
+                )
+                ax.set_xlabel("Estimated Student Footfall")
+                ax.set_ylabel("Average Waiting Time (Minutes)")
+                ax.set_ylim(bottom=0)
+
         # Common operational chart styling
         if ax.has_data():
             ax.tick_params(colors="white")
