@@ -3,6 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 st.set_page_config(
     page_title="Christ MenuMind",
@@ -10,13 +11,17 @@ st.set_page_config(
     layout="wide"
 )
 
+BASE_DIR = Path(__file__).resolve().parent
+# Data directory
+DATA_DIR = BASE_DIR / "data"
+
 # Load data
-blocks = pd.read_csv("data/blocks.csv")
-outlets = pd.read_csv("data/outlets.csv")
-menu = pd.read_csv("data/menu_items.csv")
-sales = pd.read_csv("data/sales_data.csv")
-student_reviews = pd.read_csv("data/student_reviews.csv")
-operations = pd.read_csv("data/outlet_daily_operations.csv")
+blocks = pd.read_csv(DATA_DIR / "blocks.csv")
+outlets = pd.read_csv(DATA_DIR/"data/outlets.csv")
+menu = pd.read_csv(DATA_DIR/"data/menu_items.csv")
+sales = pd.read_csv(DATA_DIR/"data/sales_data.csv")
+student_reviews = pd.read_csv(DATA_DIR/"data/student_reviews.csv")
+operations = pd.read_csv(DATA_DIR/"data/outlet_daily_operations.csv")
 
 # Clean operational data column names
 operations.columns = (
@@ -60,11 +65,11 @@ chart_text_color = "#263238" if light_theme else "#FFFFFF"
 chart_grid_color = "#D9E0E7" if light_theme else "#64748B"
 chart_edge_color = "#FFFFFF" if light_theme else "#0e1117"
 
-css = open("style.css", encoding="utf-8").read()
+css = open(BASE_DIR /"style.css", encoding="utf-8").read()
 
 light_theme_css = ""
 if light_theme:
-    with open("style_light.css", encoding="utf-8") as light_css_file:
+    with open(BASE_DIR /"style_light.css", encoding="utf-8") as light_css_file:
         light_theme_css = light_css_file.read()
 
 
