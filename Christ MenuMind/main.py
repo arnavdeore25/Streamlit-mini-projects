@@ -1,5 +1,3 @@
-"""Application entry point for Christ MenuMind."""
-
 import pandas as pd
 import streamlit as st
 
@@ -71,7 +69,6 @@ def main():
 
     render_menu_explorer(filters["filtered_menu"], filters["light_theme"])
     render_footer()
-
 
 if __name__ == "__main__":
     main()

@@ -1,5 +1,3 @@
-"""Analytics charts grouped by dashboard category."""
-
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd

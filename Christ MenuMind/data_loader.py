@@ -1,5 +1,3 @@
-"""CSV loading and one-time data preparation."""
-
 from typing import Dict
 from pathlib import Path
 
