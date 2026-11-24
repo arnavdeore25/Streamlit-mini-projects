@@ -17,11 +17,12 @@ DATA_DIR = BASE_DIR / "data"
 
 # Load data
 blocks = pd.read_csv(DATA_DIR / "blocks.csv")
-outlets = pd.read_csv(DATA_DIR/"data/outlets.csv")
-menu = pd.read_csv(DATA_DIR/"data/menu_items.csv")
-sales = pd.read_csv(DATA_DIR/"data/sales_data.csv")
-student_reviews = pd.read_csv(DATA_DIR/"data/student_reviews.csv")
-operations = pd.read_csv(DATA_DIR/"data/outlet_daily_operations.csv")
+outlets = pd.read_csv(DATA_DIR / "outlets.csv")
+menu = pd.read_csv(DATA_DIR / "menu_items.csv")
+sales = pd.read_csv(DATA_DIR / "sales_data.csv")
+student_reviews = pd.read_csv(DATA_DIR / "student_reviews.csv")
+operations = pd.read_csv(DATA_DIR / "outlet_daily_operations.csv")
+
 
 # Clean operational data column names
 operations.columns = (
