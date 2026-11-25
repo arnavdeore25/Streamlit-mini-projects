@@ -1,6 +1,5 @@
 import streamlit as st
 
-
 def render_kpis(blocks, filtered_outlets, filtered_menu):
     # KPI-only view: shown when the sidebar toggle is enabled.
         st.subheader("📌 Campus Overview")

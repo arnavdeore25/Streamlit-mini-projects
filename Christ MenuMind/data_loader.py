@@ -6,7 +6,6 @@ import streamlit as st
 
 from config import DATA_FILES
 
-
 @st.cache_data(ttl=300, show_spinner="Loading campus data...")
 def load_data(data_dir: Path) -> Dict[str, pd.DataFrame]:
     """Load all required CSV files and normalize selected columns."""

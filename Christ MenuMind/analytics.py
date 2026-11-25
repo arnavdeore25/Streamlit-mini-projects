@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-
 def render_analytics(
     selected_outlet,
     filtered_menu,

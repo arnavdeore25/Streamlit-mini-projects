@@ -2,7 +2,6 @@
 import pandas as pd
 import streamlit as st
 
-
 def render_menu_explorer(filtered_menu, light_theme):
     st.divider()
     st.subheader("🍴 Explore Menu")

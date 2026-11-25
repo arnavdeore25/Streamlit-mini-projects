@@ -1,7 +1,6 @@
 
 import streamlit as st
 
-
 def render_dashboard_header(selected_block, selected_outlet, food_preference, light_theme):
     # Live clock, date and greeting
     clock_html = """

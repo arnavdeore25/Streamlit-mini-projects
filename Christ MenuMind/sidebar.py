@@ -1,8 +1,6 @@
 from pathlib import Path
 import streamlit as st
-
 from config import BASE_DIR, read_stylesheet
-
 
 def render_sidebar(blocks, outlets, menu, sales, student_reviews, operations):
     """Render sidebar controls and return filters, filtered data, and theme settings."""
