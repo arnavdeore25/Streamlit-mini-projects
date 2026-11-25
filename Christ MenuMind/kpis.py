@@ -51,6 +51,6 @@ def render_kpis(blocks, filtered_outlets, filtered_menu):
         kpi_row2[0].metric("💰 Average Price", f"₹{average_price:.0f}" if total_items else "N/A")
         kpi_row2[1].metric("⭐ Average Rating", f"{average_rating:.1f}/5" if total_items else "N/A")
         kpi_row2[2].metric("🥗 Vegetarian Items", f"{total_veg:,}")
-        kpi_row2[3].metric("🍗 Chicken Items", f"{total_chicken:,}")
+        kpi_row2[3].metric("🍗 Non Veg items", f"{total_chicken:,}")
 
         st.info("Turn off **Show KPIs only** in the sidebar to return to analytics graphs.")
