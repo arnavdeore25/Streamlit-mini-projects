@@ -16,6 +16,56 @@ def render_analytics(
     chart_grid_color,
     chart_edge_color,
 ):
+        # Custom CSS for analytics layout
+    st.markdown(
+        """
+        <style>
+        /* Analytics category navigation */
+        div[data-testid="stRadio"] {
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+
+        div[data-testid="stRadio"] div[role="radiogroup"] {
+            display: flex !important;
+            flex-wrap: wrap !important;
+            align-items: center !important;
+            gap: 12px 24px !important;
+            width: 100% !important;
+            overflow: visible !important;
+        }
+
+        div[data-testid="stRadio"] div[role="radiogroup"] label {
+            white-space: normal !important;
+            margin: 0 !important;
+        }
+
+        /* KPI card alignment */
+        div[data-testid="stMetric"] {
+            box-sizing: border-box !important;
+            width: 100% !important;
+            min-width: 0 !important;
+            min-height: 105px !important;
+            padding: 16px 20px !important;
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+            gap: 8px !important;
+        }
+
+        div[data-testid="stMetricLabel"] {
+            line-height: 1.4 !important;
+            margin-bottom: 4px !important;
+        }
+
+        div[data-testid="stMetricValue"] {
+            line-height: 1.25 !important;
+            overflow-wrap: anywhere !important;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
     # Analysis options
     st.subheader("📊 Explore Food Analytics")
 
@@ -28,7 +78,8 @@ def render_analytics(
             "Student Feedback",
             "Operational Analytics"
         ],
-        horizontal=True
+        horizontal=True,
+        label_visibility="collapsed"
     )
 
     chart_options = {
@@ -787,8 +838,15 @@ def render_analytics(
                                 for bar in bars:
                                     ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.5,
                                             f"{int(bar.get_height())}", ha="center", color=chart_text_color)
-                                st.metric("Total Reviews", len(data))
-                                st.metric("Average Rating", f"{data['rating'].mean():.2f} / 5 ⭐")
+                                metric_col1, metric_col2 = st.columns(2, gap="medium")
+                                with metric_col1:
+                                    st.metric("Total Reviews", f"{len(data):,}")
+
+                                with metric_col2:
+                                    st.metric(
+                                        "Average Rating",
+                                        f"{data['rating'].mean():.2f} / 5 ⭐"
+                                    )
 
                         # Outlet satisfaction
                         elif chart_choice == "Outlet Satisfaction":
