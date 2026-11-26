@@ -45,6 +45,58 @@ A collection of interactive Python and Streamlit mini-projects focused on dashbo
 - NumPy
 - Matplotlib
 
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/arnavdeore25/Streamlit-mini-projects.git
+cd Streamlit-mini-projects
+```
+
+### 2. Create a virtual environment
+
+```bash
+python -m venv .venv
+```
+
+Activate it on Windows:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+### 3. Install dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 4. Run an app
+
+#### Christ MenuMind
+
+```bash
+cd "Christ MenuMind"
+streamlit run main.py
+```
+
+#### Steve's World
+
+```bash
+cd SuperHero
+streamlit run app.py
+```
+
+#### Wildlife Observation Dashboard
+
+```bash
+cd "Wildlife observation"
+streamlit run main.py
+```
+
+After the app starts, open the local URL displayed in the terminal, usually `http://localhost:8501`.
+
 ## Repository Structure
 
 ```text
