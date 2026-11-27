@@ -1,5 +1,10 @@
 import sqlite3
 
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import streamlit as st
+
 DB_NAME = "cafe.db"
 
 INITIAL_MENU = [
@@ -52,11 +57,42 @@ def initialize_database():
                 foreign key(item_id) references menu(item_id)
             )
         """)
-
         count = conn.execute("select count(*) from menu").fetchone()[0]
         if count == 0:
             conn.executemany(
                 "insert into menu (item_name, category, price, stock) values (?, ?, ?, ?)",
                 INITIAL_MENU,
             )
+
+def read_query(query, params=()):
+    with get_connection() as conn:
+        return pd.read_sql_query(query, conn, params=params)
+
+
+def get_menu():
+    return read_query("select item_id, item_name, category, price, stock from menu order by item_id")
+
+
+def get_stock_status(stock):
+    if stock == 0:
+        return "Out of Stock"
+    if stock <= 5:
+        return "Critical Stock"
+    if stock <= 10:
+        return "Low Stock"
+    return "Sufficient Stock"
+
+
+def get_discount_rate(total):
+    if total >= 1500:
+        return 0.15
+    if total >= 1000:
+        return 0.10
+    if total >= 500:
+        return 0.05
+    return 0.0
+
+
+def money(value):
+    return f"₹{value:,.2f}"
 
