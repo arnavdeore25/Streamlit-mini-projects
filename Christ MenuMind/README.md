@@ -114,6 +114,45 @@ The data currently covers 60 simulated days ending 17 November 2026.
 - Vegetarian status and egg-free status should be confirmed with an actual outlet before use.
 - The Chicken Caesar salad entry is explicitly bacon-free.
 
+## Getting Started
+
+Run these commands from the repository root.
+
+### 1. Create a virtual environment
+
+```powershell
+python -m venv .venv
+```
+
+### 2. Activate it
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+### 3. Install dependencies
+
+```powershell
+python -m pip install -r requirements.txt
+```
+
+### 4. Start the dashboard
+
+```powershell
+cd "Christ MenuMind"
+streamlit run main.py
+```
+
+Open the local address shown by Streamlit, normally `http://localhost:8501`.
+
+## Running from the Christ MenuMind Folder
+
+If you already have the required packages installed, you can run the application directly from inside this project folder:
+
+```powershell
+streamlit run main.py
+```
+
 ## Notes
 
 - The app reads the CSV files from `data/` using `config.py`.
