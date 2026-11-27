@@ -15,6 +15,43 @@ Christ MenuMind is an interactive campus food analytics dashboard built with Pyt
 - Reset filters directly from the sidebar
 - Load data safely with clear errors for missing or invalid CSV files
 
+## Analytics
+
+### Menu Analytics
+
+- Menu category distribution
+- Vegetarian versus chicken-only items
+- Menu availability by outlet
+- Category distribution by outlet
+
+### Pricing Analytics
+
+- Average price by category
+- Food price distribution
+- Price comparison by category
+- Outlet-wise average pricing
+
+### Sales Analytics
+
+- Revenue trend
+- Top 10 best-selling items
+
+### Student Feedback
+
+- Rating distribution
+- Outlet satisfaction
+- Recommendation analysis
+- Rating trends over time
+- Most-reviewed food items
+
+### Operational Analytics
+
+- Daily footfall trend
+- Outlet-wise footfall comparison
+- Day-wise footfall heatmap
+- Average waiting time by outlet
+- Waiting time trend
+- Footfall compared with waiting time
 
 ## Tech Stack
 
