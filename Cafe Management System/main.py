@@ -249,3 +249,141 @@ elif page == "Manage Menu":
                         st.rerun()
             except sqlite3.Error as error:
                 st.error(f"Database error: {error}")
+
+#billing & order place
+
+elif page == "Place Order":
+    st.header("Place Customer Order")
+    menu_df = get_menu()
+
+    if menu_df.empty:
+        st.warning("There are no menu items available.")
+    else:
+        customer_name = st.text_input("Customer Name")
+        st.subheader("Select Items")
+
+        available_items = menu_df[menu_df["stock"] > 0]
+        if available_items.empty:
+            st.warning("All menu items are currently out of stock.")
+        else:
+            for _, item in available_items.iterrows():
+                col1, col2, col3, col4 = st.columns([3, 1, 1, 1])
+                col1.write(f"**{item['item_name']}**")
+                col1.caption(f"{item['category']} · {money(item['price'])} · Stock: {item['stock']}")
+                quantity = col2.number_input(
+                    "Quantity",
+                    min_value=0,
+                    max_value=int(item["stock"]),
+                    value=int(st.session_state.cart.get(int(item["item_id"]), 0)),
+                    step=1,
+                    key=f"qty_{int(item['item_id'])}",
+                )
+                if quantity > 0:
+                    st.session_state.cart[int(item["item_id"])] = int(quantity)
+                else:
+                    st.session_state.cart.pop(int(item["item_id"]), None)
+                col3.write(f"Subtotal: {money(float(item['price']) * quantity)}")
+                col4.write("Available")
+
+        cart_rows = []
+        total = 0.0
+        for item_id, quantity in st.session_state.cart.items():
+            row = menu_df[menu_df["item_id"] == item_id]
+            if not row.empty and quantity > 0:
+                item = row.iloc[0]
+                subtotal = float(item["price"]) * int(quantity)
+                total += subtotal
+                cart_rows.append(
+                    {
+                        "Item": item["item_name"],
+                        "Quantity": int(quantity),
+                        "Unit Price": float(item["price"]),
+                        "Subtotal": subtotal,
+                    }
+                )
+
+        st.subheader("Shopping Cart")
+        if cart_rows:
+            st.dataframe(pd.DataFrame(cart_rows), use_container_width=True, hide_index=True)
+            discount_rate = get_discount_rate(total)
+            discount_amount = total * discount_rate
+            final_amount = total - discount_amount
+
+            a, b, c = st.columns(3)
+            a.metric("Total", money(total))
+            b.metric(f"Discount ({discount_rate:.0%})", money(discount_amount))
+            c.metric("Final Payable", money(final_amount))
+
+            if st.button("Confirm Order", type="primary"):
+                if not customer_name.strip():
+                    st.error("Please enter the customer name.")
+                else:
+                    try:
+                        # Order header, order details and stock changes are one transaction.
+                        conn = get_connection()
+                        try:
+                            conn.execute("begin")
+                            for item_id, quantity in st.session_state.cart.items():
+                                stock_row = conn.execute(
+                                    "select stock from menu where item_id = ?", (int(item_id),)
+                                ).fetchone()
+                                if stock_row is None or int(quantity) > stock_row[0]:
+                                    raise ValueError("Insufficient stock. Please review the cart.")
+
+                            order_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                            cursor = conn.execute(
+                                "insert into orders "
+                                "(customer_name, order_date, total_amount, discount, final_amount, status) "
+                                "values (?, ?, ?, ?, ?, ?)",
+                                (
+                                    customer_name.strip(),
+                                    order_date,
+                                    total,
+                                    discount_amount,
+                                    final_amount,
+                                    "Completed",
+                                ),
+                            )
+                            order_id = cursor.lastrowid
+
+                            for item_id, quantity in st.session_state.cart.items():
+                                item = conn.execute(
+                                    "select price from menu where item_id = ?", (int(item_id),)
+                                ).fetchone()
+                                unit_price = float(item[0])
+                                subtotal = unit_price * int(quantity)
+                                conn.execute(
+                                    "insert into order_details "
+                                    "(order_id, item_id, quantity, unit_price, subtotal) "
+                                    "values (?, ?, ?, ?, ?)",
+                                    (order_id, int(item_id), int(quantity), unit_price, subtotal),
+                                )
+                                conn.execute(
+                                    "update menu set stock = stock - ? "
+                                    "where item_id = ? and stock >= ?",
+                                    (int(quantity), int(item_id), int(quantity)),
+                                )
+                                if conn.execute("select changes()").fetchone()[0] != 1:
+                                    raise ValueError("Stock changed during checkout. Please try again.")
+
+                            conn.commit()
+                        except Exception:
+                            conn.rollback()
+                            raise
+                        finally:
+                            conn.close()
+
+                        st.session_state.cart = {}
+                        st.success(f"Order #{order_id} placed successfully. Payable amount: {money(final_amount)}")
+                        st.rerun()
+                    except ValueError as error:
+                        st.error(str(error))
+                    except sqlite3.Error as error:
+                        st.error(f"Could not complete the order: {error}")
+        else:
+            st.info("Your cart is empty.")
+
+        if st.button("Clear Cart"):
+            st.session_state.cart = {}
+            st.rerun()
+
