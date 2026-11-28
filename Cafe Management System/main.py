@@ -96,3 +96,30 @@ def get_discount_rate(total):
 def money(value):
     return f"₹{value:,.2f}"
 
+#page config
+
+st.set_page_config(
+    page_title="Cafe Management System",
+    page_icon="☕",
+    layout="wide",
+)
+
+initialize_database()
+
+if "cart" not in st.session_state:
+    st.session_state.cart = {}
+
+st.title("☕ Smart Café Management System")
+st.caption("Manage menu items, customer orders, inventory and café sales.")
+
+page = st.sidebar.radio(
+    "Navigation",
+    [
+        "Dashboard",
+        "Manage Menu",
+        "Place Order",
+        "Order History",
+        "Inventory Management",
+        "Sales Reports",
+    ],
+)
