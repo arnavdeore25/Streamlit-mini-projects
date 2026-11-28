@@ -155,3 +155,97 @@ if page == "Dashboard":
     else:
         st.info("No orders have been placed yet.")
 
+
+# menu management
+
+elif page == "Manage Menu":
+    st.header("Manage Menu")
+    menu_df = get_menu()
+
+    st.subheader("Existing Menu Items")
+    st.dataframe(menu_df, use_container_width=True, hide_index=True)
+
+    left, right = st.columns(2)
+
+    with left:
+        st.subheader("Add a Menu Item")
+        with st.form("add_menu_form", clear_on_submit=True):
+            #st.number_input("Item ID", min_value=1, step=1)
+            new_name = st.text_input("Item Name")
+            new_category = st.selectbox(
+                "Category", ["Beverages", "Snacks", "Main Course", "Desserts", "Other"]
+            )
+            new_price = st.number_input("Price (₹)", min_value=0.0, step=5.0)
+            new_stock = st.number_input("Initial Stock", min_value=0, step=1)
+            add_clicked = st.form_submit_button("Add Item")
+
+        if add_clicked:
+            if not new_name.strip():
+                st.error("Item name cannot be empty.")
+            else:
+                try:
+                    with get_connection() as conn:
+                        conn.execute(
+                            "insert into menu (item_name, category, price, stock) "
+                            "values (?, ?, ?, ?)",
+                            (new_name.strip(), new_category, float(new_price), int(new_stock)),
+                        )
+                    st.success("Menu item added successfully.")
+                    st.rerun()
+                except sqlite3.IntegrityError:
+                    st.error("This item ID already exists or the supplied values are invalid.")
+                except sqlite3.Error as error:
+                    st.error(f"Database error: {error}")
+
+    with right:
+        st.subheader("Update Price or Stock")
+        if not menu_df.empty:
+            selected_update = st.selectbox(
+                "Select item to update",
+                menu_df["item_id"].tolist(),
+                format_func=lambda x: f"{x} - {menu_df.loc[menu_df.item_id == x, 'item_name'].iloc[0]}",
+            )
+            current = menu_df[menu_df["item_id"] == selected_update].iloc[0]
+            with st.form("update_menu_form"):
+                updated_price = st.number_input(
+                    "New Price (₹)", min_value=0.0, value=float(current["price"]), step=5.0
+                )
+                updated_stock = st.number_input(
+                    "New Stock", min_value=0, value=int(current["stock"]), step=1
+                )
+                update_clicked = st.form_submit_button("Update Item")
+            if update_clicked:
+                try:
+                    with get_connection() as conn:
+                        conn.execute(
+                            "update menu set price = ?, stock = ? where item_id = ?",
+                            (float(updated_price), int(updated_stock), int(selected_update)),
+                        )
+                    st.success("Menu item updated.")
+                    st.rerun()
+                except sqlite3.Error as error:
+                    st.error(f"Database error: {error}")
+
+    st.divider()
+    st.subheader("Delete a Menu Item")
+    if not menu_df.empty:
+        delete_id = st.selectbox(
+            "Choose item to delete",
+            menu_df["item_id"].tolist(),
+            format_func=lambda x: f"{x} - {menu_df.loc[menu_df.item_id == x, 'item_name'].iloc[0]}",
+            key="delete_item_select",
+        )
+        if st.button("Delete Selected Item", type="secondary"):
+            try:
+                with get_connection() as conn:
+                    used = conn.execute(
+                        "select count(*) from order_details where item_id = ?", (int(delete_id),)
+                    ).fetchone()[0]
+                    if used:
+                        st.error("Cannot delete this item because it has associated order history.")
+                    else:
+                        conn.execute("delete from menu where item_id = ?", (int(delete_id),))
+                        st.success("Menu item deleted.")
+                        st.rerun()
+            except sqlite3.Error as error:
+                st.error(f"Database error: {error}")
