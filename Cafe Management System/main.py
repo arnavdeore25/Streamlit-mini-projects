@@ -387,3 +387,87 @@ elif page == "Place Order":
             st.session_state.cart = {}
             st.rerun()
 
+
+#order history and cancellation
+elif page == "Order History":
+    st.header("Order History")
+
+    customer_filter = st.text_input("Filter by Customer Name")
+    date_filter = st.date_input("Filter by Order Date", value=None)
+    status_filter = st.selectbox("Filter by Status", ["All", "Completed", "Cancelled"])
+
+    query = (
+        "select order_id, customer_name, order_date, total_amount, discount, "
+        "final_amount, status from orders where 1 = 1"
+    )
+    params = []
+    if customer_filter.strip():
+        query += " and customer_name like ?"
+        params.append(f"%{customer_filter.strip()}%")
+    if date_filter:
+        query += " and date(order_date) = ?"
+        params.append(date_filter.isoformat())
+    if status_filter != "All":
+        query += " and status = ?"
+        params.append(status_filter)
+    query += " order by order_id desc"
+
+    orders_df = read_query(query, tuple(params))
+    st.dataframe(orders_df, use_container_width=True, hide_index=True)
+
+    if not orders_df.empty:
+        st.subheader("View Order Details")
+        chosen_order = st.selectbox("Select Order ID", orders_df["order_id"].tolist())
+        details = read_query(
+            "select m.item_name, od.quantity, od.unit_price, od.subtotal "
+            "from order_details od join menu m on od.item_id = m.item_id "
+            "where od.order_id = ?",
+            (int(chosen_order),),
+        )
+        st.dataframe(details, use_container_width=True, hide_index=True)
+
+        selected_status = orders_df.loc[
+            orders_df["order_id"] == chosen_order, "status"
+        ].iloc[0]
+        if selected_status == "Completed":
+            if st.button("Cancel Selected Order", type="secondary"):
+                try:
+                    conn = get_connection()
+                    try:
+                        conn.execute("begin")
+                        status = conn.execute(
+                            "select status from orders where order_id = ?", (int(chosen_order),)
+                        ).fetchone()
+                        if status is None or status[0] != "Completed":
+                            raise ValueError("This order is already cancelled or does not exist.")
+
+                        order_items = conn.execute(
+                            "select item_id, quantity from order_details where order_id = ?",
+                            (int(chosen_order),),
+                        ).fetchall()
+                        for item_id, quantity in order_items:
+                            conn.execute(
+                                "update menu set stock = stock + ? where item_id = ?",
+                                (int(quantity), int(item_id)),
+                            )
+                        conn.execute(
+                            "update orders set status = 'Cancelled' "
+                            "where order_id = ? and status = 'Completed'",
+                            (int(chosen_order),),
+                        )
+                        if conn.execute("select changes()").fetchone()[0] != 1:
+                            raise ValueError("Cancellation could not be completed.")
+                        conn.commit()
+                    except Exception:
+                        conn.rollback()
+                        raise
+                    finally:
+                        conn.close()
+                    st.success(f"Order #{chosen_order} cancelled and stock restored.")
+                    st.rerun()
+                except ValueError as error:
+                    st.error(str(error))
+                except sqlite3.Error as error:
+                    st.error(f"Database error: {error}")
+
+
