@@ -123,3 +123,35 @@ page = st.sidebar.radio(
         "Sales Reports",
     ],
 )
+
+#dashboard
+if page == "Dashboard":
+    st.header("Dashboard")
+    menu_df = get_menu()
+    order_df = read_query("select * from orders")
+
+    completed = order_df[order_df["status"] == "Completed"] if not order_df.empty else order_df
+    revenue = float(completed["final_amount"].sum()) if not completed.empty else 0.0
+    completed_count = len(completed)
+    average_order = revenue / completed_count if completed_count else 0.0
+    low_stock_count = int(menu_df["stock"].between(1, 10).sum()) if not menu_df.empty else 0
+
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Total Net Revenue", money(revenue))
+    c2.metric("Completed Orders", completed_count)
+    c3.metric("Average Order Value", money(average_order))
+    c4.metric("Low / Critical Stock Items", low_stock_count)
+
+    st.subheader("Current Menu")
+    st.dataframe(menu_df, use_container_width=True, hide_index=True)
+
+    if not order_df.empty:
+        st.subheader("Recent Orders")
+        recent = read_query(
+            "select order_id, customer_name, order_date, final_amount, status "
+            "from orders order by order_id desc limit 5"
+        )
+        st.dataframe(recent, use_container_width=True, hide_index=True)
+    else:
+        st.info("No orders have been placed yet.")
+
